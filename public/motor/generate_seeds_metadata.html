@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Seed Metadata Generator</title>
+</head>
+<body style="background:#111; color:#fff; font-family:monospace; padding:20px;">
+<h2>Generating Metadata for 525 Seeds...</h2>
+<div id="status">Loading seeds...</div>
+<br>
+<textarea id="jsonOutput" style="width:100%; height:400px; background:#222; color:#0f0; font-family:monospace;" readonly></textarea>
+<div id="host" style="width:0; height:0; overflow:hidden; position:absolute;"></div>
+
+<script>
+const statusEl = document.getElementById('status');
+const outputEl = document.getElementById('jsonOutput');
+const host = document.getElementById('host');
+
+let seeds = [];
+let metadataResults = [];
+let BATCH_SIZE = 5;
+
+function classifyPosition(px, py) {
+    let posLabel = "center";
+    if (px < -0.15 && py < -0.15) posLabel = "top-left";
+    else if (px > 0.15 && py < -0.15) posLabel = "top-right";
+    else if (px < -0.15 && py > 0.15) posLabel = "bottom-left";
+    else if (px > 0.15 && py > 0.15) posLabel = "bottom-right";
+    else if (px < -0.15 && Math.abs(py) <= 0.15) posLabel = "left";
+    else if (px > 0.15 && Math.abs(py) <= 0.15) posLabel = "right";
+    else if (Math.abs(px) <= 0.15 && py < -0.15) posLabel = "top";
+    else if (Math.abs(px) <= 0.15 && py > 0.15) posLabel = "bottom";
+    return posLabel;
+}
+
+function processSeed(seed) {
+    return new Promise(resolve => {
+        const iframe = document.createElement('iframe');
+        iframe.style.width = '300px';
+        iframe.style.height = '400px';
+        iframe.src = `index.html?seed=${seed}`;
+
+        let finished = false;
+
+        function finish(data) {
+            if (finished) return;
+            finished = true;
+            try { host.removeChild(iframe); } catch(e) {}
+            resolve(data);
+        }
+
+        iframe.onload = () => {
+            let count = 0;
+            const interval = setInterval(() => {
+                count++;
+                try {
+                    const win = iframe.contentWindow;
+                    const canvas = win.document.querySelector('canvas');
+                    if (win._firstFrameDrawn || count > 12 || canvas) {
+                        clearInterval(interval);
+                        
+                        const traits = win.traits || {};
+                        let position = "center";
+
+                        if (win.topt && win.width && win.height) {
+                            let px = win.topt.x / win.width;
+                            let py = win.topt.y / win.height;
+                            position = classifyPosition(px, py);
+                        }
+
+                        finish({
+                            seed: seed,
+                            palette: traits["Palette"] !== undefined ? traits["Palette"] : 0,
+                            artMode: traits["Art Mode"] || "circle",
+                            gearLayout: traits["Gear Layout Mode"] || "Layout 1",
+                            position: position
+                        });
+                    }
+                } catch(e) {
+                    if (count > 12) {
+                        clearInterval(interval);
+                        finish({ seed: seed, palette: 0, artMode: "circle", gearLayout: "Layout 1", position: "center" });
+                    }
+                }
+            }, 100);
+        };
+
+        host.appendChild(iframe);
+        setTimeout(() => finish({ seed: seed, palette: 0, artMode: "circle", gearLayout: "Layout 1", position: "center" }), 5000);
+    });
+}
+
+async function run() {
+    const res = await fetch('curated-seeds.json');
+    seeds = await res.json();
+    statusEl.textContent = `Loaded ${seeds.length} seeds. Processing...`;
+
+    for (let b = 0; b < seeds.length; b += BATCH_SIZE) {
+        const batch = seeds.slice(b, b + BATCH_SIZE);
+        const batchResults = await Promise.all(batch.map(processSeed));
+        metadataResults.push(...batchResults);
+        statusEl.textContent = `Processed ${metadataResults.length} / ${seeds.length} seeds...`;
+        outputEl.value = JSON.stringify(metadataResults, null, 2);
+    }
+
+    statusEl.textContent = `DONE! Processed all ${seeds.length} seeds.`;
+}
+
+run();
+</script>
+</body>
+</html>

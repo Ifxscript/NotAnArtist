@@ -3,11 +3,97 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Motor — Gallery</title>
+    <title>Motor — 525 Seed Curator & Trait Filters</title>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
-        body { background: #1a1a1a; }
+        body { background: #121212; color: #fff; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; }
+
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 200;
+            background: rgba(18, 18, 18, 0.95);
+            backdrop-filter: blur(8px);
+            border-bottom: 1px solid #222;
+            padding: 10px 16px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        h1 { font-size: 15px; font-weight: 600; display: flex; align-items: center; gap: 8px; }
+
+        .controls { display: flex; gap: 8px; align-items: center; }
+
+        .filter-bar {
+            position: sticky;
+            top: 45px;
+            z-index: 190;
+            background: rgba(24, 24, 24, 0.95);
+            backdrop-filter: blur(8px);
+            border-bottom: 1px solid #2a2a2a;
+            padding: 8px 16px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex-wrap: wrap;
+        }
+
+        .filter-group { display: flex; align-items: center; gap: 6px; font-size: 12px; color: #aaa; }
+
+        input[type="text"], select {
+            font-family: inherit;
+            font-size: 12px;
+            background: #1a1a1a;
+            color: #eee;
+            border: 1px solid #333;
+            padding: 4px 8px;
+            border-radius: 5px;
+            outline: none;
+            transition: border-color 0.2s ease;
+        }
+
+        input[type="text"]:focus, select:focus {
+            border-color: #3b82f6;
+        }
+
+        button {
+            font-family: inherit;
+            font-size: 12px;
+            font-weight: 500;
+            background: #2a2a2a;
+            color: #eee;
+            border: 1px solid #444;
+            padding: 5px 12px;
+            cursor: pointer;
+            border-radius: 6px;
+            transition: all 0.2s ease;
+        }
+
+        button:hover { background: #3d3d3d; color: #fff; }
+
+        button.primary {
+            background: #3b82f6;
+            border-color: #3b82f6;
+            color: #fff;
+        }
+        button.primary:hover { background: #2563eb; }
+
+        button.success {
+            background: #10b981;
+            border-color: #10b981;
+            color: #fff;
+        }
+        button.success:hover { background: #059669; }
+
+        button.warning {
+            background: #f59e0b;
+            border-color: #f59e0b;
+            color: #000;
+            font-weight: 600;
+        }
+        button.warning:hover { background: #d97706; }
 
         .grid {
             display: grid;
@@ -16,7 +102,7 @@
         }
         
         .grid.with-gap {
-            gap: 10px;
+            gap: 8px;
             padding: 10px;
         }
 
@@ -25,249 +111,693 @@
             aspect-ratio: 3 / 4;
             overflow: hidden;
             position: relative;
-            background: #111;
+            background: #181818;
+            border-radius: 8px;
+            border: 2px solid #262626;
+            cursor: pointer;
+            transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
         }
 
-        iframe, img {
+        .cell:hover {
+            transform: scale(1.02);
+            border-color: #666;
+            z-index: 2;
+        }
+
+        .cell.selected {
+            border-color: #10b981;
+            box-shadow: 0 0 10px rgba(16, 185, 129, 0.4);
+        }
+
+        .cell.error-cell {
+            border-color: #ef4444;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        img {
             width: 100%;
             height: 100%;
-            border: none;
             display: block;
-            position: absolute;
-            top: 0; left: 0;
             object-fit: cover;
+            border-radius: 6px;
         }
-
-        /* Hidden iframe — sketch runs off-screen, captured, then discarded */
-        iframe { opacity: 0; pointer-events: none; }
 
         .badge {
             position: absolute;
-            inset: 0;
+            bottom: 6px;
+            right: 6px;
+            background: rgba(0, 0, 0, 0.8);
+            backdrop-filter: blur(4px);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: monospace;
+            font-size: 10px;
+            color: #ccc;
+            z-index: 10;
+            pointer-events: none;
+            opacity: 0;
+            transition: opacity 0.2s ease;
+        }
+
+        .cell:hover .badge {
+            opacity: 1;
+        }
+
+        .remove-btn {
+            position: absolute;
+            top: 6px;
+            right: 6px;
+            z-index: 20;
+            background: rgba(0, 0, 0, 0.7);
+            backdrop-filter: blur(4px);
+            border: 1px solid #444;
+            border-radius: 4px;
+            width: 24px;
+            height: 24px;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-family: monospace;
+            font-size: 12px;
+            cursor: pointer;
+            color: #aaa;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.2s ease, transform 0.2s ease, background 0.2s ease;
+        }
+
+        .cell:hover .remove-btn,
+        .cell.removed-cell .remove-btn {
+            opacity: 1;
+            pointer-events: auto;
+        }
+
+        .remove-btn:hover {
+            background: #ef4444;
+            border-color: #ef4444;
+            color: #fff;
+            transform: scale(1.1);
+        }
+
+        .cell.removed-cell {
+            border-color: #ef4444;
+            opacity: 0.4;
+        }
+
+        .cell.removed-cell .remove-btn {
+            background: #ef4444;
+            border-color: #ef4444;
+            color: #fff;
+        }
+
+        .cell-retry-btn {
             font-size: 10px;
-            color: #333;
-            user-select: none;
+            padding: 4px 8px;
+            background: #ef4444;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
         }
 
         #status {
-            position: fixed;
-            bottom: 10px;
-            right: 14px;
             font-family: monospace;
             font-size: 11px;
-            color: #555;
-            pointer-events: none;
+            color: #888;
         }
 
-        #gapToggle {
-            position: fixed;
-            bottom: 10px;
-            left: 14px;
+        #remainingCount {
+            background: #3b82f6;
+            color: #fff;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 11px;
+            font-weight: 600;
+            transition: background 0.3s ease;
+        }
+
+        #remainingCount.target-reached {
+            background: #10b981; /* Green when exactly 456 remaining */
+        }
+
+        #remainingCount.below-target {
+            background: #ef4444; /* Red if fewer than 456 remaining */
+        }
+
+        #visibleCount {
             font-family: monospace;
             font-size: 11px;
-            background: #333;
-            color: #ccc;
-            border: none;
-            padding: 4px 8px;
-            cursor: pointer;
-            border-radius: 4px;
-            z-index: 100;
-        }
-        
-        #gapToggle:hover {
-            background: #555;
-            color: #fff;
+            color: #3b82f6;
         }
     </style>
 </head>
 <body>
 
+<header>
+    <h1>
+        <span>Motor — 456 Curated Seeds</span>
+        <span id="remainingCount">456 Seeds</span>
+    </h1>
+    <div class="controls">
+        <span id="status">Ready</span>
+        <button id="exportBtn" class="success">📥 Export Kept Seeds</button>
+        <button id="retryAllBtn" class="warning" style="display:none;">🔄 Retry Failed</button>
+        <button id="regenBtn" class="primary">⚡ Re-Render 456 Seeds</button>
+        <button id="gapToggle">Toggle Gap</button>
+    </div>
+</header>
+
+<div class="filter-bar">
+    <div class="filter-group">
+        <label for="searchInput">🔍 Search:</label>
+        <input type="text" id="searchInput" placeholder="Seed number..." />
+    </div>
+
+    <div class="filter-group">
+        <label for="gearLayoutFilter">⚙️ Gear Layout:</label>
+        <select id="gearLayoutFilter">
+            <option value="all">All Gear Layouts</option>
+            <option value="Layout 1">Layout 1</option>
+            <option value="Layout 2">Layout 2</option>
+        </select>
+    </div>
+
+    <div class="filter-group">
+        <label for="artModeFilter">📐 Art Mode:</label>
+        <select id="artModeFilter">
+            <option value="all">All Art Modes</option>
+            <option value="circle">circle</option>
+            <option value="straight">straight</option>
+            <option value="paper">paper</option>
+            <option value="l">l</option>
+        </select>
+    </div>
+
+    <div class="filter-group">
+        <label for="positionFilter">📍 Position:</label>
+        <select id="positionFilter">
+            <option value="all">All Positions</option>
+            <option value="center">center</option>
+            <option value="top">top</option>
+            <option value="bottom">bottom</option>
+            <option value="left">left</option>
+            <option value="right">right</option>
+            <option value="top-left">top-left</option>
+            <option value="top-right">top-right</option>
+            <option value="bottom-left">bottom-left</option>
+            <option value="bottom-right">bottom-right</option>
+        </select>
+    </div>
+
+    <div class="filter-group">
+        <label for="paletteFilter">🎨 Palette:</label>
+        <select id="paletteFilter">
+            <option value="all">All Palettes</option>
+            <option value="0">Palette 0</option>
+            <option value="1">Palette 1</option>
+            <option value="2">Palette 2</option>
+            <option value="3">Palette 3</option>
+            <option value="4">Palette 4</option>
+            <option value="5">Palette 5</option>
+            <option value="6">Palette 6</option>
+            <option value="7">Palette 7</option>
+            <option value="8">Palette 8</option>
+            <option value="9">Palette 9</option>
+            <option value="10">Palette 10</option>
+            <option value="11">Palette 11</option>
+        </select>
+    </div>
+
+    <div class="filter-group">
+        <label for="curatedFilter">👁️ View:</label>
+        <select id="curatedFilter">
+            <option value="kept">Kept Seeds Only (Default)</option>
+            <option value="removed">Removed Seeds Only</option>
+            <option value="all">All 456 Seeds</option>
+        </select>
+    </div>
+
+    <div class="filter-group">
+        <span id="visibleCount">Showing 0 of 525</span>
+    </div>
+</div>
+
 <div class="grid with-gap" id="grid"></div>
-<div id="status"></div>
-<button id="gapToggle">Toggle Gap</button>
+
+<!-- Offscreen container for temporary iframe rendering -->
+<div id="renderHost" style="position: absolute; width: 0; height: 0; overflow: hidden; opacity: 0; pointer-events: none;"></div>
 
 <script>
-// ── Config ───────────────────────────────────────────────────────────────────
-let seedsList = [];
-let TOTAL = 0;
-const CACHE_VER    = 'motor-g-v1';   // bump this string to invalidate all cached frames
-const CAPTURE_WAIT = 2200;           // ms after iframe load before grabbing canvas
-const BATCH_SIZE   = 3;             // iframes rendered in parallel at a time
+const BATCH_SIZE = 2;
+const DB_NAME = 'MotorGalleryDB_v9';
+const STORE_NAME = 'images';
 
-// ── DOM ──────────────────────────────────────────────────────────────────────
-const grid   = document.getElementById('grid');
+const grid = document.getElementById('grid');
 const status = document.getElementById('status');
-const cells  = [];
+const regenBtn = document.getElementById('regenBtn');
+const exportBtn = document.getElementById('exportBtn');
+const retryAllBtn = document.getElementById('retryAllBtn');
+const gapToggle = document.getElementById('gapToggle');
+const remainingCountEl = document.getElementById('remainingCount');
+const visibleCountEl = document.getElementById('visibleCount');
+const searchInput = document.getElementById('searchInput');
+const paletteFilter = document.getElementById('paletteFilter');
+const artModeFilter = document.getElementById('artModeFilter');
+const gearLayoutFilter = document.getElementById('gearLayoutFilter');
+const positionFilter = document.getElementById('positionFilter');
+const curatedFilter = document.getElementById('curatedFilter');
+const renderHost = document.getElementById('renderHost');
 
-// ── Cache helpers (localStorage + JPEG to stay under quota) ──────────────────
-function cKey(i)    { return `${CACHE_VER}:${seedsList[i].seed}`; }
+let seedsList = [];
+let removedSeeds = new Set();
+let cells = [];
+let failedIndices = [];
+let seedsMetadata = {}; // Precomputed traits from seeds-metadata.json
 
-function cacheGet(i) {
-    try { return localStorage.getItem(cKey(i)); }
-    catch { return null; }
-}
-
-function cacheSet(i, dataUrl) {
-    try {
-        localStorage.setItem(cKey(i), dataUrl);
-    } catch (e) {
-        // QuotaExceededError — silently skip; cell stays as live iframe fallback
-        console.warn(`gallery cache full at cell ${i}`, e.name);
-    }
-}
-
-function cacheClear() {
-    for (let i = 0; i < localStorage.length; i++) {
-        const key = localStorage.key(i);
-        if (key.startsWith(CACHE_VER)) localStorage.removeItem(key);
-    }
-}
-
-// ── Display helpers ───────────────────────────────────────────────────────────
-function showImg(cell, dataUrl) {
-    cell.innerHTML = '';
-    const img = document.createElement('img');
-    img.src = dataUrl;
-    cell.appendChild(img);
-}
-
-function showLive(cell, iframe) {
-    // capture failed — leave iframe visible as a live fallback
-    cell.innerHTML = '';
-    iframe.style.opacity = '1';
-    iframe.style.pointerEvents = 'auto';
-    cell.appendChild(iframe);
-}
-
-// ── Render one uncached cell ──────────────────────────────────────────────────
-function renderCell(i) {
-    return new Promise(resolve => {
-        const cell   = cells[i];
-        const iframe = document.createElement('iframe');
-        iframe.src   = `index.html?seed=${seedsList[i].seed}`;
-        cell.appendChild(iframe);
-
-        iframe.addEventListener('load', () => {
-            setTimeout(async () => {
-                try {
-                    const canvas = iframe.contentWindow?.document?.querySelector('canvas');
-                    if (!canvas) throw new Error('no canvas');
-
-                    // JPEG at 0.88 quality
-                    const dataUrl = canvas.toDataURL('image/jpeg', 0.88);
-                    showImg(cell, dataUrl);
-                    
-                    // Post to local server to save this image permanently to hard drive
-                    await fetch("http://localhost:3000/save-image", {
-                        method: "POST",
-                        headers: { "Content-Type": "application/json" },
-                        body: JSON.stringify({ seed: seedsList[i].seed, dataUrl: dataUrl })
-                    });
-                } catch (e) {
-                    console.warn(`cell ${i} capture failed:`, e);
-                    showLive(cell, iframe);
-                }
-                resolve();
-            }, CAPTURE_WAIT);
-        });
-
-        // Safety: if iframe never fires 'load', resolve after a generous timeout
-        setTimeout(resolve, CAPTURE_WAIT + 6000);
+// ── IndexedDB Engine ────────────────────────────────────────────────────────
+function openDB() {
+    return new Promise((resolve, reject) => {
+        const req = indexedDB.open(DB_NAME, 1);
+        req.onupgradeneeded = e => {
+            const db = e.target.result;
+            if (!db.objectStoreNames.contains(STORE_NAME)) {
+                db.createObjectStore(STORE_NAME);
+            }
+        };
+        req.onsuccess = e => resolve(e.target.result);
+        req.onerror = e => reject(e.target.error);
     });
 }
 
-// ── Main ──────────────────────────────────────────────────────────────────────
-async function init() {
+async function dbGet(key) {
     try {
-        status.textContent = 'loading seeds from curator server...';
-        const res = await fetch("http://localhost:3000/status");
-        const data = await res.json();
-        seedsList = data.seeds || [];
-        TOTAL = seedsList.length;
+        const db = await openDB();
+        return new Promise(resolve => {
+            const tx = db.transaction(STORE_NAME, 'readonly');
+            const req = tx.objectStore(STORE_NAME).get(key);
+            req.onsuccess = () => resolve(req.result || null);
+            req.onerror = () => resolve(null);
+        });
+    } catch(e) { return null; }
+}
 
-        if (TOTAL === 0) {
-            status.textContent = 'No curated seeds found. Start curating first!';
-            return;
+async function dbSet(key, val) {
+    try {
+        const db = await openDB();
+        return new Promise(resolve => {
+            const tx = db.transaction(STORE_NAME, 'readwrite');
+            tx.objectStore(STORE_NAME).put(val, key);
+            tx.oncomplete = () => resolve();
+            tx.onerror = () => resolve();
+        });
+    } catch(e) {}
+}
+
+async function dbClear() {
+    try {
+        const db = await openDB();
+        return new Promise(resolve => {
+            const tx = db.transaction(STORE_NAME, 'readwrite');
+            tx.objectStore(STORE_NAME).clear();
+            tx.oncomplete = () => resolve();
+        });
+    } catch(e) {}
+}
+
+// ── Removal Set Persistence ──────────────────────────────────────────────────
+async function loadRemovedSet() {
+    const saved = await dbGet('removed_seeds_set');
+    if (saved && Array.isArray(saved)) {
+        removedSeeds = new Set(saved);
+    } else {
+        removedSeeds = new Set();
+    }
+    updateRemovalUI();
+}
+
+async function saveRemovedSet() {
+    await dbSet('removed_seeds_set', Array.from(removedSeeds));
+    updateRemovalUI();
+}
+
+function updateRemovalUI() {
+    const total = seedsList.length || 456;
+    const keptCount = total - removedSeeds.size;
+    remainingCountEl.textContent = `${keptCount} / ${total} Seeds Active`;
+
+    if (keptCount === 456) {
+        remainingCountEl.className = 'target-reached';
+    } else if (keptCount < 456) {
+        remainingCountEl.className = 'below-target';
+    } else {
+        remainingCountEl.className = '';
+    }
+
+    applyFilters();
+}
+
+function toggleSeedRemoved(seed, cell) {
+    if (removedSeeds.has(seed)) {
+        removedSeeds.delete(seed);
+        cell.classList.remove('removed-cell');
+    } else {
+        removedSeeds.add(seed);
+        cell.classList.add('removed-cell');
+    }
+    saveRemovedSet();
+}
+
+// ── Seed Management (Fetch 525 seeds from curated-seeds.json) ──────────────
+async function load525Seeds() {
+    try {
+        const res = await fetch('curated-seeds.json');
+        if (res.ok) {
+            const data = await res.json();
+            if (Array.isArray(data) && data.length > 0) {
+                return data;
+            }
         }
+    } catch(e) {}
+    
+    return Array.from({ length: 525 }, (_, i) => 1000000 + i * 1337);
+}
 
-        // Dynamically create grid cells based on total seeds
-        grid.innerHTML = '';
-        for (let i = 0; i < TOTAL; i++) {
-            const cell = document.createElement('div');
-            cell.className = 'cell';
-            // We set an id so we can target this cell easily
-            cell.id = `cell-${i}`;
-            cell.innerHTML = `<div class="badge">${i + 1}</div>`;
-            grid.appendChild(cell);
-            cells.push(cell);
-        }
+function captureAndCacheCellImage(i) {
+    return new Promise(resolve => {
+        const cell = cells[i];
+        const seed = seedsList[i];
 
-        const uncached = [];
+        cell.classList.remove('error-cell');
+        cell.innerHTML = `<div class="badge">#${i + 1} &bull; rendering…</div>`;
 
-        // Pass 1: Try to load the image from local cache directory
-        // Since we are running on a local file system, if a file doesn't exist, the browser will trigger 'onerror'
-        for (let i = 0; i < TOTAL; i++) {
-            const index = i + 1;
-            const img = document.createElement('img');
-            img.src = `cache/${index}.jpg`;
-            
-            const promise = new Promise((resolve) => {
-                img.onload = () => {
-                    // Cache hits! Render the image and discard the cell badge
-                    showImg(cells[i], img.src);
-                    resolve(true); // cached
+        const iframe = document.createElement('iframe');
+        iframe.style.width = '400px';
+        iframe.style.height = '533px';
+        iframe.src = `index.html?seed=${seed}`;
+
+        let finished = false;
+
+        async function cleanupAndResolve(dataUrl, traits) {
+            if (finished) return;
+            finished = true;
+
+            if (dataUrl) {
+                renderCellContent(cell, seed, i, dataUrl, traits);
+                await dbSet(`img_${seed}`, dataUrl);
+                if (traits) await dbSet(`traits_${seed}`, traits);
+                
+                const fIndex = failedIndices.indexOf(i);
+                if (fIndex !== -1) failedIndices.splice(fIndex, 1);
+            } else {
+                cell.classList.add('error-cell');
+                cell.innerHTML = `
+                    <div style="font-size:11px;color:#ef4444;">Failed to load</div>
+                    <button class="cell-retry-btn">Retry #${i+1}</button>
+                `;
+                cell.querySelector('.cell-retry-btn').onclick = (e) => {
+                    e.stopPropagation();
+                    captureAndCacheCellImage(i);
                 };
-                img.onerror = () => {
-                    // Cache misses! We need to render this cell using iframe
-                    uncached.push(i);
-                    resolve(false); // uncached
-                };
-            });
-            
-            // Limit parallel image checks to avoid clogging the browser loader
-            if (i % 20 === 0) await new Promise(r => setTimeout(r, 5));
+                if (!failedIndices.includes(i)) failedIndices.push(i);
+            }
+
+            updateRetryBtnUI();
+
+            try { renderHost.removeChild(iframe); } catch(e) {}
+            resolve();
         }
 
-        if (uncached.length === 0) {
-            status.textContent = `All ${TOTAL} images loaded instantly from local cache!`;
-            return;
-        }
+        iframe.onload = () => {
+            let checkCount = 0;
+            const interval = setInterval(() => {
+                checkCount++;
+                try {
+                    const iframeWin = iframe.contentWindow;
+                    const iframeDoc = iframe.contentDocument || iframeWin.document;
+                    const canvas = iframeDoc.querySelector('canvas');
 
-        // Pass 2: render uncached in small batches
-        status.textContent = `rendering ${uncached.length} cells…`;
+                    if ((iframeWin._firstFrameDrawn || checkCount > 18) && canvas) {
+                        clearInterval(interval);
+                        const dataUrl = canvas.toDataURL('image/jpeg', 0.80);
+                        
+                        // Extract traits from iframe Window context
+                        const rawTraits = iframeWin.traits || {};
+                        const traits = { ...rawTraits };
 
-        for (let b = 0; b < uncached.length; b += BATCH_SIZE) {
-            const batch = uncached.slice(b, b + BATCH_SIZE);
-            const done  = b + batch.length;
-            status.textContent = `rendering ${done} / ${uncached.length}…`;
-            await Promise.all(batch.map(renderCell));
-        }
+                        // Merge precomputed traits from seeds-metadata.json
+                        const meta = seedsMetadata[String(seed)];
+                        if (meta) {
+                            traits["Layout Position"] = meta.position;
+                            // Use precomputed palette & artMode as fallbacks
+                            if (traits.Palette === undefined) traits.Palette = meta.palette;
+                            if (traits["Art Mode"] === undefined) traits["Art Mode"] = meta.artMode;
+                        }
 
-        status.textContent = `done · ${TOTAL} curated seeds loaded · Ctrl+Shift+R to re-render all`;
-    } catch (e) {
-        status.textContent = 'Failed to load seeds. Make sure curator server is running!';
-        console.error(e);
+                        cleanupAndResolve(dataUrl, traits);
+                    }
+                } catch (e) {
+                    if (checkCount > 18) {
+                        clearInterval(interval);
+                        cleanupAndResolve(null, null);
+                    }
+                }
+            }, 250);
+        };
+
+        renderHost.appendChild(iframe);
+
+        setTimeout(() => {
+            cleanupAndResolve(null, null);
+        }, 12000);
+    });
+}
+
+function renderCellContent(cell, seed, i, dataUrl, traits) {
+    const isRemoved = removedSeeds.has(seed);
+    if (isRemoved) cell.classList.add('removed-cell');
+    else cell.classList.remove('removed-cell');
+
+    if (traits) {
+        if (traits.Palette !== undefined) cell.dataset.palette = traits.Palette;
+        if (traits["Art Mode"] !== undefined) cell.dataset.artmode = traits["Art Mode"];
+        if (traits["Gear Layout Mode"] !== undefined) cell.dataset.gearlayout = traits["Gear Layout Mode"];
+        if (traits["Layout Position"] !== undefined) cell.dataset.position = traits["Layout Position"];
+    }
+
+    cell.innerHTML = `
+        <img src="${dataUrl}" alt="Seed ${seed}" loading="lazy" />
+        <div class="badge">#${i + 1} &bull; ${seed}</div>
+        <div class="remove-btn" title="${isRemoved ? 'Restore Seed' : 'Remove Seed'}">${isRemoved ? '↩️' : '🗑️'}</div>
+    `;
+
+    const removeBtn = cell.querySelector('.remove-btn');
+    removeBtn.onclick = (e) => {
+        e.stopPropagation();
+        toggleSeedRemoved(seed, cell);
+    };
+
+    cell.onclick = () => {
+        window.open(`index.html?seed=${seed}`, '_blank');
+    };
+}
+
+function updateRetryBtnUI() {
+    if (failedIndices.length > 0) {
+        retryAllBtn.style.display = 'inline-block';
+        retryAllBtn.textContent = `🔄 Retry ${failedIndices.length} Failed`;
+    } else {
+        retryAllBtn.style.display = 'none';
     }
 }
 
-// ── Ctrl+Shift+R — wipe cache and reload ─────────────────────────────────────
-document.addEventListener('keydown', e => {
-    if ((e.metaKey || e.ctrlKey) && e.shiftKey && e.key === 'R') {
-        e.preventDefault();
-        // Caching is now done on the backend disk, so to clear the cache you can manually delete the files in /motor/cache
-        location.reload();
+async function loadSeedsMetadata() {
+    try {
+        const res = await fetch('seeds-metadata.json');
+        if (res.ok) {
+            seedsMetadata = await res.json();
+            console.log(`Loaded metadata for ${Object.keys(seedsMetadata).length} seeds`);
+        }
+    } catch(e) {
+        console.warn('seeds-metadata.json not found, position filtering will be unavailable');
+    }
+}
+
+async function loadGallery(forceNew = false) {
+    if (forceNew) {
+        await dbClear();
+    }
+
+    await loadSeedsMetadata();
+
+    grid.innerHTML = '';
+    renderHost.innerHTML = '';
+    cells = [];
+    failedIndices = [];
+    seedsList = await load525Seeds();
+
+    await loadRemovedSet();
+
+    for (let i = 0; i < seedsList.length; i++) {
+        const cell = document.createElement('div');
+        cell.className = 'cell';
+        cell.id = `cell-${i}`;
+        cell.dataset.seed = seedsList[i];
+
+        // Apply precomputed metadata traits immediately (before any rendering)
+        const meta = seedsMetadata[String(seedsList[i])];
+        if (meta) {
+            cell.dataset.palette = meta.palette;
+            cell.dataset.artmode = meta.artMode;
+            cell.dataset.position = meta.position;
+        }
+
+        grid.appendChild(cell);
+        cells.push(cell);
+    }
+
+    const uncached = [];
+    for (let i = 0; i < seedsList.length; i++) {
+        const seed = seedsList[i];
+        const cachedImg = await dbGet(`img_${seed}`);
+        const cachedTraits = await dbGet(`traits_${seed}`);
+
+        if (cachedImg) {
+            // Merge cached traits with precomputed metadata
+            const mergedTraits = cachedTraits ? { ...cachedTraits } : {};
+            const meta = seedsMetadata[String(seed)];
+            if (meta) {
+                mergedTraits["Layout Position"] = meta.position;
+                if (mergedTraits.Palette === undefined) mergedTraits.Palette = meta.palette;
+                if (mergedTraits["Art Mode"] === undefined) mergedTraits["Art Mode"] = meta.artMode;
+            }
+            renderCellContent(cells[i], seed, i, cachedImg, mergedTraits);
+        } else {
+            cells[i].innerHTML = `<div class="badge">#${i + 1} &bull; loading…</div>`;
+            uncached.push(i);
+        }
+    }
+
+    applyFilters();
+
+    if (uncached.length === 0) {
+        status.textContent = `All ${seedsList.length} images loaded instantly from cache`;
+        return;
+    }
+
+    status.textContent = `Rendering ${uncached.length} cells in background…`;
+
+    for (let b = 0; b < uncached.length; b += BATCH_SIZE) {
+        const batch = uncached.slice(b, b + BATCH_SIZE);
+        await Promise.all(batch.map(captureAndCacheCellImage));
+        status.textContent = `Rendering ${Math.min(b + BATCH_SIZE, uncached.length)} / ${uncached.length}…`;
+    }
+
+    status.textContent = `Done · ${seedsList.length} images cached`;
+}
+
+// ── Trait & Search Filter System ───────────────────────────────────────────
+function applyFilters() {
+    const searchVal = searchInput.value.trim().toLowerCase();
+    const paletteVal = paletteFilter.value;
+    const artModeVal = artModeFilter.value;
+    const gearLayoutVal = gearLayoutFilter.value;
+    const positionVal = positionFilter.value;
+    const curatedVal = curatedFilter.value;
+
+    let visibleCount = 0;
+
+    cells.forEach(cell => {
+        const seed = parseInt(cell.dataset.seed, 10);
+        const seedStr = String(seed);
+        const isRemoved = removedSeeds.has(seed);
+        const cellPalette = cell.dataset.palette;
+        const cellArtMode = cell.dataset.artmode;
+        const cellGearLayout = cell.dataset.gearlayout;
+        const cellPosition = cell.dataset.position;
+
+        let matchesSearch = searchVal === '' || seedStr.includes(searchVal);
+        let matchesStatus = true;
+        let matchesPalette = true;
+        let matchesArtMode = true;
+        let matchesGearLayout = true;
+        let matchesPosition = true;
+
+        if (curatedVal === 'kept') matchesStatus = !isRemoved;
+        else if (curatedVal === 'removed') matchesStatus = isRemoved;
+
+        if (paletteVal !== 'all') matchesPalette = (cellPalette !== undefined && String(cellPalette) === String(paletteVal));
+        if (artModeVal !== 'all') matchesArtMode = (cellArtMode !== undefined && String(cellArtMode) === String(artModeVal));
+        if (gearLayoutVal !== 'all') matchesGearLayout = (cellGearLayout !== undefined && String(cellGearLayout) === String(gearLayoutVal));
+        if (positionVal !== 'all') matchesPosition = (cellPosition !== undefined && String(cellPosition) === String(positionVal));
+
+        if (matchesSearch && matchesStatus && matchesPalette && matchesArtMode && matchesGearLayout && matchesPosition) {
+            cell.style.display = 'block';
+            visibleCount++;
+        } else {
+            cell.style.display = 'none';
+        }
+    });
+
+    visibleCountEl.textContent = `Showing ${visibleCount} of ${seedsList.length}`;
+}
+
+searchInput.addEventListener('input', applyFilters);
+paletteFilter.addEventListener('change', applyFilters);
+artModeFilter.addEventListener('change', applyFilters);
+gearLayoutFilter.addEventListener('change', applyFilters);
+positionFilter.addEventListener('change', applyFilters);
+curatedFilter.addEventListener('change', applyFilters);
+
+retryAllBtn.addEventListener('click', async () => {
+    const toRetry = [...failedIndices];
+    status.textContent = `Retrying ${toRetry.length} failed cells…`;
+    for (let b = 0; b < toRetry.length; b += BATCH_SIZE) {
+        const batch = toRetry.slice(b, b + BATCH_SIZE);
+        await Promise.all(batch.map(captureAndCacheCellImage));
+    }
+    applyFilters();
+    status.textContent = `Retry completed`;
+});
+
+exportBtn.addEventListener('click', () => {
+    const keptSeeds = seedsList.filter(seed => !removedSeeds.has(seed));
+    
+    if (keptSeeds.length === 0) {
+        alert('All seeds have been removed! Nothing to export.');
+        return;
+    }
+
+    const jsonStr = JSON.stringify(keptSeeds, null, 2);
+    
+    // Copy to clipboard
+    navigator.clipboard.writeText(jsonStr).then(() => {
+        status.textContent = `Copied ${keptSeeds.length} kept seeds to clipboard!`;
+    }).catch(() => {});
+
+    // Download JSON file
+    const blob = new Blob([jsonStr], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `curated-seeds-${keptSeeds.length}.json`;
+    a.click();
+    URL.revokeObjectURL(url);
+});
+
+regenBtn.addEventListener('click', () => {
+    if (confirm('Re-render all 525 seeds?')) {
+        loadGallery(true);
     }
 });
 
-document.getElementById('gapToggle').addEventListener('click', () => {
-    document.getElementById('grid').classList.toggle('with-gap');
+gapToggle.addEventListener('click', () => {
+    grid.classList.toggle('with-gap');
 });
 
-init();
+loadGallery(false);
 </script>
 
 </body>

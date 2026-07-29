@@ -34,62 +34,28 @@ function CollectionPage({ onNavigateToTraits }) {
     const [filters, setFilters] = useState({
         "Palette": '',
         "Art Mode": '',
-        "Gear Layout Mode": ''
+        "Position": ''
     });
 
-    // Terminal search state - stores the found cat when searching
     const [searchResult, setSearchResult] = useState(null);
     const [searchOpen, setSearchOpen] = useState(false);
     const [aboutOpen, setAboutOpen] = useState(false);
 
-    const [version, setVersion] = useState('v1'); // Toggle switcher between v1 (current) and v2 (new random curated set)
-
-    const cachedData = useRef({});
-
-    // Load traits data
+    // Load traits data for 456 curated seeds
     useEffect(() => {
-        const traitsFile = version === 'v2' ? '/all-traits-v2.json' : '/all-traits.json';
-        
-        if (cachedData.current[version]) {
-            setAllCats(cachedData.current[version]);
-            setSearchResult(null);
-            setFilters({
-                "Palette": '',
-                "Art Mode": '',
-                "Gear Layout Mode": ''
-            });
-            return;
-        }
-
-        fetch(traitsFile)
+        fetch('/all-traits.json')
             .then(res => res.json())
             .then(data => {
-                cachedData.current[version] = data;
                 setAllCats(data);
-                // Reset search results and filters so the grid displays cleanly
                 setSearchResult(null);
                 setFilters({
                     "Palette": '',
                     "Art Mode": '',
-                    "Gear Layout Mode": ''
+                    "Position": ''
                 });
             })
             .catch(err => console.error('Error loading traits:', err));
-    }, [version]);
-
-    // Prefetch the other version in the background to completely eliminate lag when switching
-    useEffect(() => {
-        const otherVersion = version === 'v1' ? 'v2' : 'v1';
-        const otherFile = otherVersion === 'v2' ? '/all-traits-v2.json' : '/all-traits.json';
-        if (!cachedData.current[otherVersion]) {
-            fetch(otherFile)
-                .then(res => res.json())
-                .then(data => {
-                    cachedData.current[otherVersion] = data;
-                })
-                .catch(err => console.error('Background prefetch failed:', err));
-        }
-    }, [version]);
+    }, []);
 
     // Fetch Crypto prices
     useEffect(() => {
@@ -104,7 +70,7 @@ function CollectionPage({ onNavigateToTraits }) {
                         setEthPrice(data.ethereum.usd);
                     }
                 })
-                .catch(err => console.error('Error fetching prices:', err));
+                .catch(err => console.error('Error fetching crypto prices:', err));
         };
 
         fetchPrices();
@@ -117,12 +83,12 @@ function CollectionPage({ onNavigateToTraits }) {
         const options = {
             "Palette": new Set(),
             "Art Mode": new Set(),
-            "Gear Layout Mode": new Set()
+            "Position": new Set()
         };
 
         allCats.forEach(cat => {
             Object.keys(options).forEach(trait => {
-                if (cat.traits[trait]) {
+                if (cat.traits && cat.traits[trait]) {
                     options[trait].add(cat.traits[trait]);
                 }
             });
@@ -131,7 +97,7 @@ function CollectionPage({ onNavigateToTraits }) {
         return {
             "Palette": Array.from(options["Palette"]).sort(),
             "Art Mode": Array.from(options["Art Mode"]).sort(),
-            "Gear Layout Mode": Array.from(options["Gear Layout Mode"]).sort()
+            "Position": Array.from(options["Position"]).sort()
         };
     }, [allCats]);
 
@@ -210,7 +176,7 @@ function CollectionPage({ onNavigateToTraits }) {
         setFilters({
             "Palette": '',
             "Art Mode": '',
-            "Gear Layout Mode": ''
+            "Position": ''
         });
     };
 
@@ -229,7 +195,7 @@ function CollectionPage({ onNavigateToTraits }) {
             title: `Motor #${String(originalIndex + 1).padStart(3, '0')}`,
             inscriptionId: cat.inscriptionId,
             traits: cat.traits,
-            imageUrl: version === 'v2' ? `/images-v2/${cat.inscriptionId}.jpg` : (imageUrls[cat.inscriptionId] || `/images/${cat.inscriptionId}.jpg`),
+            imageUrl: `/images-v2/${cat.inscriptionId}.jpg`,
             iframeUrl: `/motor/index.html?seed=${cat.seed}`
         };
     };
@@ -344,7 +310,7 @@ function CollectionPage({ onNavigateToTraits }) {
                             <SparkCard
                                 key={cat.inscriptionId}
                                 title={`Motor #${String(originalIndex + 1).padStart(3, '0')}`}
-                                imageUrl={version === 'v2' ? `/images-v2/${cat.inscriptionId}.jpg` : (imageUrls[cat.inscriptionId] || `/images/${cat.inscriptionId}.jpg`)}
+                                imageUrl={`/images-v2/${cat.inscriptionId}.jpg`}
                                 traits={cat.traits}
                                 onClick={() => handleCardClick(cat, index)}
                             />
@@ -366,7 +332,6 @@ function CollectionPage({ onNavigateToTraits }) {
                 currentIndex={selectedIndex}
                 onNavigate={handleNavigate}
                 theme={theme}
-                version={version}
             />
 
             {/* Fixed Footer */}
@@ -390,26 +355,6 @@ function CollectionPage({ onNavigateToTraits }) {
                     </div>
 
                     <div className="collection-page__footer-actions" style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
-                        <button
-                            className="collection-page__version-btn"
-                            onClick={() => setVersion(prev => prev === 'v1' ? 'v2' : 'v1')}
-                            title="Toggle Collection Version"
-                            style={{
-                                background: 'transparent',
-                                border: '1px solid var(--border-color, #333)',
-                                color: 'var(--text-color, #fff)',
-                                padding: '4px 8px',
-                                borderRadius: '4px',
-                                fontSize: '11px',
-                                fontFamily: 'monospace',
-                                cursor: 'pointer',
-                                display: 'flex',
-                                alignItems: 'center',
-                                gap: '4px'
-                            }}
-                        >
-                            SET: {version.toUpperCase()}
-                        </button>
                         <button
                             className={`collection-page__info-toggle ${aboutOpen ? 'active' : ''}`}
                             onClick={() => {

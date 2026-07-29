@@ -361,10 +361,14 @@
 /* Grid Layout */
 .collection-page__grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, 15vw);
+    grid-template-columns: repeat(8, 1fr);
     gap: 1vw;
     justify-content: center;
     padding: 2vw;
+}
+
+.collection-page__grid.sidebar-open {
+    grid-template-columns: repeat(6, 1fr);
 }
 
 /* Responsive Breakpoints */

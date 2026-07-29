@@ -26,18 +26,18 @@ let globalBandDepth;
 
 let colorPalettes = [
     ['#BFBAA8', '#D9D3C1', '#575243', '#DED9C7', '#736B5C'],
-    ['#F2D57E', '#F2E2C4', '#372910', '#3D2D14', '#b8914bff'],
-    ['#F2E6D0', '#0DB3D9', '#051A59', '#0B6BBF', '#898375'],
-    ['#F2EBDC', '#D98673', '#BF3C30', '#262626', '#BFB9AE'],
-    ['#FFF9EC', '#E4A030', '#000004', '#1D402D', '#A85527'],
-    ['#F9ECE5', '#099078', '#014B43', '#8C7673', '#9C2113'],
-    ['#BFBFBF', '#D96A29', '#11796D', ' #A3A68D', '#0D0D0D',], // Monochrome
-    ['#e3d4baff', '#D96A29', '#11796D', ' #A3A68D', '#0F3759'], // Sunset
-    ['#C8AD26', '#d2aa26', '#11796D', '#365B73', '#0C0C0D'], // Golden
+    ['#BFBAA8', '#9F8170', '#575243', '#29AB87', '#736B5C'],
+    ['#F2E6D0', '#0DB3D9', '#D96A29', '#e3d4baff', '#11796D'],
+    ['#F2EBDC', '#d2aa26', '#BF3C30', '#BFB9AE', '#262626'],
+    ['#BFBFBF', '#D96A29', '#11796D', ' #A3A68D', '#0D0D0D',],
+    ['#e3d4baff', '#D96A29', '#11796D', ' #A3A68D', '#0F3759'],
     ["#C8AD26", "#d2aa26", "#AA9320", "#615412", "#534810"],
-    ['#1DCEB9', '#159586', '#11796D', '#0D5D54', '#09403A'], // Teal harmony
-    ['#f4f1de', '#C8AD26', '#11796D', '#A3A68D', '#A8A699'],
-    ['#d9a336', '#25241fff', '#607049', '#255c3e', '#bf7f24',]
+    ['#1DCEB9', '#159586', '#11796D', '#0D5D54', '#09403A'],
+    ['#d9a336', '#25241fff', '#607049', '#255c3e', '#bf7f24',],
+    ['#B2BEB5', '#98817B', '#EAE0C8', '#868F88', '#11796D'],
+    ['#BFC1AF', '#D9C091', '#CB6844', '#A3A68D', '#007BA7'],
+    ['#D2C0B0', '#d9a336', '#11796D', '#746A61', '#0F3759']
+
 ];
 
 
@@ -45,9 +45,10 @@ let tth = 3.3;
 let nR = 20;
 
 function setup() {
-    // ── NFT SEED SYSTEM ──────────────────────────────────────────────────
-    // Use the injected window.HASH, or fallback to a random integer
-    let seed = window.HASH || Math.floor(Math.random() * 999999999);
+    // Use ?seed= URL parameter, injected window.HASH, or fallback to a random integer
+    let urlParams = new URLSearchParams(window.location.search);
+    let seedParam = urlParams.get('seed');
+    let seed = seedParam ? parseInt(seedParam, 10) : (window.HASH || Math.floor(Math.random() * 999999999));
     randomSeed(seed);   // makes random() deterministic per token
     noiseSeed(seed);    // makes noise() deterministic per token
 
@@ -60,19 +61,25 @@ function setup() {
     // ─────────────────────────────────────────────────────────────────────
 
     col = random(colorPalettes);
+    document.body.style.backgroundColor = col[0];
     window.traits["Palette"] = colorPalettes.indexOf(col);
+
+    let tintOptions = ['tinted', 'notTinted'];
+    tintMode = tintOptions[0];
+    window.traits["Tint"] = tintMode;
     // Limit canvas resolution on mobile devices to 2x (retina standard) to keep it sharp but prevent crashes
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
         pixelDensity(2);
     }
-    // createCanvas(262.5, 350);
     let cvs = createCanvas(windowHeight * 0.675, windowHeight * 0.9);
+    cvs.style('box-shadow', '0 0 5px rgba(0, 0, 0, 1)');
+    cvs.style('border-radius', '10px');
     cvs.elt.addEventListener('pointerdown', (e) => {
         isAnimating = !isAnimating;
         if (isAnimating) loop();
         else noLoop();
     });
-    //createCanvas(300, 400);
+
     rectMode(CENTER);
     let ap = [45, 90, 135, 180, 225, 270, 315, 0]
     pangle = random(ap);
@@ -80,11 +87,8 @@ function setup() {
     spt = getSoptPositions();
     let opt = getOptPositions();
     sopt = random(spt);
-    //sopt = spt[0];
 
-    //topt = opt[12];
     topt = random(opt);
-    // console.log("Selected topt index:", opt.indexOf(topt), "topt:", topt);
 
     shaderBuffer = createGraphics(400, 400, WEBGL);
     machiningShader = shaderBuffer.createShader(VERT_SHADER, FRAG_SHADER);
@@ -112,8 +116,6 @@ function setup() {
     sets = engine.sets;
     maxLayer = engine.maxLayer;
 
-    // console.log(piping.seed);
-
     // --- BAKE THE ART LAYER BACKGROUND ---
     isArtBaking = true;
     clear();
@@ -128,7 +130,7 @@ function setup() {
         pop();
     } else if (artLayer.drawMode === 'l') {
         push();
-        if (!globalBandDepth) globalBandDepth = random([0.25, 0.35, 0.5]);
+        if (!globalBandDepth) globalBandDepth = random([0.5, 0.65]);
         let bandDepth = min(width, height) * globalBandDepth;
         artLayer.display(width * 0.5, height * 0.5, bandDepth / tth);
         pop();
@@ -147,14 +149,10 @@ function setup() {
     artLayerCache = get();
     isArtBaking = false;
     // -------------------------------------
-
-    // Freeze the animation so the artwork loads static to save CPU
-    // noLoop();
 }
 
 function draw() {
     background(col[0]);
-    //background('white');
     push()
     stroke(col[3]);
     strokeWeight(2);
@@ -208,12 +206,27 @@ function draw() {
         pop();
     }
 
+    // Palette Color Grade Overlay (Conditional Tint)
+    if (typeof tintMode !== 'undefined' && tintMode === 'tinted') {
+        push();
+        blendMode(OVERLAY);
+        let tintCol = color(0, 60);
+        fill(tintCol);
+        noStroke();
+        rectMode(CORNER);
+        rect(0, 0, width, height);
+        pop();
+        blendMode(BLEND);
+    }
     // Canvas border frame
     stroke(col[3]);
     strokeWeight(width * 0.069);
     noFill();
     rectMode(CORNER);
     rect(0, 0, width, height);
+
+    // Signal that first frame is ready for gallery capture
+    if (!window._firstFrameDrawn) window._firstFrameDrawn = true;
 }
 
 
@@ -1046,7 +1059,7 @@ class Arm {
 
         // Dynamically scale width based on gear size if not provided
         let avgGearR = (g1.r + g2.r) / 2;
-        this.armR = armThickness !== undefined ? armThickness : max(4.0, avgGearR * 0.2);
+        this.armR = armThickness !== undefined ? armThickness : max(3.0, avgGearR * 0.15);
 
         // Color derivation from user-supplied color
         if (armColor) {
@@ -1068,46 +1081,52 @@ class Arm {
         else this.renderMachined();
     }
 
-    drawTrussBar(g, dx, wy, ny) {
-        // Hollow outer frame (6-point tapered polygon)
+    drawConnectingRod(g, dx, armR) {
+        let smallR = max(3.0, armR * 0.70);
+        let bigR = max(4.0, armR * 1.0);
+        let channelW = max(2.5, armR * 0.50);
+
+        let leftX = -dx;
+        let rightX = dx;
+
+        let channelLeftX = leftX + smallR * 1.25;
+        let channelRightX = rightX - bigR * 1.25;
+        let channelLen = channelRightX - channelLeftX;
+
+        // 1. Tapered Forged Shank Body with Clean Center Cutout (beginContour)
         g.beginShape();
-        g.vertex(-dx, wy);
-        g.vertex(0, ny);
-        g.vertex(dx, wy);
-        g.vertex(dx, -wy);
-        g.vertex(0, -ny);
-        g.vertex(-dx, -wy);
+        // Outer boundary (Clockwise)
+        g.vertex(leftX, -smallR);
+        g.vertex(rightX, -bigR);
+        g.vertex(rightX + bigR * 0.5, -bigR * 0.7);
+        g.vertex(rightX + bigR * 0.5, bigR * 0.7);
+        g.vertex(rightX, bigR);
+        g.vertex(leftX, smallR);
+        g.vertex(leftX - smallR * 0.5, smallR * 0.7);
+        g.vertex(leftX - smallR * 0.5, -smallR * 0.7);
+
+        // Center Slot Cutout (Counter-Clockwise)
+        if (channelLen > 5) {
+            g.beginContour();
+            let cH = channelW * 0.5;
+            g.vertex(channelLeftX, -cH);
+            g.vertex(channelLeftX, cH);
+            g.vertex(channelRightX, cH);
+            g.vertex(channelRightX, -cH);
+            g.endContour();
+        }
         g.endShape(CLOSE);
 
-        // Internal zig-zag structural cross-bracing
-        let numSections = max(4, floor((dx * 2) / 15)); // One strut every ~15px
-        let step = (dx * 2) / numSections;
-
-        for (let i = 0; i < numSections; i++) {
-            let x1 = -dx + i * step;
-            let x2 = -dx + (i + 1) * step;
-
-            // Calculate taper height at these x-coordinates
-            let y1 = lerp(ny, wy, abs(x1) / dx);
-            let y2 = lerp(ny, wy, abs(x2) / dx);
-
-            // Alternating diagonal struts
-            if (i % 2 === 0) {
-                g.line(x1, -y1, x2, y2);
-            } else {
-                g.line(x1, y1, x2, -y2);
-            }
-        }
+        // 2. Circular Eye Collars at Both Ends
+        g.circle(leftX, 0, smallR * 2.2);
+        g.circle(rightX, 0, bigR * 2.2);
     }
 
     renderMachined() {
-        let cr = this.armR * 0.55; // Tiny lightweight nuts
-        let wy = this.armR * 0.7; // Outer ends thickness
-        let ny = this.armR * 0.35; // Pinched center thickness
-
+        let cr = this.armR * 0.55;
         let pad = cr * 4;
         let w = this.d + pad * 2;
-        let h = pad * 2;
+        let h = pad * 2 + this.armR * 2;
 
         let g = createGraphics(w, h);
         g.rectMode(CENTER);
@@ -1116,27 +1135,20 @@ class Arm {
         let barCol = this.barCol;
         let dx = this.d / 2;
 
-        g.noFill();
         g.strokeJoin(ROUND);
 
-        // Draw shadow truss
+        // Shadow pass
         g.push();
         g.translate(0, 3);
-        g.stroke(0, 0, 0, 50);
-        g.strokeWeight(4);
-        this.drawTrussBar(g, dx, wy, ny);
+        g.noStroke();
+        g.fill(0, 0, 0, 50);
+        this.drawConnectingRod(g, dx, this.armR);
         g.pop();
 
-        // Draw main truss body
-        g.stroke(barCol);
-        g.strokeWeight(2.5);
-        this.drawTrussBar(g, dx, wy, ny);
-
-        // Draw structural highlights
-        g.stroke(255, 255, 255, 60);
-        g.strokeWeight(0.5);
-        this.drawTrussBar(g, dx, wy, ny);
-
+        // Main connecting rod body
+        g.noStroke();
+        g.fill(barCol);
+        this.drawConnectingRod(g, dx, this.armR);
 
         // Bigger bolt at each end — no bearer disc
         g.noStroke();
@@ -1194,73 +1206,44 @@ class Arm {
         g.rect(0, 0, plankW, plankH * 1.05, rx);
         g.pop();
 
-        // Clip to rounded rect, then apply paper scan-line texture (same as _initPaperBg)
-        let ox = -plankW / 2, oy = -plankH / 2;
-        g.drawingContext.save();
-        g.drawingContext.beginPath();
-        g.drawingContext.moveTo(ox + rx, oy);
-        g.drawingContext.arcTo(ox + plankW, oy, ox + plankW, oy + plankH, rx);
-        g.drawingContext.arcTo(ox + plankW, oy + plankH, ox, oy + plankH, rx);
-        g.drawingContext.arcTo(ox, oy + plankH, ox, oy, rx);
-        g.drawingContext.arcTo(ox, oy, ox + plankW, oy, rx);
-        g.drawingContext.closePath();
-        g.drawingContext.clip();
-
-        // Solid base fill first — same as artLayer filling the panel before paper texture
+        // Main plank body
         g.noStroke();
-        g.fill(this._rawCol);
+        g.fill(this.barCol);
         g.rect(0, 0, plankW, plankH, rx);
 
-        g.strokeCap(SQUARE);
-        for (let y = oy; y < oy + plankH; y += 0.1) {
-            let xSplit = random(plankW) + ox;
-            let n = noise(y / plankH + 10);
-            g.strokeWeight(0.1);
-            g.stroke(r0 - 30 * n, g0 - 30 * n, b0 - 30 * n);
-            g.line(ox, y, xSplit, y);
-            g.stroke(min(255, r0 + 10 * (1 - n)), min(255, g0 + 10 * (1 - n)), min(255, b0 + 5 * (1 - n)));
-            g.line(xSplit, y, ox + plankW, y);
-        }
+        // Specular highlight line along top edge
+        g.stroke(255, 255, 255, 75);
+        g.strokeWeight(1);
+        g.line(-plankW * 0.4, -plankH * 0.35, plankW * 0.4, -plankH * 0.35);
 
-        g.drawingContext.restore();
-
-        // Bearer disc + Bolt class at each end
-        let bearerR = plankH * 0.88;
+        // Bolts at both ends
         g.noStroke();
         for (let cx of [-dx, dx]) {
-            g.push(); g.translate(cx, 0);
-
-            // Bearer shadow
-            g.fill(0, 0, 0, 45);
-            g.circle(0, 4, bearerR * 2);
-
-            // Bearer disc — same paper color as arm body
-            g.fill(this._rawCol);
-            g.circle(0, 0, bearerR * 2);
-
-            // Paper scan-line texture on bearer (same as arm body)
-            g.drawingContext.save();
-            g.drawingContext.beginPath();
-            g.drawingContext.arc(0, 0, bearerR, 0, Math.PI * 2);
-            g.drawingContext.clip();
-            g.strokeCap(SQUARE);
-            for (let y = -bearerR; y < bearerR; y += 0.1) {
-                let xSplit = random(bearerR * 2) - bearerR;
-                let n = noise(y / (bearerR * 2) + 10);
-                g.strokeWeight(0.1);
-                g.stroke(r0 - 30 * n, g0 - 30 * n, b0 - 30 * n);
-                g.line(-bearerR, y, xSplit, y);
-                g.stroke(min(255, r0 + 10 * (1 - n)), min(255, g0 + 10 * (1 - n)), min(255, b0 + 5 * (1 - n)));
-                g.line(xSplit, y, bearerR, y);
-            }
-            g.drawingContext.restore();
-
-            new Bolt(0, 0, { r: cr * 0.75, style: 2, c: this._rawCol }).display(g);
-
+            g.push();
+            g.translate(cx, 0);
+            new Bolt(0, 0, { r: cr * 1.3, style: 2, c: this._rawCol }).display(g);
             g.pop();
         }
 
-        this._applyShader(g, w, h);
+        // Apply Shader
+        shaderBuffer.clear();
+        shaderBuffer.reset();
+        shaderBuffer.push();
+        shaderBuffer.shader(machiningShader);
+        machiningShader.setUniform("source", g);
+        machiningShader.setUniform("amt", 0.12);
+        shaderBuffer.noStroke();
+        shaderBuffer.rectMode(CENTER);
+        shaderBuffer.rect(0, 0, shaderBuffer.width, shaderBuffer.height);
+        shaderBuffer.pop();
+
+        this.machinedPg = createGraphics(w, h);
+        this.machinedPg.drawingContext.shadowOffsetX = 5;
+        this.machinedPg.drawingContext.shadowOffsetY = 5;
+        this.machinedPg.drawingContext.shadowBlur = 10;
+        this.machinedPg.drawingContext.shadowColor = 'rgba(20, 15, 10, 0.5)';
+        this.machinedPg.image(shaderBuffer, 0, 0, w, h);
+        this.machinedPg.drawingContext.shadowColor = 'rgba(0,0,0,0)';
         g.remove();
     }
 
@@ -1311,39 +1294,28 @@ class PistonEngine {
     constructor(gear, options = {}) {
         this.gear = gear;
 
-        // Piston crank setup
-        // pinR is a percentage (0-1) of the gear's radius to keep the pin inside the gear body
         let pinPercent = options.pinR !== undefined ? options.pinR : 0.5;
-        this.pinR = pinPercent * this.gear.r; // Actual pixel radius of eccentric crank pin orbit
-        this.angOffset = options.angOffset || 0; // Phase offset for pumping rhythms
+        this.pinR = pinPercent * this.gear.r;
+        this.angOffset = options.angOffset || 0;
 
-        // Dynamically scale arm thickness based on the gear size
-        this.armThickness = options.armThickness !== undefined ? options.armThickness : max(4.0, this.gear.r * 0.2);
+        this.armThickness = options.armThickness !== undefined ? options.armThickness : max(3.0, this.gear.r * 0.15);
 
-        // Cylinder dimensions
         this.cylinderWidth = options.cylinderWidth || 10;
         this.cylinderLength = options.cylinderLength || 100;
 
-        // Custom vertical placement (top or bottom edge)
         this.isBottom = options.isBottom !== undefined ? options.isBottom : (this.gear.y > height / 2);
-        this.layer = options.layer !== undefined ? options.layer : (this.gear.layer || 0); // Inherit gear's layer by default
+        this.layer = options.layer !== undefined ? options.layer : (this.gear.layer || 0);
 
-        // Decoupled X/Y positioning with gear fallbacks
         this.startX = options.x !== undefined ? options.x : this.gear.x;
         this.startY = options.y !== undefined ? options.y : (this.isBottom ? height : 0);
 
-
         this.endY = this.isBottom ? this.startY - this.cylinderLength : this.startY + this.cylinderLength;
 
-        // Piston arm height (rod length) determined by measuring the vertical distance
-        // between the closest peak pinned sweep on the rotating gear and the piston engine head (endY)
         let lowestPinY = this.gear.y + (this.isBottom ? this.pinR : -this.pinR);
         this.rodLength = options.rodLength || floor(abs(this.endY - lowestPinY));
 
-        // Stretch length is the exact vertical range between lowest and highest pinned positions
         this.stretchLength = 2 * this.pinR;
 
-        // Color derivation from user-supplied color
         if (options.c) {
             let c = color(options.c);
             let r = red(c), g = green(c), b = blue(c);
@@ -1367,7 +1339,6 @@ class PistonEngine {
     }
 
     renderMachined() {
-        // We render a beautiful 3D shaded outer cylinder sleeve with cooling ribs onto a cached buffer
         let w = this.cylinderWidth * 3;
         let h = this.cylinderLength + 40;
 
@@ -1382,7 +1353,6 @@ class PistonEngine {
         pg.noFill();
         pg.strokeWeight(1.5);
 
-        // 1. Shaded Cylinder Body (Cylindrical gradient rendering)
         for (let xOffset = 0; xOffset <= r; xOffset += 1) {
             let t = map(xOffset, 0, r, 1, 0);
             let strokeCol = lerpColor(startColor, midColor, t);
@@ -1392,7 +1362,6 @@ class PistonEngine {
             pg.line(xOffset, 0, xOffset, this.cylinderLength);
         }
 
-        // 2. Heavy 3D-Shaded Radiator Cooling Bellows (Horizontal ribs)
         let numRibs = 5;
         let ribSpacing = this.cylinderLength / (numRibs + 1);
         pg.noStroke();
@@ -1408,7 +1377,6 @@ class PistonEngine {
             }
         }
 
-        // 3. Heavy End Collar opening
         let cy = this.cylinderLength;
         for (let xOffset = 0; xOffset <= r * 1.25; xOffset += 1) {
             let t = map(xOffset, 0, r * 1.25, 1, 0);
@@ -1418,14 +1386,12 @@ class PistonEngine {
             pg.line(xOffset, cy - 10, xOffset, cy);
         }
 
-        // 4. Specular edge outlines
         pg.noFill();
         pg.stroke(255, 255, 255, 110);
         pg.strokeWeight(0.5);
         pg.rect(0, this.cylinderLength / 2, this.cylinderWidth, this.cylinderLength, 2);
         pg.rect(0, cy - 5, this.cylinderWidth * 1.25, 10, 1);
 
-        // Apply Shader Pass for industrial metal grain
         shaderBuffer.clear();
         shaderBuffer.reset();
         shaderBuffer.push();
@@ -1448,12 +1414,8 @@ class PistonEngine {
     }
 
     renderRod() {
-        // Pre-renders a beautiful tapered mechanical truss bar matching global Arm styling
         let armThickness = this.armThickness;
-        let cr = armThickness * 0.55; // Rivet radii
-        let wy = armThickness * 0.7; // End thickness
-        let ny = armThickness * 0.35; // Pinched center thickness
-
+        let cr = armThickness * 0.55;
         let pad = cr * 4;
         let w = this.rodLength + pad * 2;
         let h = pad * 2;
@@ -1469,60 +1431,64 @@ class PistonEngine {
         g.noFill();
         g.strokeJoin(ROUND);
 
-        let drawTruss = (graphics, lenX, endW, midW) => {
+        let drawConnectingRod = (graphics, lenX, armR) => {
+            let smallR = max(4.0, armR * 0.75);
+            let bigR = max(5.0, armR * 1.1);
+            let channelW = max(3.0, armR * 0.55);
+
+            let leftX = -lenX;
+            let rightX = lenX;
+
+            let channelLeftX = leftX + smallR * 1.25;
+            let channelRightX = rightX - bigR * 1.25;
+            let channelLen = channelRightX - channelLeftX;
+
+            // 1. Tapered Forged Shank Body with Clean Center Cutout (beginContour)
             graphics.beginShape();
-            graphics.vertex(-lenX, endW);
-            graphics.vertex(0, midW);
-            graphics.vertex(lenX, endW);
-            graphics.vertex(lenX, -endW);
-            graphics.vertex(0, -midW);
-            graphics.vertex(-lenX, -endW);
+            graphics.vertex(leftX, -smallR);
+            graphics.vertex(rightX, -bigR);
+            graphics.vertex(rightX + bigR * 0.5, -bigR * 0.7);
+            graphics.vertex(rightX + bigR * 0.5, bigR * 0.7);
+            graphics.vertex(rightX, bigR);
+            graphics.vertex(leftX, smallR);
+            graphics.vertex(leftX - smallR * 0.5, smallR * 0.7);
+            graphics.vertex(leftX - smallR * 0.5, -smallR * 0.7);
+
+            if (channelLen > 5) {
+                graphics.beginContour();
+                let cH = channelW * 0.5;
+                graphics.vertex(channelLeftX, -cH);
+                graphics.vertex(channelLeftX, cH);
+                graphics.vertex(channelRightX, cH);
+                graphics.vertex(channelRightX, -cH);
+                graphics.endContour();
+            }
             graphics.endShape(CLOSE);
 
-            let numSections = max(4, floor((lenX * 2) / 15));
-            let step = (lenX * 2) / numSections;
-            for (let i = 0; i < numSections; i++) {
-                let x1 = -lenX + i * step;
-                let x2 = -lenX + (i + 1) * step;
-                let y1 = lerp(midW, endW, abs(x1) / lenX);
-                let y2 = lerp(midW, endW, abs(x2) / lenX);
-                if (i % 2 === 0) {
-                    graphics.line(x1, -y1, x2, y2);
-                } else {
-                    graphics.line(x1, y1, x2, -y2);
-                }
-            }
+            // 2. Eye Collars
+            graphics.circle(leftX, 0, smallR * 2.2);
+            graphics.circle(rightX, 0, bigR * 2.2);
         };
 
-        // Ambient drop shadow under truss bar
+        // Ambient drop shadow under connecting rod
         g.push();
         g.translate(0, 2.5);
-        g.stroke(0, 0, 0, 50);
-        g.strokeWeight(3.5);
-        drawTruss(g, dx, wy, ny);
+        g.noStroke();
+        g.fill(0, 0, 0, 50);
+        drawConnectingRod(g, dx, armThickness);
         g.pop();
 
-        // Main truss body
-        g.stroke(barCol);
-        g.strokeWeight(2.5);
-        drawTruss(g, dx, wy, ny);
+        // Main connecting rod body
+        g.noStroke();
+        g.fill(barCol);
+        drawConnectingRod(g, dx, armThickness);
 
-        // Machining edge highlights
-        g.stroke(255, 255, 255, 75);
-        g.strokeWeight(0.5);
-        drawTruss(g, dx, wy, ny);
-
-        // Nuts / bolts on both pivot ends
+        // Bolts at both pivot ends (matching Arm and other components)
         g.noStroke();
         for (let cx of [-dx, dx]) {
             g.push();
             g.translate(cx, 0);
-            g.fill(30, 35, 40);
-            g.circle(0, 0, cr * 2.8);
-            g.fill(capCol);
-            g.circle(0, 0, cr * 1.6);
-            g.fill(255, 255, 255, 180);
-            g.circle(-cr * 0.3, -cr * 0.3, cr * 0.6);
+            new Bolt(0, 0, { r: cr * 1.4, style: 2, c: this.color }).display(g);
             g.pop();
         }
 
@@ -2190,23 +2156,6 @@ class PipingChassis {
 
         let beamR = 5; // Scaled down chassis connector thickness
 
-        // Draw perforated mounting brackets extending to pipe collars, core gear, or floor mounting column
-        /*
-        for (let anchor of this.anchors) {
-            let g = anchor.gear;
-            if (anchor.type === 'flange') {
-                let f = anchor.flange;
-                this.drawPerforatedBeam(chassisPg, g.x, g.y, f.x, f.y, beamR * 0.7);
-            } else if (anchor.type === 'gear') {
-                let tg = anchor.targetGear;
-                this.drawPerforatedBeam(chassisPg, g.x, g.y, tg.x, tg.y, beamR * 0.95);
-            } else if (anchor.type === 'column') {
-                // Massive golden structural support spine going straight down off-screen
-                this.drawPerforatedBeam(chassisPg, g.x, g.y, anchor.targetX, anchor.targetY, beamR * 1.35);
-            }
-        }
-        */
-
         // Draw recessed Hubs on all gear centers (clamped to frame)
         for (let g of this.gears) {
             chassisPg.push();
@@ -2355,7 +2304,7 @@ class PipingChassis {
 }
 
 
-const STRAIGHT_ARC_LENGTH = 1600;
+const STRAIGHT_ARC_LENGTH = 1800;
 
 class ArtLayer {
     constructor(opts = {}) {
@@ -2392,11 +2341,7 @@ class ArtLayer {
         if (currentTotal === 0) return;
         let scale = this.targetTotalHeight / currentTotal;
         for (let row of this.rows) {
-            if (row instanceof CheckerArc) {
-                row.tileHeight *= scale;
-            } else {
-                row.rowHeight *= scale;
-            }
+            row.rowHeight *= scale;
         }
     }
 
@@ -2857,6 +2802,266 @@ class CircleArcRow {
     }
 }
 
+class SquareArcRow {
+    constructor(rowHeight = 0.15, layer = 0) {
+        this.startA = 0;
+        this.endA = TWO_PI;
+        this.rowHeight = rowHeight;
+        this.gapPx = 10; // Clear 10px gap between consecutive squares
+        this.speed = 0.018;
+        this.layer = layer;
+    }
+
+    get rowHeightTotal() { return this.rowHeight; }
+
+    display(art, r, outerRadius) {
+        let rowHeight = r * this.rowHeight;
+        let outerR = r * outerRadius;
+        let innerR = outerR - rowHeight;
+        let trackR = (innerR + outerR) * 0.5;
+        let size = (outerR - innerR) * 0.68; // Scaled rect size for clean breathing room
+        let arcLength = art.getArcLength(trackR);
+        let count = max(1, floor(arcLength / (size + this.gapPx)));
+        let step = (this.endA - this.startA) / count;
+        let totalSteps = floor((frameCount * this.speed) / step);
+        let phase = (frameCount * this.speed) % step;
+
+        if (isArtBaking) {
+            art.drawArcBackground(this.startA, this.endA, innerR, outerR);
+            return;
+        }
+
+        strokeWeight(3.5); // Bold 3.5px stroke width for strong outlines // Increased stroke width for bolder outline
+
+        for (let i = -1; i < count; i++) {
+            let a = this.startA + i * step + phase;
+            let p = art.getXY(a, trackR);
+            let rot = art.getRotation(a, trackR);
+
+            // Stable identifier per square (doesn't change as it scrolls)
+            let globalIdx = i - totalSteps;
+            // Deterministic stroke count 0-3 based on global index
+            let hash = ((globalIdx * 2654435761) >>> 0) % 4;
+            let numStrokes = hash;
+
+            // Determine alternating color from col[1,2,3,4] completely unlinked from numStrokes
+            let s = sin(globalIdx * 123.456) * 43758.5453;
+            let colHash = floor(abs(s)) % 4;
+            let targetColor = col[colHash + 1];
+
+            push();
+            translate(p.x, p.y);
+            rotate(rot);
+            rectMode(CENTER);
+
+            if (numStrokes === 0) {
+                noStroke();
+                fill(targetColor);
+                rect(0, 0, size, size);
+            } else {
+                stroke(targetColor);
+
+                // Square-level decision for hollow vs shadow
+                let isHollow = (((globalIdx * 846283) >>> 0) % 2) === 0;
+
+                for (let j = 0; j < numStrokes; j++) {
+                    let scale = 1 - (j * 0.18);
+
+                    if (isHollow) {
+                        noFill();
+                    } else {
+                        // Shadow squares only get the fill on the outermost ring
+                        if (j === 0) {
+                            fill(0, 40);
+                        } else {
+                            noFill();
+                        }
+                    }
+
+                    rect(0, 0, size * scale, size * scale);
+                }
+            }
+            pop();
+        }
+
+        return innerR / r;
+    }
+}
+
+class TriangleGridArcRow {
+    constructor(rowHeight = 0.15, layer = 0) {
+        this.startA = 0;
+        this.endA = TWO_PI;
+        this.rowHeight = rowHeight;
+        this.numLanes = 3; // Always exactly 3 lanes (col 0: Up, col 1: Down, col 2: Up)
+        this.speed = 0.015;
+        this.layer = layer;
+    }
+
+    get rowHeightTotal() { return this.rowHeight; }
+
+    display(art, r, outerRadius) {
+        let rowHeight = r * this.rowHeight;
+        let outerR = r * outerRadius;
+        let innerR = outerR - rowHeight;
+        let trackR = (innerR + outerR) * 0.5;
+        let arcLength = art.getArcLength(trackR);
+
+        // Scale triangle size to use ~80% of the band height
+        let s = rowHeight / 7;
+        let spacingX = 2 * s;
+        let spacingY = 2.5 * s;
+
+        let count = max(1, floor(arcLength / spacingY));
+        let step = (this.endA - this.startA) / count;
+        let totalSteps = floor((frameCount * this.speed) / step);
+        let phase = (frameCount * this.speed) % step;
+
+        if (isArtBaking) {
+            art.drawArcBackground(this.startA, this.endA, innerR, outerR);
+            return;
+        }
+
+        let sw = max(0.8, s * 0.25);
+        strokeWeight(sw);
+        noFill();
+
+        for (let i = -1; i < count; i++) {
+            let a = this.startA + i * step + phase;
+            let globalIdx = i - totalSteps;
+
+            for (let cIdx = 0; cIdx < 3; cIdx++) {
+                let laneOffset = (cIdx - 1) * spacingX;
+                let p, rot;
+
+                if (art.drawMode === 'l') {
+                    // L mode: offset perpendicular to path direction, no rotation
+                    let pCenter = art.getXY(a, trackR);
+                    let tangent = art.getRotation(a, trackR);
+                    let perpAngle = tangent + HALF_PI;
+                    p = {
+                        x: pCenter.x + cos(perpAngle) * laneOffset,
+                        y: pCenter.y + sin(perpAngle) * laneOffset
+                    };
+                    rot = 0; // Keep triangles upright △▽
+                } else {
+                    let laneR = trackR + laneOffset;
+                    p = art.getXY(a, laneR);
+                    rot = art.getRotation(a, laneR);
+                }
+
+                stroke(col[4]);
+
+                push();
+                translate(p.x, p.y);
+                rotate(rot);
+
+                if (cIdx % 2 === 0) {
+                    triangle(0, -s, -s * 0.866, s * 0.5, s * 0.866, s * 0.5);
+                } else {
+                    triangle(0, s, -s * 0.866, -s * 0.5, s * 0.866, -s * 0.5);
+                }
+                pop();
+            }
+        }
+
+        return innerR / r;
+    }
+}
+
+class LayeredBlockArcRow {
+    constructor(rowHeight = 0.18, numLanes = 3, layer = 0) {
+        this.startA = 0;
+        this.endA = TWO_PI;
+        this.rowHeight = rowHeight;
+        this.numLanes = numLanes;
+        this.speed = 0.015;
+        this.layer = layer;
+    }
+
+    get rowHeightTotal() { return this.rowHeight; }
+
+    display(art, r, outerRadius) {
+        let rowHeight = r * this.rowHeight;
+        let outerR = r * outerRadius;
+        let innerR = outerR - rowHeight;
+        let trackR = (innerR + outerR) * 0.5;
+        let arcLength = art.getArcLength(trackR);
+
+        let laneWidth = rowHeight / this.numLanes;
+        let blockSize = laneWidth * 0.96;
+        let spacingY = blockSize * 0.98;
+
+        let count = max(1, floor(arcLength / spacingY));
+        let step = (this.endA - this.startA) / count;
+        let totalSteps = floor((frameCount * this.speed) / step);
+        let phase = (frameCount * this.speed) % step;
+
+        if (isArtBaking) {
+            art.drawArcBackground(this.startA, this.endA, innerR, outerR);
+            return;
+        }
+
+        rectMode(CENTER);
+
+        for (let i = -1; i < count; i++) {
+            let a = this.startA + i * step + phase;
+            let globalIdx = i - totalSteps;
+
+            for (let cIdx = 0; cIdx < this.numLanes; cIdx++) {
+                let laneOffset = (cIdx - (this.numLanes - 1) * 0.5) * laneWidth;
+                let p, rot;
+
+                if (art.drawMode === 'l') {
+                    let pCenter = art.getXY(a, trackR);
+                    let tangent = art.getRotation(a, trackR);
+                    let perpAngle = tangent + HALF_PI;
+                    p = {
+                        x: pCenter.x + cos(perpAngle) * laneOffset,
+                        y: pCenter.y + sin(perpAngle) * laneOffset
+                    };
+                    rot = 0;
+                } else {
+                    let laneR = trackR + laneOffset;
+                    p = art.getXY(a, laneR);
+                    rot = art.getRotation(a, laneR);
+                }
+
+                let hash = sin(globalIdx * 12.34 + cIdx * 56.78) * 43758.5453;
+                let baseColIdx = floor(abs(hash)) % 4;
+
+                push();
+                translate(p.x, p.y);
+                rotate(rot);
+
+                // Draw 4 nested layers from outer down to inner with irregular width & height
+                for (let k = 4; k >= 1; k--) {
+                    let hashW = sin(globalIdx * 12.34 + cIdx * 56.78 + k * 91.23) * 43758.5453;
+                    let hashH = cos(globalIdx * 43.21 + cIdx * 87.65 + k * 19.32) * 43758.5453;
+
+                    let wFactor = 0.35 + (abs(hashW) % 1.0) * 0.65;
+                    let hFactor = 0.35 + (abs(hashH) % 1.0) * 0.65;
+
+                    let scaleRatio = k / 4;
+                    let w = blockSize * scaleRatio * wFactor;
+                    let h = blockSize * scaleRatio * hFactor;
+
+                    let layerCol = col[((baseColIdx + (4 - k)) % 4) + 1];
+                    fill(layerCol);
+                    stroke(col[0]);
+                    strokeWeight(1.2);
+
+                    rect(0, 0, w, h);
+                }
+
+                pop();
+            }
+        }
+
+        return innerR / r;
+    }
+}
+
 
 
 class BlackWhiteTileArc {
@@ -2972,253 +3177,6 @@ class BlackWhiteTileArc {
 
 
 
-
-
-
-class RouteBandArc {
-    constructor(rowHeight = 0.1, layer = 0) {
-        this.startA = 0;
-        this.endA = TWO_PI;
-        this.rowHeight = rowHeight;
-        this.lanes = [1, 2, 3, 4];
-        this.speed = 0.018;
-        this.layer = layer;
-    }
-
-    get rowHeightTotal() { return this.rowHeight; }
-
-    display(art, r, outerRadius) {
-        let rowHeight = r * this.rowHeight;
-        let outerR = r * outerRadius;
-        let innerR = outerR - rowHeight;
-        let laneH = rowHeight / this.lanes.length;
-        let phase = (frameCount * this.speed) % (this.endA - this.startA);
-
-        if (isArtBaking) {
-            art.drawArcBackground(this.startA, this.endA, innerR, outerR);
-            return;
-        }
-
-        if (art.drawMode === 'straight') {
-            noStroke();
-            for (let i = 0; i < this.lanes.length; i++) {
-                let laneR = outerR - laneH * (i + 0.5);
-                let p = art.getXY(0, laneR);
-                fill(art.col[this.lanes[i]]);
-                rectMode(CENTER);
-                rect(p.x, 0, laneH * 0.82, STRAIGHT_ARC_LENGTH);
-            }
-            stroke(art.col[0]);
-            strokeWeight(max(1, laneH * 0.12));
-            for (let i = 1; i < this.lanes.length; i++) {
-                let sepR = outerR - laneH * i;
-                let p = art.getXY(0, sepR);
-                line(p.x, -STRAIGHT_ARC_LENGTH * 0.5, p.x, STRAIGHT_ARC_LENGTH * 0.5);
-            }
-            for (let i = 0; i < this.lanes.length; i++) {
-                let laneR = outerR - laneH * (i + 0.5);
-                let a = this.startA + ((phase + i * 0.38) % (this.endA - this.startA));
-                let p = art.getXY(a, laneR);
-                noStroke();
-                fill(art.col[0]);
-                circle(p.x, p.y, laneH * 0.62);
-                fill(art.col[4]);
-                circle(p.x, p.y, laneH * 0.34);
-            }
-        } else if (art.drawMode === 'l') {
-            noFill();
-            strokeCap(SQUARE);
-
-            for (let i = 0; i < this.lanes.length; i++) {
-                let laneR = outerR - laneH * (i + 0.5);
-                stroke(art.col[this.lanes[i]]);
-                strokeWeight(laneH * 0.82);
-                beginShape();
-                art.tracePath(laneR);
-                endShape();
-            }
-
-            stroke(art.col[0]);
-            strokeWeight(max(1, laneH * 0.12));
-            for (let i = 1; i < this.lanes.length; i++) {
-                let sepR = outerR - laneH * i;
-                beginShape();
-                art.tracePath(sepR);
-                endShape();
-            }
-
-            for (let i = 0; i < this.lanes.length; i++) {
-                let laneR = outerR - laneH * (i + 0.5);
-                let a = this.startA + ((phase + i * 0.38) % (this.endA - this.startA));
-                let p = art.getXY(a, laneR);
-                noStroke();
-                fill(art.col[0]);
-                circle(p.x, p.y, laneH * 0.62);
-                fill(art.col[4]);
-                circle(p.x, p.y, laneH * 0.34);
-            }
-
-            strokeCap(ROUND);
-        } else {
-            noFill();
-            strokeCap(SQUARE);
-
-            for (let i = 0; i < this.lanes.length; i++) {
-                let laneR = outerR - laneH * (i + 0.5);
-                stroke(art.col[this.lanes[i]]);
-                strokeWeight(laneH * 0.82);
-                circle(0, 0, laneR * 2);
-            }
-
-            stroke(art.col[0]);
-            strokeWeight(max(1, laneH * 0.12));
-            for (let i = 1; i < this.lanes.length; i++) {
-                let sepR = outerR - laneH * i;
-                circle(0, 0, sepR * 2);
-            }
-
-            for (let i = 0; i < this.lanes.length; i++) {
-                let laneR = outerR - laneH * (i + 0.5);
-                let a = this.startA + ((phase + i * 0.38) % (this.endA - this.startA));
-                let p = art.getXY(a, laneR);
-                noStroke();
-                fill(art.col[0]);
-                circle(p.x, p.y, laneH * 0.62);
-                fill(art.col[4]);
-                circle(p.x, p.y, laneH * 0.34);
-            }
-
-            strokeCap(ROUND);
-        }
-        return innerR / r;
-    }
-}
-
-class CheckerArc {
-    constructor(tileHeight = 0.05, tileRows = 2, layer = 0) {
-        this.tileRows = tileRows;
-        this.layer = layer;
-        this.startA = 0;
-        this.endA = TWO_PI;
-        this.cells = 54;
-        this.tileHeight = tileHeight;
-        this.speed = 0.12;
-    }
-
-    get rowHeightTotal() { return this.tileHeight * this.tileRows; }
-
-    display(art, r, outerRadius) {
-        let phase = floor(frameCount * this.speed);
-        let outerR = r * outerRadius;
-        let rowHeight = r * this.tileHeight * this.tileRows;
-        let innerR = outerR - rowHeight;
-        let rowH = (outerR - innerR) / this.tileRows;
-        let tileR = innerR + rowH * 0.5;
-        let arcSpan = this.endA - this.startA;
-        let arcLen = art.getArcLength(tileR);
-        let cells = max(6, floor(arcLen / rowH));
-        let step = arcSpan / cells;
-
-        if (isArtBaking) {
-            art.drawArcBackground(this.startA, this.endA, innerR, outerR);
-            return;
-        }
-
-        noStroke();
-        for (let i = 0; i < cells; i++) {
-            for (let j = 0; j < this.tileRows; j++) {
-                let tileR = innerR + (j + 0.5) * rowH;
-                let tileStep = (art.drawMode === 'l' || art.drawMode === 'straight')
-                    ? (rowH / arcLen) * arcSpan
-                    : rowH / tileR;
-                let gapStep = tileStep * 0.08;
-                let aCenter = this.startA + i * step + step * 0.5;
-                let a1 = aCenter - tileStep * 0.5 + gapStep;
-                let a2 = aCenter + tileStep * 0.5 - gapStep;
-                let rad1 = innerR + j * rowH + rowH * 0.07;
-                let rad2 = rad1 + rowH * 0.86;
-
-                fill(Math.abs(i + j + phase) % 2 === 0 ? art.col[3] : art.col[0]);
-                if (art.drawMode === 'l') {
-                    // handled below — skip arc-based drawing
-                } else if (art.drawMode === 'straight') {
-                    let p1 = art.getXY(a1, rad1);
-                    let p2 = art.getXY(a2, rad2);
-                    rectMode(CORNERS);
-                    rect(p1.x, p1.y, p2.x, p2.y);
-                } else {
-                    let p1 = art.getXY(a1, rad1);
-                    let p2 = art.getXY(a2, rad1);
-                    let p3 = art.getXY(a2, rad2);
-                    let p4 = art.getXY(a1, rad2);
-                    beginShape();
-                    vertex(p1.x, p1.y);
-                    vertex(p2.x, p2.y);
-                    vertex(p3.x, p3.y);
-                    vertex(p4.x, p4.y);
-                    endShape(CLOSE);
-                }
-            }
-        }
-
-        // L mode: draw perfect axis-aligned checker grid along the L path
-        if (art.drawMode === 'l') {
-            rectMode(CORNER);
-            let cw = width * 0.5;
-            let ch = height * 0.5;
-            let cX, cY, signX, signY;
-
-            if (art.lSideY === 'bottom') {
-                cY = ch - outerR;
-                signY = -1;
-            } else {
-                cY = -ch + innerR;
-                signY = 1;
-            }
-            if (art.lSide === 'right') {
-                cX = cw - outerR;
-                signX = -1;
-            } else {
-                cX = -cw + innerR;
-                signX = 1;
-            }
-
-            let tSize = rowH; // one cell = one row's height (square)
-
-            // Draw horizontal leg — tileRows rows stacked into the track depth
-            let xEnd = (art.lSide === 'right') ? -cw : cw;
-            let col = 0;
-            let currentX = cX;
-            while ((art.lSide === 'right' ? currentX > xEnd - tSize : currentX < xEnd)) {
-                for (let j = 0; j < this.tileRows; j++) {
-                    let tileY = cY + j * tSize; // always fill downward/inward from anchor cY
-                    fill(Math.abs(col + j + phase) % 2 === 0 ? art.col[3] : art.col[0]);
-                    rect(currentX, tileY, tSize, tSize);
-                }
-                currentX += signX * tSize;
-                col++;
-            }
-
-            // Draw vertical leg — tileRows cols stacked into the track depth
-            let yEnd = (art.lSideY === 'bottom') ? -ch : ch;
-            let currentY = cY + signY * tSize;
-            while ((art.lSideY === 'bottom' ? currentY > yEnd - tSize : currentY < yEnd)) {
-                // Compute row index relative to cY so the checker pattern
-                // wraps seamlessly around the 90-degree corner (+1 offset because
-                // the first vertical tile is one step past the corner row at cY)
-                let rowIdx = Math.round(Math.abs(currentY - cY) / tSize);
-                for (let j = 0; j < this.tileRows; j++) {
-                    let tileX = cX + j * tSize;
-                    fill(Math.abs(rowIdx + j + phase) % 2 === 0 ? art.col[3] : art.col[0]);
-                    rect(tileX, currentY, tSize, tSize);
-                }
-                currentY += signY * tSize;
-            }
-        }
-
-        return innerR / r;
-    }
-}
 
 
 
@@ -3723,7 +3681,7 @@ class GearLayout {
         this.belts = [];
         this.arms = [];
         this.pistons = [];
-        
+
 
         // Layer groups — built by buildLayerGroups() after pushTo()
         this.layerGears = {};
@@ -3732,7 +3690,7 @@ class GearLayout {
         this.layerPistons = {};
         this.maxLayer = 0;
 
-        
+
         this._col = col;
         this._build(x, y, col, bandOffset);
     }
@@ -4050,7 +4008,7 @@ class GearLayout2 {
         this.belts = [];
         this.arms = [];
         this.pistons = [];
-        
+
 
         this.layerGears = {};
         this.layerBelts = {};
@@ -4061,7 +4019,7 @@ class GearLayout2 {
         this.beltGears = [];
         this.setChains = [];
         this.topSprockets = [];
-        
+
         this._build(x, y, col, bandOffset);
     }
 
@@ -4119,7 +4077,7 @@ class GearLayout2 {
         applyLayer(set1, bo);
         this.gears.push(...Object.values(set1));
         this.beltGears.push(...Object.values(set1));   // free-running each frame
-        
+
 
         const beltSet = [new Belt(
             secondaryGears.map((g, i) => ({ gear: g, cw: cwDirs[i] })),
@@ -4183,7 +4141,7 @@ class GearLayout2 {
         [g_shared, g_c2, ...c1Excl, ...c2Excl].forEach(g => { set2[`g${gIdx++}`] = g; });
         applyLayer(set2, bo);
         this.gears.push(...Object.values(set2));
-        
+
 
         this.setChains.push({
             type: 'crossShared',
@@ -4262,7 +4220,7 @@ class GearLayout2 {
         applyLayer(set3, bo);
         this.gears.push(...Object.values(set3));
         this.beltGears.push(...Object.values(set3));
-        
+
 
         applyBeltLayer(belts, bo);
         this.belts.push(...belts);
@@ -4316,7 +4274,7 @@ class GearLayout2 {
 
         applyLayer(set4, bo);
         this.gears.push(...Object.values(set4));
-        
+
 
         this.setChains.push({ type: 'crossChain', nodes });
     }
@@ -4351,7 +4309,7 @@ class GearLayout2 {
         gears.forEach((g, i) => { set5[`g${i}`] = g; });
         applyLayer(set5, bo);
         this.gears.push(...Object.values(set5));
-        
+
 
         this.setChains.push({ type: 'spiral', gears, teeth, contacts: connAngles });
     }
@@ -4389,7 +4347,7 @@ class GearLayout2 {
         applyLayer(set6, bo);
         this.gears.push(...Object.values(set6));
         this.beltGears.push(...Object.values(set6));
-        
+
 
         const beltSet = [new Belt(
             [{ gear: sprocket, cw: true }, ...aGears.slice(1).map(g => ({ gear: g, cw: true }))],
@@ -4491,7 +4449,7 @@ class GearLayout2 {
         applyLayer(set7, bo);
         this.gears.push(...Object.values(set7));
         this.beltGears.push(...Object.values(set7));
-        
+
 
         const beltSet = [new Belt(
             [{ gear: sprocket, cw: cwDirs[0] }, ...gears.slice(1).map((g, i) => ({ gear: g, cw: cwDirs[i + 1] }))],
@@ -4582,7 +4540,7 @@ class GearLayout2 {
         bGroup.gears.forEach((g, i) => { set8[`gb${i}`] = g; });
         applyLayer(set8, bo);
         this.gears.push(...Object.values(set8));
-        
+
 
         this.setChains.push({ type: 'zigzag', g0, g0T, groups: [aGroup, bGroup] });
 
@@ -4884,9 +4842,10 @@ function getSoptPositions() {
 function buildArtLayer(nR, tth, chosenMode, col) {
     let artClasses = [
         CircleArcRow,
+        SquareArcRow,
+        TriangleGridArcRow,
+        LayeredBlockArcRow,
         BlackWhiteTileArc,
-        RouteBandArc,
-        CheckerArc,
         SlantedLineArc
     ];
 
@@ -4901,22 +4860,26 @@ function buildArtLayer(nR, tth, chosenMode, col) {
             let row = new CircleArcRow(rowHeight, layer);
             row.speed = random([-0.025, -0.01, 0.01, 0.025]);
             artRows.push(row);
+        } else if (cls === SquareArcRow) {
+            let rowHeight = random([0.15, 0.25, 0.35, 0.5]);
+            let row = new SquareArcRow(rowHeight, layer);
+            row.speed = random([-0.025, -0.01, 0.01, 0.025]);
+            artRows.push(row);
+        } else if (cls === TriangleGridArcRow) {
+            let rowHeight = random([0.12, 0.18, 0.25]);
+            let row = new TriangleGridArcRow(rowHeight, layer);
+            row.speed = random([-0.02, -0.01, 0.01, 0.02]);
+            artRows.push(row);
+        } else if (cls === LayeredBlockArcRow) {
+            let rowHeight = random([0.15, 0.22, 0.3]);
+            let numLanes = random([2, 3]);
+            let row = new LayeredBlockArcRow(rowHeight, numLanes, layer);
+            row.speed = random([-0.02, -0.01, 0.01, 0.02]);
+            artRows.push(row);
         } else if (cls === BlackWhiteTileArc) {
             let rowHeight = random([0.08, 0.1, 0.15, 0.2]);
             let tileWidthRatio = random([0.3, 0.45, 0.055, 0.07]);
             artRows.push(new BlackWhiteTileArc(rowHeight, tileWidthRatio, layer));
-
-        } else if (cls === RouteBandArc) {
-            let rowHeight = random([0.1, 0.15, 0.2, 0.25]);
-            let row = new RouteBandArc(rowHeight, layer);
-            row.speed = random([-0.04, -0.02, -0.01, 0.01, 0.02, 0.04]);
-            artRows.push(row);
-        } else if (cls === CheckerArc) {
-            let tileHeight = random([0.03, 0.05, 0.08]);
-            let tileRows = random([2, 3, 4]);
-            let row = new CheckerArc(tileHeight, tileRows, layer);
-            row.speed = random([-0.25, -0.12, -0.06, 0.06, 0.12, 0.25]);
-            artRows.push(row);
         } else if (cls === SlantedLineArc) {
             let useBands = random() > 0.4;
             let rowHeight = random([0.05, 0.08, 0.1, 0.15, 0.2]);
@@ -4990,9 +4953,13 @@ function getArtConfig(topt) {
                 nR = topt.nR;
             }
         }
-    } else if (chosenMode === 'straight' || chosenMode === 'paper') {
-        tth = 3.3;
+    } else if (chosenMode === 'straight') {
+        tth = 5.3;
         nR = 25;
+    } else if (chosenMode === 'paper') {
+        tth = 3.3;
+        nR = 10;
+
     } else {
         tth = 3.3;
         nR = 10;

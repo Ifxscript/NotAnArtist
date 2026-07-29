@@ -2,18 +2,18 @@ const puppeteer = require('puppeteer');
 const fs = require('fs');
 const path = require('path');
 
-const SEEDS_PATH = path.join(__dirname, "../src/curated_seeds_v2.json");
+const SEEDS_PATH = path.join(__dirname, "../public/motor/curated-seeds.json");
 const OUTPUT_DIR = path.join(__dirname, "../public/images-v2");
 const HTML_PATH = `file://${path.join(__dirname, "../../motor/index.html")}`;
 
 async function main() {
     if (!fs.existsSync(SEEDS_PATH)) {
-        console.error("Error: curated_seeds_v2.json not found!");
+        console.error("Error: curated-seeds.json not found!");
         process.exit(1);
     }
 
     const seeds = JSON.parse(fs.readFileSync(SEEDS_PATH, "utf8"));
-    console.log(`Generating images 31 to 456 for v2 curation at 2x Retina + 78q...`);
+    console.log(`Generating all ${seeds.length} images at 2x Retina + 78q (sharp square corners)...`);
 
     if (!fs.existsSync(OUTPUT_DIR)) {
         fs.mkdirSync(OUTPUT_DIR, { recursive: true });
@@ -30,19 +30,14 @@ async function main() {
         deviceScaleFactor: 2
     });
 
-    // Start from index 31 (i = 30) up to 456
-    for (let i = 30; i < seeds.length; i++) {
+    for (let i = 0; i < seeds.length; i++) {
         const item = seeds[i];
-        const index = item.index;
-        const seed = item.seed;
+        const index = i + 1;
+        const seed = typeof item === 'object' ? item.seed : item;
 
-        console.log(`[${i + 1}/${seeds.length}] Generating v2 image for seed: ${seed}...`);
+        console.log(`[${index}/${seeds.length}] Generating image for seed: ${seed}...`);
 
         const imagePath = path.join(OUTPUT_DIR, `${index}.jpg`);
-        if (fs.existsSync(imagePath)) {
-            console.log(`  Skipping (already exists)`);
-            continue;
-        }
 
         await page.evaluateOnNewDocument((injectedSeed) => {
             window.HASH = Number(injectedSeed);
@@ -50,8 +45,15 @@ async function main() {
 
         await page.goto(HTML_PATH);
 
-        // Wait 2.2s for layout animation
-        await new Promise(r => setTimeout(r, 2200));
+        // Wait for motor.js to signal first frame has rendered
+        try {
+            await page.waitForFunction(() => window._firstFrameDrawn === true, { timeout: 15000 });
+            await page.addStyleTag({ content: 'canvas { border-radius: 0 !important; box-shadow: none !important; }' });
+            // Small extra delay for canvas buffer flush
+            await new Promise(r => setTimeout(r, 200));
+        } catch (err) {
+            console.warn(`  ⚠️ Timeout waiting for first frame on seed ${seed}, attempting capture anyway...`);
+        }
 
         const canvasSelector = 'canvas';
         const canvas = await page.$(canvasSelector);
@@ -69,7 +71,7 @@ async function main() {
     }
 
     await browser.close();
-    console.log(`\n🎉 Generated all remaining v2 images inside: ${OUTPUT_DIR}`);
+    console.log(`\n🎉 Generated all v2 images inside: ${OUTPUT_DIR}`);
 }
 
 main().catch(console.error);
