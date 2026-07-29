@@ -2930,12 +2930,13 @@ class TriangleGridArcRow {
             let a = this.startA + i * step + phase;
             let globalIdx = i - totalSteps;
 
+
             for (let cIdx = 0; cIdx < 3; cIdx++) {
                 let laneOffset = (cIdx - 1) * spacingX;
                 let p, rot;
 
                 if (art.drawMode === 'l') {
-                    // L mode: offset perpendicular to path direction, no rotation
+                    // L mode: offset perpendicular to path direction
                     let pCenter = art.getXY(a, trackR);
                     let tangent = art.getRotation(a, trackR);
                     let perpAngle = tangent + HALF_PI;
@@ -2943,7 +2944,17 @@ class TriangleGridArcRow {
                         x: pCenter.x + cos(perpAngle) * laneOffset,
                         y: pCenter.y + sin(perpAngle) * laneOffset
                     };
-                    rot = 0; // Keep triangles upright △▽
+
+                    let totalLen = art._lSharpTotalLen(trackR);
+                    let hLen = width - trackR;
+                    let sPos = ((a / TWO_PI) * totalLen) % totalLen;
+                    if (sPos < 0) sPos += totalLen;
+
+                    if (sPos > hLen) {
+                        rot = 0; // Vertical leg: △ ▽ △
+                    } else {
+                        rot = HALF_PI; // Horizontal leg: ◁ ▷ ◁
+                    }
                 } else {
                     let laneR = trackR + laneOffset;
                     p = art.getXY(a, laneR);
@@ -3028,7 +3039,7 @@ class LayeredBlockArcRow {
                 }
 
                 let hash = sin(globalIdx * 12.34 + cIdx * 56.78) * 43758.5453;
-                let baseColIdx = floor(abs(hash)) % 4;
+                let baseColIdx = floor(abs(hash)) % 5;
 
                 push();
                 translate(p.x, p.y);
@@ -3039,17 +3050,24 @@ class LayeredBlockArcRow {
                     let hashW = sin(globalIdx * 12.34 + cIdx * 56.78 + k * 91.23) * 43758.5453;
                     let hashH = cos(globalIdx * 43.21 + cIdx * 87.65 + k * 19.32) * 43758.5453;
 
-                    let wFactor = 0.35 + (abs(hashW) % 1.0) * 0.65;
-                    let hFactor = 0.35 + (abs(hashH) % 1.0) * 0.65;
+                    let wFactor = 0.4 + (abs(hashW) % 1.0) * 0.65;
+                    let hFactor = 0.4 + (abs(hashH) % 1.0) * 0.65;
 
                     let scaleRatio = k / 4;
                     let w = blockSize * scaleRatio * wFactor;
                     let h = blockSize * scaleRatio * hFactor;
 
-                    let layerCol = col[((baseColIdx + (4 - k)) % 4) + 1];
+                    let layerCol;
+                    if (k === 2 || k == 3 || k == 4) {
+                        layerCol = col[(baseColIdx + (4 - k)) % 5];
+                        // layerCol = col[((baseColIdx + (4 - k)) % 4) + 1];
+                    } else {
+                        layerCol = col[((baseColIdx + (4 - k)) % 4) + 1];
+                    }
                     fill(layerCol);
-                    stroke(col[0]);
-                    strokeWeight(1.2);
+                    noStroke()
+                    // stroke(col[3]);
+                    //strokeWeight(1.2);
 
                     rect(0, 0, w, h);
                 }
