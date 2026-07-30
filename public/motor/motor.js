@@ -2926,7 +2926,7 @@ class TriangleGridArcRow {
             return;
         }
 
-        strokeWeight(width * 0.005);
+        strokeWeight(width * 0.0025);
         noFill();
 
         for (let i = -1; i < count; i++) {
@@ -3507,7 +3507,7 @@ class SlantedLineArc {
 
                     let scaleFactor = r / 90.0;
                     stroke(0);
-                    strokeWeight(width * 0.004);
+                    strokeWeight(width * 0.0025);
 
                     let step = 3 * scaleFactor;
                     for (
