@@ -3504,7 +3504,7 @@ class SlantedLineArc {
 
                     let scaleFactor = r / 90.0;
                     stroke(0);
-                    strokeWeight(0.8 * scaleFactor);
+                    strokeWeight(0.8);
 
                     let step = 3 * scaleFactor;
                     for (
@@ -3529,7 +3529,7 @@ class SlantedLineArc {
 
                     let scaleFactor = r / 90.0;
                     stroke(0);
-                    strokeWeight(0.8 * scaleFactor);
+                    strokeWeight(0.8);
 
                     if (
                         art.drawMode === 'straight'
