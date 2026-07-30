@@ -2835,7 +2835,7 @@ class SquareArcRow {
             return;
         }
 
-        strokeWeight(width * 0.012);
+        strokeWeight(width * 0.008);
 
         for (let i = -1; i < count; i++) {
             let a = this.startA + i * step + phase;
@@ -2926,8 +2926,7 @@ class TriangleGridArcRow {
             return;
         }
 
-        let sw = max(0.8, s * 0.25);
-        strokeWeight(sw);
+        strokeWeight(width * 0.005);
         noFill();
 
         for (let i = -1; i < count; i++) {
