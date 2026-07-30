@@ -67,9 +67,9 @@ function setup() {
     let tintOptions = ['tinted', 'notTinted'];
     tintMode = tintOptions[0];
     window.traits["Tint"] = tintMode;
-    // Limit canvas resolution on mobile devices to 1x for 60 FPS smooth performance
+    // Set mobile canvas resolution to 1.5x for crisp visuals + 60 FPS performance
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-        pixelDensity(1);
+        pixelDensity(1.5);
     }
     let cvs = createCanvas(windowHeight * 0.675, windowHeight * 0.9);
     cvs.style('box-shadow', '0 0 5px rgba(0, 0, 0, 1)');
@@ -4394,7 +4394,7 @@ class GearLayout2 {
 
         // Arm: standalone (Group B left vertex) → Group A's first 0.3 belt gear
         const linkArm = new Arm(standalone, aGears[1], 0.5, 0, 0, undefined, col[0], 'truss');
-        linkArm.layer = bo * LAYER_BAND;
+        linkArm.layer = bo * LAYER_BAND + 5;
         this.arms.push(linkArm);
 
         const p6 = new PistonEngine(aGears[3], { c: col[0], pinR: 0.9, cylinderWidth: 10, cylinderLength: 5, marginX: width * 0.05 });
@@ -4756,8 +4756,8 @@ class GearLayout2 {
 }
 
 const LAYER_BAND = 6;
-const CONNECTOR_LAYER = LAYER_BAND * 4;
-const OVERLAY_BAND = 5;
+const CONNECTOR_LAYER = LAYER_BAND * 6;
+const OVERLAY_BAND = 7;
 function applyLayer(set, band) {
     for (const [key, g] of Object.entries(set)) {
         if (!g) continue;
