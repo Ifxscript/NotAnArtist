@@ -2835,7 +2835,7 @@ class SquareArcRow {
             return;
         }
 
-        strokeWeight(width * 0.0175);
+        strokeWeight(width * 0.012);
 
         for (let i = -1; i < count; i++) {
             let a = this.startA + i * step + phase;
