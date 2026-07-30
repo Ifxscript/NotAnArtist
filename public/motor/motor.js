@@ -168,10 +168,6 @@ function draw() {
         layout.displayLayer(layer, piping);
     }
 
-
-
-
-
     // Stamp the pre-baked background
     imageMode(CORNER);
     image(artLayerCache, 0, 0, width, height);
@@ -211,8 +207,6 @@ function draw() {
     }
 
     // Palette Color Grade Overlay (Conditional Tint)
-
-
     if (typeof tintMode !== 'undefined' && tintMode === 'tinted') {
         push();
         blendMode(OVERLAY);
@@ -224,7 +218,6 @@ function draw() {
         pop();
         blendMode(BLEND);
     }
-
     // Canvas border frame
     stroke(col[3]);
     strokeWeight(width * 0.069);
@@ -1066,7 +1059,7 @@ class Arm {
 
         // Dynamically scale width based on gear size if not provided
         let avgGearR = (g1.r + g2.r) / 2;
-        this.armR = armThickness !== undefined ? armThickness : max(3.0, avgGearR * 0.15);
+        this.armR = armThickness !== undefined ? armThickness : max(1.0, avgGearR * 0.2);
 
         // Color derivation from user-supplied color
         if (armColor) {
@@ -1089,9 +1082,9 @@ class Arm {
     }
 
     drawConnectingRod(g, dx, armR) {
-        let smallR = max(3.0, armR * 0.70);
-        let bigR = max(4.0, armR * 1.0);
-        let channelW = max(2.5, armR * 0.50);
+        let smallR = max(4.0, armR * 0.75);
+        let bigR = max(5.0, armR * 1.1);
+        let channelW = max(3.0, armR * 0.55);
 
         let leftX = -dx;
         let rightX = dx;
@@ -3087,8 +3080,6 @@ class LayeredBlockArcRow {
     }
 }
 
-
-
 class BlackWhiteTileArc {
     constructor(rowHeight = 0.09, tileWidthRatio = 0.55, layer = 0) {
         this.startA = 0;
@@ -3199,11 +3190,6 @@ class BlackWhiteTileArc {
         return innerR / r;
     }
 }
-
-
-
-
-
 
 class SlantedLineArc {
 
@@ -3612,11 +3598,6 @@ class SlantedLineArc {
     }
 }
 
-
-
-
-
-
 class ArmGroup {
     _nodes;
 
@@ -3698,7 +3679,6 @@ void main(){
   float vignette=1.-smoothstep(.35,.5,radius)*.25;
   gl_FragColor=vec4((c.rgb+n)*vignette,c.a);
 }`;
-
 
 class GearLayout {
     constructor(x, y, col, bandOffset = 0) {
@@ -4010,7 +3990,6 @@ class GearLayout {
     }
 }
 
-
 class GearLayout2 {
 
     // ── G0 CONFIG — edit here to update all sets in this layout ────────────
@@ -4049,25 +4028,15 @@ class GearLayout2 {
     }
 
     _build(x, y, col, bo) {
-        this._buildSet8(x - width * 0, y - height * 0.5, col, bo + 0);
-        this._buildSet8(x - width * 0.5, y - height * 0.5, col, bo + 1);
-
         this._buildSet8(x - width * 0.5, y + height * 0.05, col, bo + 1);
-        this._buildSet8(x - width * 0, y + height * 0.05, col, bo + 0);
-        this._buildSet8(x - width * 0.5, y + height * 0.5, col, bo + 1);
-        this._buildSet8(x - width * 0, y + height * 0.5, col, bo + 0);
-
-        this._buildSet1(x - width * 0.2, y - height * 0.35, col, bo + 2);
-
-
-
-        this._buildSet2(x - width * 0.4, y - height * 0.35, col, bo + 0);
+        this._buildSet1(x + width * 0.2, y - height * 0.35, col, bo + 3);
+        this._buildSet2(x - width * 0.4, y - height * 0.45, col, bo + 0);
         this._buildSet3(x - width * 0.23, y + height * 0.3, col, bo + 3);
         this._buildSet4(x + width * 0.15, y + height * 0.33, col, bo + 0);
         this._buildSet5(x + width * 0.1, y - height * 0.45, col, bo + 1);
-        this._buildSet6(x + width * 0.15, y - height * 0.275, col, bo + 0);
-        this._buildSet7(x - width * 0.25, y + height * 0, col, bo + 2);
-
+        this._buildSet6(x + width * 0.15, y - height * 0.3, col, bo + 4);
+        this._buildSet7(x - width * 0.175, y + height * 0.05, col, bo + 2);
+        this._buildSet7(x - width * 0.65, y - height * 0.35, col, bo + 2);
         this._buildAnchorSet(x, y, col);
 
         // Rubber backbone belt connecting all g0 top sprockets — sorted by angle from layout center
@@ -4199,7 +4168,7 @@ class GearLayout2 {
         const pushGear = (g) => { set3[`g${gIdx++}`] = g; };
 
         // ── Group A (top): 4 gears incl g0 driver + co-located sprocket ──
-        const aSizes = [0.3, 0.35, 0.3];   // the 3 belt-driven gears
+        const aSizes = [0.35, 0.35, 0.3];   // the 3 belt-driven gears
         const sprR = 0.3;
         const aVerts = aSizes.length + 1;  // g0 + 3 others
         const a0 = -HALF_PI;
@@ -4233,7 +4202,7 @@ class GearLayout2 {
         const connectors = [driverConn];
 
         // ── Groups B & C: 3 gears each, index-0 (0.3) driven at driverSpeed ──
-        const bcSizes = [[0.3, 0.25, 0.3], [0.3, 0.35, 0.25]];
+        const bcSizes = [[0.35, 0.25, 0.3], [0.35, 0.35, 0.25]];
         bcSizes.forEach((sizes, gi) => {
             const c = centers[gi + 1];
             const gears = this._makeBeltCluster(c.x, c.y, sizes, col, layer, driverSpeed, clusterR);
@@ -4251,7 +4220,7 @@ class GearLayout2 {
         this.belts.push(...belts);
 
         // Link the three 0.3 connector gears with rigid arms (same size + speed)
-        const ap = new ArmPair(false, random(['truss', 'plank']), col[0], ...connectors);
+        const ap = new ArmPair(false, 'truss', col[0], ...connectors);
         ap.getArms().forEach(a => { a.layer = bo * LAYER_BAND; this.arms.push(a); });
     }
 
@@ -4406,13 +4375,13 @@ class GearLayout2 {
         });
 
         const standaloneSet = { g7: standalone };
-        applyLayer(standaloneSet, bo + 1);
+        applyLayer(standaloneSet, bo);
         this.gears.push(standalone);
         this.beltGears.push(standalone);
 
         const bGroupSet = {};
         bGears.slice(1).forEach((g, i) => { bGroupSet[`gb${i}`] = g; });
-        applyLayer(bGroupSet, bo + 1);
+        applyLayer(bGroupSet, bo);
         this.gears.push(...Object.values(bGroupSet));
         this.beltGears.push(...Object.values(bGroupSet));
 
@@ -4420,12 +4389,12 @@ class GearLayout2 {
             bGears.map(g => ({ gear: g, cw: true })),
             0, 1.2, 'chain', col[0]
         )];
-        applyBeltLayer(beltB, bo + 1);
+        applyBeltLayer(beltB, bo);
         this.belts.push(...beltB);
 
         // Arm: standalone (Group B left vertex) → Group A's first 0.3 belt gear
-        const linkArm = new Arm(standalone, aGears[1], 0.5, 0, 0, undefined, col[0], random(['truss', 'plank']));
-        linkArm.layer = (bo + 1) * LAYER_BAND;
+        const linkArm = new Arm(standalone, aGears[1], 0.5, 0, 0, undefined, col[0], 'truss');
+        linkArm.layer = bo * LAYER_BAND;
         this.arms.push(linkArm);
 
         const p6 = new PistonEngine(aGears[3], { c: col[0], pinR: 0.9, cylinderWidth: 10, cylinderLength: 5, marginX: width * 0.05 });
@@ -4438,7 +4407,7 @@ class GearLayout2 {
 
         const layer = 0;
         const clusterR = width * 0.3;
-        const sizes = [GearLayout2.g0Cfg.r, 0.25, 0.25, 0.15, 0.15, 0.25]; // 10 sizes
+        const sizes = [GearLayout2.g0Cfg.r, 0.35, 0.25, 0.15, 0.15, 0.25]; // 10 sizes
         const cwDirs = [true, false, true, true, true, true, true, true, true, true]; // 10 dirs
         const entryIdx = 0;
 
@@ -4488,7 +4457,7 @@ class GearLayout2 {
         const bClustR = width * 0.12;
         const bCx = x + clusterR + bClustR + width * 0.05;
         const bCy = y;
-        const bSizes = [0.25, 0.3, 0.35, 0.3];
+        const bSizes = [0.35, 0.3, 0.35, 0.3];
         const bGears = this._makeBeltCluster(bCx, bCy, bSizes, col, layer, gears[1].speed, bClustR);
 
         const bGroupSet = {};
@@ -4505,7 +4474,7 @@ class GearLayout2 {
         this.belts.push(...beltB);
 
         // Arm: gears[1] (Group A, r=0.25) → bGears[0] (Group B, r=0.25, same speed)
-        const linkArm = new Arm(gears[1], bGears[0], 0.5, 0, 0, undefined, col[0], random(['truss', 'plank']));
+        const linkArm = new Arm(gears[1], bGears[0], 0.5, 0, 0, undefined, col[0], 'truss');
         linkArm.layer = bo * LAYER_BAND;
         this.arms.push(linkArm);
 
@@ -4579,11 +4548,14 @@ class GearLayout2 {
 
     _buildAnchorSet(x, y, col) {
         const anchors = [
-            { ax: x + width * 0.25, ay: y - height * 0.25, r: 0.65, plateAngle: 310 },
-            { ax: x - width * 0.15, ay: y + height * 0.32, r: 0.45, plateAngle: 180 },
-            { ax: x + width * 0.35, ay: y + height * 0.3, r: 0.55, plateAngle: 0 },
+            { ax: x + width * 0.25, ay: y - height * 0.25, r: 0.65, plateAngle: 310, plateSize: 67 },
+            { ax: x - width * 0.0, ay: y + height * 0.172, r: 0.55, plateAngle: 210, plateSize: 67 },
+            { ax: x + width * 0.4, ay: y + height * 0.4, r: 0.55, plateAngle: 0, plateSize: 67 },
+            { ax: x - width * 0.25, ay: y + height * 0.35, r: 0.65, plateAngle: 130, plateSize: 67 },
+            { ax: x + width * 0.05, ay: y - height * 0.12, r: 0.55, plateAngle: 135, plateSize: 67 },
+            { ax: x - width * 0.45, ay: y - height * 0.2, r: 0.55, plateAngle: 230, plateSize: 50 },
         ];
-        for (const { ax, ay, r, plateAngle } of anchors) {
+        for (const { ax, ay, r, plateAngle, plateSize } of anchors) {
             const anchor = new Gear(ax, ay, {
                 c: col[0],
                 r,
@@ -4591,7 +4563,7 @@ class GearLayout2 {
                 noTeeth: true,
                 style: floor(random(24)),
                 layer: CONNECTOR_LAYER + 1,
-                plate: { enabled: true, angle: plateAngle, size: 67, color: col[0] }
+                plate: { enabled: true, angle: plateAngle, size: plateSize !== undefined ? plateSize : 67, color: col[0] }
             });
             this.gears.push(anchor);
             this.beltGears.push(anchor);
@@ -4783,15 +4755,9 @@ class GearLayout2 {
     }
 }
 
-// Max internal layers a single set can span (gears go up to layer 5, so 6 is safe)
 const LAYER_BAND = 6;
-
-// g0 is the connector gear — always sits above every global band
-const CONNECTOR_LAYER = LAYER_BAND * 4; // 24 — above all regular bands (3×6=18..23)
-const OVERLAY_BAND = 5;              // set8 band — global 30-35, above everything
-
-// Maps a set to a global layer band — internal gear layers are preserved as offsets
-// g0 is always promoted to CONNECTOR_LAYER regardless of band
+const CONNECTOR_LAYER = LAYER_BAND * 4;
+const OVERLAY_BAND = 5;
 function applyLayer(set, band) {
     for (const [key, g] of Object.entries(set)) {
         if (!g) continue;
@@ -4800,7 +4766,6 @@ function applyLayer(set, band) {
             : band * LAYER_BAND + (g.layer || 0);
     }
 }
-
 // Same band offset logic for belt arrays — call before pushing to global belts
 function applyBeltLayer(beltArr, band) {
     for (const b of beltArr) {
@@ -4822,7 +4787,6 @@ function applyPistonLayer(pistonArr, band) {
     }
 }
 
-// --- MOVED FROM motor.js ---
 
 function getOptPositions() {
     const base = [

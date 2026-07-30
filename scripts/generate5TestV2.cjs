@@ -27,9 +27,9 @@ async function main() {
     const page = await browser.newPage();
     
     await page.setViewport({
-        width: 300,
-        height: 400,
-        deviceScaleFactor: 2
+        width: 675,
+        height: 900,
+        deviceScaleFactor: 1
     });
 
     for (let i = 0; i < testSeeds.length; i++) {
