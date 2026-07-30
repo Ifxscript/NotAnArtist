@@ -4,3191 +4,3647 @@
     "position": "center",
     "artMode": "paper",
     "optIndex": 46,
-    "soptIndex": 0
+    "soptIndex": 0,
+    "gearLayoutMode": "Layout 1"
   },
   "1040195": {
     "palette": 8,
     "position": "top-left",
     "artMode": "circle",
     "optIndex": 33,
-    "soptIndex": 7
+    "soptIndex": 7,
+    "gearLayoutMode": "Layout 1"
   },
   "1058363": {
     "palette": 1,
     "position": "top-right",
     "artMode": "l",
     "optIndex": 59,
-    "soptIndex": 0
+    "soptIndex": 0,
+    "gearLayoutMode": "Layout 2"
   },
   "1061065": {
     "palette": 5,
     "position": "top-left",
     "artMode": "circle",
     "optIndex": 25,
-    "soptIndex": 9
+    "soptIndex": 9,
+    "gearLayoutMode": "Layout 1"
   },
   "1089909": {
     "palette": 5,
     "position": "top-left",
     "artMode": "circle",
     "optIndex": 53,
-    "soptIndex": 19
+    "soptIndex": 19,
+    "gearLayoutMode": "Layout 2"
   },
   "1100792": {
     "palette": 9,
     "position": "right",
     "artMode": "straight",
     "optIndex": 4,
-    "soptIndex": 9
+    "soptIndex": 9,
+    "gearLayoutMode": "Layout 2"
   },
   "1113496": {
     "palette": 8,
     "position": "top-right",
     "artMode": "circle",
     "optIndex": 58,
-    "soptIndex": 5
+    "soptIndex": 5,
+    "gearLayoutMode": "Layout 1"
   },
   "1136195": {
     "palette": 11,
     "position": "right",
     "artMode": "straight",
     "optIndex": 7,
-    "soptIndex": 1
+    "soptIndex": 1,
+    "gearLayoutMode": "Layout 2"
   },
   "1139415": {
     "palette": 7,
     "position": "right",
     "artMode": "straight",
     "optIndex": 12,
-    "soptIndex": 1
+    "soptIndex": 1,
+    "gearLayoutMode": "Layout 2"
   },
   "1144083": {
     "palette": 10,
     "position": "bottom",
     "artMode": "straight",
     "optIndex": 64,
-    "soptIndex": 13
+    "soptIndex": 13,
+    "gearLayoutMode": "Layout 1"
   },
   "1241978": {
     "palette": 0,
     "position": "right",
     "artMode": "straight",
     "optIndex": 38,
-    "soptIndex": 9
+    "soptIndex": 9,
+    "gearLayoutMode": "Layout 1"
   },
   "1242461": {
     "palette": 2,
     "position": "top-right",
     "artMode": "circle",
     "optIndex": 16,
-    "soptIndex": 19
+    "soptIndex": 19,
+    "gearLayoutMode": "Layout 2"
   },
   "1257115": {
     "palette": 2,
     "position": "top-right",
     "artMode": "l",
     "optIndex": 70,
-    "soptIndex": 5
+    "soptIndex": 5,
+    "gearLayoutMode": "Layout 1"
   },
   "1296560": {
     "palette": 7,
     "position": "top-left",
     "artMode": "circle",
     "optIndex": 15,
-    "soptIndex": 18
+    "soptIndex": 18,
+    "gearLayoutMode": "Layout 2"
   },
   "1304245": {
     "palette": 9,
     "position": "right",
     "artMode": "straight",
     "optIndex": 51,
-    "soptIndex": 11
+    "soptIndex": 11,
+    "gearLayoutMode": "Layout 1"
   },
   "1357237": {
     "palette": 5,
     "position": "bottom-left",
     "artMode": "l",
     "optIndex": 38,
-    "soptIndex": 6
+    "soptIndex": 6,
+    "gearLayoutMode": "Layout 2"
   },
   "1365290": {
     "palette": 9,
     "position": "left",
     "artMode": "straight",
     "optIndex": 14,
-    "soptIndex": 2
+    "soptIndex": 2,
+    "gearLayoutMode": "Layout 1"
   },
   "1367616": {
     "palette": 11,
     "position": "bottom-right",
     "artMode": "circle",
     "optIndex": 35,
-    "soptIndex": 1
+    "soptIndex": 1,
+    "gearLayoutMode": "Layout 1"
   },
   "1368750": {
     "palette": 10,
     "position": "top-right",
     "artMode": "circle",
     "optIndex": 26,
-    "soptIndex": 0
+    "soptIndex": 0,
+    "gearLayoutMode": "Layout 1"
   },
   "1387221": {
     "palette": 10,
     "position": "top",
     "artMode": "straight",
     "optIndex": 62,
-    "soptIndex": 5
+    "soptIndex": 5,
+    "gearLayoutMode": "Layout 1"
   },
   "1408818": {
     "palette": 1,
     "position": "bottom-right",
     "artMode": "circle",
     "optIndex": 41,
-    "soptIndex": 8
+    "soptIndex": 8,
+    "gearLayoutMode": "Layout 1"
   },
   "1425984": {
     "palette": 4,
     "position": "top-left",
     "artMode": "circle",
     "optIndex": 11,
-    "soptIndex": 2
+    "soptIndex": 2,
+    "gearLayoutMode": "Layout 1"
   },
   "1435292": {
     "palette": 0,
     "position": "top-right",
     "artMode": "l",
     "optIndex": 20,
-    "soptIndex": 13
+    "soptIndex": 13,
+    "gearLayoutMode": "Layout 2"
   },
   "1447245": {
     "palette": 5,
     "position": "right",
     "artMode": "paper",
     "optIndex": 71,
-    "soptIndex": 8
+    "soptIndex": 8,
+    "gearLayoutMode": "Layout 1"
   },
   "1458318": {
     "palette": 10,
     "position": "bottom-left",
     "artMode": "l",
     "optIndex": 71,
-    "soptIndex": 19
+    "soptIndex": 19,
+    "gearLayoutMode": "Layout 2"
   },
   "1514763": {
     "palette": 4,
     "position": "bottom",
     "artMode": "straight",
     "optIndex": 28,
-    "soptIndex": 4
+    "soptIndex": 4,
+    "gearLayoutMode": "Layout 2"
   },
   "1547034": {
     "palette": 9,
     "position": "left",
     "artMode": "straight",
     "optIndex": 8,
-    "soptIndex": 8
+    "soptIndex": 8,
+    "gearLayoutMode": "Layout 2"
   },
   "1562412": {
     "palette": 0,
     "position": "top-right",
     "artMode": "l",
     "optIndex": 10,
-    "soptIndex": 0
+    "soptIndex": 0,
+    "gearLayoutMode": "Layout 2"
   },
   "1562896": {
     "palette": 11,
     "position": "top-left",
     "artMode": "paper",
     "optIndex": 26,
-    "soptIndex": 8
+    "soptIndex": 8,
+    "gearLayoutMode": "Layout 2"
   },
   "1590500": {
     "palette": 9,
     "position": "right",
     "artMode": "straight",
     "optIndex": 70,
-    "soptIndex": 18
+    "soptIndex": 18,
+    "gearLayoutMode": "Layout 2"
   },
   "1612952": {
     "palette": 4,
     "position": "top-left",
     "artMode": "circle",
     "optIndex": 45,
-    "soptIndex": 7
+    "soptIndex": 7,
+    "gearLayoutMode": "Layout 1"
   },
   "1615892": {
     "palette": 7,
     "position": "top-right",
     "artMode": "circle",
     "optIndex": 16,
-    "soptIndex": 17
+    "soptIndex": 17,
+    "gearLayoutMode": "Layout 2"
   },
   "1633772": {
     "palette": 8,
     "position": "bottom",
     "artMode": "straight",
     "optIndex": 3,
-    "soptIndex": 13
+    "soptIndex": 13,
+    "gearLayoutMode": "Layout 2"
   },
   "1707159": {
     "palette": 11,
     "position": "left",
     "artMode": "straight",
     "optIndex": 9,
-    "soptIndex": 8
+    "soptIndex": 8,
+    "gearLayoutMode": "Layout 1"
   },
   "1722572": {
     "palette": 5,
     "position": "top-left",
     "artMode": "paper",
     "optIndex": 72,
-    "soptIndex": 1
+    "soptIndex": 1,
+    "gearLayoutMode": "Layout 2"
   },
   "1727399": {
     "palette": 7,
     "position": "top-right",
     "artMode": "circle",
     "optIndex": 39,
-    "soptIndex": 7
+    "soptIndex": 7,
+    "gearLayoutMode": "Layout 2"
   },
   "1729662": {
     "palette": 8,
     "position": "bottom-left",
     "artMode": "circle",
     "optIndex": 56,
-    "soptIndex": 12
+    "soptIndex": 12,
+    "gearLayoutMode": "Layout 1"
   },
   "1752564": {
     "palette": 9,
     "position": "right",
     "artMode": "paper",
     "optIndex": 25,
-    "soptIndex": 6
+    "soptIndex": 6,
+    "gearLayoutMode": "Layout 1"
   },
   "1827564": {
     "palette": 1,
     "position": "left",
     "artMode": "straight",
     "optIndex": 73,
-    "soptIndex": 16
+    "soptIndex": 16,
+    "gearLayoutMode": "Layout 2"
   },
   "1834769": {
     "palette": 4,
     "position": "bottom",
     "artMode": "straight",
     "optIndex": 20,
-    "soptIndex": 13
+    "soptIndex": 13,
+    "gearLayoutMode": "Layout 1"
   },
   "1840651": {
     "palette": 4,
     "position": "bottom-right",
     "artMode": "circle",
     "optIndex": 40,
-    "soptIndex": 10
+    "soptIndex": 10,
+    "gearLayoutMode": "Layout 1"
   },
   "1849926": {
     "palette": 4,
     "position": "top-left",
     "artMode": "circle",
     "optIndex": 65,
-    "soptIndex": 16
+    "soptIndex": 16,
+    "gearLayoutMode": "Layout 2"
   },
   "1873920": {
     "palette": 11,
     "position": "right",
     "artMode": "straight",
     "optIndex": 73,
-    "soptIndex": 19
+    "soptIndex": 19,
+    "gearLayoutMode": "Layout 2"
   },
   "1900306": {
     "palette": 0,
     "position": "top",
     "artMode": "straight",
     "optIndex": 70,
-    "soptIndex": 12
+    "soptIndex": 12,
+    "gearLayoutMode": "Layout 1"
   },
   "1910151": {
     "palette": 3,
     "position": "bottom-right",
     "artMode": "l",
     "optIndex": 17,
-    "soptIndex": 2
+    "soptIndex": 2,
+    "gearLayoutMode": "Layout 1"
   },
   "1910942": {
     "palette": 8,
     "position": "left",
     "artMode": "straight",
     "optIndex": 47,
-    "soptIndex": 16
+    "soptIndex": 16,
+    "gearLayoutMode": "Layout 2"
   },
   "1921526": {
     "palette": 5,
     "position": "top",
     "artMode": "straight",
     "optIndex": 65,
-    "soptIndex": 7
+    "soptIndex": 7,
+    "gearLayoutMode": "Layout 2"
   },
   "1924973": {
     "palette": 10,
     "position": "top",
     "artMode": "straight",
     "optIndex": 30,
-    "soptIndex": 7
+    "soptIndex": 7,
+    "gearLayoutMode": "Layout 2"
   },
   "1925442": {
     "palette": 6,
     "position": "left",
     "artMode": "straight",
     "optIndex": 75,
-    "soptIndex": 0
+    "soptIndex": 0,
+    "gearLayoutMode": "Layout 2"
   },
   "1996641": {
     "palette": 9,
     "position": "top-right",
     "artMode": "paper",
     "optIndex": 0,
-    "soptIndex": 4
+    "soptIndex": 4,
+    "gearLayoutMode": "Layout 2"
   },
   "2057215": {
     "palette": 7,
     "position": "top",
     "artMode": "straight",
     "optIndex": 69,
-    "soptIndex": 5
+    "soptIndex": 5,
+    "gearLayoutMode": "Layout 2"
   },
   "2061712": {
     "palette": 1,
     "position": "top-right",
     "artMode": "l",
     "optIndex": 45,
-    "soptIndex": 3
+    "soptIndex": 3,
+    "gearLayoutMode": "Layout 1"
   },
   "2083211": {
     "palette": 1,
     "position": "bottom-left",
     "artMode": "l",
     "optIndex": 35,
-    "soptIndex": 11
+    "soptIndex": 11,
+    "gearLayoutMode": "Layout 2"
   },
   "2124138": {
     "palette": 8,
     "position": "top-left",
     "artMode": "circle",
     "optIndex": 49,
-    "soptIndex": 19
+    "soptIndex": 19,
+    "gearLayoutMode": "Layout 1"
   },
   "2129661": {
     "palette": 3,
     "position": "left",
     "artMode": "straight",
     "optIndex": 21,
-    "soptIndex": 17
+    "soptIndex": 17,
+    "gearLayoutMode": "Layout 2"
   },
   "2133915": {
     "palette": 0,
     "position": "bottom-right",
     "artMode": "l",
     "optIndex": 27,
-    "soptIndex": 3
+    "soptIndex": 3,
+    "gearLayoutMode": "Layout 2"
   },
   "2173089": {
     "palette": 10,
     "position": "right",
     "artMode": "straight",
     "optIndex": 58,
-    "soptIndex": 11
+    "soptIndex": 11,
+    "gearLayoutMode": "Layout 1"
   },
   "2177581": {
     "palette": 7,
     "position": "right",
     "artMode": "straight",
     "optIndex": 69,
-    "soptIndex": 18
+    "soptIndex": 18,
+    "gearLayoutMode": "Layout 2"
   },
   "2203117": {
     "palette": 1,
     "position": "left",
     "artMode": "straight",
     "optIndex": 35,
-    "soptIndex": 16
+    "soptIndex": 16,
+    "gearLayoutMode": "Layout 1"
   },
   "2251947": {
     "palette": 10,
     "position": "top-left",
     "artMode": "paper",
     "optIndex": 2,
-    "soptIndex": 11
+    "soptIndex": 11,
+    "gearLayoutMode": "Layout 2"
   },
   "2258084": {
     "palette": 6,
     "position": "top-right",
     "artMode": "circle",
     "optIndex": 0,
-    "soptIndex": 19
+    "soptIndex": 19,
+    "gearLayoutMode": "Layout 2"
   },
   "2271567": {
     "palette": 11,
     "position": "left",
     "artMode": "paper",
     "optIndex": 1,
-    "soptIndex": 9
+    "soptIndex": 9,
+    "gearLayoutMode": "Layout 2"
   },
   "2294129": {
     "palette": 9,
     "position": "bottom-left",
     "artMode": "l",
     "optIndex": 49,
-    "soptIndex": 14
+    "soptIndex": 14,
+    "gearLayoutMode": "Layout 1"
   },
   "2324542": {
     "palette": 11,
     "position": "top-left",
     "artMode": "circle",
     "optIndex": 15,
-    "soptIndex": 13
+    "soptIndex": 13,
+    "gearLayoutMode": "Layout 2"
   },
   "2363664": {
     "palette": 10,
     "position": "bottom-right",
     "artMode": "paper",
     "optIndex": 11,
-    "soptIndex": 8
+    "soptIndex": 8,
+    "gearLayoutMode": "Layout 2"
   },
   "2385073": {
     "palette": 7,
     "position": "bottom",
     "artMode": "straight",
     "optIndex": 18,
-    "soptIndex": 6
+    "soptIndex": 6,
+    "gearLayoutMode": "Layout 2"
   },
   "2409420": {
     "palette": 1,
     "position": "top-right",
     "artMode": "circle",
     "optIndex": 70,
-    "soptIndex": 18
+    "soptIndex": 18,
+    "gearLayoutMode": "Layout 2"
   },
   "2409867": {
     "palette": 4,
     "position": "top-left",
     "artMode": "l",
     "optIndex": 24,
-    "soptIndex": 8
+    "soptIndex": 8,
+    "gearLayoutMode": "Layout 2"
   },
   "2484859": {
     "palette": 8,
     "position": "bottom-left",
     "artMode": "l",
     "optIndex": 67,
-    "soptIndex": 11
+    "soptIndex": 11,
+    "gearLayoutMode": "Layout 2"
   },
   "2523662": {
     "palette": 1,
     "position": "bottom-right",
     "artMode": "circle",
     "optIndex": 42,
-    "soptIndex": 1
+    "soptIndex": 1,
+    "gearLayoutMode": "Layout 2"
   },
   "2525827": {
     "palette": 11,
     "position": "top-right",
     "artMode": "paper",
     "optIndex": 70,
-    "soptIndex": 10
+    "soptIndex": 10,
+    "gearLayoutMode": "Layout 2"
   },
   "2531150": {
     "palette": 11,
     "position": "bottom",
     "artMode": "straight",
     "optIndex": 62,
-    "soptIndex": 4
+    "soptIndex": 4,
+    "gearLayoutMode": "Layout 2"
   },
   "2561560": {
     "palette": 10,
     "position": "left",
     "artMode": "straight",
     "optIndex": 64,
-    "soptIndex": 8
+    "soptIndex": 8,
+    "gearLayoutMode": "Layout 2"
   },
   "2563292": {
     "palette": 10,
     "position": "top-right",
     "artMode": "l",
     "optIndex": 71,
-    "soptIndex": 3
+    "soptIndex": 3,
+    "gearLayoutMode": "Layout 1"
   },
   "2574476": {
     "palette": 3,
     "position": "right",
     "artMode": "straight",
     "optIndex": 31,
-    "soptIndex": 9
+    "soptIndex": 9,
+    "gearLayoutMode": "Layout 1"
   },
   "2597073": {
     "palette": 3,
     "position": "left",
     "artMode": "paper",
     "optIndex": 64,
-    "soptIndex": 15
+    "soptIndex": 15,
+    "gearLayoutMode": "Layout 2"
   },
   "2617447": {
     "palette": 2,
     "position": "top-left",
     "artMode": "l",
     "optIndex": 30,
-    "soptIndex": 9
+    "soptIndex": 9,
+    "gearLayoutMode": "Layout 2"
   },
   "2651845": {
     "palette": 11,
     "position": "bottom-left",
     "artMode": "circle",
     "optIndex": 14,
-    "soptIndex": 5
+    "soptIndex": 5,
+    "gearLayoutMode": "Layout 1"
   },
   "2669444": {
     "palette": 10,
     "position": "top-left",
     "artMode": "circle",
     "optIndex": 5,
-    "soptIndex": 13
+    "soptIndex": 13,
+    "gearLayoutMode": "Layout 2"
   },
   "2689781": {
     "palette": 1,
     "position": "right",
     "artMode": "straight",
     "optIndex": 61,
-    "soptIndex": 9
+    "soptIndex": 9,
+    "gearLayoutMode": "Layout 1"
   },
   "2705507": {
     "palette": 7,
     "position": "top-right",
     "artMode": "l",
     "optIndex": 65,
-    "soptIndex": 17
+    "soptIndex": 17,
+    "gearLayoutMode": "Layout 1"
   },
   "2710753": {
     "palette": 1,
     "position": "left",
     "artMode": "straight",
     "optIndex": 44,
-    "soptIndex": 0
+    "soptIndex": 0,
+    "gearLayoutMode": "Layout 2"
   },
   "2730554": {
     "palette": 6,
     "position": "bottom-left",
     "artMode": "l",
     "optIndex": 49,
-    "soptIndex": 15
+    "soptIndex": 15,
+    "gearLayoutMode": "Layout 2"
   },
   "2779140": {
     "palette": 9,
     "position": "bottom-right",
     "artMode": "l",
     "optIndex": 6,
-    "soptIndex": 19
+    "soptIndex": 19,
+    "gearLayoutMode": "Layout 1"
   },
   "2792818": {
     "palette": 11,
     "position": "bottom-right",
     "artMode": "l",
     "optIndex": 21,
-    "soptIndex": 2
+    "soptIndex": 2,
+    "gearLayoutMode": "Layout 1"
   },
   "2803147": {
     "palette": 1,
     "position": "top-left",
     "artMode": "circle",
     "optIndex": 61,
-    "soptIndex": 1
+    "soptIndex": 1,
+    "gearLayoutMode": "Layout 1"
   },
   "2805256": {
     "palette": 0,
     "position": "bottom",
     "artMode": "straight",
     "optIndex": 52,
-    "soptIndex": 4
+    "soptIndex": 4,
+    "gearLayoutMode": "Layout 1"
   },
   "2809413": {
     "palette": 3,
     "position": "bottom-right",
     "artMode": "circle",
     "optIndex": 31,
-    "soptIndex": 13
+    "soptIndex": 13,
+    "gearLayoutMode": "Layout 1"
   },
   "2812654": {
     "palette": 6,
     "position": "right",
     "artMode": "straight",
     "optIndex": 12,
-    "soptIndex": 18
+    "soptIndex": 18,
+    "gearLayoutMode": "Layout 1"
   },
   "2823508": {
     "palette": 2,
     "position": "top-right",
     "artMode": "l",
     "optIndex": 57,
-    "soptIndex": 17
+    "soptIndex": 17,
+    "gearLayoutMode": "Layout 2"
   },
   "2845710": {
     "palette": 10,
     "position": "top",
     "artMode": "straight",
     "optIndex": 19,
-    "soptIndex": 5
+    "soptIndex": 5,
+    "gearLayoutMode": "Layout 1"
   },
   "2870612": {
     "palette": 4,
     "position": "top-left",
     "artMode": "l",
     "optIndex": 20,
-    "soptIndex": 6
+    "soptIndex": 6,
+    "gearLayoutMode": "Layout 2"
   },
   "2883615": {
     "palette": 10,
     "position": "top-right",
     "artMode": "l",
     "optIndex": 7,
-    "soptIndex": 1
+    "soptIndex": 1,
+    "gearLayoutMode": "Layout 2"
   },
   "2889116": {
     "palette": 0,
     "position": "top-right",
     "artMode": "l",
     "optIndex": 40,
-    "soptIndex": 16
+    "soptIndex": 16,
+    "gearLayoutMode": "Layout 1"
   },
   "2894709": {
     "palette": 11,
     "position": "left",
     "artMode": "straight",
     "optIndex": 59,
-    "soptIndex": 17
+    "soptIndex": 17,
+    "gearLayoutMode": "Layout 1"
   },
   "2923309": {
     "palette": 6,
     "position": "left",
     "artMode": "straight",
     "optIndex": 2,
-    "soptIndex": 16
+    "soptIndex": 16,
+    "gearLayoutMode": "Layout 1"
   },
   "2934013": {
     "palette": 0,
     "position": "bottom-left",
     "artMode": "circle",
     "optIndex": 24,
-    "soptIndex": 6
+    "soptIndex": 6,
+    "gearLayoutMode": "Layout 2"
   },
   "2952347": {
     "palette": 6,
     "position": "right",
     "artMode": "straight",
     "optIndex": 8,
-    "soptIndex": 1
+    "soptIndex": 1,
+    "gearLayoutMode": "Layout 2"
   },
   "2957882": {
     "palette": 1,
     "position": "right",
     "artMode": "straight",
     "optIndex": 64,
-    "soptIndex": 19
+    "soptIndex": 19,
+    "gearLayoutMode": "Layout 2"
   },
   "2968291": {
     "palette": 0,
     "position": "bottom",
     "artMode": "straight",
     "optIndex": 4,
-    "soptIndex": 4
+    "soptIndex": 4,
+    "gearLayoutMode": "Layout 2"
   },
   "2998907": {
     "palette": 11,
     "position": "right",
     "artMode": "straight",
     "optIndex": 67,
-    "soptIndex": 3
+    "soptIndex": 3,
+    "gearLayoutMode": "Layout 2"
   },
   "3005804": {
     "palette": 11,
     "position": "left",
     "artMode": "straight",
     "optIndex": 37,
-    "soptIndex": 17
+    "soptIndex": 17,
+    "gearLayoutMode": "Layout 2"
   },
   "3027114": {
     "palette": 7,
     "position": "center",
     "artMode": "paper",
     "optIndex": 15,
-    "soptIndex": 1
+    "soptIndex": 1,
+    "gearLayoutMode": "Layout 1"
   },
   "3043743": {
     "palette": 4,
     "position": "bottom-left",
     "artMode": "circle",
     "optIndex": 48,
-    "soptIndex": 16
+    "soptIndex": 16,
+    "gearLayoutMode": "Layout 1"
   },
   "3105191": {
     "palette": 8,
     "position": "top-right",
     "artMode": "circle",
     "optIndex": 12,
-    "soptIndex": 11
+    "soptIndex": 11,
+    "gearLayoutMode": "Layout 2"
   },
   "3107619": {
     "palette": 1,
     "position": "bottom-right",
     "artMode": "paper",
     "optIndex": 24,
-    "soptIndex": 19
+    "soptIndex": 19,
+    "gearLayoutMode": "Layout 1"
   },
   "3125645": {
     "palette": 4,
     "position": "bottom-right",
     "artMode": "circle",
     "optIndex": 31,
-    "soptIndex": 11
+    "soptIndex": 11,
+    "gearLayoutMode": "Layout 2"
   },
   "3133092": {
     "palette": 6,
     "position": "bottom-left",
     "artMode": "l",
     "optIndex": 62,
-    "soptIndex": 3
+    "soptIndex": 3,
+    "gearLayoutMode": "Layout 2"
   },
   "3163882": {
     "palette": 6,
     "position": "top-left",
     "artMode": "l",
     "optIndex": 12,
-    "soptIndex": 10
+    "soptIndex": 10,
+    "gearLayoutMode": "Layout 2"
   },
   "3203608": {
     "palette": 1,
     "position": "bottom-left",
     "artMode": "circle",
     "optIndex": 28,
-    "soptIndex": 11
+    "soptIndex": 11,
+    "gearLayoutMode": "Layout 1"
   },
   "3259803": {
     "palette": 8,
     "position": "left",
     "artMode": "straight",
     "optIndex": 47,
-    "soptIndex": 16
+    "soptIndex": 16,
+    "gearLayoutMode": "Layout 1"
   },
   "3266324": {
     "palette": 6,
     "position": "bottom-left",
     "artMode": "l",
     "optIndex": 72,
-    "soptIndex": 0
+    "soptIndex": 0,
+    "gearLayoutMode": "Layout 2"
   },
   "3271761": {
     "palette": 10,
     "position": "right",
     "artMode": "straight",
     "optIndex": 63,
-    "soptIndex": 3
+    "soptIndex": 3,
+    "gearLayoutMode": "Layout 2"
   },
   "3272667": {
     "palette": 3,
     "position": "bottom",
     "artMode": "straight",
     "optIndex": 56,
-    "soptIndex": 4
+    "soptIndex": 4,
+    "gearLayoutMode": "Layout 1"
   },
   "3278736": {
     "palette": 1,
     "position": "left",
     "artMode": "circle",
     "optIndex": 9,
-    "soptIndex": 6
+    "soptIndex": 6,
+    "gearLayoutMode": "Layout 2"
   },
   "3290695": {
     "palette": 0,
     "position": "bottom-left",
     "artMode": "circle",
     "optIndex": 64,
-    "soptIndex": 12
+    "soptIndex": 12,
+    "gearLayoutMode": "Layout 2"
   },
   "3300398": {
     "palette": 0,
     "position": "left",
     "artMode": "straight",
     "optIndex": 69,
-    "soptIndex": 0
+    "soptIndex": 0,
+    "gearLayoutMode": "Layout 2"
   },
   "3333199": {
     "palette": 8,
     "position": "bottom-left",
     "artMode": "l",
     "optIndex": 21,
-    "soptIndex": 15
+    "soptIndex": 15,
+    "gearLayoutMode": "Layout 2"
   },
   "3339538": {
     "palette": 5,
     "position": "bottom-right",
     "artMode": "circle",
     "optIndex": 2,
-    "soptIndex": 5
+    "soptIndex": 5,
+    "gearLayoutMode": "Layout 1"
   },
   "3355460": {
     "palette": 6,
     "position": "top-right",
     "artMode": "paper",
     "optIndex": 59,
-    "soptIndex": 5
+    "soptIndex": 5,
+    "gearLayoutMode": "Layout 1"
   },
   "3384247": {
     "palette": 10,
     "position": "right",
     "artMode": "straight",
     "optIndex": 13,
-    "soptIndex": 11
+    "soptIndex": 11,
+    "gearLayoutMode": "Layout 2"
   },
   "3387430": {
     "palette": 10,
     "position": "bottom",
     "artMode": "straight",
     "optIndex": 31,
-    "soptIndex": 13
+    "soptIndex": 13,
+    "gearLayoutMode": "Layout 2"
   },
   "3393156": {
     "palette": 2,
     "position": "right",
     "artMode": "straight",
     "optIndex": 23,
-    "soptIndex": 11
+    "soptIndex": 11,
+    "gearLayoutMode": "Layout 1"
   },
   "3404105": {
     "palette": 11,
     "position": "left",
     "artMode": "straight",
     "optIndex": 18,
-    "soptIndex": 10
+    "soptIndex": 10,
+    "gearLayoutMode": "Layout 1"
   },
   "3426807": {
     "palette": 5,
     "position": "left",
     "artMode": "straight",
     "optIndex": 6,
-    "soptIndex": 0
+    "soptIndex": 0,
+    "gearLayoutMode": "Layout 1"
   },
   "3470004": {
     "palette": 3,
     "position": "bottom-left",
     "artMode": "circle",
     "optIndex": 4,
-    "soptIndex": 1
+    "soptIndex": 1,
+    "gearLayoutMode": "Layout 1"
   },
   "3493609": {
     "palette": 0,
     "position": "bottom",
     "artMode": "circle",
     "optIndex": 20,
-    "soptIndex": 17
+    "soptIndex": 17,
+    "gearLayoutMode": "Layout 1"
   },
   "3528425": {
     "palette": 4,
     "position": "bottom",
     "artMode": "straight",
     "optIndex": 53,
-    "soptIndex": 13
+    "soptIndex": 13,
+    "gearLayoutMode": "Layout 1"
   },
   "3535716": {
     "palette": 10,
     "position": "bottom-left",
     "artMode": "circle",
     "optIndex": 56,
-    "soptIndex": 6
+    "soptIndex": 6,
+    "gearLayoutMode": "Layout 2"
   },
   "3544399": {
     "palette": 3,
     "position": "top-left",
     "artMode": "l",
     "optIndex": 69,
-    "soptIndex": 5
+    "soptIndex": 5,
+    "gearLayoutMode": "Layout 2"
   },
   "3567697": {
     "palette": 5,
     "position": "left",
     "artMode": "straight",
     "optIndex": 73,
-    "soptIndex": 16
+    "soptIndex": 16,
+    "gearLayoutMode": "Layout 1"
   },
   "3584253": {
     "palette": 6,
     "position": "top-right",
     "artMode": "paper",
     "optIndex": 19,
-    "soptIndex": 12
+    "soptIndex": 12,
+    "gearLayoutMode": "Layout 1"
   },
   "3609537": {
     "palette": 7,
     "position": "top-left",
     "artMode": "circle",
     "optIndex": 45,
-    "soptIndex": 13
+    "soptIndex": 13,
+    "gearLayoutMode": "Layout 2"
   },
   "3656002": {
     "palette": 0,
     "position": "top",
     "artMode": "straight",
     "optIndex": 4,
-    "soptIndex": 14
+    "soptIndex": 14,
+    "gearLayoutMode": "Layout 1"
   },
   "3656641": {
     "palette": 10,
     "position": "left",
     "artMode": "circle",
     "optIndex": 9,
-    "soptIndex": 2
+    "soptIndex": 2,
+    "gearLayoutMode": "Layout 1"
   },
   "3663504": {
     "palette": 4,
     "position": "bottom",
     "artMode": "straight",
     "optIndex": 32,
-    "soptIndex": 13
+    "soptIndex": 13,
+    "gearLayoutMode": "Layout 2"
   },
   "3668792": {
     "palette": 3,
     "position": "top-right",
     "artMode": "circle",
     "optIndex": 39,
-    "soptIndex": 5
+    "soptIndex": 5,
+    "gearLayoutMode": "Layout 2"
   },
   "3678479": {
     "palette": 4,
     "position": "bottom-left",
     "artMode": "paper",
     "optIndex": 33,
-    "soptIndex": 1
+    "soptIndex": 1,
+    "gearLayoutMode": "Layout 2"
   },
   "3678624": {
     "palette": 9,
     "position": "top-right",
     "artMode": "l",
     "optIndex": 15,
-    "soptIndex": 18
+    "soptIndex": 18,
+    "gearLayoutMode": "Layout 2"
   },
   "3739957": {
     "palette": 1,
     "position": "bottom",
     "artMode": "straight",
     "optIndex": 17,
-    "soptIndex": 6
+    "soptIndex": 6,
+    "gearLayoutMode": "Layout 1"
   },
   "3764461": {
     "palette": 0,
     "position": "bottom-right",
     "artMode": "circle",
     "optIndex": 59,
-    "soptIndex": 14
+    "soptIndex": 14,
+    "gearLayoutMode": "Layout 1"
   },
   "3766310": {
     "palette": 6,
     "position": "top",
     "artMode": "straight",
     "optIndex": 30,
-    "soptIndex": 14
+    "soptIndex": 14,
+    "gearLayoutMode": "Layout 1"
   },
   "3768869": {
     "palette": 11,
     "position": "left",
     "artMode": "straight",
     "optIndex": 15,
-    "soptIndex": 2
+    "soptIndex": 2,
+    "gearLayoutMode": "Layout 2"
   },
   "3780968": {
     "palette": 5,
     "position": "bottom",
     "artMode": "straight",
     "optIndex": 11,
-    "soptIndex": 13
+    "soptIndex": 13,
+    "gearLayoutMode": "Layout 2"
   },
   "3848214": {
     "palette": 0,
     "position": "left",
     "artMode": "paper",
     "optIndex": 15,
-    "soptIndex": 5
+    "soptIndex": 5,
+    "gearLayoutMode": "Layout 2"
   },
   "3878530": {
     "palette": 7,
     "position": "top",
     "artMode": "straight",
     "optIndex": 31,
-    "soptIndex": 7
+    "soptIndex": 7,
+    "gearLayoutMode": "Layout 1"
   },
   "3878860": {
     "palette": 4,
     "position": "bottom",
     "artMode": "circle",
     "optIndex": 22,
-    "soptIndex": 14
+    "soptIndex": 14,
+    "gearLayoutMode": "Layout 2"
   },
   "3898323": {
     "palette": 1,
     "position": "left",
     "artMode": "straight",
     "optIndex": 31,
-    "soptIndex": 16
+    "soptIndex": 16,
+    "gearLayoutMode": "Layout 1"
   },
   "3899804": {
     "palette": 5,
     "position": "top",
     "artMode": "straight",
     "optIndex": 62,
-    "soptIndex": 12
+    "soptIndex": 12,
+    "gearLayoutMode": "Layout 1"
   },
   "3909475": {
     "palette": 6,
     "position": "top-left",
     "artMode": "circle",
     "optIndex": 45,
-    "soptIndex": 14
+    "soptIndex": 14,
+    "gearLayoutMode": "Layout 1"
   },
   "3990673": {
     "palette": 2,
     "position": "left",
     "artMode": "paper",
     "optIndex": 19,
-    "soptIndex": 10
+    "soptIndex": 10,
+    "gearLayoutMode": "Layout 2"
   },
   "4016622": {
     "palette": 6,
     "position": "bottom",
     "artMode": "straight",
     "optIndex": 68,
-    "soptIndex": 15
+    "soptIndex": 15,
+    "gearLayoutMode": "Layout 2"
   },
   "4036839": {
     "palette": 0,
     "position": "bottom-left",
     "artMode": "l",
     "optIndex": 45,
-    "soptIndex": 12
+    "soptIndex": 12,
+    "gearLayoutMode": "Layout 2"
   },
   "4039979": {
     "palette": 9,
     "position": "top",
     "artMode": "straight",
     "optIndex": 73,
-    "soptIndex": 7
+    "soptIndex": 7,
+    "gearLayoutMode": "Layout 1"
   },
   "4050811": {
     "palette": 0,
     "position": "top-left",
     "artMode": "paper",
     "optIndex": 27,
-    "soptIndex": 2
+    "soptIndex": 2,
+    "gearLayoutMode": "Layout 1"
   },
   "4051846": {
     "palette": 10,
     "position": "bottom-right",
     "artMode": "circle",
     "optIndex": 67,
-    "soptIndex": 7
+    "soptIndex": 7,
+    "gearLayoutMode": "Layout 2"
   },
   "4057526": {
     "palette": 10,
     "position": "left",
     "artMode": "straight",
     "optIndex": 29,
-    "soptIndex": 2
+    "soptIndex": 2,
+    "gearLayoutMode": "Layout 1"
   },
   "4068961": {
     "palette": 11,
     "position": "bottom",
     "artMode": "straight",
     "optIndex": 41,
-    "soptIndex": 6
+    "soptIndex": 6,
+    "gearLayoutMode": "Layout 2"
   },
   "4083203": {
     "palette": 10,
     "position": "right",
     "artMode": "straight",
     "optIndex": 50,
-    "soptIndex": 3
+    "soptIndex": 3,
+    "gearLayoutMode": "Layout 2"
   },
   "4104623": {
     "palette": 10,
     "position": "bottom-right",
     "artMode": "l",
     "optIndex": 26,
-    "soptIndex": 3
+    "soptIndex": 3,
+    "gearLayoutMode": "Layout 1"
   },
   "4167672": {
     "palette": 3,
     "position": "bottom-left",
     "artMode": "circle",
     "optIndex": 24,
-    "soptIndex": 13
+    "soptIndex": 13,
+    "gearLayoutMode": "Layout 2"
   },
   "4169801": {
     "palette": 1,
     "position": "right",
     "artMode": "straight",
     "optIndex": 28,
-    "soptIndex": 3
+    "soptIndex": 3,
+    "gearLayoutMode": "Layout 1"
   },
   "4190722": {
     "palette": 0,
     "position": "top-left",
     "artMode": "circle",
     "optIndex": 15,
-    "soptIndex": 0
+    "soptIndex": 0,
+    "gearLayoutMode": "Layout 2"
   },
   "4199763": {
     "palette": 0,
     "position": "bottom-right",
     "artMode": "paper",
     "optIndex": 38,
-    "soptIndex": 19
+    "soptIndex": 19,
+    "gearLayoutMode": "Layout 1"
   },
   "4223939": {
     "palette": 8,
     "position": "bottom-left",
     "artMode": "paper",
     "optIndex": 15,
-    "soptIndex": 17
+    "soptIndex": 17,
+    "gearLayoutMode": "Layout 2"
   },
   "4250599": {
     "palette": 8,
     "position": "bottom-right",
     "artMode": "circle",
     "optIndex": 41,
-    "soptIndex": 10
+    "soptIndex": 10,
+    "gearLayoutMode": "Layout 2"
   },
   "4251197": {
     "palette": 9,
     "position": "top",
     "artMode": "straight",
     "optIndex": 57,
-    "soptIndex": 7
+    "soptIndex": 7,
+    "gearLayoutMode": "Layout 1"
   },
   "4257548": {
     "palette": 6,
     "position": "left",
     "artMode": "straight",
     "optIndex": 46,
-    "soptIndex": 17
+    "soptIndex": 17,
+    "gearLayoutMode": "Layout 2"
   },
   "4269836": {
     "palette": 4,
     "position": "top-left",
     "artMode": "circle",
     "optIndex": 53,
-    "soptIndex": 10
+    "soptIndex": 10,
+    "gearLayoutMode": "Layout 1"
   },
   "4286150": {
     "palette": 6,
     "position": "bottom",
     "artMode": "straight",
     "optIndex": 66,
-    "soptIndex": 13
+    "soptIndex": 13,
+    "gearLayoutMode": "Layout 2"
   },
   "4289349": {
     "palette": 5,
     "position": "bottom",
     "artMode": "circle",
     "optIndex": 19,
-    "soptIndex": 8
+    "soptIndex": 8,
+    "gearLayoutMode": "Layout 1"
   },
   "4316610": {
     "palette": 9,
     "position": "bottom",
     "artMode": "straight",
     "optIndex": 25,
-    "soptIndex": 13
+    "soptIndex": 13,
+    "gearLayoutMode": "Layout 1"
   },
   "4331625": {
     "palette": 8,
     "position": "top-right",
     "artMode": "l",
     "optIndex": 53,
-    "soptIndex": 14
+    "soptIndex": 14,
+    "gearLayoutMode": "Layout 2"
   },
   "4347200": {
     "palette": 3,
     "position": "bottom-right",
     "artMode": "paper",
     "optIndex": 71,
-    "soptIndex": 15
+    "soptIndex": 15,
+    "gearLayoutMode": "Layout 2"
   },
   "4356310": {
     "palette": 11,
     "position": "top-left",
     "artMode": "circle",
     "optIndex": 25,
-    "soptIndex": 18
+    "soptIndex": 18,
+    "gearLayoutMode": "Layout 1"
   },
   "4380617": {
     "palette": 6,
     "position": "left",
     "artMode": "straight",
     "optIndex": 50,
-    "soptIndex": 17
+    "soptIndex": 17,
+    "gearLayoutMode": "Layout 2"
   },
   "4398442": {
     "palette": 6,
     "position": "bottom",
     "artMode": "straight",
     "optIndex": 39,
-    "soptIndex": 6
+    "soptIndex": 6,
+    "gearLayoutMode": "Layout 1"
   },
   "4421552": {
     "palette": 1,
     "position": "top-right",
     "artMode": "circle",
     "optIndex": 70,
-    "soptIndex": 12
+    "soptIndex": 12,
+    "gearLayoutMode": "Layout 1"
   },
   "4483405": {
     "palette": 3,
     "position": "left",
     "artMode": "straight",
     "optIndex": 36,
-    "soptIndex": 8
+    "soptIndex": 8,
+    "gearLayoutMode": "Layout 1"
   },
   "4490453": {
     "palette": 1,
     "position": "right",
     "artMode": "straight",
     "optIndex": 68,
-    "soptIndex": 9
+    "soptIndex": 9,
+    "gearLayoutMode": "Layout 1"
   },
   "4492993": {
     "palette": 3,
     "position": "right",
     "artMode": "straight",
     "optIndex": 3,
-    "soptIndex": 9
+    "soptIndex": 9,
+    "gearLayoutMode": "Layout 1"
   },
   "4496870": {
     "palette": 2,
     "position": "bottom-right",
     "artMode": "l",
     "optIndex": 25,
-    "soptIndex": 8
+    "soptIndex": 8,
+    "gearLayoutMode": "Layout 2"
   },
   "4506418": {
     "palette": 3,
     "position": "top-right",
     "artMode": "paper",
     "optIndex": 41,
-    "soptIndex": 16
+    "soptIndex": 16,
+    "gearLayoutMode": "Layout 2"
   },
   "4508981": {
     "palette": 8,
     "position": "top-left",
     "artMode": "paper",
     "optIndex": 28,
-    "soptIndex": 18
+    "soptIndex": 18,
+    "gearLayoutMode": "Layout 2"
   },
   "4526450": {
     "palette": 5,
     "position": "bottom",
     "artMode": "straight",
     "optIndex": 9,
-    "soptIndex": 4
+    "soptIndex": 4,
+    "gearLayoutMode": "Layout 1"
   },
   "4547028": {
     "palette": 10,
     "position": "left",
     "artMode": "straight",
     "optIndex": 35,
-    "soptIndex": 16
+    "soptIndex": 16,
+    "gearLayoutMode": "Layout 2"
   },
   "4569429": {
     "palette": 4,
     "position": "right",
     "artMode": "straight",
     "optIndex": 14,
-    "soptIndex": 11
+    "soptIndex": 11,
+    "gearLayoutMode": "Layout 1"
   },
   "4595030": {
     "palette": 5,
     "position": "top-left",
     "artMode": "circle",
     "optIndex": 61,
-    "soptIndex": 19
+    "soptIndex": 19,
+    "gearLayoutMode": "Layout 1"
   },
   "4638546": {
     "palette": 10,
     "position": "bottom-left",
     "artMode": "circle",
     "optIndex": 4,
-    "soptIndex": 5
+    "soptIndex": 5,
+    "gearLayoutMode": "Layout 2"
   },
   "4667046": {
     "palette": 7,
     "position": "bottom",
     "artMode": "straight",
     "optIndex": 33,
-    "soptIndex": 13
+    "soptIndex": 13,
+    "gearLayoutMode": "Layout 1"
   },
   "4746736": {
     "palette": 8,
     "position": "left",
     "artMode": "straight",
     "optIndex": 71,
-    "soptIndex": 17
+    "soptIndex": 17,
+    "gearLayoutMode": "Layout 2"
   },
   "4771023": {
     "palette": 4,
     "position": "bottom-right",
     "artMode": "paper",
     "optIndex": 8,
-    "soptIndex": 9
+    "soptIndex": 9,
+    "gearLayoutMode": "Layout 2"
   },
   "4852796": {
     "palette": 11,
     "position": "right",
     "artMode": "straight",
     "optIndex": 20,
-    "soptIndex": 1
+    "soptIndex": 1,
+    "gearLayoutMode": "Layout 2"
   },
   "4885265": {
     "palette": 4,
     "position": "center",
     "artMode": "paper",
     "optIndex": 56,
-    "soptIndex": 12
+    "soptIndex": 12,
+    "gearLayoutMode": "Layout 2"
   },
   "4926982": {
     "palette": 7,
     "position": "bottom",
     "artMode": "straight",
     "optIndex": 61,
-    "soptIndex": 15
+    "soptIndex": 15,
+    "gearLayoutMode": "Layout 1"
   },
   "4933343": {
     "palette": 9,
     "position": "right",
     "artMode": "paper",
     "optIndex": 57,
-    "soptIndex": 8
+    "soptIndex": 8,
+    "gearLayoutMode": "Layout 2"
   },
   "4943317": {
     "palette": 5,
     "position": "right",
     "artMode": "paper",
     "optIndex": 51,
-    "soptIndex": 3
+    "soptIndex": 3,
+    "gearLayoutMode": "Layout 1"
   },
   "4944078": {
     "palette": 5,
     "position": "bottom",
     "artMode": "straight",
     "optIndex": 61,
-    "soptIndex": 6
+    "soptIndex": 6,
+    "gearLayoutMode": "Layout 2"
   },
   "4948606": {
     "palette": 1,
     "position": "left",
     "artMode": "paper",
     "optIndex": 20,
-    "soptIndex": 13
+    "soptIndex": 13,
+    "gearLayoutMode": "Layout 1"
   },
   "4952365": {
     "palette": 9,
     "position": "left",
     "artMode": "straight",
     "optIndex": 40,
-    "soptIndex": 10
+    "soptIndex": 10,
+    "gearLayoutMode": "Layout 1"
   },
   "4953665": {
     "palette": 9,
     "position": "top-left",
     "artMode": "circle",
     "optIndex": 65,
-    "soptIndex": 10
+    "soptIndex": 10,
+    "gearLayoutMode": "Layout 2"
   },
   "4979971": {
     "palette": 0,
     "position": "left",
     "artMode": "straight",
     "optIndex": 9,
-    "soptIndex": 16
+    "soptIndex": 16,
+    "gearLayoutMode": "Layout 2"
   },
   "4986416": {
     "palette": 0,
     "position": "right",
     "artMode": "paper",
     "optIndex": 59,
-    "soptIndex": 8
+    "soptIndex": 8,
+    "gearLayoutMode": "Layout 1"
   },
   "4997311": {
     "palette": 4,
     "position": "center",
     "artMode": "paper",
     "optIndex": 18,
-    "soptIndex": 18
+    "soptIndex": 18,
+    "gearLayoutMode": "Layout 2"
   },
   "5001448": {
     "palette": 7,
     "position": "bottom-left",
     "artMode": "circle",
     "optIndex": 60,
-    "soptIndex": 0
+    "soptIndex": 0,
+    "gearLayoutMode": "Layout 1"
   },
   "5034358": {
     "palette": 9,
     "position": "bottom-left",
     "artMode": "l",
     "optIndex": 46,
-    "soptIndex": 12
+    "soptIndex": 12,
+    "gearLayoutMode": "Layout 2"
   },
   "5035357": {
     "palette": 9,
     "position": "left",
     "artMode": "straight",
     "optIndex": 62,
-    "soptIndex": 17
+    "soptIndex": 17,
+    "gearLayoutMode": "Layout 2"
   },
   "5074212": {
     "palette": 0,
     "position": "right",
     "artMode": "straight",
     "optIndex": 71,
-    "soptIndex": 19
+    "soptIndex": 19,
+    "gearLayoutMode": "Layout 1"
   },
   "5084657": {
     "palette": 10,
     "position": "bottom",
     "artMode": "straight",
     "optIndex": 35,
-    "soptIndex": 4
+    "soptIndex": 4,
+    "gearLayoutMode": "Layout 1"
   },
   "5114381": {
     "palette": 10,
     "position": "top-right",
     "artMode": "circle",
     "optIndex": 39,
-    "soptIndex": 18
+    "soptIndex": 18,
+    "gearLayoutMode": "Layout 1"
   },
   "5133255": {
     "palette": 2,
     "position": "left",
     "artMode": "straight",
     "optIndex": 0,
-    "soptIndex": 8
+    "soptIndex": 8,
+    "gearLayoutMode": "Layout 2"
   },
   "5138976": {
     "palette": 9,
     "position": "bottom-left",
     "artMode": "circle",
     "optIndex": 28,
-    "soptIndex": 14
+    "soptIndex": 14,
+    "gearLayoutMode": "Layout 1"
   },
   "5142542": {
     "palette": 1,
     "position": "top-left",
     "artMode": "l",
     "optIndex": 34,
-    "soptIndex": 14
+    "soptIndex": 14,
+    "gearLayoutMode": "Layout 2"
   },
   "5148367": {
     "palette": 6,
     "position": "bottom-right",
     "artMode": "paper",
     "optIndex": 54,
-    "soptIndex": 6
+    "soptIndex": 6,
+    "gearLayoutMode": "Layout 1"
   },
   "5160357": {
     "palette": 7,
     "position": "right",
     "artMode": "straight",
     "optIndex": 15,
-    "soptIndex": 19
+    "soptIndex": 19,
+    "gearLayoutMode": "Layout 1"
   },
   "5160807": {
     "palette": 1,
     "position": "left",
     "artMode": "circle",
     "optIndex": 9,
-    "soptIndex": 5
+    "soptIndex": 5,
+    "gearLayoutMode": "Layout 2"
   },
   "5196235": {
     "palette": 11,
     "position": "top",
     "artMode": "straight",
     "optIndex": 67,
-    "soptIndex": 14
+    "soptIndex": 14,
+    "gearLayoutMode": "Layout 2"
   },
   "5249359": {
     "palette": 4,
     "position": "left",
     "artMode": "straight",
     "optIndex": 66,
-    "soptIndex": 8
+    "soptIndex": 8,
+    "gearLayoutMode": "Layout 2"
   },
   "5270247": {
     "palette": 6,
     "position": "left",
     "artMode": "straight",
     "optIndex": 69,
-    "soptIndex": 0
+    "soptIndex": 0,
+    "gearLayoutMode": "Layout 2"
   },
   "5292071": {
     "palette": 7,
     "position": "right",
     "artMode": "circle",
     "optIndex": 8,
-    "soptIndex": 3
+    "soptIndex": 3,
+    "gearLayoutMode": "Layout 2"
   },
   "5292595": {
     "palette": 5,
     "position": "bottom-right",
     "artMode": "circle",
     "optIndex": 51,
-    "soptIndex": 4
+    "soptIndex": 4,
+    "gearLayoutMode": "Layout 1"
   },
   "5322867": {
     "palette": 1,
     "position": "left",
     "artMode": "straight",
     "optIndex": 38,
-    "soptIndex": 0
+    "soptIndex": 0,
+    "gearLayoutMode": "Layout 1"
   },
   "5328985": {
     "palette": 7,
     "position": "bottom-left",
     "artMode": "paper",
     "optIndex": 62,
-    "soptIndex": 0
+    "soptIndex": 0,
+    "gearLayoutMode": "Layout 1"
   },
   "5345126": {
     "palette": 5,
     "position": "right",
     "artMode": "circle",
     "optIndex": 75,
-    "soptIndex": 13
+    "soptIndex": 13,
+    "gearLayoutMode": "Layout 2"
   },
   "5365761": {
     "palette": 5,
     "position": "right",
     "artMode": "straight",
     "optIndex": 25,
-    "soptIndex": 9
+    "soptIndex": 9,
+    "gearLayoutMode": "Layout 1"
   },
   "5371488": {
     "palette": 6,
     "position": "top",
     "artMode": "straight",
     "optIndex": 56,
-    "soptIndex": 5
+    "soptIndex": 5,
+    "gearLayoutMode": "Layout 1"
   },
   "5393187": {
     "palette": 1,
     "position": "top-right",
     "artMode": "circle",
     "optIndex": 26,
-    "soptIndex": 17
+    "soptIndex": 17,
+    "gearLayoutMode": "Layout 2"
   },
   "5413608": {
     "palette": 1,
     "position": "top-right",
     "artMode": "circle",
     "optIndex": 62,
-    "soptIndex": 12
+    "soptIndex": 12,
+    "gearLayoutMode": "Layout 2"
   },
   "5421925": {
     "palette": 10,
     "position": "top-left",
     "artMode": "circle",
     "optIndex": 61,
-    "soptIndex": 5
+    "soptIndex": 5,
+    "gearLayoutMode": "Layout 2"
   },
   "5421974": {
     "palette": 6,
     "position": "top-left",
     "artMode": "l",
     "optIndex": 55,
-    "soptIndex": 3
+    "soptIndex": 3,
+    "gearLayoutMode": "Layout 1"
   },
   "5431039": {
     "palette": 6,
     "position": "bottom-right",
     "artMode": "paper",
     "optIndex": 18,
-    "soptIndex": 2
+    "soptIndex": 2,
+    "gearLayoutMode": "Layout 2"
   },
   "5455062": {
     "palette": 9,
     "position": "top-right",
     "artMode": "paper",
     "optIndex": 7,
-    "soptIndex": 16
+    "soptIndex": 16,
+    "gearLayoutMode": "Layout 1"
   },
   "5468256": {
     "palette": 0,
     "position": "right",
     "artMode": "paper",
     "optIndex": 6,
-    "soptIndex": 11
+    "soptIndex": 11,
+    "gearLayoutMode": "Layout 2"
   },
   "5476413": {
     "palette": 1,
     "position": "top",
     "artMode": "straight",
     "optIndex": 51,
-    "soptIndex": 12
+    "soptIndex": 12,
+    "gearLayoutMode": "Layout 2"
   },
   "5522169": {
     "palette": 4,
     "position": "top-right",
     "artMode": "l",
     "optIndex": 33,
-    "soptIndex": 2
+    "soptIndex": 2,
+    "gearLayoutMode": "Layout 1"
   },
   "5553057": {
     "palette": 8,
     "position": "top",
     "artMode": "straight",
     "optIndex": 48,
-    "soptIndex": 5
+    "soptIndex": 5,
+    "gearLayoutMode": "Layout 2"
   },
   "5573974": {
     "palette": 6,
     "position": "top-left",
     "artMode": "l",
     "optIndex": 33,
-    "soptIndex": 8
+    "soptIndex": 8,
+    "gearLayoutMode": "Layout 1"
   },
   "5614428": {
     "palette": 5,
     "position": "right",
     "artMode": "circle",
     "optIndex": 75,
-    "soptIndex": 9
+    "soptIndex": 9,
+    "gearLayoutMode": "Layout 1"
   },
   "5638191": {
     "palette": 3,
     "position": "top-left",
     "artMode": "circle",
     "optIndex": 45,
-    "soptIndex": 0
+    "soptIndex": 0,
+    "gearLayoutMode": "Layout 2"
   },
   "5647729": {
     "palette": 11,
     "position": "top-right",
     "artMode": "circle",
     "optIndex": 54,
-    "soptIndex": 5
+    "soptIndex": 5,
+    "gearLayoutMode": "Layout 1"
   },
   "5703154": {
     "palette": 10,
     "position": "bottom",
     "artMode": "circle",
     "optIndex": 19,
-    "soptIndex": 1
+    "soptIndex": 1,
+    "gearLayoutMode": "Layout 1"
   },
   "5746039": {
     "palette": 5,
     "position": "bottom-left",
     "artMode": "l",
     "optIndex": 38,
-    "soptIndex": 5
+    "soptIndex": 5,
+    "gearLayoutMode": "Layout 1"
   },
   "5746800": {
     "palette": 5,
     "position": "center",
     "artMode": "paper",
     "optIndex": 48,
-    "soptIndex": 9
+    "soptIndex": 9,
+    "gearLayoutMode": "Layout 1"
   },
   "5747648": {
     "palette": 5,
     "position": "top",
     "artMode": "straight",
     "optIndex": 2,
-    "soptIndex": 7
+    "soptIndex": 7,
+    "gearLayoutMode": "Layout 2"
   },
   "5747801": {
     "palette": 10,
     "position": "top-left",
     "artMode": "circle",
     "optIndex": 65,
-    "soptIndex": 10
+    "soptIndex": 10,
+    "gearLayoutMode": "Layout 1"
   },
   "5758638": {
     "palette": 10,
     "position": "bottom-right",
     "artMode": "paper",
     "optIndex": 61,
-    "soptIndex": 17
+    "soptIndex": 17,
+    "gearLayoutMode": "Layout 2"
   },
   "5781918": {
     "palette": 6,
     "position": "bottom-left",
     "artMode": "circle",
     "optIndex": 52,
-    "soptIndex": 18
+    "soptIndex": 18,
+    "gearLayoutMode": "Layout 1"
   },
   "5784256": {
     "palette": 8,
     "position": "right",
     "artMode": "straight",
     "optIndex": 5,
-    "soptIndex": 18
+    "soptIndex": 18,
+    "gearLayoutMode": "Layout 1"
   },
   "5800562": {
     "palette": 10,
     "position": "bottom-right",
     "artMode": "circle",
     "optIndex": 13,
-    "soptIndex": 13
+    "soptIndex": 13,
+    "gearLayoutMode": "Layout 1"
   },
   "5823018": {
     "palette": 5,
     "position": "bottom-right",
     "artMode": "circle",
     "optIndex": 67,
-    "soptIndex": 16
+    "soptIndex": 16,
+    "gearLayoutMode": "Layout 2"
   },
   "5824071": {
     "palette": 9,
     "position": "top-left",
     "artMode": "paper",
     "optIndex": 42,
-    "soptIndex": 10
+    "soptIndex": 10,
+    "gearLayoutMode": "Layout 1"
   },
   "5824393": {
     "palette": 6,
     "position": "bottom-left",
     "artMode": "circle",
     "optIndex": 28,
-    "soptIndex": 10
+    "soptIndex": 10,
+    "gearLayoutMode": "Layout 2"
   },
   "5827832": {
     "palette": 11,
     "position": "top-right",
     "artMode": "l",
     "optIndex": 63,
-    "soptIndex": 3
+    "soptIndex": 3,
+    "gearLayoutMode": "Layout 2"
   },
   "5832631": {
     "palette": 2,
     "position": "left",
     "artMode": "straight",
     "optIndex": 12,
-    "soptIndex": 16
+    "soptIndex": 16,
+    "gearLayoutMode": "Layout 2"
   },
   "5854572": {
     "palette": 8,
     "position": "top-right",
     "artMode": "l",
     "optIndex": 67,
-    "soptIndex": 2
+    "soptIndex": 2,
+    "gearLayoutMode": "Layout 1"
   },
   "5864600": {
     "palette": 9,
     "position": "top",
     "artMode": "circle",
     "optIndex": 21,
-    "soptIndex": 5
+    "soptIndex": 5,
+    "gearLayoutMode": "Layout 1"
   },
   "5866861": {
     "palette": 4,
     "position": "bottom-left",
     "artMode": "l",
     "optIndex": 36,
-    "soptIndex": 14
+    "soptIndex": 14,
+    "gearLayoutMode": "Layout 1"
   },
   "5983112": {
     "palette": 5,
     "position": "left",
     "artMode": "straight",
     "optIndex": 9,
-    "soptIndex": 8
+    "soptIndex": 8,
+    "gearLayoutMode": "Layout 2"
   },
   "5987242": {
     "palette": 6,
     "position": "bottom-left",
     "artMode": "paper",
     "optIndex": 9,
-    "soptIndex": 2
+    "soptIndex": 2,
+    "gearLayoutMode": "Layout 1"
   },
   "6004559": {
     "palette": 7,
     "position": "right",
     "artMode": "straight",
     "optIndex": 41,
-    "soptIndex": 3
+    "soptIndex": 3,
+    "gearLayoutMode": "Layout 2"
   },
   "6007311": {
     "palette": 4,
     "position": "right",
     "artMode": "paper",
     "optIndex": 39,
-    "soptIndex": 8
+    "soptIndex": 8,
+    "gearLayoutMode": "Layout 1"
   },
   "6015985": {
     "palette": 11,
     "position": "top-left",
     "artMode": "l",
     "optIndex": 9,
-    "soptIndex": 2
+    "soptIndex": 2,
+    "gearLayoutMode": "Layout 2"
   },
   "6025210": {
     "palette": 7,
     "position": "bottom-right",
     "artMode": "l",
     "optIndex": 1,
-    "soptIndex": 12
+    "soptIndex": 12,
+    "gearLayoutMode": "Layout 2"
   },
   "6053983": {
     "palette": 6,
     "position": "bottom-left",
     "artMode": "l",
     "optIndex": 21,
-    "soptIndex": 1
+    "soptIndex": 1,
+    "gearLayoutMode": "Layout 1"
   },
   "6083074": {
     "palette": 1,
     "position": "top",
     "artMode": "circle",
     "optIndex": 23,
-    "soptIndex": 18
+    "soptIndex": 18,
+    "gearLayoutMode": "Layout 2"
   },
   "6084382": {
     "palette": 1,
     "position": "top-left",
     "artMode": "circle",
     "optIndex": 53,
-    "soptIndex": 4
+    "soptIndex": 4,
+    "gearLayoutMode": "Layout 1"
   },
   "6090045": {
     "palette": 5,
     "position": "left",
     "artMode": "straight",
     "optIndex": 42,
-    "soptIndex": 8
+    "soptIndex": 8,
+    "gearLayoutMode": "Layout 2"
   },
   "6142606": {
     "palette": 10,
     "position": "bottom-left",
     "artMode": "circle",
     "optIndex": 10,
-    "soptIndex": 6
+    "soptIndex": 6,
+    "gearLayoutMode": "Layout 2"
   },
   "6157028": {
     "palette": 4,
     "position": "left",
     "artMode": "paper",
     "optIndex": 62,
-    "soptIndex": 1
+    "soptIndex": 1,
+    "gearLayoutMode": "Layout 1"
   },
   "6198366": {
     "palette": 2,
     "position": "left",
     "artMode": "straight",
     "optIndex": 7,
-    "soptIndex": 0
+    "soptIndex": 0,
+    "gearLayoutMode": "Layout 1"
   },
   "6222098": {
     "palette": 10,
     "position": "top-left",
     "artMode": "paper",
     "optIndex": 70,
-    "soptIndex": 3
+    "soptIndex": 3,
+    "gearLayoutMode": "Layout 1"
   },
   "6231480": {
     "palette": 11,
     "position": "bottom-left",
     "artMode": "paper",
     "optIndex": 52,
-    "soptIndex": 9
+    "soptIndex": 9,
+    "gearLayoutMode": "Layout 1"
   },
   "6235889": {
     "palette": 7,
     "position": "top-right",
     "artMode": "circle",
     "optIndex": 46,
-    "soptIndex": 16
+    "soptIndex": 16,
+    "gearLayoutMode": "Layout 1"
   },
   "6242976": {
     "palette": 7,
     "position": "top-right",
     "artMode": "circle",
     "optIndex": 66,
-    "soptIndex": 11
+    "soptIndex": 11,
+    "gearLayoutMode": "Layout 1"
   },
   "6244836": {
     "palette": 4,
     "position": "top-right",
     "artMode": "circle",
     "optIndex": 6,
-    "soptIndex": 12
+    "soptIndex": 12,
+    "gearLayoutMode": "Layout 2"
   },
   "6248128": {
     "palette": 9,
     "position": "bottom-right",
     "artMode": "circle",
     "optIndex": 59,
-    "soptIndex": 12
+    "soptIndex": 12,
+    "gearLayoutMode": "Layout 2"
   },
   "6272056": {
     "palette": 0,
     "position": "top-right",
     "artMode": "l",
     "optIndex": 23,
-    "soptIndex": 6
+    "soptIndex": 6,
+    "gearLayoutMode": "Layout 2"
   },
   "6312067": {
     "palette": 8,
     "position": "left",
     "artMode": "straight",
     "optIndex": 39,
-    "soptIndex": 10
+    "soptIndex": 10,
+    "gearLayoutMode": "Layout 1"
   },
   "6316609": {
     "palette": 9,
     "position": "bottom",
     "artMode": "straight",
     "optIndex": 7,
-    "soptIndex": 13
+    "soptIndex": 13,
+    "gearLayoutMode": "Layout 1"
   },
   "6319577": {
     "palette": 0,
     "position": "bottom-right",
     "artMode": "l",
     "optIndex": 73,
-    "soptIndex": 16
+    "soptIndex": 16,
+    "gearLayoutMode": "Layout 2"
   },
   "6324646": {
     "palette": 1,
     "position": "bottom-right",
     "artMode": "l",
     "optIndex": 48,
-    "soptIndex": 16
+    "soptIndex": 16,
+    "gearLayoutMode": "Layout 1"
   },
   "6326556": {
     "palette": 3,
     "position": "right",
     "artMode": "paper",
     "optIndex": 21,
-    "soptIndex": 13
+    "soptIndex": 13,
+    "gearLayoutMode": "Layout 2"
   },
   "6342496": {
     "palette": 9,
     "position": "left",
     "artMode": "straight",
     "optIndex": 15,
-    "soptIndex": 2
+    "soptIndex": 2,
+    "gearLayoutMode": "Layout 1"
   },
   "6417189": {
     "palette": 6,
     "position": "bottom",
     "artMode": "straight",
     "optIndex": 50,
-    "soptIndex": 6
+    "soptIndex": 6,
+    "gearLayoutMode": "Layout 1"
   },
   "6425206": {
     "palette": 11,
     "position": "bottom-right",
     "artMode": "l",
     "optIndex": 2,
-    "soptIndex": 2
+    "soptIndex": 2,
+    "gearLayoutMode": "Layout 1"
   },
   "6458095": {
     "palette": 5,
     "position": "left",
     "artMode": "straight",
     "optIndex": 12,
-    "soptIndex": 10
+    "soptIndex": 10,
+    "gearLayoutMode": "Layout 1"
   },
   "6463242": {
     "palette": 10,
     "position": "top-right",
     "artMode": "circle",
     "optIndex": 39,
-    "soptIndex": 18
+    "soptIndex": 18,
+    "gearLayoutMode": "Layout 2"
   },
   "6485790": {
     "palette": 3,
     "position": "top",
     "artMode": "straight",
     "optIndex": 2,
-    "soptIndex": 7
+    "soptIndex": 7,
+    "gearLayoutMode": "Layout 2"
   },
   "6512595": {
     "palette": 8,
     "position": "left",
     "artMode": "straight",
     "optIndex": 10,
-    "soptIndex": 16
+    "soptIndex": 16,
+    "gearLayoutMode": "Layout 2"
   },
   "6574809": {
     "palette": 9,
     "position": "top",
     "artMode": "straight",
     "optIndex": 26,
-    "soptIndex": 7
+    "soptIndex": 7,
+    "gearLayoutMode": "Layout 2"
   },
   "6584702": {
     "palette": 10,
     "position": "top-left",
     "artMode": "l",
     "optIndex": 4,
-    "soptIndex": 17
+    "soptIndex": 17,
+    "gearLayoutMode": "Layout 1"
   },
   "6590656": {
     "palette": 8,
     "position": "top-left",
     "artMode": "l",
     "optIndex": 72,
-    "soptIndex": 13
+    "soptIndex": 13,
+    "gearLayoutMode": "Layout 1"
   },
   "6622842": {
     "palette": 6,
     "position": "top-right",
     "artMode": "l",
     "optIndex": 34,
-    "soptIndex": 19
+    "soptIndex": 19,
+    "gearLayoutMode": "Layout 2"
   },
   "6629356": {
     "palette": 1,
     "position": "bottom-right",
     "artMode": "circle",
     "optIndex": 17,
-    "soptIndex": 15
+    "soptIndex": 15,
+    "gearLayoutMode": "Layout 1"
   },
   "6649043": {
     "palette": 3,
     "position": "top",
     "artMode": "circle",
     "optIndex": 23,
-    "soptIndex": 1
+    "soptIndex": 1,
+    "gearLayoutMode": "Layout 2"
   },
   "6661592": {
     "palette": 4,
     "position": "top-right",
     "artMode": "circle",
     "optIndex": 12,
-    "soptIndex": 17
+    "soptIndex": 17,
+    "gearLayoutMode": "Layout 1"
   },
   "6664314": {
     "palette": 7,
     "position": "top",
     "artMode": "straight",
     "optIndex": 67,
-    "soptIndex": 12
+    "soptIndex": 12,
+    "gearLayoutMode": "Layout 2"
   },
   "6676686": {
     "palette": 3,
     "position": "top-right",
     "artMode": "circle",
     "optIndex": 54,
-    "soptIndex": 5
+    "soptIndex": 5,
+    "gearLayoutMode": "Layout 1"
   },
   "6714235": {
     "palette": 1,
     "position": "right",
     "artMode": "straight",
     "optIndex": 35,
-    "soptIndex": 18
+    "soptIndex": 18,
+    "gearLayoutMode": "Layout 2"
   },
   "6717597": {
     "palette": 10,
     "position": "left",
     "artMode": "straight",
     "optIndex": 57,
-    "soptIndex": 0
+    "soptIndex": 0,
+    "gearLayoutMode": "Layout 2"
   },
   "6724926": {
     "palette": 10,
     "position": "left",
     "artMode": "straight",
     "optIndex": 10,
-    "soptIndex": 10
+    "soptIndex": 10,
+    "gearLayoutMode": "Layout 1"
   },
   "6737898": {
     "palette": 2,
     "position": "right",
     "artMode": "paper",
     "optIndex": 14,
-    "soptIndex": 16
+    "soptIndex": 16,
+    "gearLayoutMode": "Layout 2"
   },
   "6757328": {
     "palette": 2,
     "position": "bottom-left",
     "artMode": "l",
     "optIndex": 39,
-    "soptIndex": 14
+    "soptIndex": 14,
+    "gearLayoutMode": "Layout 2"
   },
   "6760630": {
     "palette": 1,
     "position": "center",
     "artMode": "paper",
     "optIndex": 22,
-    "soptIndex": 16
+    "soptIndex": 16,
+    "gearLayoutMode": "Layout 1"
   },
   "6782365": {
     "palette": 7,
     "position": "top-right",
     "artMode": "circle",
     "optIndex": 16,
-    "soptIndex": 8
+    "soptIndex": 8,
+    "gearLayoutMode": "Layout 1"
   },
   "6794892": {
     "palette": 2,
     "position": "bottom-left",
     "artMode": "l",
     "optIndex": 68,
-    "soptIndex": 1
+    "soptIndex": 1,
+    "gearLayoutMode": "Layout 2"
   },
   "6802471": {
     "palette": 1,
     "position": "right",
     "artMode": "straight",
     "optIndex": 34,
-    "soptIndex": 11
+    "soptIndex": 11,
+    "gearLayoutMode": "Layout 2"
   },
   "6811643": {
     "palette": 1,
     "position": "top-left",
     "artMode": "circle",
     "optIndex": 29,
-    "soptIndex": 10
+    "soptIndex": 10,
+    "gearLayoutMode": "Layout 2"
   },
   "6827995": {
     "palette": 8,
     "position": "bottom-right",
     "artMode": "paper",
     "optIndex": 68,
-    "soptIndex": 9
+    "soptIndex": 9,
+    "gearLayoutMode": "Layout 1"
   },
   "6844013": {
     "palette": 6,
     "position": "top-right",
     "artMode": "l",
     "optIndex": 37,
-    "soptIndex": 8
+    "soptIndex": 8,
+    "gearLayoutMode": "Layout 1"
   },
   "6892130": {
     "palette": 1,
     "position": "top-left",
     "artMode": "circle",
     "optIndex": 25,
-    "soptIndex": 19
+    "soptIndex": 19,
+    "gearLayoutMode": "Layout 2"
   },
   "6901727": {
     "palette": 10,
     "position": "top",
     "artMode": "straight",
     "optIndex": 36,
-    "soptIndex": 5
+    "soptIndex": 5,
+    "gearLayoutMode": "Layout 1"
   },
   "6922476": {
     "palette": 1,
     "position": "left",
     "artMode": "straight",
     "optIndex": 61,
-    "soptIndex": 10
+    "soptIndex": 10,
+    "gearLayoutMode": "Layout 2"
   },
   "6923569": {
     "palette": 4,
     "position": "bottom-right",
     "artMode": "circle",
     "optIndex": 63,
-    "soptIndex": 17
+    "soptIndex": 17,
+    "gearLayoutMode": "Layout 1"
   },
   "6934233": {
     "palette": 11,
     "position": "top-left",
     "artMode": "l",
     "optIndex": 58,
-    "soptIndex": 14
+    "soptIndex": 14,
+    "gearLayoutMode": "Layout 1"
   },
   "6947490": {
     "palette": 4,
     "position": "right",
     "artMode": "straight",
     "optIndex": 61,
-    "soptIndex": 3
+    "soptIndex": 3,
+    "gearLayoutMode": "Layout 2"
   },
   "6983730": {
     "palette": 5,
     "position": "right",
     "artMode": "straight",
     "optIndex": 49,
-    "soptIndex": 11
+    "soptIndex": 11,
+    "gearLayoutMode": "Layout 2"
   },
   "7019100": {
     "palette": 11,
     "position": "left",
     "artMode": "straight",
     "optIndex": 68,
-    "soptIndex": 17
+    "soptIndex": 17,
+    "gearLayoutMode": "Layout 2"
   },
   "7036037": {
     "palette": 11,
     "position": "bottom",
     "artMode": "straight",
     "optIndex": 0,
-    "soptIndex": 15
+    "soptIndex": 15,
+    "gearLayoutMode": "Layout 1"
   },
   "7038457": {
     "palette": 4,
     "position": "left",
     "artMode": "straight",
     "optIndex": 7,
-    "soptIndex": 17
+    "soptIndex": 17,
+    "gearLayoutMode": "Layout 2"
   },
   "7053653": {
     "palette": 7,
     "position": "top",
     "artMode": "straight",
     "optIndex": 40,
-    "soptIndex": 14
+    "soptIndex": 14,
+    "gearLayoutMode": "Layout 1"
   },
   "7060362": {
     "palette": 0,
     "position": "bottom-left",
     "artMode": "paper",
     "optIndex": 38,
-    "soptIndex": 3
+    "soptIndex": 3,
+    "gearLayoutMode": "Layout 1"
   },
   "7086178": {
     "palette": 11,
     "position": "bottom-right",
     "artMode": "l",
     "optIndex": 37,
-    "soptIndex": 12
+    "soptIndex": 12,
+    "gearLayoutMode": "Layout 2"
   },
   "7096470": {
     "palette": 4,
     "position": "bottom-left",
     "artMode": "circle",
     "optIndex": 14,
-    "soptIndex": 12
+    "soptIndex": 12,
+    "gearLayoutMode": "Layout 1"
   },
   "7097491": {
     "palette": 9,
     "position": "bottom-right",
     "artMode": "paper",
     "optIndex": 44,
-    "soptIndex": 0
+    "soptIndex": 0,
+    "gearLayoutMode": "Layout 2"
   },
   "7101702": {
     "palette": 4,
     "position": "bottom-right",
     "artMode": "paper",
     "optIndex": 59,
-    "soptIndex": 19
+    "soptIndex": 19,
+    "gearLayoutMode": "Layout 1"
   },
   "7122715": {
     "palette": 0,
     "position": "top-left",
     "artMode": "l",
     "optIndex": 31,
-    "soptIndex": 1
+    "soptIndex": 1,
+    "gearLayoutMode": "Layout 1"
   },
   "7126536": {
     "palette": 0,
     "position": "top",
     "artMode": "straight",
     "optIndex": 16,
-    "soptIndex": 14
+    "soptIndex": 14,
+    "gearLayoutMode": "Layout 2"
   },
   "7145526": {
     "palette": 0,
     "position": "left",
     "artMode": "straight",
     "optIndex": 54,
-    "soptIndex": 8
+    "soptIndex": 8,
+    "gearLayoutMode": "Layout 2"
   },
   "7156979": {
     "palette": 7,
     "position": "bottom-right",
     "artMode": "circle",
     "optIndex": 2,
-    "soptIndex": 2
+    "soptIndex": 2,
+    "gearLayoutMode": "Layout 2"
   },
   "7198287": {
     "palette": 0,
     "position": "right",
     "artMode": "straight",
     "optIndex": 2,
-    "soptIndex": 11
+    "soptIndex": 11,
+    "gearLayoutMode": "Layout 1"
   },
   "7199016": {
     "palette": 1,
     "position": "bottom-right",
     "artMode": "circle",
     "optIndex": 67,
-    "soptIndex": 9
+    "soptIndex": 9,
+    "gearLayoutMode": "Layout 2"
   },
   "7209110": {
     "palette": 6,
     "position": "top-left",
     "artMode": "circle",
     "optIndex": 65,
-    "soptIndex": 2
+    "soptIndex": 2,
+    "gearLayoutMode": "Layout 1"
   },
   "7211472": {
     "palette": 7,
     "position": "top-left",
     "artMode": "l",
     "optIndex": 34,
-    "soptIndex": 1
+    "soptIndex": 1,
+    "gearLayoutMode": "Layout 2"
   },
   "7211528": {
     "palette": 5,
     "position": "bottom-right",
     "artMode": "circle",
     "optIndex": 71,
-    "soptIndex": 7
+    "soptIndex": 7,
+    "gearLayoutMode": "Layout 2"
   },
   "7231525": {
     "palette": 5,
     "position": "bottom-left",
     "artMode": "l",
     "optIndex": 54,
-    "soptIndex": 13
+    "soptIndex": 13,
+    "gearLayoutMode": "Layout 2"
   },
   "7239421": {
     "palette": 4,
     "position": "top",
     "artMode": "straight",
     "optIndex": 40,
-    "soptIndex": 12
+    "soptIndex": 12,
+    "gearLayoutMode": "Layout 2"
   },
   "7246425": {
     "palette": 4,
     "position": "top-left",
     "artMode": "l",
     "optIndex": 43,
-    "soptIndex": 7
+    "soptIndex": 7,
+    "gearLayoutMode": "Layout 2"
   },
   "7283925": {
     "palette": 5,
     "position": "top-left",
     "artMode": "circle",
     "optIndex": 29,
-    "soptIndex": 2
+    "soptIndex": 2,
+    "gearLayoutMode": "Layout 1"
   },
   "7290633": {
     "palette": 1,
     "position": "bottom",
     "artMode": "straight",
     "optIndex": 64,
-    "soptIndex": 13
+    "soptIndex": 13,
+    "gearLayoutMode": "Layout 1"
   },
   "7299528": {
     "palette": 0,
     "position": "left",
     "artMode": "straight",
     "optIndex": 65,
-    "soptIndex": 16
+    "soptIndex": 16,
+    "gearLayoutMode": "Layout 1"
   },
   "7321908": {
     "palette": 9,
     "position": "top-left",
     "artMode": "circle",
     "optIndex": 69,
-    "soptIndex": 6
+    "soptIndex": 6,
+    "gearLayoutMode": "Layout 2"
   },
   "7369031": {
     "palette": 2,
     "position": "bottom",
     "artMode": "straight",
     "optIndex": 7,
-    "soptIndex": 4
+    "soptIndex": 4,
+    "gearLayoutMode": "Layout 2"
   },
   "7397007": {
     "palette": 1,
     "position": "left",
     "artMode": "straight",
     "optIndex": 69,
-    "soptIndex": 10
+    "soptIndex": 10,
+    "gearLayoutMode": "Layout 1"
   },
   "7463436": {
     "palette": 9,
     "position": "bottom-left",
     "artMode": "paper",
     "optIndex": 26,
-    "soptIndex": 12
+    "soptIndex": 12,
+    "gearLayoutMode": "Layout 1"
   },
   "7481490": {
     "palette": 11,
     "position": "bottom-right",
     "artMode": "l",
     "optIndex": 52,
-    "soptIndex": 17
+    "soptIndex": 17,
+    "gearLayoutMode": "Layout 1"
   },
   "7503328": {
     "palette": 6,
     "position": "left",
     "artMode": "straight",
     "optIndex": 0,
-    "soptIndex": 16
+    "soptIndex": 16,
+    "gearLayoutMode": "Layout 2"
   },
   "7512500": {
     "palette": 6,
     "position": "bottom",
     "artMode": "straight",
     "optIndex": 72,
-    "soptIndex": 15
+    "soptIndex": 15,
+    "gearLayoutMode": "Layout 2"
   },
   "7582142": {
     "palette": 7,
     "position": "bottom-right",
     "artMode": "circle",
     "optIndex": 67,
-    "soptIndex": 9
+    "soptIndex": 9,
+    "gearLayoutMode": "Layout 2"
   },
   "7641919": {
     "palette": 6,
     "position": "top",
     "artMode": "straight",
     "optIndex": 26,
-    "soptIndex": 7
+    "soptIndex": 7,
+    "gearLayoutMode": "Layout 2"
   },
   "7657501": {
     "palette": 4,
     "position": "left",
     "artMode": "straight",
     "optIndex": 11,
-    "soptIndex": 17
+    "soptIndex": 17,
+    "gearLayoutMode": "Layout 2"
   },
   "7700135": {
     "palette": 2,
     "position": "bottom-left",
     "artMode": "paper",
     "optIndex": 54,
-    "soptIndex": 2
+    "soptIndex": 2,
+    "gearLayoutMode": "Layout 2"
   },
   "7717310": {
     "palette": 2,
     "position": "right",
     "artMode": "straight",
     "optIndex": 67,
-    "soptIndex": 1
+    "soptIndex": 1,
+    "gearLayoutMode": "Layout 1"
   },
   "7763261": {
     "palette": 2,
     "position": "top-left",
     "artMode": "circle",
     "optIndex": 65,
-    "soptIndex": 3
+    "soptIndex": 3,
+    "gearLayoutMode": "Layout 2"
   },
   "7867989": {
     "palette": 5,
     "position": "right",
     "artMode": "paper",
     "optIndex": 44,
-    "soptIndex": 1
+    "soptIndex": 1,
+    "gearLayoutMode": "Layout 2"
   },
   "7882472": {
     "palette": 7,
     "position": "top-right",
     "artMode": "paper",
     "optIndex": 23,
-    "soptIndex": 14
+    "soptIndex": 14,
+    "gearLayoutMode": "Layout 2"
   },
   "7915625": {
     "palette": 5,
     "position": "right",
     "artMode": "straight",
     "optIndex": 55,
-    "soptIndex": 18
+    "soptIndex": 18,
+    "gearLayoutMode": "Layout 2"
   },
   "7935893": {
     "palette": 0,
     "position": "top-right",
     "artMode": "paper",
     "optIndex": 28,
-    "soptIndex": 10
+    "soptIndex": 10,
+    "gearLayoutMode": "Layout 2"
   },
   "7951407": {
     "palette": 0,
     "position": "top-right",
     "artMode": "l",
     "optIndex": 44,
-    "soptIndex": 14
+    "soptIndex": 14,
+    "gearLayoutMode": "Layout 1"
   },
   "7958787": {
     "palette": 1,
     "position": "top-left",
     "artMode": "l",
     "optIndex": 68,
-    "soptIndex": 18
+    "soptIndex": 18,
+    "gearLayoutMode": "Layout 2"
   },
   "7962397": {
     "palette": 4,
     "position": "bottom",
     "artMode": "straight",
     "optIndex": 27,
-    "soptIndex": 4
+    "soptIndex": 4,
+    "gearLayoutMode": "Layout 2"
   },
   "8007348": {
     "palette": 8,
     "position": "right",
     "artMode": "paper",
     "optIndex": 46,
-    "soptIndex": 4
+    "soptIndex": 4,
+    "gearLayoutMode": "Layout 1"
   },
   "8036297": {
     "palette": 2,
     "position": "bottom-right",
     "artMode": "paper",
     "optIndex": 31,
-    "soptIndex": 18
+    "soptIndex": 18,
+    "gearLayoutMode": "Layout 1"
   },
   "8037076": {
     "palette": 8,
     "position": "top",
     "artMode": "straight",
     "optIndex": 53,
-    "soptIndex": 12
+    "soptIndex": 12,
+    "gearLayoutMode": "Layout 2"
   },
   "8039699": {
     "palette": 11,
     "position": "bottom-left",
     "artMode": "circle",
     "optIndex": 4,
-    "soptIndex": 13
+    "soptIndex": 13,
+    "gearLayoutMode": "Layout 1"
   },
   "8060223": {
     "palette": 11,
     "position": "left",
     "artMode": "straight",
     "optIndex": 70,
-    "soptIndex": 16
+    "soptIndex": 16,
+    "gearLayoutMode": "Layout 2"
   },
   "8130925": {
     "palette": 7,
     "position": "top-right",
     "artMode": "l",
     "optIndex": 7,
-    "soptIndex": 13
+    "soptIndex": 13,
+    "gearLayoutMode": "Layout 2"
   },
   "8149550": {
     "palette": 8,
     "position": "top-right",
     "artMode": "l",
     "optIndex": 70,
-    "soptIndex": 0
+    "soptIndex": 0,
+    "gearLayoutMode": "Layout 2"
   },
   "8155878": {
     "palette": 2,
     "position": "left",
     "artMode": "straight",
     "optIndex": 5,
-    "soptIndex": 8
+    "soptIndex": 8,
+    "gearLayoutMode": "Layout 1"
   },
   "8165824": {
     "palette": 11,
     "position": "bottom-right",
     "artMode": "l",
     "optIndex": 57,
-    "soptIndex": 9
+    "soptIndex": 9,
+    "gearLayoutMode": "Layout 2"
   },
   "8210573": {
     "palette": 3,
     "position": "center",
     "artMode": "paper",
     "optIndex": 18,
-    "soptIndex": 8
+    "soptIndex": 8,
+    "gearLayoutMode": "Layout 2"
   },
   "8222547": {
     "palette": 4,
     "position": "center",
     "artMode": "paper",
     "optIndex": 45,
-    "soptIndex": 8
+    "soptIndex": 8,
+    "gearLayoutMode": "Layout 2"
   },
   "8229840": {
     "palette": 5,
     "position": "right",
     "artMode": "straight",
     "optIndex": 50,
-    "soptIndex": 18
+    "soptIndex": 18,
+    "gearLayoutMode": "Layout 2"
   },
   "8234092": {
     "palette": 8,
     "position": "top-right",
     "artMode": "l",
     "optIndex": 54,
-    "soptIndex": 8
+    "soptIndex": 8,
+    "gearLayoutMode": "Layout 2"
   },
   "8235416": {
     "palette": 7,
     "position": "top-left",
     "artMode": "l",
     "optIndex": 19,
-    "soptIndex": 7
+    "soptIndex": 7,
+    "gearLayoutMode": "Layout 1"
   },
   "8277894": {
     "palette": 11,
     "position": "top-right",
     "artMode": "circle",
     "optIndex": 34,
-    "soptIndex": 14
+    "soptIndex": 14,
+    "gearLayoutMode": "Layout 1"
   },
   "8287638": {
     "palette": 7,
     "position": "bottom-left",
     "artMode": "l",
     "optIndex": 28,
-    "soptIndex": 14
+    "soptIndex": 14,
+    "gearLayoutMode": "Layout 1"
   },
   "8287972": {
     "palette": 4,
     "position": "bottom",
     "artMode": "circle",
     "optIndex": 22,
-    "soptIndex": 14
+    "soptIndex": 14,
+    "gearLayoutMode": "Layout 2"
   },
   "8293791": {
     "palette": 3,
     "position": "left",
     "artMode": "straight",
     "optIndex": 38,
-    "soptIndex": 16
+    "soptIndex": 16,
+    "gearLayoutMode": "Layout 2"
   },
   "8299465": {
     "palette": 9,
     "position": "right",
     "artMode": "straight",
     "optIndex": 72,
-    "soptIndex": 1
+    "soptIndex": 1,
+    "gearLayoutMode": "Layout 1"
   },
   "8312491": {
     "palette": 5,
     "position": "right",
     "artMode": "paper",
     "optIndex": 36,
-    "soptIndex": 17
+    "soptIndex": 17,
+    "gearLayoutMode": "Layout 2"
   },
   "8323903": {
     "palette": 4,
     "position": "left",
     "artMode": "straight",
     "optIndex": 70,
-    "soptIndex": 0
+    "soptIndex": 0,
+    "gearLayoutMode": "Layout 2"
   },
   "8325744": {
     "palette": 10,
     "position": "left",
     "artMode": "circle",
     "optIndex": 36,
-    "soptIndex": 13
+    "soptIndex": 13,
+    "gearLayoutMode": "Layout 1"
   },
   "8370695": {
     "palette": 2,
     "position": "bottom",
     "artMode": "straight",
     "optIndex": 55,
-    "soptIndex": 13
+    "soptIndex": 13,
+    "gearLayoutMode": "Layout 2"
   },
   "8447614": {
     "palette": 4,
     "position": "bottom",
     "artMode": "straight",
     "optIndex": 44,
-    "soptIndex": 4
+    "soptIndex": 4,
+    "gearLayoutMode": "Layout 2"
   },
   "8485893": {
     "palette": 0,
     "position": "top",
     "artMode": "straight",
     "optIndex": 53,
-    "soptIndex": 12
+    "soptIndex": 12,
+    "gearLayoutMode": "Layout 2"
   },
   "8497277": {
     "palette": 11,
     "position": "left",
     "artMode": "straight",
     "optIndex": 69,
-    "soptIndex": 2
+    "soptIndex": 2,
+    "gearLayoutMode": "Layout 1"
   },
   "8504007": {
     "palette": 0,
     "position": "top-right",
     "artMode": "l",
     "optIndex": 42,
-    "soptIndex": 16
+    "soptIndex": 16,
+    "gearLayoutMode": "Layout 2"
   },
   "8547199": {
     "palette": 2,
     "position": "bottom",
     "artMode": "straight",
     "optIndex": 75,
-    "soptIndex": 6
+    "soptIndex": 6,
+    "gearLayoutMode": "Layout 2"
   },
   "8569182": {
     "palette": 1,
     "position": "top-left",
     "artMode": "circle",
     "optIndex": 5,
-    "soptIndex": 2
+    "soptIndex": 2,
+    "gearLayoutMode": "Layout 1"
   },
   "8578581": {
     "palette": 10,
     "position": "left",
     "artMode": "circle",
     "optIndex": 36,
-    "soptIndex": 0
+    "soptIndex": 0,
+    "gearLayoutMode": "Layout 1"
   },
   "8591782": {
     "palette": 4,
     "position": "top-right",
     "artMode": "paper",
     "optIndex": 2,
-    "soptIndex": 3
+    "soptIndex": 3,
+    "gearLayoutMode": "Layout 1"
   },
   "8632214": {
     "palette": 10,
     "position": "right",
     "artMode": "straight",
     "optIndex": 30,
-    "soptIndex": 1
+    "soptIndex": 1,
+    "gearLayoutMode": "Layout 1"
   },
   "8655374": {
     "palette": 9,
     "position": "bottom-right",
     "artMode": "l",
     "optIndex": 18,
-    "soptIndex": 3
+    "soptIndex": 3,
+    "gearLayoutMode": "Layout 1"
   },
   "8657174": {
     "palette": 8,
     "position": "top-right",
     "artMode": "circle",
     "optIndex": 70,
-    "soptIndex": 4
+    "soptIndex": 4,
+    "gearLayoutMode": "Layout 2"
   },
   "8682904": {
     "palette": 3,
     "position": "left",
     "artMode": "straight",
     "optIndex": 13,
-    "soptIndex": 17
+    "soptIndex": 17,
+    "gearLayoutMode": "Layout 2"
   },
   "8694809": {
     "palette": 9,
     "position": "bottom",
     "artMode": "straight",
     "optIndex": 32,
-    "soptIndex": 13
+    "soptIndex": 13,
+    "gearLayoutMode": "Layout 2"
   },
   "8708861": {
     "palette": 7,
     "position": "top-left",
     "artMode": "paper",
     "optIndex": 67,
-    "soptIndex": 8
+    "soptIndex": 8,
+    "gearLayoutMode": "Layout 1"
   },
   "8717747": {
     "palette": 9,
     "position": "top-left",
     "artMode": "circle",
     "optIndex": 25,
-    "soptIndex": 7
+    "soptIndex": 7,
+    "gearLayoutMode": "Layout 1"
   },
   "8747851": {
     "palette": 10,
     "position": "bottom",
     "artMode": "straight",
     "optIndex": 52,
-    "soptIndex": 4
+    "soptIndex": 4,
+    "gearLayoutMode": "Layout 2"
   },
   "8795103": {
     "palette": 8,
     "position": "bottom-right",
     "artMode": "l",
     "optIndex": 38,
-    "soptIndex": 6
+    "soptIndex": 6,
+    "gearLayoutMode": "Layout 2"
   },
   "8809147": {
     "palette": 6,
     "position": "bottom-left",
     "artMode": "l",
     "optIndex": 68,
-    "soptIndex": 15
+    "soptIndex": 15,
+    "gearLayoutMode": "Layout 1"
   },
   "8809547": {
     "palette": 7,
     "position": "bottom-left",
     "artMode": "l",
     "optIndex": 29,
-    "soptIndex": 4
+    "soptIndex": 4,
+    "gearLayoutMode": "Layout 1"
   },
   "8810234": {
     "palette": 3,
     "position": "top",
     "artMode": "straight",
     "optIndex": 66,
-    "soptIndex": 12
+    "soptIndex": 12,
+    "gearLayoutMode": "Layout 2"
   },
   "8811449": {
     "palette": 9,
     "position": "left",
     "artMode": "circle",
     "optIndex": 73,
-    "soptIndex": 14
+    "soptIndex": 14,
+    "gearLayoutMode": "Layout 1"
   },
   "8879679": {
     "palette": 1,
     "position": "bottom-left",
     "artMode": "l",
     "optIndex": 45,
-    "soptIndex": 17
+    "soptIndex": 17,
+    "gearLayoutMode": "Layout 2"
   },
   "8931688": {
     "palette": 9,
     "position": "center",
     "artMode": "paper",
     "optIndex": 27,
-    "soptIndex": 1
+    "soptIndex": 1,
+    "gearLayoutMode": "Layout 1"
   },
   "8941955": {
     "palette": 6,
     "position": "right",
     "artMode": "straight",
     "optIndex": 25,
-    "soptIndex": 3
+    "soptIndex": 3,
+    "gearLayoutMode": "Layout 1"
   },
   "8992121": {
     "palette": 2,
     "position": "right",
     "artMode": "straight",
     "optIndex": 41,
-    "soptIndex": 18
+    "soptIndex": 18,
+    "gearLayoutMode": "Layout 1"
   },
   "8992216": {
     "palette": 2,
     "position": "top-left",
     "artMode": "l",
     "optIndex": 66,
-    "soptIndex": 19
+    "soptIndex": 19,
+    "gearLayoutMode": "Layout 2"
   },
   "9008186": {
     "palette": 2,
     "position": "right",
     "artMode": "straight",
     "optIndex": 3,
-    "soptIndex": 18
+    "soptIndex": 18,
+    "gearLayoutMode": "Layout 1"
   },
   "9040842": {
     "palette": 5,
     "position": "left",
     "artMode": "straight",
     "optIndex": 49,
-    "soptIndex": 16
+    "soptIndex": 16,
+    "gearLayoutMode": "Layout 2"
   },
   "9046792": {
     "palette": 3,
     "position": "bottom-right",
     "artMode": "circle",
     "optIndex": 38,
-    "soptIndex": 18
+    "soptIndex": 18,
+    "gearLayoutMode": "Layout 1"
   },
   "9058390": {
     "palette": 3,
     "position": "right",
     "artMode": "straight",
     "optIndex": 44,
-    "soptIndex": 9
+    "soptIndex": 9,
+    "gearLayoutMode": "Layout 1"
   },
   "9077500": {
     "palette": 0,
     "position": "right",
     "artMode": "straight",
     "optIndex": 9,
-    "soptIndex": 3
+    "soptIndex": 3,
+    "gearLayoutMode": "Layout 2"
   },
   "9113944": {
     "palette": 7,
     "position": "bottom-left",
     "artMode": "l",
     "optIndex": 56,
-    "soptIndex": 8
+    "soptIndex": 8,
+    "gearLayoutMode": "Layout 1"
   },
   "9133187": {
     "palette": 9,
     "position": "right",
     "artMode": "straight",
     "optIndex": 72,
-    "soptIndex": 19
+    "soptIndex": 19,
+    "gearLayoutMode": "Layout 2"
   },
   "9154204": {
     "palette": 5,
     "position": "bottom-left",
     "artMode": "l",
     "optIndex": 46,
-    "soptIndex": 14
+    "soptIndex": 14,
+    "gearLayoutMode": "Layout 1"
   },
   "9163887": {
     "palette": 6,
     "position": "bottom-right",
     "artMode": "circle",
     "optIndex": 38,
-    "soptIndex": 17
+    "soptIndex": 17,
+    "gearLayoutMode": "Layout 2"
   },
   "9212945": {
     "palette": 8,
     "position": "right",
     "artMode": "straight",
     "optIndex": 3,
-    "soptIndex": 9
+    "soptIndex": 9,
+    "gearLayoutMode": "Layout 2"
   },
   "9251914": {
     "palette": 3,
     "position": "bottom-right",
     "artMode": "circle",
     "optIndex": 13,
-    "soptIndex": 1
+    "soptIndex": 1,
+    "gearLayoutMode": "Layout 2"
   },
   "9285335": {
     "palette": 6,
     "position": "bottom-right",
     "artMode": "circle",
     "optIndex": 71,
-    "soptIndex": 16
+    "soptIndex": 16,
+    "gearLayoutMode": "Layout 1"
   },
   "9300252": {
     "palette": 1,
     "position": "top-left",
     "artMode": "circle",
     "optIndex": 33,
-    "soptIndex": 1
+    "soptIndex": 1,
+    "gearLayoutMode": "Layout 2"
   },
   "9316870": {
     "palette": 6,
     "position": "bottom-left",
     "artMode": "paper",
     "optIndex": 20,
-    "soptIndex": 13
+    "soptIndex": 13,
+    "gearLayoutMode": "Layout 1"
   },
   "9333417": {
     "palette": 11,
     "position": "top",
     "artMode": "straight",
     "optIndex": 74,
-    "soptIndex": 5
+    "soptIndex": 5,
+    "gearLayoutMode": "Layout 2"
   },
   "9351519": {
     "palette": 0,
     "position": "right",
     "artMode": "straight",
     "optIndex": 56,
-    "soptIndex": 9
+    "soptIndex": 9,
+    "gearLayoutMode": "Layout 2"
   },
   "9366038": {
     "palette": 0,
     "position": "right",
     "artMode": "straight",
     "optIndex": 59,
-    "soptIndex": 1
+    "soptIndex": 1,
+    "gearLayoutMode": "Layout 1"
   },
   "9374851": {
     "palette": 7,
     "position": "bottom-right",
     "artMode": "paper",
     "optIndex": 6,
-    "soptIndex": 2
+    "soptIndex": 2,
+    "gearLayoutMode": "Layout 1"
   },
   "9386442": {
     "palette": 3,
     "position": "bottom-left",
     "artMode": "paper",
     "optIndex": 45,
-    "soptIndex": 5
+    "soptIndex": 5,
+    "gearLayoutMode": "Layout 1"
   },
   "9454135": {
     "palette": 1,
     "position": "left",
     "artMode": "straight",
     "optIndex": 4,
-    "soptIndex": 8
+    "soptIndex": 8,
+    "gearLayoutMode": "Layout 2"
   },
   "9458829": {
     "palette": 10,
     "position": "left",
     "artMode": "circle",
     "optIndex": 73,
-    "soptIndex": 16
+    "soptIndex": 16,
+    "gearLayoutMode": "Layout 2"
   },
   "9465326": {
     "palette": 8,
     "position": "right",
     "artMode": "straight",
     "optIndex": 6,
-    "soptIndex": 1
+    "soptIndex": 1,
+    "gearLayoutMode": "Layout 1"
   },
   "9531898": {
     "palette": 4,
     "position": "bottom-right",
     "artMode": "l",
     "optIndex": 20,
-    "soptIndex": 4
+    "soptIndex": 4,
+    "gearLayoutMode": "Layout 1"
   },
   "9536157": {
     "palette": 10,
     "position": "left",
     "artMode": "straight",
     "optIndex": 67,
-    "soptIndex": 2
+    "soptIndex": 2,
+    "gearLayoutMode": "Layout 1"
   },
   "9565691": {
     "palette": 8,
     "position": "top",
     "artMode": "circle",
     "optIndex": 21,
-    "soptIndex": 15
+    "soptIndex": 15,
+    "gearLayoutMode": "Layout 1"
   },
   "9576430": {
     "palette": 4,
     "position": "bottom-left",
     "artMode": "circle",
     "optIndex": 28,
-    "soptIndex": 6
+    "soptIndex": 6,
+    "gearLayoutMode": "Layout 2"
   },
   "9622575": {
     "palette": 6,
     "position": "bottom-right",
     "artMode": "circle",
     "optIndex": 2,
-    "soptIndex": 4
+    "soptIndex": 4,
+    "gearLayoutMode": "Layout 1"
   },
   "9623450": {
     "palette": 9,
     "position": "left",
     "artMode": "straight",
     "optIndex": 12,
-    "soptIndex": 17
+    "soptIndex": 17,
+    "gearLayoutMode": "Layout 2"
   },
   "9626094": {
     "palette": 8,
     "position": "top-left",
     "artMode": "circle",
     "optIndex": 15,
-    "soptIndex": 3
+    "soptIndex": 3,
+    "gearLayoutMode": "Layout 1"
   },
   "9658527": {
     "palette": 2,
     "position": "bottom",
     "artMode": "straight",
     "optIndex": 27,
-    "soptIndex": 15
+    "soptIndex": 15,
+    "gearLayoutMode": "Layout 1"
   },
   "9670298": {
     "palette": 6,
     "position": "top-left",
     "artMode": "paper",
     "optIndex": 33,
-    "soptIndex": 15
+    "soptIndex": 15,
+    "gearLayoutMode": "Layout 2"
   },
   "9674906": {
     "palette": 11,
     "position": "left",
     "artMode": "straight",
     "optIndex": 45,
-    "soptIndex": 8
+    "soptIndex": 8,
+    "gearLayoutMode": "Layout 1"
   },
   "9685511": {
     "palette": 5,
     "position": "left",
     "artMode": "paper",
     "optIndex": 40,
-    "soptIndex": 4
+    "soptIndex": 4,
+    "gearLayoutMode": "Layout 1"
   },
   "9690515": {
     "palette": 11,
     "position": "bottom-left",
     "artMode": "circle",
     "optIndex": 10,
-    "soptIndex": 13
+    "soptIndex": 13,
+    "gearLayoutMode": "Layout 1"
   },
   "9691983": {
     "palette": 7,
     "position": "right",
     "artMode": "straight",
     "optIndex": 70,
-    "soptIndex": 11
+    "soptIndex": 11,
+    "gearLayoutMode": "Layout 1"
   },
   "9726365": {
     "palette": 5,
     "position": "top-right",
     "artMode": "paper",
     "optIndex": 43,
-    "soptIndex": 14
+    "soptIndex": 14,
+    "gearLayoutMode": "Layout 1"
   },
   "9728064": {
     "palette": 9,
     "position": "bottom-right",
     "artMode": "circle",
     "optIndex": 67,
-    "soptIndex": 5
+    "soptIndex": 5,
+    "gearLayoutMode": "Layout 1"
   },
   "9730780": {
     "palette": 6,
     "position": "bottom-right",
     "artMode": "circle",
     "optIndex": 42,
-    "soptIndex": 11
+    "soptIndex": 11,
+    "gearLayoutMode": "Layout 2"
   },
   "9744066": {
     "palette": 7,
     "position": "right",
     "artMode": "straight",
     "optIndex": 26,
-    "soptIndex": 11
+    "soptIndex": 11,
+    "gearLayoutMode": "Layout 2"
   },
   "9763163": {
     "palette": 8,
     "position": "bottom-left",
     "artMode": "paper",
     "optIndex": 20,
-    "soptIndex": 6
+    "soptIndex": 6,
+    "gearLayoutMode": "Layout 1"
   },
   "9795220": {
     "palette": 0,
     "position": "top-left",
     "artMode": "circle",
     "optIndex": 11,
-    "soptIndex": 9
+    "soptIndex": 9,
+    "gearLayoutMode": "Layout 2"
   },
   "9881753": {
     "palette": 8,
     "position": "right",
     "artMode": "straight",
     "optIndex": 61,
-    "soptIndex": 18
+    "soptIndex": 18,
+    "gearLayoutMode": "Layout 2"
   },
   "9888206": {
     "palette": 8,
     "position": "bottom-right",
     "artMode": "circle",
     "optIndex": 41,
-    "soptIndex": 17
+    "soptIndex": 17,
+    "gearLayoutMode": "Layout 2"
   },
   "9889166": {
     "palette": 6,
     "position": "top",
     "artMode": "straight",
     "optIndex": 69,
-    "soptIndex": 7
+    "soptIndex": 7,
+    "gearLayoutMode": "Layout 1"
   },
   "9920467": {
     "palette": 7,
     "position": "left",
     "artMode": "straight",
     "optIndex": 15,
-    "soptIndex": 17
+    "soptIndex": 17,
+    "gearLayoutMode": "Layout 1"
   },
   "9925670": {
     "palette": 11,
     "position": "top",
     "artMode": "straight",
     "optIndex": 3,
-    "soptIndex": 12
+    "soptIndex": 12,
+    "gearLayoutMode": "Layout 1"
   }
 }
