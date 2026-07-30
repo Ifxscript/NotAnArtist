@@ -34,7 +34,8 @@ function CollectionPage({ onNavigateToTraits }) {
     const [filters, setFilters] = useState({
         "Palette": '',
         "Art Mode": '',
-        "Position": ''
+        "Position": '',
+        "Gear Layout Mode": ''
     });
 
     const [searchResult, setSearchResult] = useState(null);
@@ -51,7 +52,8 @@ function CollectionPage({ onNavigateToTraits }) {
                 setFilters({
                     "Palette": '',
                     "Art Mode": '',
-                    "Position": ''
+                    "Position": '',
+                    "Gear Layout Mode": ''
                 });
             })
             .catch(err => console.error('Error loading traits:', err));
@@ -83,7 +85,8 @@ function CollectionPage({ onNavigateToTraits }) {
         const options = {
             "Palette": new Set(),
             "Art Mode": new Set(),
-            "Position": new Set()
+            "Position": new Set(),
+            "Gear Layout Mode": new Set()
         };
 
         allCats.forEach(cat => {
@@ -97,7 +100,8 @@ function CollectionPage({ onNavigateToTraits }) {
         return {
             "Palette": Array.from(options["Palette"]).sort(),
             "Art Mode": Array.from(options["Art Mode"]).sort(),
-            "Position": Array.from(options["Position"]).sort()
+            "Position": Array.from(options["Position"]).sort(),
+            "Gear Layout Mode": Array.from(options["Gear Layout Mode"]).sort()
         };
     }, [allCats]);
 
@@ -176,7 +180,8 @@ function CollectionPage({ onNavigateToTraits }) {
         setFilters({
             "Palette": '',
             "Art Mode": '',
-            "Position": ''
+            "Position": '',
+            "Gear Layout Mode": ''
         });
     };
 
