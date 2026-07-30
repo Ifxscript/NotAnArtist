@@ -2754,7 +2754,7 @@ class CircleArcRow {
             return;
         }
 
-        strokeWeight(1.0 * scaleFactor);
+        strokeWeight(width * 0.005);
 
         for (let i = -1; i < count; i++) {
             let a = this.startA + i * step + phase;
@@ -2835,7 +2835,7 @@ class SquareArcRow {
             return;
         }
 
-        strokeWeight(3.5 * scaleFactor);
+        strokeWeight(width * 0.0175);
 
         for (let i = -1; i < count; i++) {
             let a = this.startA + i * step + phase;
@@ -3508,7 +3508,7 @@ class SlantedLineArc {
 
                     let scaleFactor = r / 90.0;
                     stroke(0);
-                    strokeWeight(0.8 * scaleFactor);
+                    strokeWeight(width * 0.004);
 
                     let step = 3 * scaleFactor;
                     for (
@@ -3533,7 +3533,7 @@ class SlantedLineArc {
 
                     let scaleFactor = r / 90.0;
                     stroke(0);
-                    strokeWeight(0.8 * scaleFactor);
+                    strokeWeight(width * 0.004);
 
                     if (
                         art.drawMode === 'straight'
