@@ -3502,14 +3502,15 @@ class SlantedLineArc {
                         radians(this.angle)
                     );
 
+                    let scaleFactor = r / 90.0;
                     stroke(0);
+                    strokeWeight(0.8 * scaleFactor);
 
-                    strokeWeight(0.8);
-
+                    let step = 3 * scaleFactor;
                     for (
                         let i = -limit;
                         i < limit;
-                        i += 3
+                        i += step
                     ) {
 
                         line(
@@ -3526,18 +3527,19 @@ class SlantedLineArc {
 
                     // concentric pattern
 
+                    let scaleFactor = r / 90.0;
                     stroke(0);
-
-                    strokeWeight(0.8);
+                    strokeWeight(0.8 * scaleFactor);
 
                     if (
                         art.drawMode === 'straight'
                     ) {
 
+                        let step = 2 * scaleFactor;
                         for (
-                            let rad = innerR + 0.5;
+                            let rad = innerR + 0.5 * scaleFactor;
                             rad < outerR;
-                            rad += 2
+                            rad += step
                         ) {
 
                             let x =
@@ -3565,7 +3567,8 @@ class SlantedLineArc {
                         translate(bb.cx, bb.cy);
                         rotate(tangent); // align with leg direction
                         // draw lines perpendicular to travel direction (i.e. across the track width)
-                        for (let i = -limit; i < limit; i += 2) {
+                        let step = 2 * scaleFactor;
+                        for (let i = -limit; i < limit; i += step) {
                             line(i, -limit, i, limit);
                         }
                         pop();
@@ -3574,10 +3577,11 @@ class SlantedLineArc {
 
                         noFill();
 
+                        let step = 2 * scaleFactor;
                         for (
-                            let rad = innerR + 0.5;
+                            let rad = innerR + 0.5 * scaleFactor;
                             rad < outerR;
-                            rad += 2
+                            rad += step
                         ) {
 
                             circle(
