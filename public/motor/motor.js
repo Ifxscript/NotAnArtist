@@ -168,6 +168,10 @@ function draw() {
         layout.displayLayer(layer, piping);
     }
 
+
+
+
+
     // Stamp the pre-baked background
     imageMode(CORNER);
     image(artLayerCache, 0, 0, width, height);
@@ -207,10 +211,12 @@ function draw() {
     }
 
     // Palette Color Grade Overlay (Conditional Tint)
+
+
     if (typeof tintMode !== 'undefined' && tintMode === 'tinted') {
         push();
         blendMode(OVERLAY);
-        let tintCol = color(0, 60);
+        let tintCol = color(0, 40);
         fill(tintCol);
         noStroke();
         rectMode(CORNER);
@@ -218,6 +224,7 @@ function draw() {
         pop();
         blendMode(BLEND);
     }
+
     // Canvas border frame
     stroke(col[3]);
     strokeWeight(width * 0.069);
