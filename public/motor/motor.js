@@ -2742,7 +2742,9 @@ class CircleArcRow {
         let trackR = (innerR + outerR) * 0.5;
         let size = (outerR - innerR) * 0.85; // 15% padding so strokes don't bleed
         let arcLength = art.getArcLength(trackR);
-        let count = max(1, floor(arcLength / (size + this.gapPx)));
+        let scaleFactor = r / 90.0;
+        let gapPx = this.gapPx * scaleFactor;
+        let count = max(1, floor(arcLength / (size + gapPx)));
         let step = (this.endA - this.startA) / count;
         let totalSteps = floor((frameCount * this.speed) / step);
         let phase = (frameCount * this.speed) % step;
@@ -2752,7 +2754,7 @@ class CircleArcRow {
             return;
         }
 
-        strokeWeight(1);
+        strokeWeight(1.0 * scaleFactor);
 
         for (let i = -1; i < count; i++) {
             let a = this.startA + i * step + phase;
@@ -2821,7 +2823,9 @@ class SquareArcRow {
         let trackR = (innerR + outerR) * 0.5;
         let size = (outerR - innerR) * 0.68; // Scaled rect size for clean breathing room
         let arcLength = art.getArcLength(trackR);
-        let count = max(1, floor(arcLength / (size + this.gapPx)));
+        let scaleFactor = r / 90.0;
+        let gapPx = this.gapPx * scaleFactor;
+        let count = max(1, floor(arcLength / (size + gapPx)));
         let step = (this.endA - this.startA) / count;
         let totalSteps = floor((frameCount * this.speed) / step);
         let phase = (frameCount * this.speed) % step;
@@ -2831,7 +2835,7 @@ class SquareArcRow {
             return;
         }
 
-        strokeWeight(3.5); // Bold 3.5px stroke width for strong outlines // Increased stroke width for bolder outline
+        strokeWeight(3.5 * scaleFactor);
 
         for (let i = -1; i < count; i++) {
             let a = this.startA + i * step + phase;
