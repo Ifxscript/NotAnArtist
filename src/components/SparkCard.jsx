@@ -14,6 +14,7 @@ function SparkCard({ title, imageUrl, traits, onClick }) {
                     src={imageUrl}
                     alt={title}
                     loading="lazy"
+                    decoding="async"
                     style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
                 />
                 <div className="spark-card__info">

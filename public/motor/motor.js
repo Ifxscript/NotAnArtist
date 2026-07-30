@@ -67,9 +67,9 @@ function setup() {
     let tintOptions = ['tinted', 'notTinted'];
     tintMode = tintOptions[0];
     window.traits["Tint"] = tintMode;
-    // Limit canvas resolution on mobile devices to 2x (retina standard) to keep it sharp but prevent crashes
+    // Limit canvas resolution on mobile devices to 1x for 60 FPS smooth performance
     if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
-        pixelDensity(2);
+        pixelDensity(1);
     }
     let cvs = createCanvas(windowHeight * 0.675, windowHeight * 0.9);
     cvs.style('box-shadow', '0 0 5px rgba(0, 0, 0, 1)');
