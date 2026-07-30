@@ -1137,11 +1137,11 @@ class Arm {
 
         g.strokeJoin(ROUND);
 
-        // Shadow pass
+        // Shadow pass (subtle soft offset)
         g.push();
-        g.translate(0, 3);
+        g.translate(0, 1);
         g.noStroke();
-        g.fill(0, 0, 0, 50);
+        g.fill(0, 0, 0, 18);
         this.drawConnectingRod(g, dx, this.armR);
         g.pop();
 
@@ -1172,10 +1172,10 @@ class Arm {
         shaderBuffer.pop();
 
         this.machinedPg = createGraphics(w, h);
-        this.machinedPg.drawingContext.shadowOffsetX = 5;
-        this.machinedPg.drawingContext.shadowOffsetY = 5;
-        this.machinedPg.drawingContext.shadowBlur = 10;
-        this.machinedPg.drawingContext.shadowColor = 'rgba(20, 15, 10, 0.5)';
+        this.machinedPg.drawingContext.shadowOffsetX = 2;
+        this.machinedPg.drawingContext.shadowOffsetY = 2;
+        this.machinedPg.drawingContext.shadowBlur = 4;
+        this.machinedPg.drawingContext.shadowColor = 'rgba(0, 0, 0, 0.2)';
         this.machinedPg.image(shaderBuffer, 0, 0, w, h);
         this.machinedPg.drawingContext.shadowColor = 'rgba(0,0,0,0)';
         g.remove();
@@ -1470,11 +1470,11 @@ class PistonEngine {
             graphics.circle(rightX, 0, bigR * 2.2);
         };
 
-        // Ambient drop shadow under connecting rod
+        // Ambient drop shadow under connecting rod (subtle soft offset)
         g.push();
-        g.translate(0, 2.5);
+        g.translate(0, 1);
         g.noStroke();
-        g.fill(0, 0, 0, 50);
+        g.fill(0, 0, 0, 18);
         drawConnectingRod(g, dx, armThickness);
         g.pop();
 
@@ -1505,10 +1505,10 @@ class PistonEngine {
         shaderBuffer.pop();
 
         this.rodPg = createGraphics(w, h);
-        this.rodPg.drawingContext.shadowOffsetX = 5;
-        this.rodPg.drawingContext.shadowOffsetY = 5;
-        this.rodPg.drawingContext.shadowBlur = 10;
-        this.rodPg.drawingContext.shadowColor = 'rgba(20, 15, 10, 0.5)';
+        this.rodPg.drawingContext.shadowOffsetX = 2;
+        this.rodPg.drawingContext.shadowOffsetY = 2;
+        this.rodPg.drawingContext.shadowBlur = 4;
+        this.rodPg.drawingContext.shadowColor = 'rgba(0, 0, 0, 0.2)';
         this.rodPg.image(shaderBuffer, 0, 0, w, h);
         this.rodPg.drawingContext.shadowColor = 'rgba(0,0,0,0)';
         g.remove();
