@@ -1,579 +1,579 @@
 [
   {
     "inscriptionId": "1",
-    "seed": 3848214,
+    "seed": 419165377,
     "traits": {
       "Palette": "Classic Sand",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "2",
+    "seed": 417812448,
+    "traits": {
+      "Palette": "Industrial Orange",
+      "Art Mode": "Mechanical Straight",
+      "Position": "bottom",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "3",
+    "seed": 637120559,
+    "traits": {
+      "Palette": "Sand Teal Accent",
+      "Art Mode": "L-Corner Frame",
+      "Position": "bottom-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "4",
+    "seed": 615199384,
+    "traits": {
+      "Palette": "Navy Amber",
+      "Art Mode": "Mechanical Straight",
+      "Position": "top",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "5",
+    "seed": 461593899,
+    "traits": {
+      "Palette": "Classic Sand",
+      "Art Mode": "Textured Paper",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "6",
+    "seed": 964707948,
+    "traits": {
+      "Palette": "Desert Bronze",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "7",
+    "seed": 221046231,
+    "traits": {
+      "Palette": "Teal Emerald",
+      "Art Mode": "Textured Paper",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "8",
+    "seed": 542155038,
+    "traits": {
+      "Palette": "Sand Teal Accent",
+      "Art Mode": "L-Corner Frame",
+      "Position": "bottom-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "9",
+    "seed": 549531377,
+    "traits": {
+      "Palette": "Golden Ochre",
+      "Art Mode": "Mechanical Straight",
+      "Position": "top",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "10",
+    "seed": 992661260,
+    "traits": {
+      "Palette": "Golden Ochre",
       "Art Mode": "Textured Paper",
       "Position": "left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "2",
-    "seed": 7053653,
-    "traits": {
-      "Palette": "Teal Harmony",
-      "Art Mode": "Mechanical Straight",
-      "Position": "top",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "3",
-    "seed": 3535716,
-    "traits": {
-      "Palette": "Sand Teal Accent",
-      "Art Mode": "Circular Arc",
-      "Position": "bottom-left",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "4",
-    "seed": 4289349,
-    "traits": {
-      "Palette": "Ocean Sunset",
-      "Art Mode": "Circular Arc",
-      "Position": "bottom",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "5",
-    "seed": 2845710,
-    "traits": {
-      "Palette": "Sand Teal Accent",
-      "Art Mode": "Mechanical Straight",
-      "Position": "top",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "6",
-    "seed": 1425984,
-    "traits": {
-      "Palette": "Monochrome Orange",
-      "Art Mode": "Circular Arc",
-      "Position": "top-left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "7",
-    "seed": 2294129,
-    "traits": {
-      "Palette": "Sage Muted Emerald",
-      "Art Mode": "Linework",
-      "Position": "bottom-left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "8",
-    "seed": 5160357,
-    "traits": {
-      "Palette": "Teal Harmony",
-      "Art Mode": "Mechanical Straight",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "9",
-    "seed": 6590656,
-    "traits": {
-      "Palette": "Forest Olive",
-      "Art Mode": "Linework",
-      "Position": "top-left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "10",
-    "seed": 6574809,
-    "traits": {
-      "Palette": "Sage Muted Emerald",
-      "Art Mode": "Mechanical Straight",
-      "Position": "top",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
     "inscriptionId": "11",
-    "seed": 4257548,
+    "seed": 128496382,
     "traits": {
-      "Palette": "Golden Bronze",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
+      "Palette": "Sage Mint",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "12",
-    "seed": 8323903,
+    "seed": 487508135,
     "traits": {
-      "Palette": "Monochrome Orange",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "13",
-    "seed": 3768869,
-    "traits": {
-      "Palette": "Industrial Sunset",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "14",
-    "seed": 5431039,
-    "traits": {
-      "Palette": "Golden Bronze",
+      "Palette": "Deep Terracotta",
       "Art Mode": "Textured Paper",
       "Position": "bottom-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "15",
-    "seed": 1849926,
+    "inscriptionId": "13",
+    "seed": 302365092,
     "traits": {
-      "Palette": "Monochrome Orange",
-      "Art Mode": "Circular Arc",
-      "Position": "top-left",
+      "Palette": "Dark Olive",
+      "Art Mode": "Textured Paper",
+      "Position": "top-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "16",
-    "seed": 6512595,
+    "inscriptionId": "14",
+    "seed": 966998810,
     "traits": {
-      "Palette": "Forest Olive",
+      "Palette": "Warm Crimson",
+      "Art Mode": "Mechanical Straight",
+      "Position": "right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "15",
+    "seed": 418768158,
+    "traits": {
+      "Palette": "Classic Sand",
       "Art Mode": "Mechanical Straight",
       "Position": "left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "17",
-    "seed": 7882472,
+    "inscriptionId": "16",
+    "seed": 467661522,
     "traits": {
-      "Palette": "Teal Harmony",
+      "Palette": "Dark Olive",
       "Art Mode": "Textured Paper",
-      "Position": "top-right",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "18",
-    "seed": 2823508,
-    "traits": {
-      "Palette": "Deep Oceanic",
-      "Art Mode": "Linework",
-      "Position": "top-right",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "19",
-    "seed": 3203608,
-    "traits": {
-      "Palette": "Warm Terracotta",
-      "Art Mode": "Circular Arc",
       "Position": "bottom-left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "20",
-    "seed": 5854572,
-    "traits": {
-      "Palette": "Forest Olive",
-      "Art Mode": "Linework",
-      "Position": "top-right",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "21",
-    "seed": 8504007,
-    "traits": {
-      "Palette": "Classic Sand",
-      "Art Mode": "Linework",
-      "Position": "top-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "22",
-    "seed": 5476413,
+    "inscriptionId": "17",
+    "seed": 479050953,
     "traits": {
-      "Palette": "Warm Terracotta",
-      "Art Mode": "Mechanical Straight",
-      "Position": "top",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "23",
-    "seed": 5468256,
-    "traits": {
-      "Palette": "Classic Sand",
-      "Art Mode": "Textured Paper",
+      "Palette": "Golden Ochre",
+      "Art Mode": "Circular Arc",
       "Position": "right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "24",
-    "seed": 8547199,
+    "inscriptionId": "18",
+    "seed": 167798311,
     "traits": {
-      "Palette": "Deep Oceanic",
+      "Palette": "Cyan Orange",
+      "Art Mode": "L-Corner Frame",
+      "Position": "bottom-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "19",
+    "seed": 194863551,
+    "traits": {
+      "Palette": "Cyan Orange",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "20",
+    "seed": 300938674,
+    "traits": {
+      "Palette": "Navy Amber",
+      "Art Mode": "Circular Arc",
+      "Position": "top-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "21",
+    "seed": 323885929,
+    "traits": {
+      "Palette": "Industrial Orange",
       "Art Mode": "Mechanical Straight",
       "Position": "bottom",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "25",
-    "seed": 8007348,
+    "inscriptionId": "22",
+    "seed": 366611286,
     "traits": {
-      "Palette": "Forest Olive",
+      "Palette": "Sand Teal Accent",
       "Art Mode": "Textured Paper",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 1"
+      "Position": "left",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "26",
-    "seed": 6664314,
+    "inscriptionId": "23",
+    "seed": 528448455,
     "traits": {
-      "Palette": "Teal Harmony",
+      "Palette": "Classic Sand",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "24",
+    "seed": 699990049,
+    "traits": {
+      "Palette": "Classic Sand",
       "Art Mode": "Mechanical Straight",
       "Position": "top",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "27",
-    "seed": 1139415,
+    "inscriptionId": "25",
+    "seed": 904608653,
     "traits": {
-      "Palette": "Teal Harmony",
+      "Palette": "Deep Terracotta",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "26",
+    "seed": 989573362,
+    "traits": {
+      "Palette": "Sand Teal Accent",
       "Art Mode": "Mechanical Straight",
-      "Position": "right",
+      "Position": "left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "27",
+    "seed": 642303557,
+    "traits": {
+      "Palette": "Sand Teal Accent",
+      "Art Mode": "Mechanical Straight",
+      "Position": "bottom",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "28",
-    "seed": 8879679,
+    "seed": 454370559,
     "traits": {
-      "Palette": "Warm Terracotta",
-      "Art Mode": "Linework",
+      "Palette": "Cyan Orange",
+      "Art Mode": "Textured Paper",
       "Position": "bottom-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "29",
-    "seed": 2203117,
+    "seed": 191105832,
     "traits": {
-      "Palette": "Warm Terracotta",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Deep Terracotta",
+      "Art Mode": "Textured Paper",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "30",
-    "seed": 6629356,
-    "traits": {
-      "Palette": "Warm Terracotta",
-      "Art Mode": "Circular Arc",
-      "Position": "bottom-right",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "31",
-    "seed": 6760630,
-    "traits": {
-      "Palette": "Warm Terracotta",
-      "Art Mode": "Textured Paper",
-      "Position": "center",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "32",
-    "seed": 9386442,
-    "traits": {
-      "Palette": "Autumn Red",
-      "Art Mode": "Textured Paper",
-      "Position": "bottom-left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "33",
-    "seed": 8149550,
-    "traits": {
-      "Palette": "Forest Olive",
-      "Art Mode": "Linework",
-      "Position": "top-right",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "34",
-    "seed": 7211472,
-    "traits": {
-      "Palette": "Teal Harmony",
-      "Art Mode": "Linework",
-      "Position": "top-left",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "35",
-    "seed": 1241978,
+    "seed": 998059241,
     "traits": {
       "Palette": "Classic Sand",
-      "Art Mode": "Mechanical Straight",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "36",
-    "seed": 6222098,
-    "traits": {
-      "Palette": "Sand Teal Accent",
-      "Art Mode": "Textured Paper",
-      "Position": "top-left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "37",
-    "seed": 2792818,
-    "traits": {
-      "Palette": "Industrial Sunset",
-      "Art Mode": "Linework",
-      "Position": "bottom-right",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "38",
-    "seed": 5638191,
-    "traits": {
-      "Palette": "Autumn Red",
-      "Art Mode": "Circular Arc",
-      "Position": "top-left",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "39",
-    "seed": 1840651,
-    "traits": {
-      "Palette": "Monochrome Orange",
-      "Art Mode": "Circular Arc",
-      "Position": "bottom-right",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "40",
-    "seed": 1590500,
-    "traits": {
-      "Palette": "Sage Muted Emerald",
-      "Art Mode": "Mechanical Straight",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "41",
-    "seed": 2324542,
-    "traits": {
-      "Palette": "Industrial Sunset",
-      "Art Mode": "Circular Arc",
-      "Position": "top-left",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "42",
-    "seed": 5001448,
-    "traits": {
-      "Palette": "Teal Harmony",
-      "Art Mode": "Circular Arc",
-      "Position": "bottom-left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "43",
-    "seed": 6811643,
-    "traits": {
-      "Palette": "Warm Terracotta",
-      "Art Mode": "Circular Arc",
-      "Position": "top-left",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "44",
-    "seed": 3678479,
-    "traits": {
-      "Palette": "Monochrome Orange",
-      "Art Mode": "Textured Paper",
-      "Position": "bottom-left",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "45",
-    "seed": 5074212,
-    "traits": {
-      "Palette": "Classic Sand",
-      "Art Mode": "Mechanical Straight",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "46",
-    "seed": 6458095,
-    "traits": {
-      "Palette": "Ocean Sunset",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "47",
-    "seed": 4547028,
-    "traits": {
-      "Palette": "Sand Teal Accent",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "48",
-    "seed": 6737898,
-    "traits": {
-      "Palette": "Deep Oceanic",
-      "Art Mode": "Textured Paper",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "49",
-    "seed": 1562896,
-    "traits": {
-      "Palette": "Industrial Sunset",
-      "Art Mode": "Textured Paper",
-      "Position": "top-left",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "50",
-    "seed": 9920467,
-    "traits": {
-      "Palette": "Teal Harmony",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "51",
-    "seed": 1873920,
-    "traits": {
-      "Palette": "Industrial Sunset",
-      "Art Mode": "Mechanical Straight",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "52",
-    "seed": 8447614,
-    "traits": {
-      "Palette": "Monochrome Orange",
       "Art Mode": "Mechanical Straight",
       "Position": "bottom",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "53",
-    "seed": 7657501,
+    "inscriptionId": "31",
+    "seed": 778411820,
     "traits": {
-      "Palette": "Monochrome Orange",
+      "Palette": "Navy Amber",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "32",
+    "seed": 393007347,
+    "traits": {
+      "Palette": "Sage Mint",
+      "Art Mode": "Textured Paper",
+      "Position": "center",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "33",
+    "seed": 900019632,
+    "traits": {
+      "Palette": "Golden Ochre",
+      "Art Mode": "Textured Paper",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "34",
+    "seed": 133095103,
+    "traits": {
+      "Palette": "Navy Amber",
+      "Art Mode": "Textured Paper",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "35",
+    "seed": 358435734,
+    "traits": {
+      "Palette": "Classic Sand",
+      "Art Mode": "Textured Paper",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "36",
+    "seed": 205963923,
+    "traits": {
+      "Palette": "Golden Ochre",
+      "Art Mode": "Textured Paper",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "37",
+    "seed": 346359861,
+    "traits": {
+      "Palette": "Pure Gold",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "38",
+    "seed": 909405250,
+    "traits": {
+      "Palette": "Teal Emerald",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "39",
+    "seed": 477150966,
+    "traits": {
+      "Palette": "Classic Sand",
+      "Art Mode": "L-Corner Frame",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "40",
+    "seed": 385299154,
+    "traits": {
+      "Palette": "Classic Sand",
+      "Art Mode": "Textured Paper",
+      "Position": "left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "41",
+    "seed": 741707621,
+    "traits": {
+      "Palette": "Golden Ochre",
+      "Art Mode": "Circular Arc",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "42",
+    "seed": 665621154,
+    "traits": {
+      "Palette": "Sage Mint",
+      "Art Mode": "Circular Arc",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "43",
+    "seed": 527994559,
+    "traits": {
+      "Palette": "Classic Sand",
+      "Art Mode": "Textured Paper",
+      "Position": "top-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "44",
+    "seed": 679635290,
+    "traits": {
+      "Palette": "Pure Gold",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "45",
+    "seed": 309443820,
+    "traits": {
+      "Palette": "Pure Gold",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "46",
+    "seed": 164328979,
+    "traits": {
+      "Palette": "Deep Terracotta",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "47",
+    "seed": 816298367,
+    "traits": {
+      "Palette": "Industrial Orange",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "48",
+    "seed": 957616021,
+    "traits": {
+      "Palette": "Golden Ochre",
       "Art Mode": "Mechanical Straight",
       "Position": "left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "54",
-    "seed": 7321908,
+    "inscriptionId": "49",
+    "seed": 997801930,
     "traits": {
-      "Palette": "Sage Muted Emerald",
-      "Art Mode": "Circular Arc",
+      "Palette": "Desert Bronze",
+      "Art Mode": "Mechanical Straight",
+      "Position": "right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "50",
+    "seed": 207326516,
+    "traits": {
+      "Palette": "Teal Emerald",
+      "Art Mode": "Textured Paper",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "51",
+    "seed": 222935409,
+    "traits": {
+      "Palette": "Pure Gold",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "52",
+    "seed": 388174012,
+    "traits": {
+      "Palette": "Dark Olive",
+      "Art Mode": "L-Corner Frame",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "53",
+    "seed": 763905190,
+    "traits": {
+      "Palette": "Pure Gold",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "54",
+    "seed": 907168856,
+    "traits": {
+      "Palette": "Navy Amber",
+      "Art Mode": "L-Corner Frame",
       "Position": "top-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "55",
-    "seed": 1368750,
+    "seed": 340579569,
     "traits": {
-      "Palette": "Sand Teal Accent",
-      "Art Mode": "Circular Arc",
+      "Palette": "Navy Amber",
+      "Art Mode": "L-Corner Frame",
       "Position": "top-right",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "56",
-    "seed": 8992121,
+    "seed": 161052837,
     "traits": {
-      "Palette": "Deep Oceanic",
+      "Palette": "Golden Ochre",
       "Art Mode": "Mechanical Straight",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 1"
+      "Position": "top",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "57",
-    "seed": 9008186,
+    "seed": 747993472,
     "traits": {
-      "Palette": "Deep Oceanic",
-      "Art Mode": "Mechanical Straight",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Classic Sand",
+      "Art Mode": "Textured Paper",
+      "Position": "center",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "58",
-    "seed": 6244836,
+    "seed": 192734984,
     "traits": {
-      "Palette": "Monochrome Orange",
+      "Palette": "Teal Emerald",
       "Art Mode": "Circular Arc",
       "Position": "top-right",
       "Gear Layout Mode": "Layout 2"
@@ -581,109 +581,109 @@
   },
   {
     "inscriptionId": "59",
-    "seed": 6004559,
+    "seed": 660595763,
     "traits": {
-      "Palette": "Teal Harmony",
-      "Art Mode": "Mechanical Straight",
-      "Position": "right",
+      "Palette": "Warm Crimson",
+      "Art Mode": "Circular Arc",
+      "Position": "top-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "60",
-    "seed": 6231480,
+    "seed": 325703572,
     "traits": {
-      "Palette": "Industrial Sunset",
-      "Art Mode": "Textured Paper",
+      "Palette": "Desert Bronze",
+      "Art Mode": "Circular Arc",
       "Position": "bottom-left",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "61",
-    "seed": 3584253,
+    "seed": 826940233,
     "traits": {
-      "Palette": "Golden Bronze",
-      "Art Mode": "Textured Paper",
-      "Position": "top-right",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "62",
-    "seed": 2689781,
-    "traits": {
-      "Palette": "Warm Terracotta",
-      "Art Mode": "Mechanical Straight",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "63",
-    "seed": 3404105,
-    "traits": {
-      "Palette": "Industrial Sunset",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "64",
-    "seed": 6983730,
-    "traits": {
-      "Palette": "Ocean Sunset",
-      "Art Mode": "Mechanical Straight",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "65",
-    "seed": 8811449,
-    "traits": {
-      "Palette": "Sage Muted Emerald",
+      "Palette": "Cyan Orange",
       "Art Mode": "Circular Arc",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "66",
-    "seed": 8370695,
-    "traits": {
-      "Palette": "Deep Oceanic",
-      "Art Mode": "Mechanical Straight",
-      "Position": "bottom",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "67",
-    "seed": 4771023,
-    "traits": {
-      "Palette": "Monochrome Orange",
-      "Art Mode": "Textured Paper",
       "Position": "bottom-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "68",
-    "seed": 6342496,
+    "inscriptionId": "62",
+    "seed": 196919003,
     "traits": {
-      "Palette": "Sage Muted Emerald",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Classic Sand",
+      "Art Mode": "Textured Paper",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "63",
+    "seed": 160534207,
+    "traits": {
+      "Palette": "Dark Olive",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "64",
+    "seed": 755443542,
+    "traits": {
+      "Palette": "Industrial Orange",
+      "Art Mode": "Circular Arc",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "65",
+    "seed": 134027859,
+    "traits": {
+      "Palette": "Cyan Orange",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "66",
+    "seed": 768225281,
+    "traits": {
+      "Palette": "Pure Gold",
+      "Art Mode": "Textured Paper",
+      "Position": "center",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "67",
+    "seed": 330466337,
+    "traits": {
+      "Palette": "Golden Ochre",
+      "Art Mode": "L-Corner Frame",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "68",
+    "seed": 128501471,
+    "traits": {
+      "Palette": "Deep Terracotta",
+      "Art Mode": "Textured Paper",
+      "Position": "top-left",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "69",
-    "seed": 4979971,
+    "seed": 584922870,
     "traits": {
-      "Palette": "Classic Sand",
+      "Palette": "Deep Terracotta",
       "Art Mode": "Mechanical Straight",
       "Position": "left",
       "Gear Layout Mode": "Layout 2"
@@ -691,329 +691,329 @@
   },
   {
     "inscriptionId": "70",
-    "seed": 1040195,
+    "seed": 515723617,
     "traits": {
-      "Palette": "Forest Olive",
-      "Art Mode": "Circular Arc",
-      "Position": "top-left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Navy Amber",
+      "Art Mode": "Mechanical Straight",
+      "Position": "left",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "71",
-    "seed": 2173089,
+    "seed": 595720016,
     "traits": {
-      "Palette": "Sand Teal Accent",
-      "Art Mode": "Mechanical Straight",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Warm Crimson",
+      "Art Mode": "Circular Arc",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "72",
-    "seed": 6198366,
+    "seed": 233772263,
     "traits": {
-      "Palette": "Deep Oceanic",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Classic Sand",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-left",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "73",
-    "seed": 5824393,
+    "seed": 407129388,
     "traits": {
-      "Palette": "Golden Bronze",
-      "Art Mode": "Circular Arc",
-      "Position": "bottom-left",
+      "Palette": "Warm Crimson",
+      "Art Mode": "Textured Paper",
+      "Position": "bottom-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "74",
-    "seed": 8039699,
+    "seed": 275579168,
     "traits": {
-      "Palette": "Industrial Sunset",
-      "Art Mode": "Circular Arc",
-      "Position": "bottom-left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Cyan Orange",
+      "Art Mode": "Textured Paper",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "75",
-    "seed": 8210573,
+    "seed": 210501772,
     "traits": {
-      "Palette": "Autumn Red",
-      "Art Mode": "Textured Paper",
-      "Position": "center",
+      "Palette": "Classic Sand",
+      "Art Mode": "Mechanical Straight",
+      "Position": "left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "76",
-    "seed": 8809147,
+    "seed": 647933834,
     "traits": {
-      "Palette": "Golden Bronze",
-      "Art Mode": "Linework",
-      "Position": "bottom-left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "77",
-    "seed": 1514763,
-    "traits": {
-      "Palette": "Monochrome Orange",
+      "Palette": "Industrial Orange",
       "Art Mode": "Mechanical Straight",
       "Position": "bottom",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "78",
-    "seed": 4638546,
+    "inscriptionId": "77",
+    "seed": 499435634,
     "traits": {
-      "Palette": "Sand Teal Accent",
-      "Art Mode": "Circular Arc",
-      "Position": "bottom-left",
+      "Palette": "Pure Gold",
+      "Art Mode": "Mechanical Straight",
+      "Position": "right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "78",
+    "seed": 748144890,
+    "traits": {
+      "Palette": "Golden Ochre",
+      "Art Mode": "Mechanical Straight",
+      "Position": "right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "79",
-    "seed": 8234092,
+    "seed": 572228837,
     "traits": {
-      "Palette": "Forest Olive",
-      "Art Mode": "Linework",
+      "Palette": "Navy Amber",
+      "Art Mode": "Circular Arc",
       "Position": "top-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "80",
-    "seed": 4169801,
+    "seed": 362201107,
     "traits": {
-      "Palette": "Warm Terracotta",
-      "Art Mode": "Mechanical Straight",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "81",
-    "seed": 8060223,
-    "traits": {
-      "Palette": "Industrial Sunset",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "82",
-    "seed": 6485790,
-    "traits": {
-      "Palette": "Autumn Red",
-      "Art Mode": "Mechanical Straight",
-      "Position": "top",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "83",
-    "seed": 3764461,
-    "traits": {
-      "Palette": "Classic Sand",
-      "Art Mode": "Circular Arc",
-      "Position": "bottom-right",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "84",
-    "seed": 5328985,
-    "traits": {
-      "Palette": "Teal Harmony",
-      "Art Mode": "Textured Paper",
-      "Position": "bottom-left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "85",
-    "seed": 4508981,
-    "traits": {
-      "Palette": "Forest Olive",
+      "Palette": "Industrial Orange",
       "Art Mode": "Textured Paper",
       "Position": "top-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "86",
-    "seed": 6463242,
+    "inscriptionId": "81",
+    "seed": 375149209,
+    "traits": {
+      "Palette": "Deep Terracotta",
+      "Art Mode": "Mechanical Straight",
+      "Position": "right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "82",
+    "seed": 837360373,
+    "traits": {
+      "Palette": "Sand Teal Accent",
+      "Art Mode": "Textured Paper",
+      "Position": "bottom-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "83",
+    "seed": 748208717,
     "traits": {
       "Palette": "Sand Teal Accent",
       "Art Mode": "Circular Arc",
-      "Position": "top-right",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "84",
+    "seed": 793318164,
+    "traits": {
+      "Palette": "Desert Bronze",
+      "Art Mode": "Circular Arc",
+      "Position": "top-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "85",
+    "seed": 759465413,
+    "traits": {
+      "Palette": "Classic Sand",
+      "Art Mode": "Mechanical Straight",
+      "Position": "left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "86",
+    "seed": 960720132,
+    "traits": {
+      "Palette": "Pure Gold",
+      "Art Mode": "L-Corner Frame",
+      "Position": "bottom-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "87",
-    "seed": 7198287,
+    "seed": 758795053,
     "traits": {
-      "Palette": "Classic Sand",
+      "Palette": "Teal Emerald",
       "Art Mode": "Mechanical Straight",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 1"
+      "Position": "left",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "88",
-    "seed": 1387221,
+    "seed": 440013356,
     "traits": {
-      "Palette": "Sand Teal Accent",
-      "Art Mode": "Mechanical Straight",
-      "Position": "top",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Pure Gold",
+      "Art Mode": "Circular Arc",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "89",
-    "seed": 2705507,
+    "seed": 129669075,
     "traits": {
-      "Palette": "Teal Harmony",
-      "Art Mode": "Linework",
-      "Position": "top-right",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Classic Sand",
+      "Art Mode": "Textured Paper",
+      "Position": "bottom-right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "90",
-    "seed": 5553057,
+    "seed": 273140207,
     "traits": {
-      "Palette": "Forest Olive",
-      "Art Mode": "Mechanical Straight",
-      "Position": "top",
+      "Palette": "Teal Emerald",
+      "Art Mode": "Circular Arc",
+      "Position": "top-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "91",
-    "seed": 1020306,
+    "seed": 299471977,
     "traits": {
-      "Palette": "Golden Bronze",
+      "Palette": "Sand Teal Accent",
       "Art Mode": "Textured Paper",
-      "Position": "center",
-      "Gear Layout Mode": "Layout 1"
+      "Position": "right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "92",
-    "seed": 9565691,
+    "seed": 510440466,
     "traits": {
-      "Palette": "Forest Olive",
-      "Art Mode": "Circular Arc",
+      "Palette": "Golden Ochre",
+      "Art Mode": "Mechanical Straight",
       "Position": "top",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "93",
-    "seed": 7019100,
+    "seed": 711123930,
     "traits": {
-      "Palette": "Industrial Sunset",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
+      "Palette": "Deep Terracotta",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "94",
-    "seed": 9730780,
+    "seed": 279452390,
     "traits": {
-      "Palette": "Golden Bronze",
-      "Art Mode": "Circular Arc",
-      "Position": "bottom-right",
+      "Palette": "Industrial Orange",
+      "Art Mode": "Mechanical Straight",
+      "Position": "left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "95",
-    "seed": 7038457,
+    "seed": 540525828,
     "traits": {
-      "Palette": "Monochrome Orange",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "96",
-    "seed": 5249359,
-    "traits": {
-      "Palette": "Monochrome Orange",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "97",
-    "seed": 2133915,
-    "traits": {
-      "Palette": "Classic Sand",
-      "Art Mode": "Linework",
-      "Position": "bottom-right",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "98",
-    "seed": 3493609,
-    "traits": {
-      "Palette": "Classic Sand",
-      "Art Mode": "Circular Arc",
-      "Position": "bottom",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "99",
-    "seed": 1729662,
-    "traits": {
-      "Palette": "Forest Olive",
-      "Art Mode": "Circular Arc",
-      "Position": "bottom-left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "100",
-    "seed": 1727399,
-    "traits": {
-      "Palette": "Teal Harmony",
+      "Palette": "Sand Teal Accent",
       "Art Mode": "Circular Arc",
       "Position": "top-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "101",
-    "seed": 2805256,
+    "inscriptionId": "96",
+    "seed": 890919150,
+    "traits": {
+      "Palette": "Sage Mint",
+      "Art Mode": "Textured Paper",
+      "Position": "right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "97",
+    "seed": 195634770,
     "traits": {
       "Palette": "Classic Sand",
       "Art Mode": "Mechanical Straight",
-      "Position": "bottom",
-      "Gear Layout Mode": "Layout 1"
+      "Position": "top",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "98",
+    "seed": 588107155,
+    "traits": {
+      "Palette": "Industrial Orange",
+      "Art Mode": "Textured Paper",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "99",
+    "seed": 236562710,
+    "traits": {
+      "Palette": "Teal Emerald",
+      "Art Mode": "L-Corner Frame",
+      "Position": "bottom-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "100",
+    "seed": 824800507,
+    "traits": {
+      "Palette": "Desert Bronze",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "101",
+    "seed": 326446789,
+    "traits": {
+      "Palette": "Cyan Orange",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-left",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "102",
-    "seed": 6090045,
+    "seed": 970739186,
     "traits": {
-      "Palette": "Ocean Sunset",
+      "Palette": "Classic Sand",
       "Art Mode": "Mechanical Straight",
       "Position": "left",
       "Gear Layout Mode": "Layout 2"
@@ -1021,29 +1021,29 @@
   },
   {
     "inscriptionId": "103",
-    "seed": 5034358,
+    "seed": 105788390,
     "traits": {
-      "Palette": "Sage Muted Emerald",
-      "Art Mode": "Linework",
-      "Position": "bottom-left",
+      "Palette": "Industrial Orange",
+      "Art Mode": "Circular Arc",
+      "Position": "top-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "104",
-    "seed": 3567697,
+    "seed": 943029568,
     "traits": {
-      "Palette": "Ocean Sunset",
-      "Art Mode": "Mechanical Straight",
+      "Palette": "Pure Gold",
+      "Art Mode": "Textured Paper",
       "Position": "left",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "105",
-    "seed": 3271761,
+    "seed": 443341160,
     "traits": {
-      "Palette": "Sand Teal Accent",
+      "Palette": "Sage Mint",
       "Art Mode": "Mechanical Straight",
       "Position": "right",
       "Gear Layout Mode": "Layout 2"
@@ -1051,109 +1051,109 @@
   },
   {
     "inscriptionId": "106",
-    "seed": 7086178,
+    "seed": 400528276,
     "traits": {
-      "Palette": "Industrial Sunset",
-      "Art Mode": "Linework",
-      "Position": "bottom-right",
+      "Palette": "Sand Teal Accent",
+      "Art Mode": "Textured Paper",
+      "Position": "right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "107",
-    "seed": 4039979,
+    "seed": 115089888,
     "traits": {
-      "Palette": "Sage Muted Emerald",
+      "Palette": "Pure Gold",
       "Art Mode": "Mechanical Straight",
-      "Position": "top",
-      "Gear Layout Mode": "Layout 1"
+      "Position": "left",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "108",
-    "seed": 3027114,
+    "seed": 660469546,
     "traits": {
-      "Palette": "Teal Harmony",
-      "Art Mode": "Textured Paper",
-      "Position": "center",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Pure Gold",
+      "Art Mode": "Circular Arc",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "109",
-    "seed": 3384247,
+    "seed": 625517600,
     "traits": {
-      "Palette": "Sand Teal Accent",
+      "Palette": "Dark Olive",
       "Art Mode": "Mechanical Straight",
-      "Position": "right",
+      "Position": "left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "110",
-    "seed": 9212945,
+    "seed": 931802571,
     "traits": {
-      "Palette": "Forest Olive",
-      "Art Mode": "Mechanical Straight",
-      "Position": "right",
+      "Palette": "Deep Terracotta",
+      "Art Mode": "Textured Paper",
+      "Position": "bottom-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "111",
-    "seed": 4104623,
+    "seed": 846881235,
     "traits": {
       "Palette": "Sand Teal Accent",
-      "Art Mode": "Linework",
+      "Art Mode": "Textured Paper",
       "Position": "bottom-right",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "112",
-    "seed": 9881753,
+    "seed": 612892507,
     "traits": {
-      "Palette": "Forest Olive",
-      "Art Mode": "Mechanical Straight",
-      "Position": "right",
+      "Palette": "Navy Amber",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "113",
-    "seed": 9058390,
+    "seed": 506994555,
     "traits": {
-      "Palette": "Autumn Red",
-      "Art Mode": "Mechanical Straight",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "114",
-    "seed": 9576430,
-    "traits": {
-      "Palette": "Monochrome Orange",
+      "Palette": "Deep Terracotta",
       "Art Mode": "Circular Arc",
       "Position": "bottom-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "115",
-    "seed": 4943317,
+    "inscriptionId": "114",
+    "seed": 355294763,
     "traits": {
-      "Palette": "Ocean Sunset",
-      "Art Mode": "Textured Paper",
+      "Palette": "Deep Terracotta",
+      "Art Mode": "Mechanical Straight",
       "Position": "right",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "115",
+    "seed": 653266081,
+    "traits": {
+      "Palette": "Navy Amber",
+      "Art Mode": "L-Corner Frame",
+      "Position": "bottom-right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "116",
-    "seed": 4997311,
+    "seed": 762589569,
     "traits": {
-      "Palette": "Monochrome Orange",
+      "Palette": "Navy Amber",
       "Art Mode": "Textured Paper",
       "Position": "center",
       "Gear Layout Mode": "Layout 2"
@@ -1161,139 +1161,139 @@
   },
   {
     "inscriptionId": "117",
-    "seed": 9763163,
+    "seed": 939359631,
     "traits": {
-      "Palette": "Forest Olive",
-      "Art Mode": "Textured Paper",
-      "Position": "bottom-left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Sage Mint",
+      "Art Mode": "Mechanical Straight",
+      "Position": "bottom",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "118",
-    "seed": 4421552,
+    "seed": 680773563,
     "traits": {
-      "Palette": "Warm Terracotta",
-      "Art Mode": "Circular Arc",
-      "Position": "top-right",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "119",
-    "seed": 4167672,
-    "traits": {
-      "Palette": "Autumn Red",
-      "Art Mode": "Circular Arc",
-      "Position": "bottom-left",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "120",
-    "seed": 1357237,
-    "traits": {
-      "Palette": "Ocean Sunset",
-      "Art Mode": "Linework",
-      "Position": "bottom-left",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "121",
-    "seed": 8287638,
-    "traits": {
-      "Palette": "Teal Harmony",
-      "Art Mode": "Linework",
-      "Position": "bottom-left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "122",
-    "seed": 6235889,
-    "traits": {
-      "Palette": "Teal Harmony",
-      "Art Mode": "Circular Arc",
-      "Position": "top-right",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "123",
-    "seed": 9531898,
-    "traits": {
-      "Palette": "Monochrome Orange",
-      "Art Mode": "Linework",
-      "Position": "bottom-right",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "124",
-    "seed": 5196235,
-    "traits": {
-      "Palette": "Industrial Sunset",
-      "Art Mode": "Mechanical Straight",
-      "Position": "top",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "125",
-    "seed": 3609537,
-    "traits": {
-      "Palette": "Teal Harmony",
+      "Palette": "Dark Olive",
       "Art Mode": "Circular Arc",
       "Position": "top-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "126",
-    "seed": 2563292,
+    "inscriptionId": "119",
+    "seed": 125340148,
     "traits": {
-      "Palette": "Sand Teal Accent",
-      "Art Mode": "Linework",
+      "Palette": "Warm Crimson",
+      "Art Mode": "Mechanical Straight",
+      "Position": "right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "120",
+    "seed": 190713245,
+    "traits": {
+      "Palette": "Industrial Orange",
+      "Art Mode": "Circular Arc",
+      "Position": "top-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "121",
+    "seed": 411985354,
+    "traits": {
+      "Palette": "Desert Bronze",
+      "Art Mode": "Textured Paper",
+      "Position": "bottom-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "122",
+    "seed": 729715936,
+    "traits": {
+      "Palette": "Desert Bronze",
+      "Art Mode": "L-Corner Frame",
       "Position": "top-right",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "123",
+    "seed": 408956868,
+    "traits": {
+      "Palette": "Deep Terracotta",
+      "Art Mode": "Textured Paper",
+      "Position": "right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "124",
+    "seed": 231940731,
+    "traits": {
+      "Palette": "Dark Olive",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "125",
+    "seed": 792779152,
+    "traits": {
+      "Palette": "Sage Mint",
+      "Art Mode": "Textured Paper",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "126",
+    "seed": 370211065,
+    "traits": {
+      "Palette": "Golden Ochre",
+      "Art Mode": "Textured Paper",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "127",
-    "seed": 5138976,
+    "seed": 964060846,
     "traits": {
-      "Palette": "Sage Muted Emerald",
-      "Art Mode": "Circular Arc",
+      "Palette": "Dark Olive",
+      "Art Mode": "L-Corner Frame",
       "Position": "bottom-left",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "128",
-    "seed": 6324646,
+    "seed": 744090991,
     "traits": {
-      "Palette": "Warm Terracotta",
-      "Art Mode": "Linework",
-      "Position": "bottom-right",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Dark Olive",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "129",
-    "seed": 5746039,
+    "seed": 885576277,
     "traits": {
-      "Palette": "Ocean Sunset",
-      "Art Mode": "Linework",
-      "Position": "bottom-left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Pure Gold",
+      "Art Mode": "Textured Paper",
+      "Position": "center",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "130",
-    "seed": 2998907,
+    "seed": 611117240,
     "traits": {
-      "Palette": "Industrial Sunset",
+      "Palette": "Golden Ochre",
       "Art Mode": "Mechanical Straight",
       "Position": "right",
       "Gear Layout Mode": "Layout 2"
@@ -1301,819 +1301,819 @@
   },
   {
     "inscriptionId": "131",
-    "seed": 6923569,
+    "seed": 279850535,
     "traits": {
-      "Palette": "Monochrome Orange",
+      "Palette": "Sage Mint",
       "Art Mode": "Circular Arc",
-      "Position": "bottom-right",
-      "Gear Layout Mode": "Layout 1"
+      "Position": "top-left",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "132",
-    "seed": 2385073,
+    "seed": 376610735,
     "traits": {
-      "Palette": "Teal Harmony",
-      "Art Mode": "Mechanical Straight",
-      "Position": "bottom",
+      "Palette": "Sage Mint",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "133",
-    "seed": 7700135,
+    "seed": 368918403,
     "traits": {
-      "Palette": "Deep Oceanic",
-      "Art Mode": "Textured Paper",
-      "Position": "bottom-left",
+      "Palette": "Pure Gold",
+      "Art Mode": "Circular Arc",
+      "Position": "right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "134",
-    "seed": 4490453,
+    "seed": 854274599,
     "traits": {
-      "Palette": "Warm Terracotta",
+      "Palette": "Sage Mint",
       "Art Mode": "Mechanical Straight",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 1"
+      "Position": "bottom",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "135",
-    "seed": 4506418,
+    "seed": 830104731,
     "traits": {
-      "Palette": "Autumn Red",
-      "Art Mode": "Textured Paper",
-      "Position": "top-right",
+      "Palette": "Sage Mint",
+      "Art Mode": "L-Corner Frame",
+      "Position": "bottom-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "136",
-    "seed": 7097491,
+    "seed": 830934784,
     "traits": {
-      "Palette": "Sage Muted Emerald",
-      "Art Mode": "Textured Paper",
-      "Position": "bottom-right",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "137",
-    "seed": 7503328,
-    "traits": {
-      "Palette": "Golden Bronze",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "138",
-    "seed": 6425206,
-    "traits": {
-      "Palette": "Industrial Sunset",
-      "Art Mode": "Linework",
-      "Position": "bottom-right",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "139",
-    "seed": 3259803,
-    "traits": {
-      "Palette": "Forest Olive",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "140",
-    "seed": 6922476,
-    "traits": {
-      "Palette": "Warm Terracotta",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "141",
-    "seed": 1615892,
-    "traits": {
-      "Palette": "Teal Harmony",
+      "Palette": "Industrial Orange",
       "Art Mode": "Circular Arc",
       "Position": "top-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "142",
-    "seed": 3878860,
+    "inscriptionId": "137",
+    "seed": 198503073,
     "traits": {
-      "Palette": "Monochrome Orange",
+      "Palette": "Industrial Orange",
       "Art Mode": "Circular Arc",
-      "Position": "bottom",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "138",
+    "seed": 214401466,
+    "traits": {
+      "Palette": "Teal Emerald",
+      "Art Mode": "L-Corner Frame",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "139",
+    "seed": 412122696,
+    "traits": {
+      "Palette": "Deep Terracotta",
+      "Art Mode": "Textured Paper",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "140",
+    "seed": 848762106,
+    "traits": {
+      "Palette": "Desert Bronze",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "141",
+    "seed": 403868086,
+    "traits": {
+      "Palette": "Industrial Orange",
+      "Art Mode": "Textured Paper",
+      "Position": "left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "142",
+    "seed": 855303870,
+    "traits": {
+      "Palette": "Desert Bronze",
+      "Art Mode": "Mechanical Straight",
+      "Position": "top",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "143",
-    "seed": 3387430,
+    "seed": 870704688,
     "traits": {
-      "Palette": "Sand Teal Accent",
-      "Art Mode": "Mechanical Straight",
-      "Position": "bottom",
+      "Palette": "Desert Bronze",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "144",
-    "seed": 8717747,
+    "seed": 790623629,
     "traits": {
-      "Palette": "Sage Muted Emerald",
+      "Palette": "Sage Mint",
       "Art Mode": "Circular Arc",
-      "Position": "top-left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "145",
-    "seed": 9113944,
-    "traits": {
-      "Palette": "Teal Harmony",
-      "Art Mode": "Linework",
-      "Position": "bottom-left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "146",
-    "seed": 7101702,
-    "traits": {
-      "Palette": "Monochrome Orange",
-      "Art Mode": "Textured Paper",
       "Position": "bottom-right",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "147",
-    "seed": 2669444,
-    "traits": {
-      "Palette": "Sand Teal Accent",
-      "Art Mode": "Circular Arc",
-      "Position": "top-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "148",
-    "seed": 3780968,
+    "inscriptionId": "145",
+    "seed": 969027985,
     "traits": {
-      "Palette": "Ocean Sunset",
+      "Palette": "Navy Amber",
+      "Art Mode": "Textured Paper",
+      "Position": "right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "146",
+    "seed": 910829835,
+    "traits": {
+      "Palette": "Warm Crimson",
       "Art Mode": "Mechanical Straight",
       "Position": "bottom",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "149",
-    "seed": 4199763,
+    "inscriptionId": "147",
+    "seed": 606995493,
     "traits": {
-      "Palette": "Classic Sand",
-      "Art Mode": "Textured Paper",
+      "Palette": "Golden Ochre",
+      "Art Mode": "Circular Arc",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "148",
+    "seed": 217013658,
+    "traits": {
+      "Palette": "Golden Ochre",
+      "Art Mode": "Mechanical Straight",
+      "Position": "right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "149",
+    "seed": 975835150,
+    "traits": {
+      "Palette": "Dark Olive",
+      "Art Mode": "L-Corner Frame",
       "Position": "bottom-right",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "150",
-    "seed": 2894709,
+    "seed": 981295253,
     "traits": {
-      "Palette": "Industrial Sunset",
-      "Art Mode": "Mechanical Straight",
+      "Palette": "Classic Sand",
+      "Art Mode": "Textured Paper",
       "Position": "left",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "151",
-    "seed": 6827995,
+    "seed": 681977948,
     "traits": {
-      "Palette": "Forest Olive",
-      "Art Mode": "Textured Paper",
-      "Position": "bottom-right",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Industrial Orange",
+      "Art Mode": "Mechanical Straight",
+      "Position": "right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "152",
-    "seed": 2574476,
+    "seed": 207401577,
     "traits": {
-      "Palette": "Autumn Red",
-      "Art Mode": "Mechanical Straight",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Pure Gold",
+      "Art Mode": "Textured Paper",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "153",
-    "seed": 4885265,
+    "seed": 249108458,
     "traits": {
-      "Palette": "Monochrome Orange",
+      "Palette": "Dark Olive",
+      "Art Mode": "Circular Arc",
+      "Position": "left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "154",
+    "seed": 738053375,
+    "traits": {
+      "Palette": "Pure Gold",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "155",
+    "seed": 348211498,
+    "traits": {
+      "Palette": "Dark Olive",
       "Art Mode": "Textured Paper",
       "Position": "center",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "154",
-    "seed": 8931688,
-    "traits": {
-      "Palette": "Sage Muted Emerald",
-      "Art Mode": "Textured Paper",
-      "Position": "center",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "155",
-    "seed": 4251197,
-    "traits": {
-      "Palette": "Sage Muted Emerald",
-      "Art Mode": "Mechanical Straight",
-      "Position": "top",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
     "inscriptionId": "156",
-    "seed": 4492993,
+    "seed": 303228272,
     "traits": {
-      "Palette": "Autumn Red",
-      "Art Mode": "Mechanical Straight",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Sage Mint",
+      "Art Mode": "Circular Arc",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "157",
-    "seed": 2271567,
+    "seed": 689186174,
     "traits": {
-      "Palette": "Industrial Sunset",
-      "Art Mode": "Textured Paper",
+      "Palette": "Warm Crimson",
+      "Art Mode": "Circular Arc",
       "Position": "left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "158",
-    "seed": 8130925,
+    "seed": 653919670,
     "traits": {
-      "Palette": "Teal Harmony",
-      "Art Mode": "Linework",
-      "Position": "top-right",
+      "Palette": "Classic Sand",
+      "Art Mode": "Textured Paper",
+      "Position": "left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "159",
-    "seed": 4223939,
+    "seed": 606791984,
     "traits": {
-      "Palette": "Forest Olive",
-      "Art Mode": "Textured Paper",
+      "Palette": "Classic Sand",
+      "Art Mode": "L-Corner Frame",
       "Position": "bottom-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "160",
-    "seed": 3544399,
+    "seed": 261575748,
     "traits": {
-      "Palette": "Autumn Red",
-      "Art Mode": "Linework",
-      "Position": "top-left",
+      "Palette": "Deep Terracotta",
+      "Art Mode": "Mechanical Straight",
+      "Position": "right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "161",
-    "seed": 8325744,
+    "seed": 121654409,
     "traits": {
-      "Palette": "Sand Teal Accent",
+      "Palette": "Cyan Orange",
       "Art Mode": "Circular Arc",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 1"
+      "Position": "bottom-right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "162",
-    "seed": 1925442,
+    "seed": 430797642,
     "traits": {
-      "Palette": "Golden Bronze",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
+      "Palette": "Golden Ochre",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "163",
-    "seed": 4933343,
+    "seed": 412802219,
     "traits": {
-      "Palette": "Sage Muted Emerald",
-      "Art Mode": "Textured Paper",
-      "Position": "right",
+      "Palette": "Dark Olive",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "164",
-    "seed": 9316870,
+    "seed": 436796654,
     "traits": {
-      "Palette": "Golden Bronze",
-      "Art Mode": "Textured Paper",
-      "Position": "bottom-left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Navy Amber",
+      "Art Mode": "Mechanical Straight",
+      "Position": "left",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "165",
-    "seed": 4595030,
+    "seed": 625589002,
     "traits": {
-      "Palette": "Ocean Sunset",
-      "Art Mode": "Circular Arc",
-      "Position": "top-left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Dark Olive",
+      "Art Mode": "Mechanical Straight",
+      "Position": "bottom",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "166",
-    "seed": 2889116,
+    "seed": 966872597,
     "traits": {
-      "Palette": "Classic Sand",
-      "Art Mode": "Linework",
-      "Position": "top-right",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Navy Amber",
+      "Art Mode": "Textured Paper",
+      "Position": "top-left",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "167",
-    "seed": 7512500,
+    "seed": 770597943,
     "traits": {
-      "Palette": "Golden Bronze",
-      "Art Mode": "Mechanical Straight",
-      "Position": "bottom",
+      "Palette": "Dark Olive",
+      "Art Mode": "Textured Paper",
+      "Position": "top-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "168",
-    "seed": 1562412,
+    "seed": 291990642,
     "traits": {
-      "Palette": "Classic Sand",
-      "Art Mode": "Linework",
-      "Position": "top-right",
+      "Palette": "Dark Olive",
+      "Art Mode": "Circular Arc",
+      "Position": "top-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "169",
-    "seed": 5142542,
+    "seed": 121049499,
     "traits": {
-      "Palette": "Warm Terracotta",
-      "Art Mode": "Linework",
-      "Position": "top-left",
+      "Palette": "Navy Amber",
+      "Art Mode": "L-Corner Frame",
+      "Position": "bottom-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "170",
-    "seed": 5270247,
+    "seed": 290861489,
     "traits": {
-      "Palette": "Golden Bronze",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
+      "Palette": "Dark Olive",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "171",
-    "seed": 7036037,
+    "seed": 542079683,
     "traits": {
-      "Palette": "Industrial Sunset",
-      "Art Mode": "Mechanical Straight",
-      "Position": "bottom",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Industrial Orange",
+      "Art Mode": "L-Corner Frame",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "172",
-    "seed": 2561560,
+    "seed": 698248146,
     "traits": {
-      "Palette": "Sand Teal Accent",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
+      "Palette": "Warm Crimson",
+      "Art Mode": "Textured Paper",
+      "Position": "bottom-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "173",
-    "seed": 6007311,
+    "seed": 571256754,
     "traits": {
-      "Palette": "Monochrome Orange",
+      "Palette": "Navy Amber",
       "Art Mode": "Textured Paper",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 1"
+      "Position": "bottom-right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "174",
-    "seed": 6157028,
+    "seed": 175949132,
     "traits": {
-      "Palette": "Monochrome Orange",
-      "Art Mode": "Textured Paper",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Teal Emerald",
+      "Art Mode": "Circular Arc",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "175",
-    "seed": 1304245,
+    "seed": 207551061,
     "traits": {
-      "Palette": "Sage Muted Emerald",
+      "Palette": "Industrial Orange",
       "Art Mode": "Mechanical Straight",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 1"
+      "Position": "left",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "176",
-    "seed": 4398442,
+    "seed": 981488030,
     "traits": {
-      "Palette": "Golden Bronze",
+      "Palette": "Pure Gold",
       "Art Mode": "Mechanical Straight",
-      "Position": "bottom",
-      "Gear Layout Mode": "Layout 1"
+      "Position": "top",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "177",
-    "seed": 1827564,
+    "seed": 830313282,
     "traits": {
-      "Palette": "Warm Terracotta",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
+      "Palette": "Teal Emerald",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "178",
-    "seed": 7246425,
+    "seed": 220026931,
     "traits": {
-      "Palette": "Monochrome Orange",
-      "Art Mode": "Linework",
-      "Position": "top-left",
+      "Palette": "Deep Terracotta",
+      "Art Mode": "Mechanical Straight",
+      "Position": "left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "179",
-    "seed": 2409867,
+    "seed": 214156189,
     "traits": {
-      "Palette": "Monochrome Orange",
-      "Art Mode": "Linework",
-      "Position": "top-left",
+      "Palette": "Industrial Orange",
+      "Art Mode": "Circular Arc",
+      "Position": "top-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "180",
-    "seed": 4051846,
+    "seed": 715278864,
     "traits": {
-      "Palette": "Sand Teal Accent",
-      "Art Mode": "Circular Arc",
-      "Position": "bottom-right",
+      "Palette": "Cyan Orange",
+      "Art Mode": "L-Corner Frame",
+      "Position": "bottom-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "181",
-    "seed": 9889166,
+    "seed": 490980337,
     "traits": {
-      "Palette": "Golden Bronze",
+      "Palette": "Classic Sand",
       "Art Mode": "Mechanical Straight",
-      "Position": "top",
-      "Gear Layout Mode": "Layout 1"
+      "Position": "right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "182",
-    "seed": 5084657,
+    "seed": 392424251,
     "traits": {
-      "Palette": "Sand Teal Accent",
-      "Art Mode": "Mechanical Straight",
-      "Position": "bottom",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Pure Gold",
+      "Art Mode": "Textured Paper",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "183",
-    "seed": 1447245,
+    "seed": 284329095,
     "traits": {
-      "Palette": "Ocean Sunset",
-      "Art Mode": "Textured Paper",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Sage Mint",
+      "Art Mode": "L-Corner Frame",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "184",
-    "seed": 6676686,
+    "seed": 145829503,
     "traits": {
-      "Palette": "Autumn Red",
-      "Art Mode": "Circular Arc",
+      "Palette": "Dark Olive",
+      "Art Mode": "L-Corner Frame",
       "Position": "top-right",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "185",
-    "seed": 4068961,
+    "seed": 339712606,
     "traits": {
-      "Palette": "Industrial Sunset",
-      "Art Mode": "Mechanical Straight",
-      "Position": "bottom",
+      "Palette": "Sage Mint",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "186",
-    "seed": 3663504,
+    "seed": 210666386,
     "traits": {
-      "Palette": "Monochrome Orange",
-      "Art Mode": "Mechanical Straight",
-      "Position": "bottom",
+      "Palette": "Dark Olive",
+      "Art Mode": "Circular Arc",
+      "Position": "top-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "187",
-    "seed": 7290633,
+    "seed": 901764111,
     "traits": {
-      "Palette": "Warm Terracotta",
+      "Palette": "Deep Terracotta",
       "Art Mode": "Mechanical Straight",
       "Position": "bottom",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "188",
-    "seed": 4316610,
+    "seed": 658802055,
     "traits": {
-      "Palette": "Sage Muted Emerald",
-      "Art Mode": "Mechanical Straight",
-      "Position": "bottom",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Industrial Orange",
+      "Art Mode": "Circular Arc",
+      "Position": "top-left",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "189",
-    "seed": 9658527,
+    "seed": 641002296,
     "traits": {
-      "Palette": "Deep Oceanic",
-      "Art Mode": "Mechanical Straight",
-      "Position": "bottom",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Sand Teal Accent",
+      "Art Mode": "L-Corner Frame",
+      "Position": "bottom-right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "190",
-    "seed": 8632214,
+    "seed": 702469706,
     "traits": {
-      "Palette": "Sand Teal Accent",
-      "Art Mode": "Mechanical Straight",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Pure Gold",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "191",
-    "seed": 9925670,
+    "seed": 442288850,
     "traits": {
-      "Palette": "Industrial Sunset",
-      "Art Mode": "Mechanical Straight",
-      "Position": "top",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Sand Teal Accent",
+      "Art Mode": "Textured Paper",
+      "Position": "left",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "192",
-    "seed": 1612952,
+    "seed": 365956543,
     "traits": {
-      "Palette": "Monochrome Orange",
-      "Art Mode": "Circular Arc",
-      "Position": "top-left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Dark Olive",
+      "Art Mode": "Textured Paper",
+      "Position": "right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "193",
-    "seed": 7211528,
+    "seed": 612718773,
     "traits": {
-      "Palette": "Ocean Sunset",
+      "Palette": "Teal Emerald",
       "Art Mode": "Circular Arc",
-      "Position": "bottom-right",
+      "Position": "top-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "194",
-    "seed": 5823018,
+    "seed": 943972567,
     "traits": {
-      "Palette": "Ocean Sunset",
-      "Art Mode": "Circular Arc",
-      "Position": "bottom-right",
+      "Palette": "Sand Teal Accent",
+      "Art Mode": "Textured Paper",
+      "Position": "top-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "195",
-    "seed": 1089909,
+    "seed": 529604008,
     "traits": {
-      "Palette": "Ocean Sunset",
+      "Palette": "Teal Emerald",
       "Art Mode": "Circular Arc",
-      "Position": "top-left",
+      "Position": "bottom-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "196",
-    "seed": 5781918,
+    "seed": 433748035,
     "traits": {
-      "Palette": "Golden Bronze",
-      "Art Mode": "Circular Arc",
-      "Position": "bottom-left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Deep Terracotta",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "197",
-    "seed": 9622575,
+    "seed": 846805662,
     "traits": {
-      "Palette": "Golden Bronze",
+      "Palette": "Industrial Orange",
       "Art Mode": "Circular Arc",
       "Position": "bottom-right",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "198",
-    "seed": 7641919,
+    "seed": 766312454,
     "traits": {
-      "Palette": "Golden Bronze",
-      "Art Mode": "Mechanical Straight",
-      "Position": "top",
+      "Palette": "Golden Ochre",
+      "Art Mode": "Textured Paper",
+      "Position": "center",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "199",
-    "seed": 1257115,
+    "seed": 319158829,
     "traits": {
-      "Palette": "Deep Oceanic",
-      "Art Mode": "Linework",
-      "Position": "top-right",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Industrial Orange",
+      "Art Mode": "Textured Paper",
+      "Position": "left",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "200",
-    "seed": 7397007,
+    "seed": 965530551,
     "traits": {
-      "Palette": "Warm Terracotta",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Classic Sand",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom-right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "201",
-    "seed": 6714235,
+    "seed": 141539560,
     "traits": {
-      "Palette": "Warm Terracotta",
-      "Art Mode": "Mechanical Straight",
-      "Position": "right",
+      "Palette": "Dark Olive",
+      "Art Mode": "Circular Arc",
+      "Position": "top-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "202",
-    "seed": 1547034,
+    "seed": 814612601,
     "traits": {
-      "Palette": "Sage Muted Emerald",
+      "Palette": "Desert Bronze",
       "Art Mode": "Mechanical Straight",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "203",
-    "seed": 8591782,
-    "traits": {
-      "Palette": "Monochrome Orange",
-      "Art Mode": "Textured Paper",
-      "Position": "top-right",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "204",
-    "seed": 1924973,
-    "traits": {
-      "Palette": "Sand Teal Accent",
-      "Art Mode": "Mechanical Straight",
-      "Position": "top",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "205",
-    "seed": 6934233,
-    "traits": {
-      "Palette": "Industrial Sunset",
-      "Art Mode": "Linework",
-      "Position": "top-left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "206",
-    "seed": 8293791,
-    "traits": {
-      "Palette": "Autumn Red",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "207",
-    "seed": 3878530,
-    "traits": {
-      "Palette": "Teal Harmony",
-      "Art Mode": "Mechanical Straight",
-      "Position": "top",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "208",
-    "seed": 8287972,
-    "traits": {
-      "Palette": "Monochrome Orange",
-      "Art Mode": "Circular Arc",
       "Position": "bottom",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "209",
-    "seed": 8682904,
+    "inscriptionId": "203",
+    "seed": 373236369,
     "traits": {
-      "Palette": "Autumn Red",
+      "Palette": "Dark Olive",
+      "Art Mode": "Textured Paper",
+      "Position": "bottom-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "204",
+    "seed": 111148926,
+    "traits": {
+      "Palette": "Industrial Orange",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "205",
+    "seed": 295830596,
+    "traits": {
+      "Palette": "Golden Ochre",
+      "Art Mode": "Textured Paper",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "206",
+    "seed": 795737948,
+    "traits": {
+      "Palette": "Dark Olive",
+      "Art Mode": "L-Corner Frame",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "207",
+    "seed": 173229123,
+    "traits": {
+      "Palette": "Industrial Orange",
+      "Art Mode": "Textured Paper",
+      "Position": "bottom-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "208",
+    "seed": 869584643,
+    "traits": {
+      "Palette": "Golden Ochre",
       "Art Mode": "Mechanical Straight",
       "Position": "left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "210",
-    "seed": 3105191,
+    "inscriptionId": "209",
+    "seed": 239632229,
     "traits": {
-      "Palette": "Forest Olive",
+      "Palette": "Warm Crimson",
       "Art Mode": "Circular Arc",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "210",
+    "seed": 357943717,
+    "traits": {
+      "Palette": "Teal Emerald",
+      "Art Mode": "L-Corner Frame",
       "Position": "top-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "211",
-    "seed": 4667046,
+    "seed": 601038132,
     "traits": {
-      "Palette": "Teal Harmony",
-      "Art Mode": "Mechanical Straight",
-      "Position": "bottom",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Industrial Orange",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "212",
-    "seed": 2957882,
+    "seed": 779166974,
     "traits": {
-      "Palette": "Warm Terracotta",
+      "Palette": "Warm Crimson",
       "Art Mode": "Mechanical Straight",
       "Position": "right",
       "Gear Layout Mode": "Layout 2"
@@ -2121,539 +2121,539 @@
   },
   {
     "inscriptionId": "213",
-    "seed": 7962397,
+    "seed": 150362153,
     "traits": {
-      "Palette": "Monochrome Orange",
-      "Art Mode": "Mechanical Straight",
-      "Position": "bottom",
+      "Palette": "Industrial Orange",
+      "Art Mode": "L-Corner Frame",
+      "Position": "bottom-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "214",
-    "seed": 7126536,
+    "seed": 974190568,
     "traits": {
-      "Palette": "Classic Sand",
-      "Art Mode": "Mechanical Straight",
+      "Palette": "Deep Terracotta",
+      "Art Mode": "Circular Arc",
       "Position": "top",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "215",
-    "seed": 4944078,
+    "seed": 307562401,
     "traits": {
-      "Palette": "Ocean Sunset",
-      "Art Mode": "Mechanical Straight",
-      "Position": "bottom",
+      "Palette": "Sand Teal Accent",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "216",
-    "seed": 5371488,
+    "seed": 647035170,
     "traits": {
-      "Palette": "Golden Bronze",
+      "Palette": "Teal Emerald",
       "Art Mode": "Mechanical Straight",
-      "Position": "top",
-      "Gear Layout Mode": "Layout 1"
+      "Position": "left",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "217",
-    "seed": 5746800,
+    "seed": 905876271,
     "traits": {
-      "Palette": "Ocean Sunset",
+      "Palette": "Teal Emerald",
       "Art Mode": "Textured Paper",
-      "Position": "center",
-      "Gear Layout Mode": "Layout 1"
+      "Position": "left",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "218",
-    "seed": 2484859,
+    "seed": 549984872,
     "traits": {
-      "Palette": "Forest Olive",
-      "Art Mode": "Linework",
-      "Position": "bottom-left",
+      "Palette": "Classic Sand",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "219",
-    "seed": 9685511,
+    "seed": 796638276,
     "traits": {
-      "Palette": "Ocean Sunset",
-      "Art Mode": "Textured Paper",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Dark Olive",
+      "Art Mode": "Mechanical Straight",
+      "Position": "bottom",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "220",
-    "seed": 4948606,
+    "seed": 213643650,
     "traits": {
-      "Palette": "Warm Terracotta",
-      "Art Mode": "Textured Paper",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Industrial Orange",
+      "Art Mode": "Mechanical Straight",
+      "Position": "top",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "221",
-    "seed": 9154204,
+    "seed": 847336193,
     "traits": {
-      "Palette": "Ocean Sunset",
-      "Art Mode": "Linework",
-      "Position": "bottom-left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Sand Teal Accent",
+      "Art Mode": "Mechanical Straight",
+      "Position": "right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "222",
-    "seed": 2258084,
+    "seed": 151022908,
     "traits": {
-      "Palette": "Golden Bronze",
+      "Palette": "Classic Sand",
       "Art Mode": "Circular Arc",
-      "Position": "top-right",
+      "Position": "bottom",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "223",
-    "seed": 5160807,
+    "seed": 237062381,
     "traits": {
-      "Palette": "Warm Terracotta",
+      "Palette": "Golden Ochre",
       "Art Mode": "Circular Arc",
-      "Position": "left",
+      "Position": "top",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "224",
-    "seed": 6892130,
+    "seed": 668934247,
     "traits": {
-      "Palette": "Warm Terracotta",
+      "Palette": "Navy Amber",
+      "Art Mode": "Mechanical Straight",
+      "Position": "top",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "225",
+    "seed": 672647777,
+    "traits": {
+      "Palette": "Sand Teal Accent",
+      "Art Mode": "Circular Arc",
+      "Position": "left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "226",
+    "seed": 102299083,
+    "traits": {
+      "Palette": "Teal Emerald",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "227",
+    "seed": 560468245,
+    "traits": {
+      "Palette": "Golden Ochre",
+      "Art Mode": "L-Corner Frame",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "228",
+    "seed": 695704799,
+    "traits": {
+      "Palette": "Classic Sand",
       "Art Mode": "Circular Arc",
       "Position": "top-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "225",
-    "seed": 2177581,
+    "inscriptionId": "229",
+    "seed": 768565335,
     "traits": {
-      "Palette": "Teal Harmony",
+      "Palette": "Teal Emerald",
       "Art Mode": "Mechanical Straight",
-      "Position": "right",
+      "Position": "top",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "226",
-    "seed": 8235416,
-    "traits": {
-      "Palette": "Teal Harmony",
-      "Art Mode": "Linework",
-      "Position": "top-left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "227",
-    "seed": 9674906,
-    "traits": {
-      "Palette": "Industrial Sunset",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "228",
-    "seed": 3656002,
-    "traits": {
-      "Palette": "Classic Sand",
-      "Art Mode": "Mechanical Straight",
-      "Position": "top",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "229",
-    "seed": 3766310,
-    "traits": {
-      "Palette": "Golden Bronze",
-      "Art Mode": "Mechanical Straight",
-      "Position": "top",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
     "inscriptionId": "230",
-    "seed": 4526450,
+    "seed": 463668214,
     "traits": {
-      "Palette": "Ocean Sunset",
-      "Art Mode": "Mechanical Straight",
-      "Position": "bottom",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Deep Terracotta",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "231",
-    "seed": 3333199,
+    "seed": 880979123,
     "traits": {
-      "Palette": "Forest Olive",
-      "Art Mode": "Linework",
-      "Position": "bottom-left",
+      "Palette": "Pure Gold",
+      "Art Mode": "Circular Arc",
+      "Position": "top-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "232",
-    "seed": 9374851,
+    "seed": 986516348,
     "traits": {
-      "Palette": "Teal Harmony",
+      "Palette": "Pure Gold",
       "Art Mode": "Textured Paper",
-      "Position": "bottom-right",
-      "Gear Layout Mode": "Layout 1"
+      "Position": "center",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "233",
-    "seed": 1136195,
+    "seed": 776302145,
     "traits": {
-      "Palette": "Industrial Sunset",
+      "Palette": "Pure Gold",
       "Art Mode": "Mechanical Straight",
-      "Position": "right",
+      "Position": "left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "234",
-    "seed": 8485893,
+    "seed": 343518665,
     "traits": {
-      "Palette": "Classic Sand",
+      "Palette": "Navy Amber",
       "Art Mode": "Mechanical Straight",
-      "Position": "top",
+      "Position": "left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "235",
-    "seed": 1435292,
+    "seed": 230041392,
     "traits": {
-      "Palette": "Classic Sand",
-      "Art Mode": "Linework",
+      "Palette": "Cyan Orange",
+      "Art Mode": "Circular Arc",
       "Position": "top-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "236",
-    "seed": 2883615,
+    "seed": 816851328,
     "traits": {
-      "Palette": "Sand Teal Accent",
-      "Art Mode": "Linework",
-      "Position": "top-right",
+      "Palette": "Warm Crimson",
+      "Art Mode": "L-Corner Frame",
+      "Position": "bottom-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "237",
-    "seed": 7582142,
+    "seed": 189972766,
     "traits": {
-      "Palette": "Teal Harmony",
-      "Art Mode": "Circular Arc",
-      "Position": "bottom-right",
+      "Palette": "Sand Teal Accent",
+      "Art Mode": "L-Corner Frame",
+      "Position": "bottom-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "238",
-    "seed": 4016622,
+    "seed": 137360687,
     "traits": {
-      "Palette": "Golden Bronze",
+      "Palette": "Golden Ochre",
+      "Art Mode": "Circular Arc",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "239",
+    "seed": 213484928,
+    "traits": {
+      "Palette": "Cyan Orange",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "240",
+    "seed": 693634707,
+    "traits": {
+      "Palette": "Sage Mint",
+      "Art Mode": "Textured Paper",
+      "Position": "right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "241",
+    "seed": 349518051,
+    "traits": {
+      "Palette": "Pure Gold",
+      "Art Mode": "Circular Arc",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "242",
+    "seed": 224369075,
+    "traits": {
+      "Palette": "Cyan Orange",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "243",
+    "seed": 498344954,
+    "traits": {
+      "Palette": "Cyan Orange",
       "Art Mode": "Mechanical Straight",
       "Position": "bottom",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "239",
-    "seed": 7199016,
-    "traits": {
-      "Palette": "Warm Terracotta",
-      "Art Mode": "Circular Arc",
-      "Position": "bottom-right",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "240",
-    "seed": 6053983,
-    "traits": {
-      "Palette": "Golden Bronze",
-      "Art Mode": "Linework",
-      "Position": "bottom-left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "241",
-    "seed": 6319577,
-    "traits": {
-      "Palette": "Classic Sand",
-      "Art Mode": "Linework",
-      "Position": "bottom-right",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "242",
-    "seed": 5455062,
-    "traits": {
-      "Palette": "Sage Muted Emerald",
-      "Art Mode": "Textured Paper",
-      "Position": "top-right",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "243",
-    "seed": 4190722,
-    "traits": {
-      "Palette": "Classic Sand",
-      "Art Mode": "Circular Arc",
-      "Position": "top-left",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
     "inscriptionId": "244",
-    "seed": 5758638,
+    "seed": 972832833,
     "traits": {
-      "Palette": "Sand Teal Accent",
-      "Art Mode": "Textured Paper",
-      "Position": "bottom-right",
+      "Palette": "Dark Olive",
+      "Art Mode": "Mechanical Straight",
+      "Position": "right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "245",
-    "seed": 6584702,
+    "seed": 802161582,
     "traits": {
-      "Palette": "Sand Teal Accent",
-      "Art Mode": "Linework",
-      "Position": "top-left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "246",
-    "seed": 5413608,
-    "traits": {
-      "Palette": "Warm Terracotta",
+      "Palette": "Teal Emerald",
       "Art Mode": "Circular Arc",
       "Position": "top-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "247",
-    "seed": 5573974,
+    "inscriptionId": "246",
+    "seed": 221676171,
     "traits": {
-      "Palette": "Golden Bronze",
-      "Art Mode": "Linework",
-      "Position": "top-left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Teal Emerald",
+      "Art Mode": "Textured Paper",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "247",
+    "seed": 951198395,
+    "traits": {
+      "Palette": "Warm Crimson",
+      "Art Mode": "Mechanical Straight",
+      "Position": "right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "248",
-    "seed": 3163882,
+    "seed": 629863383,
     "traits": {
-      "Palette": "Golden Bronze",
-      "Art Mode": "Linework",
-      "Position": "top-left",
+      "Palette": "Desert Bronze",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "249",
-    "seed": 3043743,
+    "seed": 502988835,
     "traits": {
-      "Palette": "Monochrome Orange",
-      "Art Mode": "Circular Arc",
-      "Position": "bottom-left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Pure Gold",
+      "Art Mode": "Mechanical Straight",
+      "Position": "right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "250",
-    "seed": 6272056,
+    "seed": 700406512,
     "traits": {
-      "Palette": "Classic Sand",
-      "Art Mode": "Linework",
+      "Palette": "Golden Ochre",
+      "Art Mode": "Textured Paper",
       "Position": "top-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "251",
-    "seed": 9285335,
+    "seed": 508393752,
     "traits": {
-      "Palette": "Golden Bronze",
-      "Art Mode": "Circular Arc",
-      "Position": "bottom-right",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Dark Olive",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-left",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "252",
-    "seed": 6947490,
+    "seed": 573533738,
     "traits": {
-      "Palette": "Monochrome Orange",
-      "Art Mode": "Mechanical Straight",
-      "Position": "right",
+      "Palette": "Sand Teal Accent",
+      "Art Mode": "L-Corner Frame",
+      "Position": "bottom-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "253",
-    "seed": 1900306,
+    "seed": 225951258,
     "traits": {
-      "Palette": "Classic Sand",
-      "Art Mode": "Mechanical Straight",
-      "Position": "top",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Teal Emerald",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "254",
-    "seed": 6717597,
+    "seed": 343830059,
     "traits": {
       "Palette": "Sand Teal Accent",
-      "Art Mode": "Mechanical Straight",
+      "Art Mode": "Textured Paper",
       "Position": "left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "255",
-    "seed": 6025210,
+    "seed": 293865702,
     "traits": {
-      "Palette": "Teal Harmony",
-      "Art Mode": "Linework",
-      "Position": "bottom-right",
+      "Palette": "Navy Amber",
+      "Art Mode": "Mechanical Straight",
+      "Position": "left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "256",
-    "seed": 8277894,
+    "seed": 493201661,
     "traits": {
-      "Palette": "Industrial Sunset",
+      "Palette": "Sand Teal Accent",
       "Art Mode": "Circular Arc",
-      "Position": "top-right",
-      "Gear Layout Mode": "Layout 1"
+      "Position": "top",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "257",
-    "seed": 6326556,
+    "seed": 356159550,
     "traits": {
-      "Palette": "Autumn Red",
-      "Art Mode": "Textured Paper",
-      "Position": "right",
+      "Palette": "Pure Gold",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "258",
-    "seed": 7867989,
+    "seed": 394886828,
     "traits": {
-      "Palette": "Ocean Sunset",
-      "Art Mode": "Textured Paper",
-      "Position": "right",
+      "Palette": "Sand Teal Accent",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "259",
-    "seed": 9465326,
+    "seed": 194676614,
     "traits": {
-      "Palette": "Forest Olive",
-      "Art Mode": "Mechanical Straight",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Navy Amber",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "260",
-    "seed": 5365761,
+    "seed": 350319522,
     "traits": {
-      "Palette": "Ocean Sunset",
+      "Palette": "Sand Teal Accent",
       "Art Mode": "Mechanical Straight",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 1"
+      "Position": "top",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "261",
-    "seed": 8747851,
+    "seed": 825843800,
     "traits": {
-      "Palette": "Sand Teal Accent",
-      "Art Mode": "Mechanical Straight",
-      "Position": "bottom",
+      "Palette": "Industrial Orange",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "262",
-    "seed": 8165824,
+    "seed": 642365415,
     "traits": {
-      "Palette": "Industrial Sunset",
-      "Art Mode": "Linework",
+      "Palette": "Golden Ochre",
+      "Art Mode": "L-Corner Frame",
       "Position": "bottom-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "263",
-    "seed": 9046792,
+    "seed": 712103590,
     "traits": {
-      "Palette": "Autumn Red",
+      "Palette": "Warm Crimson",
       "Art Mode": "Circular Arc",
-      "Position": "bottom-right",
-      "Gear Layout Mode": "Layout 1"
+      "Position": "bottom",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "264",
-    "seed": 4952365,
+    "seed": 571079125,
     "traits": {
-      "Palette": "Sage Muted Emerald",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Warm Crimson",
+      "Art Mode": "Circular Arc",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "265",
-    "seed": 5322867,
+    "seed": 670862970,
     "traits": {
-      "Palette": "Warm Terracotta",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Teal Emerald",
+      "Art Mode": "Textured Paper",
+      "Position": "right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "266",
-    "seed": 7239421,
+    "seed": 966204253,
     "traits": {
-      "Palette": "Monochrome Orange",
+      "Palette": "Industrial Orange",
       "Art Mode": "Mechanical Straight",
       "Position": "top",
       "Gear Layout Mode": "Layout 2"
@@ -2661,279 +2661,279 @@
   },
   {
     "inscriptionId": "267",
-    "seed": 8569182,
+    "seed": 692665300,
     "traits": {
-      "Palette": "Warm Terracotta",
-      "Art Mode": "Circular Arc",
-      "Position": "top-left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Teal Emerald",
+      "Art Mode": "Textured Paper",
+      "Position": "bottom-right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "268",
-    "seed": 3272667,
+    "seed": 103329840,
     "traits": {
-      "Palette": "Autumn Red",
-      "Art Mode": "Mechanical Straight",
-      "Position": "bottom",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Desert Bronze",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "269",
-    "seed": 5866861,
+    "seed": 272738294,
     "traits": {
-      "Palette": "Monochrome Orange",
-      "Art Mode": "Linework",
-      "Position": "bottom-left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Desert Bronze",
+      "Art Mode": "Textured Paper",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "270",
-    "seed": 5393187,
+    "seed": 632769820,
     "traits": {
-      "Palette": "Warm Terracotta",
-      "Art Mode": "Circular Arc",
-      "Position": "top-right",
+      "Palette": "Industrial Orange",
+      "Art Mode": "Textured Paper",
+      "Position": "bottom-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "271",
-    "seed": 8497277,
+    "seed": 259607588,
     "traits": {
-      "Palette": "Industrial Sunset",
+      "Palette": "Warm Crimson",
       "Art Mode": "Mechanical Straight",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 1"
+      "Position": "top",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "272",
-    "seed": 8992216,
+    "seed": 753095257,
     "traits": {
-      "Palette": "Deep Oceanic",
-      "Art Mode": "Linework",
-      "Position": "top-left",
+      "Palette": "Cyan Orange",
+      "Art Mode": "Textured Paper",
+      "Position": "top-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "273",
-    "seed": 2409420,
+    "seed": 352392845,
     "traits": {
-      "Palette": "Warm Terracotta",
-      "Art Mode": "Circular Arc",
-      "Position": "top-right",
+      "Palette": "Warm Crimson",
+      "Art Mode": "Textured Paper",
+      "Position": "bottom-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "274",
-    "seed": 5614428,
+    "seed": 462511019,
     "traits": {
-      "Palette": "Ocean Sunset",
-      "Art Mode": "Circular Arc",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Teal Emerald",
+      "Art Mode": "L-Corner Frame",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "275",
-    "seed": 2124138,
+    "seed": 861394699,
     "traits": {
-      "Palette": "Forest Olive",
-      "Art Mode": "Circular Arc",
-      "Position": "top-left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Desert Bronze",
+      "Art Mode": "Mechanical Straight",
+      "Position": "top",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "276",
-    "seed": 9670298,
+    "seed": 518172087,
     "traits": {
-      "Palette": "Golden Bronze",
-      "Art Mode": "Textured Paper",
-      "Position": "top-left",
+      "Palette": "Classic Sand",
+      "Art Mode": "Mechanical Straight",
+      "Position": "left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "277",
-    "seed": 9691983,
+    "seed": 492417954,
     "traits": {
-      "Palette": "Teal Harmony",
-      "Art Mode": "Mechanical Straight",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Deep Terracotta",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom-right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "278",
-    "seed": 7299528,
+    "seed": 135421367,
     "traits": {
-      "Palette": "Classic Sand",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Warm Crimson",
+      "Art Mode": "Circular Arc",
+      "Position": "top",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "279",
-    "seed": 2923309,
+    "seed": 226319843,
     "traits": {
-      "Palette": "Golden Bronze",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Teal Emerald",
+      "Art Mode": "Textured Paper",
+      "Position": "right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "280",
-    "seed": 6802471,
+    "seed": 922016247,
     "traits": {
-      "Palette": "Warm Terracotta",
-      "Art Mode": "Mechanical Straight",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "281",
-    "seed": 1100792,
-    "traits": {
-      "Palette": "Sage Muted Emerald",
-      "Art Mode": "Mechanical Straight",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "282",
-    "seed": 4852796,
-    "traits": {
-      "Palette": "Industrial Sunset",
-      "Art Mode": "Mechanical Straight",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "283",
-    "seed": 4331625,
-    "traits": {
-      "Palette": "Forest Olive",
-      "Art Mode": "Linework",
+      "Palette": "Classic Sand",
+      "Art Mode": "Circular Arc",
       "Position": "top-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "284",
-    "seed": 2617447,
+    "inscriptionId": "281",
+    "seed": 185661690,
     "traits": {
-      "Palette": "Deep Oceanic",
-      "Art Mode": "Linework",
-      "Position": "top-left",
+      "Palette": "Sage Mint",
+      "Art Mode": "L-Corner Frame",
+      "Position": "bottom-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "282",
+    "seed": 250776072,
+    "traits": {
+      "Palette": "Desert Bronze",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "283",
+    "seed": 866256358,
+    "traits": {
+      "Palette": "Sand Teal Accent",
+      "Art Mode": "Mechanical Straight",
+      "Position": "bottom",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "284",
+    "seed": 114042216,
+    "traits": {
+      "Palette": "Sage Mint",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "285",
-    "seed": 9333417,
+    "seed": 110972042,
     "traits": {
-      "Palette": "Industrial Sunset",
-      "Art Mode": "Mechanical Straight",
-      "Position": "top",
+      "Palette": "Warm Crimson",
+      "Art Mode": "Circular Arc",
+      "Position": "top-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "286",
-    "seed": 9626094,
+    "seed": 509826672,
     "traits": {
-      "Palette": "Forest Olive",
-      "Art Mode": "Circular Arc",
-      "Position": "top-left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Pure Gold",
+      "Art Mode": "L-Corner Frame",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "287",
-    "seed": 8222547,
+    "seed": 574626748,
     "traits": {
-      "Palette": "Monochrome Orange",
+      "Palette": "Teal Emerald",
       "Art Mode": "Textured Paper",
-      "Position": "center",
+      "Position": "top-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "288",
-    "seed": 7958787,
+    "seed": 402618262,
     "traits": {
-      "Palette": "Warm Terracotta",
-      "Art Mode": "Linework",
-      "Position": "top-left",
+      "Palette": "Industrial Orange",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "289",
-    "seed": 1722572,
+    "seed": 681567228,
     "traits": {
-      "Palette": "Ocean Sunset",
-      "Art Mode": "Textured Paper",
-      "Position": "top-left",
+      "Palette": "Teal Emerald",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "290",
-    "seed": 3426807,
+    "seed": 182002628,
     "traits": {
-      "Palette": "Ocean Sunset",
+      "Palette": "Industrial Orange",
       "Art Mode": "Mechanical Straight",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 1"
+      "Position": "bottom",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "291",
-    "seed": 7915625,
+    "seed": 651081748,
     "traits": {
-      "Palette": "Ocean Sunset",
-      "Art Mode": "Mechanical Straight",
-      "Position": "right",
+      "Palette": "Deep Terracotta",
+      "Art Mode": "Circular Arc",
+      "Position": "top-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "292",
-    "seed": 6901727,
+    "seed": 842866790,
     "traits": {
-      "Palette": "Sand Teal Accent",
-      "Art Mode": "Mechanical Straight",
-      "Position": "top",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Golden Ochre",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "293",
-    "seed": 6312067,
+    "seed": 871173455,
     "traits": {
-      "Palette": "Forest Olive",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Golden Ochre",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "294",
-    "seed": 9040842,
+    "seed": 222257035,
     "traits": {
-      "Palette": "Ocean Sunset",
+      "Palette": "Deep Terracotta",
       "Art Mode": "Mechanical Straight",
       "Position": "left",
       "Gear Layout Mode": "Layout 2"
@@ -2941,309 +2941,309 @@
   },
   {
     "inscriptionId": "295",
-    "seed": 2812654,
+    "seed": 351855643,
     "traits": {
-      "Palette": "Golden Bronze",
-      "Art Mode": "Mechanical Straight",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Pure Gold",
+      "Art Mode": "Circular Arc",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "296",
-    "seed": 3290695,
+    "seed": 520169444,
     "traits": {
-      "Palette": "Classic Sand",
-      "Art Mode": "Circular Arc",
-      "Position": "bottom-left",
+      "Palette": "Teal Emerald",
+      "Art Mode": "Textured Paper",
+      "Position": "left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "297",
-    "seed": 7231525,
+    "seed": 334304523,
     "traits": {
-      "Palette": "Ocean Sunset",
-      "Art Mode": "Linework",
-      "Position": "bottom-left",
+      "Palette": "Industrial Orange",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "298",
-    "seed": 3668792,
+    "seed": 992943191,
     "traits": {
-      "Palette": "Autumn Red",
+      "Palette": "Deep Terracotta",
       "Art Mode": "Circular Arc",
-      "Position": "top-right",
+      "Position": "top-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "299",
-    "seed": 5345126,
+    "seed": 111538727,
     "traits": {
-      "Palette": "Ocean Sunset",
-      "Art Mode": "Circular Arc",
-      "Position": "right",
+      "Palette": "Desert Bronze",
+      "Art Mode": "Mechanical Straight",
+      "Position": "top",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "300",
-    "seed": 2779140,
+    "seed": 861314574,
     "traits": {
-      "Palette": "Sage Muted Emerald",
-      "Art Mode": "Linework",
-      "Position": "bottom-right",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "301",
-    "seed": 3739957,
-    "traits": {
-      "Palette": "Warm Terracotta",
+      "Palette": "Pure Gold",
       "Art Mode": "Mechanical Straight",
-      "Position": "bottom",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "302",
-    "seed": 1707159,
-    "traits": {
-      "Palette": "Industrial Sunset",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "303",
-    "seed": 6782365,
-    "traits": {
-      "Palette": "Teal Harmony",
-      "Art Mode": "Circular Arc",
-      "Position": "top-right",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "304",
-    "seed": 8694809,
-    "traits": {
-      "Palette": "Sage Muted Emerald",
-      "Art Mode": "Mechanical Straight",
-      "Position": "bottom",
+      "Position": "top",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "305",
-    "seed": 5292071,
+    "inscriptionId": "301",
+    "seed": 352024823,
     "traits": {
-      "Palette": "Teal Harmony",
+      "Palette": "Cyan Orange",
+      "Art Mode": "Mechanical Straight",
+      "Position": "left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "302",
+    "seed": 344803055,
+    "traits": {
+      "Palette": "Desert Bronze",
+      "Art Mode": "Textured Paper",
+      "Position": "left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "303",
+    "seed": 948987382,
+    "traits": {
+      "Palette": "Desert Bronze",
       "Art Mode": "Circular Arc",
+      "Position": "top-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "304",
+    "seed": 601779151,
+    "traits": {
+      "Palette": "Industrial Orange",
+      "Art Mode": "Mechanical Straight",
       "Position": "right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "306",
-    "seed": 9888206,
+    "inscriptionId": "305",
+    "seed": 749685835,
     "traits": {
-      "Palette": "Forest Olive",
+      "Palette": "Warm Crimson",
+      "Art Mode": "Mechanical Straight",
+      "Position": "bottom",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "306",
+    "seed": 111017142,
+    "traits": {
+      "Palette": "Classic Sand",
       "Art Mode": "Circular Arc",
-      "Position": "bottom-right",
+      "Position": "top-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "307",
-    "seed": 4036839,
+    "seed": 256951240,
     "traits": {
       "Palette": "Classic Sand",
-      "Art Mode": "Linework",
+      "Art Mode": "Circular Arc",
       "Position": "bottom-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "308",
-    "seed": 1058363,
+    "seed": 873961490,
     "traits": {
-      "Palette": "Warm Terracotta",
-      "Art Mode": "Linework",
-      "Position": "top-right",
+      "Palette": "Classic Sand",
+      "Art Mode": "Textured Paper",
+      "Position": "right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "309",
-    "seed": 8795103,
+    "seed": 254277428,
     "traits": {
-      "Palette": "Forest Olive",
-      "Art Mode": "Linework",
-      "Position": "bottom-right",
+      "Palette": "Sage Mint",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "310",
-    "seed": 5747801,
+    "seed": 217724729,
     "traits": {
-      "Palette": "Sand Teal Accent",
-      "Art Mode": "Circular Arc",
-      "Position": "top-left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Navy Amber",
+      "Art Mode": "Mechanical Straight",
+      "Position": "right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "311",
-    "seed": 1996641,
+    "seed": 924477335,
     "traits": {
-      "Palette": "Sage Muted Emerald",
-      "Art Mode": "Textured Paper",
-      "Position": "top-right",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "312",
-    "seed": 9458829,
-    "traits": {
-      "Palette": "Sand Teal Accent",
-      "Art Mode": "Circular Arc",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "313",
-    "seed": 1408818,
-    "traits": {
-      "Palette": "Warm Terracotta",
-      "Art Mode": "Circular Arc",
-      "Position": "bottom-right",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "314",
-    "seed": 8941955,
-    "traits": {
-      "Palette": "Golden Bronze",
-      "Art Mode": "Mechanical Straight",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "315",
-    "seed": 2597073,
-    "traits": {
-      "Palette": "Autumn Red",
-      "Art Mode": "Textured Paper",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "316",
-    "seed": 2525827,
-    "traits": {
-      "Palette": "Industrial Sunset",
-      "Art Mode": "Textured Paper",
-      "Position": "top-right",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "317",
-    "seed": 1144083,
-    "traits": {
-      "Palette": "Sand Teal Accent",
-      "Art Mode": "Mechanical Straight",
-      "Position": "bottom",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "318",
-    "seed": 2057215,
-    "traits": {
-      "Palette": "Teal Harmony",
-      "Art Mode": "Mechanical Straight",
-      "Position": "top",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "319",
-    "seed": 1921526,
-    "traits": {
-      "Palette": "Ocean Sunset",
-      "Art Mode": "Mechanical Straight",
-      "Position": "top",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "320",
-    "seed": 6417189,
-    "traits": {
-      "Palette": "Golden Bronze",
-      "Art Mode": "Mechanical Straight",
-      "Position": "bottom",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "321",
-    "seed": 7209110,
-    "traits": {
-      "Palette": "Golden Bronze",
-      "Art Mode": "Circular Arc",
-      "Position": "top-left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "322",
-    "seed": 3266324,
-    "traits": {
-      "Palette": "Golden Bronze",
-      "Art Mode": "Linework",
+      "Palette": "Warm Crimson",
+      "Art Mode": "L-Corner Frame",
       "Position": "bottom-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "323",
-    "seed": 5133255,
+    "inscriptionId": "312",
+    "seed": 491493794,
     "traits": {
-      "Palette": "Deep Oceanic",
+      "Palette": "Navy Amber",
+      "Art Mode": "Textured Paper",
+      "Position": "top-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "313",
+    "seed": 514589254,
+    "traits": {
+      "Palette": "Deep Terracotta",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "314",
+    "seed": 208458985,
+    "traits": {
+      "Palette": "Golden Ochre",
+      "Art Mode": "Circular Arc",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "315",
+    "seed": 307846323,
+    "traits": {
+      "Palette": "Dark Olive",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "316",
+    "seed": 804775625,
+    "traits": {
+      "Palette": "Golden Ochre",
+      "Art Mode": "L-Corner Frame",
+      "Position": "bottom-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "317",
+    "seed": 983059599,
+    "traits": {
+      "Palette": "Sage Mint",
+      "Art Mode": "Textured Paper",
+      "Position": "left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "318",
+    "seed": 184260324,
+    "traits": {
+      "Palette": "Cyan Orange",
+      "Art Mode": "Textured Paper",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "319",
+    "seed": 566815455,
+    "traits": {
+      "Palette": "Deep Terracotta",
+      "Art Mode": "Textured Paper",
+      "Position": "top-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "320",
+    "seed": 982517511,
+    "traits": {
+      "Palette": "Dark Olive",
+      "Art Mode": "Mechanical Straight",
+      "Position": "bottom",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "321",
+    "seed": 368319520,
+    "traits": {
+      "Palette": "Cyan Orange",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "322",
+    "seed": 287992543,
+    "traits": {
+      "Palette": "Teal Emerald",
       "Art Mode": "Mechanical Straight",
       "Position": "left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "324",
-    "seed": 5784256,
+    "inscriptionId": "323",
+    "seed": 210733218,
     "traits": {
-      "Palette": "Forest Olive",
+      "Palette": "Sage Mint",
       "Art Mode": "Mechanical Straight",
       "Position": "right",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "324",
+    "seed": 873460669,
+    "traits": {
+      "Palette": "Sage Mint",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "325",
-    "seed": 4083203,
+    "seed": 549256784,
     "traits": {
-      "Palette": "Sand Teal Accent",
+      "Palette": "Sage Mint",
       "Art Mode": "Mechanical Straight",
       "Position": "right",
       "Gear Layout Mode": "Layout 2"
@@ -3251,759 +3251,759 @@
   },
   {
     "inscriptionId": "326",
-    "seed": 5987242,
+    "seed": 691718379,
     "traits": {
-      "Palette": "Golden Bronze",
-      "Art Mode": "Textured Paper",
-      "Position": "bottom-left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Pure Gold",
+      "Art Mode": "Mechanical Straight",
+      "Position": "top",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "327",
-    "seed": 7096470,
+    "seed": 642877808,
     "traits": {
-      "Palette": "Monochrome Orange",
+      "Palette": "Desert Bronze",
       "Art Mode": "Circular Arc",
       "Position": "bottom-left",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "328",
-    "seed": 9077500,
+    "seed": 965520494,
     "traits": {
-      "Palette": "Classic Sand",
+      "Palette": "Warm Crimson",
       "Art Mode": "Mechanical Straight",
-      "Position": "right",
+      "Position": "left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "329",
-    "seed": 8657174,
+    "seed": 789227937,
     "traits": {
-      "Palette": "Forest Olive",
-      "Art Mode": "Circular Arc",
+      "Palette": "Dark Olive",
+      "Art Mode": "Textured Paper",
       "Position": "top-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "330",
-    "seed": 7122715,
+    "seed": 897322364,
     "traits": {
-      "Palette": "Classic Sand",
-      "Art Mode": "Linework",
-      "Position": "top-left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Navy Amber",
+      "Art Mode": "Textured Paper",
+      "Position": "right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "331",
-    "seed": 2934013,
+    "seed": 185088815,
     "traits": {
-      "Palette": "Classic Sand",
+      "Palette": "Deep Terracotta",
       "Art Mode": "Circular Arc",
-      "Position": "bottom-left",
+      "Position": "bottom-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "332",
-    "seed": 4269836,
+    "seed": 418051583,
     "traits": {
-      "Palette": "Monochrome Orange",
-      "Art Mode": "Circular Arc",
-      "Position": "top-left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Cyan Orange",
+      "Art Mode": "Mechanical Straight",
+      "Position": "right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "333",
-    "seed": 9300252,
+    "seed": 904325615,
     "traits": {
-      "Palette": "Warm Terracotta",
-      "Art Mode": "Circular Arc",
+      "Palette": "Warm Crimson",
+      "Art Mode": "L-Corner Frame",
       "Position": "top-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "334",
-    "seed": 2523662,
+    "seed": 568398054,
     "traits": {
-      "Palette": "Warm Terracotta",
-      "Art Mode": "Circular Arc",
-      "Position": "bottom-right",
+      "Palette": "Industrial Orange",
+      "Art Mode": "Textured Paper",
+      "Position": "top-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "335",
-    "seed": 2952347,
+    "seed": 423770410,
     "traits": {
-      "Palette": "Golden Bronze",
+      "Palette": "Warm Crimson",
+      "Art Mode": "Circular Arc",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "336",
+    "seed": 288183137,
+    "traits": {
+      "Palette": "Desert Bronze",
+      "Art Mode": "Textured Paper",
+      "Position": "right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "337",
+    "seed": 937990040,
+    "traits": {
+      "Palette": "Dark Olive",
       "Art Mode": "Mechanical Straight",
       "Position": "right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "336",
-    "seed": 5983112,
+    "inscriptionId": "338",
+    "seed": 305671452,
     "traits": {
-      "Palette": "Ocean Sunset",
+      "Palette": "Golden Ochre",
+      "Art Mode": "Circular Arc",
+      "Position": "right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "339",
+    "seed": 191685456,
+    "traits": {
+      "Palette": "Classic Sand",
       "Art Mode": "Mechanical Straight",
       "Position": "left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "337",
-    "seed": 3909475,
+    "inscriptionId": "340",
+    "seed": 821894622,
     "traits": {
-      "Palette": "Golden Bronze",
-      "Art Mode": "Circular Arc",
-      "Position": "top-left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "338",
-    "seed": 7717310,
-    "traits": {
-      "Palette": "Deep Oceanic",
+      "Palette": "Classic Sand",
       "Art Mode": "Mechanical Straight",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "339",
-    "seed": 5421925,
-    "traits": {
-      "Palette": "Sand Teal Accent",
-      "Art Mode": "Circular Arc",
-      "Position": "top-left",
+      "Position": "left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "340",
-    "seed": 5747648,
+    "inscriptionId": "341",
+    "seed": 292695139,
     "traits": {
-      "Palette": "Ocean Sunset",
+      "Palette": "Sage Mint",
+      "Art Mode": "Mechanical Straight",
+      "Position": "left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "342",
+    "seed": 886071469,
+    "traits": {
+      "Palette": "Golden Ochre",
+      "Art Mode": "Textured Paper",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "343",
+    "seed": 730116380,
+    "traits": {
+      "Palette": "Sand Teal Accent",
+      "Art Mode": "Textured Paper",
+      "Position": "right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "344",
+    "seed": 342816000,
+    "traits": {
+      "Palette": "Cyan Orange",
       "Art Mode": "Mechanical Straight",
       "Position": "top",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "341",
-    "seed": 7369031,
-    "traits": {
-      "Palette": "Deep Oceanic",
-      "Art Mode": "Mechanical Straight",
-      "Position": "bottom",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "342",
-    "seed": 3393156,
-    "traits": {
-      "Palette": "Deep Oceanic",
-      "Art Mode": "Mechanical Straight",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "343",
-    "seed": 1242461,
-    "traits": {
-      "Palette": "Deep Oceanic",
-      "Art Mode": "Circular Arc",
-      "Position": "top-right",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "344",
-    "seed": 9133187,
-    "traits": {
-      "Palette": "Sage Muted Emerald",
-      "Art Mode": "Mechanical Straight",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
     "inscriptionId": "345",
-    "seed": 4953665,
+    "seed": 933397434,
     "traits": {
-      "Palette": "Sage Muted Emerald",
+      "Palette": "Warm Crimson",
       "Art Mode": "Circular Arc",
-      "Position": "top-left",
+      "Position": "bottom-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "346",
-    "seed": 4356310,
+    "seed": 436811741,
     "traits": {
-      "Palette": "Industrial Sunset",
+      "Palette": "Cyan Orange",
       "Art Mode": "Circular Arc",
-      "Position": "top-left",
-      "Gear Layout Mode": "Layout 1"
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "347",
-    "seed": 5522169,
+    "seed": 283130666,
     "traits": {
-      "Palette": "Monochrome Orange",
-      "Art Mode": "Linework",
+      "Palette": "Industrial Orange",
+      "Art Mode": "L-Corner Frame",
       "Position": "top-right",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "348",
-    "seed": 2803147,
+    "seed": 194718396,
     "traits": {
-      "Palette": "Warm Terracotta",
+      "Palette": "Warm Crimson",
       "Art Mode": "Circular Arc",
-      "Position": "top-left",
-      "Gear Layout Mode": "Layout 1"
+      "Position": "top",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "349",
-    "seed": 8809547,
+    "seed": 907539189,
     "traits": {
-      "Palette": "Teal Harmony",
-      "Art Mode": "Linework",
-      "Position": "bottom-left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "350",
-    "seed": 3339538,
-    "traits": {
-      "Palette": "Ocean Sunset",
-      "Art Mode": "Circular Arc",
-      "Position": "bottom-right",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "351",
-    "seed": 7763261,
-    "traits": {
-      "Palette": "Deep Oceanic",
-      "Art Mode": "Circular Arc",
+      "Palette": "Pure Gold",
+      "Art Mode": "L-Corner Frame",
       "Position": "top-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "352",
-    "seed": 4496870,
+    "inscriptionId": "350",
+    "seed": 277371671,
     "traits": {
-      "Palette": "Deep Oceanic",
-      "Art Mode": "Linework",
+      "Palette": "Cyan Orange",
+      "Art Mode": "Circular Arc",
+      "Position": "left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "351",
+    "seed": 890515898,
+    "traits": {
+      "Palette": "Desert Bronze",
+      "Art Mode": "Mechanical Straight",
+      "Position": "left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "352",
+    "seed": 254210814,
+    "traits": {
+      "Palette": "Sage Mint",
+      "Art Mode": "L-Corner Frame",
       "Position": "bottom-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "353",
-    "seed": 2730554,
+    "seed": 559597725,
     "traits": {
-      "Palette": "Golden Bronze",
-      "Art Mode": "Linework",
+      "Palette": "Sage Mint",
+      "Art Mode": "L-Corner Frame",
       "Position": "bottom-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "354",
-    "seed": 4569429,
+    "seed": 856274740,
     "traits": {
-      "Palette": "Monochrome Orange",
+      "Palette": "Deep Terracotta",
       "Art Mode": "Mechanical Straight",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 1"
+      "Position": "bottom",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "355",
-    "seed": 4986416,
+    "seed": 467871029,
     "traits": {
-      "Palette": "Classic Sand",
-      "Art Mode": "Textured Paper",
+      "Palette": "Industrial Orange",
+      "Art Mode": "Mechanical Straight",
       "Position": "right",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "356",
-    "seed": 4050811,
+    "seed": 830598716,
     "traits": {
-      "Palette": "Classic Sand",
+      "Palette": "Dark Olive",
       "Art Mode": "Textured Paper",
-      "Position": "top-left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "357",
-    "seed": 1910942,
-    "traits": {
-      "Palette": "Forest Olive",
-      "Art Mode": "Mechanical Straight",
       "Position": "left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "358",
-    "seed": 3656641,
+    "inscriptionId": "357",
+    "seed": 270243624,
     "traits": {
-      "Palette": "Sand Teal Accent",
-      "Art Mode": "Circular Arc",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Golden Ochre",
+      "Art Mode": "Textured Paper",
+      "Position": "right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "358",
+    "seed": 482966186,
+    "traits": {
+      "Palette": "Warm Crimson",
+      "Art Mode": "Mechanical Straight",
+      "Position": "top",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "359",
-    "seed": 3278736,
+    "seed": 925884310,
     "traits": {
-      "Palette": "Warm Terracotta",
-      "Art Mode": "Circular Arc",
+      "Palette": "Desert Bronze",
+      "Art Mode": "Mechanical Straight",
       "Position": "left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "360",
-    "seed": 6661592,
+    "seed": 461388598,
     "traits": {
-      "Palette": "Monochrome Orange",
-      "Art Mode": "Circular Arc",
-      "Position": "top-right",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Cyan Orange",
+      "Art Mode": "Mechanical Straight",
+      "Position": "bottom",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "361",
-    "seed": 8708861,
+    "seed": 745803749,
     "traits": {
-      "Palette": "Teal Harmony",
-      "Art Mode": "Textured Paper",
-      "Position": "top-left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Navy Amber",
+      "Art Mode": "Mechanical Straight",
+      "Position": "right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "362",
-    "seed": 9726365,
+    "seed": 430927467,
     "traits": {
-      "Palette": "Ocean Sunset",
-      "Art Mode": "Textured Paper",
-      "Position": "top-right",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Teal Emerald",
+      "Art Mode": "Mechanical Straight",
+      "Position": "left",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "363",
-    "seed": 5827832,
+    "seed": 984700364,
     "traits": {
-      "Palette": "Industrial Sunset",
-      "Art Mode": "Linework",
-      "Position": "top-right",
+      "Palette": "Pure Gold",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "364",
-    "seed": 6248128,
+    "seed": 981850603,
     "traits": {
-      "Palette": "Sage Muted Emerald",
-      "Art Mode": "Circular Arc",
-      "Position": "bottom-right",
+      "Palette": "Warm Crimson",
+      "Art Mode": "Textured Paper",
+      "Position": "center",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "365",
-    "seed": 3107619,
+    "seed": 685866187,
     "traits": {
-      "Palette": "Warm Terracotta",
-      "Art Mode": "Textured Paper",
-      "Position": "bottom-right",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Golden Ochre",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "366",
-    "seed": 8810234,
+    "seed": 136099243,
     "traits": {
-      "Palette": "Autumn Red",
-      "Art Mode": "Mechanical Straight",
-      "Position": "top",
+      "Palette": "Pure Gold",
+      "Art Mode": "Circular Arc",
+      "Position": "top-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "367",
-    "seed": 4926982,
+    "seed": 955774596,
     "traits": {
-      "Palette": "Teal Harmony",
+      "Palette": "Navy Amber",
       "Art Mode": "Mechanical Straight",
-      "Position": "bottom",
-      "Gear Layout Mode": "Layout 1"
+      "Position": "right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "368",
-    "seed": 2531150,
+    "seed": 324149715,
     "traits": {
-      "Palette": "Industrial Sunset",
+      "Palette": "Classic Sand",
       "Art Mode": "Mechanical Straight",
-      "Position": "bottom",
+      "Position": "right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "369",
-    "seed": 9366038,
+    "seed": 171778042,
     "traits": {
-      "Palette": "Classic Sand",
+      "Palette": "Warm Crimson",
       "Art Mode": "Mechanical Straight",
       "Position": "right",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "370",
-    "seed": 1365290,
+    "seed": 955565327,
     "traits": {
-      "Palette": "Sage Muted Emerald",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Sage Mint",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "371",
-    "seed": 4250599,
+    "seed": 392175356,
     "traits": {
-      "Palette": "Forest Olive",
-      "Art Mode": "Circular Arc",
+      "Palette": "Classic Sand",
+      "Art Mode": "L-Corner Frame",
       "Position": "bottom-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "372",
-    "seed": 5148367,
+    "seed": 770505273,
     "traits": {
-      "Palette": "Golden Bronze",
-      "Art Mode": "Textured Paper",
-      "Position": "bottom-right",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Industrial Orange",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "373",
-    "seed": 1296560,
+    "seed": 101092724,
     "traits": {
-      "Palette": "Teal Harmony",
-      "Art Mode": "Circular Arc",
-      "Position": "top-left",
+      "Palette": "Deep Terracotta",
+      "Art Mode": "Mechanical Straight",
+      "Position": "left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "374",
-    "seed": 6083074,
+    "seed": 146554855,
     "traits": {
-      "Palette": "Warm Terracotta",
+      "Palette": "Warm Crimson",
       "Art Mode": "Circular Arc",
-      "Position": "top",
+      "Position": "left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "375",
-    "seed": 2251947,
+    "seed": 452904077,
     "traits": {
-      "Palette": "Sand Teal Accent",
+      "Palette": "Dark Olive",
       "Art Mode": "Textured Paper",
-      "Position": "top-left",
+      "Position": "bottom-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "376",
-    "seed": 9251914,
+    "seed": 210651792,
     "traits": {
-      "Palette": "Autumn Red",
-      "Art Mode": "Circular Arc",
+      "Palette": "Teal Emerald",
+      "Art Mode": "Textured Paper",
       "Position": "bottom-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "377",
-    "seed": 1113496,
+    "seed": 451523268,
     "traits": {
-      "Palette": "Forest Olive",
+      "Palette": "Desert Bronze",
       "Art Mode": "Circular Arc",
-      "Position": "top-right",
-      "Gear Layout Mode": "Layout 1"
+      "Position": "bottom-right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "378",
-    "seed": 1910151,
+    "seed": 356551790,
     "traits": {
-      "Palette": "Autumn Red",
-      "Art Mode": "Linework",
+      "Palette": "Teal Emerald",
+      "Art Mode": "L-Corner Frame",
       "Position": "bottom-right",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "379",
-    "seed": 5114381,
+    "seed": 576911104,
     "traits": {
-      "Palette": "Sand Teal Accent",
-      "Art Mode": "Circular Arc",
-      "Position": "top-right",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "380",
-    "seed": 2061712,
-    "traits": {
-      "Palette": "Warm Terracotta",
-      "Art Mode": "Linework",
-      "Position": "top-right",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "381",
-    "seed": 1834769,
-    "traits": {
-      "Palette": "Monochrome Orange",
-      "Art Mode": "Mechanical Straight",
-      "Position": "bottom",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "382",
-    "seed": 8312491,
-    "traits": {
-      "Palette": "Ocean Sunset",
-      "Art Mode": "Textured Paper",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "383",
-    "seed": 9690515,
-    "traits": {
-      "Palette": "Industrial Sunset",
-      "Art Mode": "Circular Arc",
-      "Position": "bottom-left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "384",
-    "seed": 9351519,
-    "traits": {
-      "Palette": "Classic Sand",
-      "Art Mode": "Mechanical Straight",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "385",
-    "seed": 3125645,
-    "traits": {
-      "Palette": "Monochrome Orange",
-      "Art Mode": "Circular Arc",
-      "Position": "bottom-right",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "386",
-    "seed": 5800562,
-    "traits": {
-      "Palette": "Sand Teal Accent",
-      "Art Mode": "Circular Arc",
-      "Position": "bottom-right",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "387",
-    "seed": 7283925,
-    "traits": {
-      "Palette": "Ocean Sunset",
-      "Art Mode": "Circular Arc",
-      "Position": "top-left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "388",
-    "seed": 2363664,
-    "traits": {
-      "Palette": "Sand Teal Accent",
-      "Art Mode": "Textured Paper",
-      "Position": "bottom-right",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "389",
-    "seed": 8578581,
-    "traits": {
-      "Palette": "Sand Teal Accent",
-      "Art Mode": "Circular Arc",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "390",
-    "seed": 8155878,
-    "traits": {
-      "Palette": "Deep Oceanic",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "391",
-    "seed": 7481490,
-    "traits": {
-      "Palette": "Industrial Sunset",
-      "Art Mode": "Linework",
-      "Position": "bottom-right",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "392",
-    "seed": 3133092,
-    "traits": {
-      "Palette": "Golden Bronze",
-      "Art Mode": "Linework",
-      "Position": "bottom-left",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "393",
-    "seed": 6844013,
-    "traits": {
-      "Palette": "Golden Bronze",
-      "Art Mode": "Linework",
-      "Position": "top-right",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "394",
-    "seed": 3990673,
-    "traits": {
-      "Palette": "Deep Oceanic",
-      "Art Mode": "Textured Paper",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "395",
-    "seed": 6242976,
-    "traits": {
-      "Palette": "Teal Harmony",
-      "Art Mode": "Circular Arc",
-      "Position": "top-right",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "396",
-    "seed": 2870612,
-    "traits": {
-      "Palette": "Monochrome Orange",
-      "Art Mode": "Linework",
-      "Position": "top-left",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "397",
-    "seed": 7463436,
-    "traits": {
-      "Palette": "Sage Muted Emerald",
-      "Art Mode": "Textured Paper",
-      "Position": "bottom-left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "398",
-    "seed": 9536157,
-    "traits": {
-      "Palette": "Sand Teal Accent",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "399",
-    "seed": 8037076,
-    "traits": {
-      "Palette": "Forest Olive",
+      "Palette": "Industrial Orange",
       "Art Mode": "Mechanical Straight",
       "Position": "top",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "400",
-    "seed": 4057526,
+    "inscriptionId": "380",
+    "seed": 905661254,
+    "traits": {
+      "Palette": "Classic Sand",
+      "Art Mode": "Mechanical Straight",
+      "Position": "left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "381",
+    "seed": 143631969,
+    "traits": {
+      "Palette": "Dark Olive",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "382",
+    "seed": 507787780,
+    "traits": {
+      "Palette": "Desert Bronze",
+      "Art Mode": "Textured Paper",
+      "Position": "left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "383",
+    "seed": 493932289,
+    "traits": {
+      "Palette": "Dark Olive",
+      "Art Mode": "Textured Paper",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "384",
+    "seed": 451958437,
+    "traits": {
+      "Palette": "Industrial Orange",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "385",
+    "seed": 142286537,
+    "traits": {
+      "Palette": "Pure Gold",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "386",
+    "seed": 240882626,
+    "traits": {
+      "Palette": "Sage Mint",
+      "Art Mode": "Textured Paper",
+      "Position": "left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "387",
+    "seed": 425402689,
+    "traits": {
+      "Palette": "Golden Ochre",
+      "Art Mode": "Circular Arc",
+      "Position": "top-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "388",
+    "seed": 517443386,
+    "traits": {
+      "Palette": "Industrial Orange",
+      "Art Mode": "Textured Paper",
+      "Position": "left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "389",
+    "seed": 285349675,
+    "traits": {
+      "Palette": "Pure Gold",
+      "Art Mode": "Textured Paper",
+      "Position": "top-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "390",
+    "seed": 904416439,
+    "traits": {
+      "Palette": "Industrial Orange",
+      "Art Mode": "Textured Paper",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "391",
+    "seed": 651431949,
+    "traits": {
+      "Palette": "Golden Ochre",
+      "Art Mode": "Textured Paper",
+      "Position": "left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "392",
+    "seed": 184661307,
+    "traits": {
+      "Palette": "Pure Gold",
+      "Art Mode": "Mechanical Straight",
+      "Position": "right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "393",
+    "seed": 646167125,
+    "traits": {
+      "Palette": "Deep Terracotta",
+      "Art Mode": "Mechanical Straight",
+      "Position": "left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "394",
+    "seed": 682785240,
+    "traits": {
+      "Palette": "Industrial Orange",
+      "Art Mode": "Circular Arc",
+      "Position": "left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "395",
+    "seed": 166067010,
+    "traits": {
+      "Palette": "Teal Emerald",
+      "Art Mode": "Circular Arc",
+      "Position": "top-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "396",
+    "seed": 841021274,
+    "traits": {
+      "Palette": "Teal Emerald",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "397",
+    "seed": 408971781,
+    "traits": {
+      "Palette": "Pure Gold",
+      "Art Mode": "Mechanical Straight",
+      "Position": "right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "398",
+    "seed": 202283665,
     "traits": {
       "Palette": "Sand Teal Accent",
       "Art Mode": "Mechanical Straight",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 1"
+      "Position": "right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "399",
+    "seed": 579909106,
+    "traits": {
+      "Palette": "Classic Sand",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "400",
+    "seed": 653469526,
+    "traits": {
+      "Palette": "Navy Amber",
+      "Art Mode": "Mechanical Straight",
+      "Position": "bottom",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "401",
-    "seed": 9163887,
+    "seed": 102220914,
     "traits": {
-      "Palette": "Golden Bronze",
+      "Palette": "Desert Bronze",
       "Art Mode": "Circular Arc",
       "Position": "bottom-right",
       "Gear Layout Mode": "Layout 2"
@@ -4011,79 +4011,79 @@
   },
   {
     "inscriptionId": "402",
-    "seed": 9454135,
+    "seed": 382039305,
     "traits": {
-      "Palette": "Warm Terracotta",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
+      "Palette": "Teal Emerald",
+      "Art Mode": "Circular Arc",
+      "Position": "top-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "403",
-    "seed": 5824071,
+    "seed": 309600127,
     "traits": {
-      "Palette": "Sage Muted Emerald",
-      "Art Mode": "Textured Paper",
-      "Position": "top-left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Golden Ochre",
+      "Art Mode": "Mechanical Straight",
+      "Position": "right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "404",
-    "seed": 3355460,
+    "seed": 489487641,
     "traits": {
-      "Palette": "Golden Bronze",
-      "Art Mode": "Textured Paper",
-      "Position": "top-right",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Classic Sand",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom-right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "405",
-    "seed": 2129661,
+    "seed": 922175354,
     "traits": {
-      "Palette": "Autumn Red",
+      "Palette": "Sand Teal Accent",
       "Art Mode": "Mechanical Straight",
-      "Position": "left",
+      "Position": "right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "406",
-    "seed": 6649043,
+    "seed": 278298908,
     "traits": {
-      "Palette": "Autumn Red",
-      "Art Mode": "Circular Arc",
-      "Position": "top",
+      "Palette": "Industrial Orange",
+      "Art Mode": "Textured Paper",
+      "Position": "bottom-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "407",
-    "seed": 1633772,
+    "seed": 330462995,
     "traits": {
-      "Palette": "Forest Olive",
+      "Palette": "Classic Sand",
+      "Art Mode": "L-Corner Frame",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "408",
+    "seed": 270583002,
+    "traits": {
+      "Palette": "Teal Emerald",
       "Art Mode": "Mechanical Straight",
       "Position": "bottom",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "408",
-    "seed": 4483405,
-    "traits": {
-      "Palette": "Autumn Red",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
     "inscriptionId": "409",
-    "seed": 5035357,
+    "seed": 302725584,
     "traits": {
-      "Palette": "Sage Muted Emerald",
+      "Palette": "Navy Amber",
       "Art Mode": "Mechanical Straight",
       "Position": "left",
       "Gear Layout Mode": "Layout 2"
@@ -4091,147 +4091,97 @@
   },
   {
     "inscriptionId": "410",
-    "seed": 7156979,
+    "seed": 715807330,
     "traits": {
-      "Palette": "Teal Harmony",
-      "Art Mode": "Circular Arc",
-      "Position": "bottom-right",
+      "Palette": "Golden Ochre",
+      "Art Mode": "Mechanical Straight",
+      "Position": "right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "411",
-    "seed": 9623450,
+    "seed": 409634380,
     "traits": {
-      "Palette": "Sage Muted Emerald",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
+      "Palette": "Classic Sand",
+      "Art Mode": "Textured Paper",
+      "Position": "top-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "412",
-    "seed": 2809413,
+    "seed": 988865464,
     "traits": {
-      "Palette": "Autumn Red",
-      "Art Mode": "Circular Arc",
+      "Palette": "Classic Sand",
+      "Art Mode": "L-Corner Frame",
       "Position": "bottom-right",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "413",
-    "seed": 5864600,
+    "seed": 755128946,
     "traits": {
-      "Palette": "Sage Muted Emerald",
-      "Art Mode": "Circular Arc",
-      "Position": "top",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Pure Gold",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-left",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "414",
-    "seed": 6015985,
+    "seed": 421636381,
     "traits": {
-      "Palette": "Industrial Sunset",
-      "Art Mode": "Linework",
-      "Position": "top-left",
+      "Palette": "Teal Emerald",
+      "Art Mode": "Mechanical Straight",
+      "Position": "left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "415",
-    "seed": 2651845,
+    "seed": 374034703,
     "traits": {
-      "Palette": "Industrial Sunset",
-      "Art Mode": "Circular Arc",
-      "Position": "bottom-left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Dark Olive",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-left",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "416",
-    "seed": 6084382,
+    "seed": 909554832,
     "traits": {
-      "Palette": "Warm Terracotta",
-      "Art Mode": "Circular Arc",
-      "Position": "top-left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "417",
-    "seed": 5832631,
-    "traits": {
-      "Palette": "Deep Oceanic",
+      "Palette": "Dark Olive",
       "Art Mode": "Mechanical Straight",
       "Position": "left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "418",
-    "seed": 3899804,
+    "inscriptionId": "417",
+    "seed": 817709646,
     "traits": {
-      "Palette": "Ocean Sunset",
-      "Art Mode": "Mechanical Straight",
-      "Position": "top",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "419",
-    "seed": 6622842,
-    "traits": {
-      "Palette": "Golden Bronze",
-      "Art Mode": "Linework",
+      "Palette": "Golden Ochre",
+      "Art Mode": "L-Corner Frame",
       "Position": "top-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "420",
-    "seed": 2083211,
+    "inscriptionId": "418",
+    "seed": 884161647,
     "traits": {
-      "Palette": "Warm Terracotta",
-      "Art Mode": "Linework",
-      "Position": "bottom-left",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "421",
-    "seed": 5421974,
-    "traits": {
-      "Palette": "Golden Bronze",
-      "Art Mode": "Linework",
-      "Position": "top-left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "422",
-    "seed": 1061065,
-    "traits": {
-      "Palette": "Ocean Sunset",
-      "Art Mode": "Circular Arc",
-      "Position": "top-left",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "inscriptionId": "423",
-    "seed": 4380617,
-    "traits": {
-      "Palette": "Golden Bronze",
+      "Palette": "Warm Crimson",
       "Art Mode": "Mechanical Straight",
-      "Position": "left",
+      "Position": "bottom",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "424",
-    "seed": 3300398,
+    "inscriptionId": "419",
+    "seed": 594518895,
     "traits": {
       "Palette": "Classic Sand",
       "Art Mode": "Mechanical Straight",
@@ -4240,30 +4190,80 @@
     }
   },
   {
-    "inscriptionId": "425",
-    "seed": 2710753,
+    "inscriptionId": "420",
+    "seed": 680061947,
     "traits": {
-      "Palette": "Warm Terracotta",
+      "Palette": "Teal Emerald",
+      "Art Mode": "L-Corner Frame",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "421",
+    "seed": 493678253,
+    "traits": {
+      "Palette": "Cyan Orange",
+      "Art Mode": "Textured Paper",
+      "Position": "bottom-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "422",
+    "seed": 205334622,
+    "traits": {
+      "Palette": "Desert Bronze",
       "Art Mode": "Mechanical Straight",
-      "Position": "left",
+      "Position": "top",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "423",
+    "seed": 996922698,
+    "traits": {
+      "Palette": "Pure Gold",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "424",
+    "seed": 750430682,
+    "traits": {
+      "Palette": "Pure Gold",
+      "Art Mode": "L-Corner Frame",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "425",
+    "seed": 336429952,
+    "traits": {
+      "Palette": "Dark Olive",
+      "Art Mode": "Textured Paper",
+      "Position": "top-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "426",
-    "seed": 9728064,
+    "seed": 249132839,
     "traits": {
-      "Palette": "Sage Muted Emerald",
-      "Art Mode": "Circular Arc",
-      "Position": "bottom-right",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Teal Emerald",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-left",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "427",
-    "seed": 4347200,
+    "seed": 409585520,
     "traits": {
-      "Palette": "Autumn Red",
+      "Palette": "Deep Terracotta",
       "Art Mode": "Textured Paper",
       "Position": "bottom-right",
       "Gear Layout Mode": "Layout 2"
@@ -4271,209 +4271,209 @@
   },
   {
     "inscriptionId": "428",
-    "seed": 6757328,
+    "seed": 272829346,
     "traits": {
-      "Palette": "Deep Oceanic",
-      "Art Mode": "Linework",
-      "Position": "bottom-left",
+      "Palette": "Navy Amber",
+      "Art Mode": "Textured Paper",
+      "Position": "bottom-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "429",
-    "seed": 1367616,
+    "seed": 923025246,
     "traits": {
-      "Palette": "Industrial Sunset",
-      "Art Mode": "Circular Arc",
-      "Position": "bottom-right",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Teal Emerald",
+      "Art Mode": "Mechanical Straight",
+      "Position": "right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "430",
-    "seed": 3528425,
+    "seed": 184827129,
     "traits": {
-      "Palette": "Monochrome Orange",
-      "Art Mode": "Mechanical Straight",
-      "Position": "bottom",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Navy Amber",
+      "Art Mode": "Textured Paper",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "431",
-    "seed": 3005804,
+    "seed": 398166851,
     "traits": {
-      "Palette": "Industrial Sunset",
+      "Palette": "Golden Ochre",
       "Art Mode": "Mechanical Straight",
-      "Position": "left",
+      "Position": "right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "432",
-    "seed": 7951407,
+    "seed": 802079485,
     "traits": {
-      "Palette": "Classic Sand",
-      "Art Mode": "Linework",
+      "Palette": "Sage Mint",
+      "Art Mode": "Textured Paper",
       "Position": "top-right",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "433",
-    "seed": 6142606,
+    "seed": 763232227,
     "traits": {
-      "Palette": "Sand Teal Accent",
-      "Art Mode": "Circular Arc",
-      "Position": "bottom-left",
+      "Palette": "Desert Bronze",
+      "Art Mode": "Mechanical Straight",
+      "Position": "right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "434",
-    "seed": 4746736,
+    "seed": 729496244,
     "traits": {
-      "Palette": "Forest Olive",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
+      "Palette": "Dark Olive",
+      "Art Mode": "L-Corner Frame",
+      "Position": "bottom-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "435",
-    "seed": 9795220,
+    "seed": 308365819,
     "traits": {
-      "Palette": "Classic Sand",
-      "Art Mode": "Circular Arc",
-      "Position": "top-left",
+      "Palette": "Navy Amber",
+      "Art Mode": "Mechanical Straight",
+      "Position": "left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "436",
-    "seed": 7145526,
+    "seed": 831295955,
     "traits": {
-      "Palette": "Classic Sand",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "inscriptionId": "437",
-    "seed": 7935893,
-    "traits": {
-      "Palette": "Classic Sand",
-      "Art Mode": "Textured Paper",
+      "Palette": "Deep Terracotta",
+      "Art Mode": "L-Corner Frame",
       "Position": "top-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "inscriptionId": "438",
-    "seed": 7060362,
+    "inscriptionId": "437",
+    "seed": 465873171,
     "traits": {
-      "Palette": "Classic Sand",
-      "Art Mode": "Textured Paper",
+      "Palette": "Cyan Orange",
+      "Art Mode": "Mechanical Straight",
+      "Position": "right",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "inscriptionId": "438",
+    "seed": 219500608,
+    "traits": {
+      "Palette": "Pure Gold",
+      "Art Mode": "L-Corner Frame",
       "Position": "bottom-left",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "439",
-    "seed": 6316609,
+    "seed": 827117796,
     "traits": {
-      "Palette": "Sage Muted Emerald",
-      "Art Mode": "Mechanical Straight",
-      "Position": "bottom",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Golden Ochre",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-left",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "440",
-    "seed": 8229840,
+    "seed": 369761661,
     "traits": {
-      "Palette": "Ocean Sunset",
-      "Art Mode": "Mechanical Straight",
-      "Position": "right",
+      "Palette": "Sage Mint",
+      "Art Mode": "L-Corner Frame",
+      "Position": "bottom-left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "441",
-    "seed": 6724926,
+    "seed": 185949344,
     "traits": {
-      "Palette": "Sand Teal Accent",
+      "Palette": "Desert Bronze",
       "Art Mode": "Mechanical Straight",
       "Position": "left",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "442",
-    "seed": 2968291,
+    "seed": 584262018,
     "traits": {
-      "Palette": "Classic Sand",
+      "Palette": "Dark Olive",
       "Art Mode": "Mechanical Straight",
-      "Position": "bottom",
+      "Position": "left",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "443",
-    "seed": 4286150,
+    "seed": 977296430,
     "traits": {
-      "Palette": "Golden Bronze",
-      "Art Mode": "Mechanical Straight",
-      "Position": "bottom",
+      "Palette": "Dark Olive",
+      "Art Mode": "Circular Arc",
+      "Position": "top",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "444",
-    "seed": 1458318,
+    "seed": 159177256,
     "traits": {
-      "Palette": "Sand Teal Accent",
-      "Art Mode": "Linework",
-      "Position": "bottom-left",
+      "Palette": "Dark Olive",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "445",
-    "seed": 8299465,
+    "seed": 973396329,
     "traits": {
-      "Palette": "Sage Muted Emerald",
+      "Palette": "Sage Mint",
       "Art Mode": "Mechanical Straight",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 1"
+      "Position": "left",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "446",
-    "seed": 3470004,
+    "seed": 830038128,
     "traits": {
-      "Palette": "Autumn Red",
-      "Art Mode": "Circular Arc",
-      "Position": "bottom-left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Golden Ochre",
+      "Art Mode": "Textured Paper",
+      "Position": "top-left",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "447",
-    "seed": 5703154,
+    "seed": 401291870,
     "traits": {
-      "Palette": "Sand Teal Accent",
-      "Art Mode": "Circular Arc",
-      "Position": "bottom",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Dark Olive",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "448",
-    "seed": 9744066,
+    "seed": 555865296,
     "traits": {
-      "Palette": "Teal Harmony",
+      "Palette": "Classic Sand",
       "Art Mode": "Mechanical Straight",
       "Position": "right",
       "Gear Layout Mode": "Layout 2"
@@ -4481,82 +4481,82 @@
   },
   {
     "inscriptionId": "449",
-    "seed": 8036297,
+    "seed": 625088897,
     "traits": {
-      "Palette": "Deep Oceanic",
-      "Art Mode": "Textured Paper",
-      "Position": "bottom-right",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Sage Mint",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom-left",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "450",
-    "seed": 1752564,
+    "seed": 621972731,
     "traits": {
-      "Palette": "Sage Muted Emerald",
-      "Art Mode": "Textured Paper",
-      "Position": "right",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Teal Emerald",
+      "Art Mode": "Circular Arc",
+      "Position": "top-left",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "451",
-    "seed": 3898323,
+    "seed": 739629304,
     "traits": {
-      "Palette": "Warm Terracotta",
-      "Art Mode": "Mechanical Straight",
-      "Position": "left",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Sage Mint",
+      "Art Mode": "L-Corner Frame",
+      "Position": "top-right",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "452",
-    "seed": 5647729,
+    "seed": 762142950,
     "traits": {
-      "Palette": "Industrial Sunset",
-      "Art Mode": "Circular Arc",
+      "Palette": "Pure Gold",
+      "Art Mode": "L-Corner Frame",
       "Position": "top-right",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "453",
-    "seed": 3678624,
+    "seed": 847850072,
     "traits": {
-      "Palette": "Sage Muted Emerald",
-      "Art Mode": "Linework",
+      "Palette": "Classic Sand",
+      "Art Mode": "L-Corner Frame",
       "Position": "top-right",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "454",
-    "seed": 8655374,
+    "seed": 471062526,
     "traits": {
-      "Palette": "Sage Muted Emerald",
-      "Art Mode": "Linework",
-      "Position": "bottom-right",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": "Industrial Orange",
+      "Art Mode": "Circular Arc",
+      "Position": "bottom",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "455",
-    "seed": 6794892,
+    "seed": 437111470,
     "traits": {
-      "Palette": "Deep Oceanic",
-      "Art Mode": "Linework",
-      "Position": "bottom-left",
+      "Palette": "Desert Bronze",
+      "Art Mode": "Circular Arc",
+      "Position": "top",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "inscriptionId": "456",
-    "seed": 5292595,
+    "seed": 200069257,
     "traits": {
-      "Palette": "Ocean Sunset",
+      "Palette": "Cyan Orange",
       "Art Mode": "Circular Arc",
-      "Position": "bottom-right",
-      "Gear Layout Mode": "Layout 1"
+      "Position": "bottom",
+      "Gear Layout Mode": "Layout 2"
     }
   }
 ]
