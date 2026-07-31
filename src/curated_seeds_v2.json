@@ -46,15 +46,6 @@
   },
   {
     "index": 6,
-    "seed": "497994557",
-    "traits": {
-      "Palette": 8,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 7,
     "seed": "964707948",
     "traits": {
       "Palette": 11,
@@ -63,7 +54,7 @@
     }
   },
   {
-    "index": 8,
+    "index": 7,
     "seed": "221046231",
     "traits": {
       "Palette": 8,
@@ -72,7 +63,7 @@
     }
   },
   {
-    "index": 9,
+    "index": 8,
     "seed": "542155038",
     "traits": {
       "Palette": 2,
@@ -81,7 +72,7 @@
     }
   },
   {
-    "index": 10,
+    "index": 9,
     "seed": "549531377",
     "traits": {
       "Palette": 0,
@@ -90,7 +81,7 @@
     }
   },
   {
-    "index": 11,
+    "index": 10,
     "seed": "992661260",
     "traits": {
       "Palette": 0,
@@ -99,7 +90,7 @@
     }
   },
   {
-    "index": 12,
+    "index": 11,
     "seed": "128496382",
     "traits": {
       "Palette": 10,
@@ -108,7 +99,7 @@
     }
   },
   {
-    "index": 13,
+    "index": 12,
     "seed": "487508135",
     "traits": {
       "Palette": 12,
@@ -117,7 +108,7 @@
     }
   },
   {
-    "index": 14,
+    "index": 13,
     "seed": "302365092",
     "traits": {
       "Palette": 9,
@@ -126,7 +117,7 @@
     }
   },
   {
-    "index": 15,
+    "index": 14,
     "seed": "966998810",
     "traits": {
       "Palette": 4,
@@ -135,7 +126,7 @@
     }
   },
   {
-    "index": 16,
+    "index": 15,
     "seed": "418768158",
     "traits": {
       "Palette": 1,
@@ -144,7 +135,7 @@
     }
   },
   {
-    "index": 17,
+    "index": 16,
     "seed": "467661522",
     "traits": {
       "Palette": 9,
@@ -153,7 +144,7 @@
     }
   },
   {
-    "index": 18,
+    "index": 17,
     "seed": "479050953",
     "traits": {
       "Palette": 0,
@@ -162,7 +153,7 @@
     }
   },
   {
-    "index": 19,
+    "index": 18,
     "seed": "167798311",
     "traits": {
       "Palette": 3,
@@ -171,7 +162,7 @@
     }
   },
   {
-    "index": 20,
+    "index": 19,
     "seed": "194863551",
     "traits": {
       "Palette": 3,
@@ -180,7 +171,7 @@
     }
   },
   {
-    "index": 21,
+    "index": 20,
     "seed": "300938674",
     "traits": {
       "Palette": 6,
@@ -189,7 +180,7 @@
     }
   },
   {
-    "index": 22,
+    "index": 21,
     "seed": "323885929",
     "traits": {
       "Palette": 5,
@@ -198,7 +189,7 @@
     }
   },
   {
-    "index": 23,
+    "index": 22,
     "seed": "366611286",
     "traits": {
       "Palette": 2,
@@ -207,7 +198,7 @@
     }
   },
   {
-    "index": 24,
+    "index": 23,
     "seed": "528448455",
     "traits": {
       "Palette": 1,
@@ -216,7 +207,7 @@
     }
   },
   {
-    "index": 25,
+    "index": 24,
     "seed": "699990049",
     "traits": {
       "Palette": 1,
@@ -225,7 +216,7 @@
     }
   },
   {
-    "index": 26,
+    "index": 25,
     "seed": "904608653",
     "traits": {
       "Palette": 12,
@@ -234,7 +225,7 @@
     }
   },
   {
-    "index": 27,
+    "index": 26,
     "seed": "989573362",
     "traits": {
       "Palette": 2,
@@ -243,7 +234,7 @@
     }
   },
   {
-    "index": 28,
+    "index": 27,
     "seed": "642303557",
     "traits": {
       "Palette": 2,
@@ -252,7 +243,7 @@
     }
   },
   {
-    "index": 29,
+    "index": 28,
     "seed": "454370559",
     "traits": {
       "Palette": 3,
@@ -261,7 +252,7 @@
     }
   },
   {
-    "index": 30,
+    "index": 29,
     "seed": "191105832",
     "traits": {
       "Palette": 12,
@@ -270,16 +261,7 @@
     }
   },
   {
-    "index": 31,
-    "seed": "339908985",
-    "traits": {
-      "Palette": 6,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 32,
+    "index": 30,
     "seed": "998059241",
     "traits": {
       "Palette": 1,
@@ -288,7 +270,7 @@
     }
   },
   {
-    "index": 33,
+    "index": 31,
     "seed": "778411820",
     "traits": {
       "Palette": 6,
@@ -297,7 +279,7 @@
     }
   },
   {
-    "index": 34,
+    "index": 32,
     "seed": "393007347",
     "traits": {
       "Palette": 10,
@@ -306,7 +288,7 @@
     }
   },
   {
-    "index": 35,
+    "index": 33,
     "seed": "900019632",
     "traits": {
       "Palette": 0,
@@ -315,7 +297,7 @@
     }
   },
   {
-    "index": 36,
+    "index": 34,
     "seed": "133095103",
     "traits": {
       "Palette": 6,
@@ -324,7 +306,7 @@
     }
   },
   {
-    "index": 37,
+    "index": 35,
     "seed": "358435734",
     "traits": {
       "Palette": 1,
@@ -333,7 +315,7 @@
     }
   },
   {
-    "index": 38,
+    "index": 36,
     "seed": "205963923",
     "traits": {
       "Palette": 0,
@@ -342,7 +324,7 @@
     }
   },
   {
-    "index": 39,
+    "index": 37,
     "seed": "346359861",
     "traits": {
       "Palette": 7,
@@ -351,7 +333,7 @@
     }
   },
   {
-    "index": 40,
+    "index": 38,
     "seed": "909405250",
     "traits": {
       "Palette": 8,
@@ -360,7 +342,7 @@
     }
   },
   {
-    "index": 41,
+    "index": 39,
     "seed": "477150966",
     "traits": {
       "Palette": 1,
@@ -369,7 +351,7 @@
     }
   },
   {
-    "index": 42,
+    "index": 40,
     "seed": "385299154",
     "traits": {
       "Palette": 1,
@@ -378,7 +360,7 @@
     }
   },
   {
-    "index": 43,
+    "index": 41,
     "seed": "741707621",
     "traits": {
       "Palette": 0,
@@ -387,7 +369,7 @@
     }
   },
   {
-    "index": 44,
+    "index": 42,
     "seed": "665621154",
     "traits": {
       "Palette": 10,
@@ -396,7 +378,7 @@
     }
   },
   {
-    "index": 45,
+    "index": 43,
     "seed": "527994559",
     "traits": {
       "Palette": 1,
@@ -405,7 +387,7 @@
     }
   },
   {
-    "index": 46,
+    "index": 44,
     "seed": "679635290",
     "traits": {
       "Palette": 7,
@@ -414,7 +396,7 @@
     }
   },
   {
-    "index": 47,
+    "index": 45,
     "seed": "309443820",
     "traits": {
       "Palette": 7,
@@ -423,7 +405,7 @@
     }
   },
   {
-    "index": 48,
+    "index": 46,
     "seed": "164328979",
     "traits": {
       "Palette": 12,
@@ -432,16 +414,7 @@
     }
   },
   {
-    "index": 49,
-    "seed": "208125038",
-    "traits": {
-      "Palette": 3,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 50,
+    "index": 47,
     "seed": "816298367",
     "traits": {
       "Palette": 5,
@@ -450,7 +423,7 @@
     }
   },
   {
-    "index": 51,
+    "index": 48,
     "seed": "957616021",
     "traits": {
       "Palette": 0,
@@ -459,7 +432,7 @@
     }
   },
   {
-    "index": 52,
+    "index": 49,
     "seed": "997801930",
     "traits": {
       "Palette": 11,
@@ -468,7 +441,7 @@
     }
   },
   {
-    "index": 53,
+    "index": 50,
     "seed": "207326516",
     "traits": {
       "Palette": 8,
@@ -477,7 +450,7 @@
     }
   },
   {
-    "index": 54,
+    "index": 51,
     "seed": "222935409",
     "traits": {
       "Palette": 7,
@@ -486,7 +459,7 @@
     }
   },
   {
-    "index": 55,
+    "index": 52,
     "seed": "388174012",
     "traits": {
       "Palette": 9,
@@ -495,7 +468,7 @@
     }
   },
   {
-    "index": 56,
+    "index": 53,
     "seed": "763905190",
     "traits": {
       "Palette": 7,
@@ -504,7 +477,7 @@
     }
   },
   {
-    "index": 57,
+    "index": 54,
     "seed": "907168856",
     "traits": {
       "Palette": 6,
@@ -513,7 +486,7 @@
     }
   },
   {
-    "index": 58,
+    "index": 55,
     "seed": "340579569",
     "traits": {
       "Palette": 6,
@@ -522,7 +495,7 @@
     }
   },
   {
-    "index": 59,
+    "index": 56,
     "seed": "161052837",
     "traits": {
       "Palette": 0,
@@ -531,7 +504,7 @@
     }
   },
   {
-    "index": 60,
+    "index": 57,
     "seed": "747993472",
     "traits": {
       "Palette": 1,
@@ -540,7 +513,7 @@
     }
   },
   {
-    "index": 61,
+    "index": 58,
     "seed": "192734984",
     "traits": {
       "Palette": 8,
@@ -549,7 +522,7 @@
     }
   },
   {
-    "index": 62,
+    "index": 59,
     "seed": "660595763",
     "traits": {
       "Palette": 4,
@@ -558,7 +531,7 @@
     }
   },
   {
-    "index": 63,
+    "index": 60,
     "seed": "325703572",
     "traits": {
       "Palette": 11,
@@ -567,7 +540,7 @@
     }
   },
   {
-    "index": 64,
+    "index": 61,
     "seed": "826940233",
     "traits": {
       "Palette": 3,
@@ -576,7 +549,7 @@
     }
   },
   {
-    "index": 65,
+    "index": 62,
     "seed": "196919003",
     "traits": {
       "Palette": 1,
@@ -585,16 +558,7 @@
     }
   },
   {
-    "index": 66,
-    "seed": "271419198",
-    "traits": {
-      "Palette": 6,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 67,
+    "index": 63,
     "seed": "160534207",
     "traits": {
       "Palette": 9,
@@ -603,7 +567,7 @@
     }
   },
   {
-    "index": 68,
+    "index": 64,
     "seed": "755443542",
     "traits": {
       "Palette": 5,
@@ -612,7 +576,7 @@
     }
   },
   {
-    "index": 69,
+    "index": 65,
     "seed": "134027859",
     "traits": {
       "Palette": 3,
@@ -621,7 +585,7 @@
     }
   },
   {
-    "index": 70,
+    "index": 66,
     "seed": "768225281",
     "traits": {
       "Palette": 7,
@@ -630,7 +594,7 @@
     }
   },
   {
-    "index": 71,
+    "index": 67,
     "seed": "330466337",
     "traits": {
       "Palette": 0,
@@ -639,7 +603,7 @@
     }
   },
   {
-    "index": 72,
+    "index": 68,
     "seed": "128501471",
     "traits": {
       "Palette": 12,
@@ -648,7 +612,7 @@
     }
   },
   {
-    "index": 73,
+    "index": 69,
     "seed": "584922870",
     "traits": {
       "Palette": 12,
@@ -657,7 +621,7 @@
     }
   },
   {
-    "index": 74,
+    "index": 70,
     "seed": "515723617",
     "traits": {
       "Palette": 6,
@@ -666,7 +630,7 @@
     }
   },
   {
-    "index": 75,
+    "index": 71,
     "seed": "595720016",
     "traits": {
       "Palette": 4,
@@ -675,7 +639,7 @@
     }
   },
   {
-    "index": 76,
+    "index": 72,
     "seed": "233772263",
     "traits": {
       "Palette": 1,
@@ -684,7 +648,7 @@
     }
   },
   {
-    "index": 77,
+    "index": 73,
     "seed": "407129388",
     "traits": {
       "Palette": 4,
@@ -693,7 +657,7 @@
     }
   },
   {
-    "index": 78,
+    "index": 74,
     "seed": "275579168",
     "traits": {
       "Palette": 3,
@@ -702,16 +666,7 @@
     }
   },
   {
-    "index": 79,
-    "seed": "119445520",
-    "traits": {
-      "Palette": 12,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 80,
+    "index": 75,
     "seed": "210501772",
     "traits": {
       "Palette": 1,
@@ -720,7 +675,7 @@
     }
   },
   {
-    "index": 81,
+    "index": 76,
     "seed": "647933834",
     "traits": {
       "Palette": 5,
@@ -729,7 +684,7 @@
     }
   },
   {
-    "index": 82,
+    "index": 77,
     "seed": "499435634",
     "traits": {
       "Palette": 7,
@@ -738,7 +693,7 @@
     }
   },
   {
-    "index": 83,
+    "index": 78,
     "seed": "748144890",
     "traits": {
       "Palette": 0,
@@ -747,7 +702,7 @@
     }
   },
   {
-    "index": 84,
+    "index": 79,
     "seed": "572228837",
     "traits": {
       "Palette": 6,
@@ -756,7 +711,7 @@
     }
   },
   {
-    "index": 85,
+    "index": 80,
     "seed": "362201107",
     "traits": {
       "Palette": 5,
@@ -765,7 +720,7 @@
     }
   },
   {
-    "index": 86,
+    "index": 81,
     "seed": "375149209",
     "traits": {
       "Palette": 12,
@@ -774,7 +729,7 @@
     }
   },
   {
-    "index": 87,
+    "index": 82,
     "seed": "837360373",
     "traits": {
       "Palette": 2,
@@ -783,7 +738,7 @@
     }
   },
   {
-    "index": 88,
+    "index": 83,
     "seed": "748208717",
     "traits": {
       "Palette": 2,
@@ -792,7 +747,7 @@
     }
   },
   {
-    "index": 89,
+    "index": 84,
     "seed": "793318164",
     "traits": {
       "Palette": 11,
@@ -801,7 +756,7 @@
     }
   },
   {
-    "index": 90,
+    "index": 85,
     "seed": "759465413",
     "traits": {
       "Palette": 1,
@@ -810,7 +765,7 @@
     }
   },
   {
-    "index": 91,
+    "index": 86,
     "seed": "960720132",
     "traits": {
       "Palette": 7,
@@ -819,7 +774,7 @@
     }
   },
   {
-    "index": 92,
+    "index": 87,
     "seed": "758795053",
     "traits": {
       "Palette": 8,
@@ -828,7 +783,7 @@
     }
   },
   {
-    "index": 93,
+    "index": 88,
     "seed": "440013356",
     "traits": {
       "Palette": 7,
@@ -837,7 +792,7 @@
     }
   },
   {
-    "index": 94,
+    "index": 89,
     "seed": "129669075",
     "traits": {
       "Palette": 1,
@@ -846,7 +801,7 @@
     }
   },
   {
-    "index": 95,
+    "index": 90,
     "seed": "273140207",
     "traits": {
       "Palette": 8,
@@ -855,7 +810,7 @@
     }
   },
   {
-    "index": 96,
+    "index": 91,
     "seed": "299471977",
     "traits": {
       "Palette": 2,
@@ -864,7 +819,7 @@
     }
   },
   {
-    "index": 97,
+    "index": 92,
     "seed": "510440466",
     "traits": {
       "Palette": 0,
@@ -873,7 +828,7 @@
     }
   },
   {
-    "index": 98,
+    "index": 93,
     "seed": "711123930",
     "traits": {
       "Palette": 12,
@@ -882,7 +837,7 @@
     }
   },
   {
-    "index": 99,
+    "index": 94,
     "seed": "279452390",
     "traits": {
       "Palette": 5,
@@ -891,7 +846,7 @@
     }
   },
   {
-    "index": 100,
+    "index": 95,
     "seed": "540525828",
     "traits": {
       "Palette": 2,
@@ -900,7 +855,7 @@
     }
   },
   {
-    "index": 101,
+    "index": 96,
     "seed": "890919150",
     "traits": {
       "Palette": 10,
@@ -909,7 +864,7 @@
     }
   },
   {
-    "index": 102,
+    "index": 97,
     "seed": "195634770",
     "traits": {
       "Palette": 1,
@@ -918,7 +873,7 @@
     }
   },
   {
-    "index": 103,
+    "index": 98,
     "seed": "588107155",
     "traits": {
       "Palette": 5,
@@ -927,7 +882,7 @@
     }
   },
   {
-    "index": 104,
+    "index": 99,
     "seed": "236562710",
     "traits": {
       "Palette": 8,
@@ -936,7 +891,7 @@
     }
   },
   {
-    "index": 105,
+    "index": 100,
     "seed": "824800507",
     "traits": {
       "Palette": 11,
@@ -945,7 +900,7 @@
     }
   },
   {
-    "index": 106,
+    "index": 101,
     "seed": "326446789",
     "traits": {
       "Palette": 3,
@@ -954,7 +909,7 @@
     }
   },
   {
-    "index": 107,
+    "index": 102,
     "seed": "970739186",
     "traits": {
       "Palette": 1,
@@ -963,7 +918,7 @@
     }
   },
   {
-    "index": 108,
+    "index": 103,
     "seed": "105788390",
     "traits": {
       "Palette": 5,
@@ -972,7 +927,7 @@
     }
   },
   {
-    "index": 109,
+    "index": 104,
     "seed": "943029568",
     "traits": {
       "Palette": 7,
@@ -981,7 +936,7 @@
     }
   },
   {
-    "index": 110,
+    "index": 105,
     "seed": "443341160",
     "traits": {
       "Palette": 10,
@@ -990,7 +945,7 @@
     }
   },
   {
-    "index": 111,
+    "index": 106,
     "seed": "400528276",
     "traits": {
       "Palette": 2,
@@ -999,7 +954,7 @@
     }
   },
   {
-    "index": 112,
+    "index": 107,
     "seed": "115089888",
     "traits": {
       "Palette": 7,
@@ -1008,7 +963,7 @@
     }
   },
   {
-    "index": 113,
+    "index": 108,
     "seed": "660469546",
     "traits": {
       "Palette": 7,
@@ -1017,7 +972,7 @@
     }
   },
   {
-    "index": 114,
+    "index": 109,
     "seed": "625517600",
     "traits": {
       "Palette": 9,
@@ -1026,7 +981,7 @@
     }
   },
   {
-    "index": 115,
+    "index": 110,
     "seed": "931802571",
     "traits": {
       "Palette": 12,
@@ -1035,7 +990,7 @@
     }
   },
   {
-    "index": 116,
+    "index": 111,
     "seed": "846881235",
     "traits": {
       "Palette": 2,
@@ -1044,7 +999,7 @@
     }
   },
   {
-    "index": 117,
+    "index": 112,
     "seed": "612892507",
     "traits": {
       "Palette": 6,
@@ -1053,7 +1008,7 @@
     }
   },
   {
-    "index": 118,
+    "index": 113,
     "seed": "506994555",
     "traits": {
       "Palette": 12,
@@ -1062,7 +1017,7 @@
     }
   },
   {
-    "index": 119,
+    "index": 114,
     "seed": "355294763",
     "traits": {
       "Palette": 12,
@@ -1071,7 +1026,7 @@
     }
   },
   {
-    "index": 120,
+    "index": 115,
     "seed": "653266081",
     "traits": {
       "Palette": 6,
@@ -1080,7 +1035,7 @@
     }
   },
   {
-    "index": 121,
+    "index": 116,
     "seed": "762589569",
     "traits": {
       "Palette": 6,
@@ -1089,7 +1044,7 @@
     }
   },
   {
-    "index": 122,
+    "index": 117,
     "seed": "939359631",
     "traits": {
       "Palette": 10,
@@ -1098,7 +1053,7 @@
     }
   },
   {
-    "index": 123,
+    "index": 118,
     "seed": "680773563",
     "traits": {
       "Palette": 9,
@@ -1107,7 +1062,7 @@
     }
   },
   {
-    "index": 124,
+    "index": 119,
     "seed": "125340148",
     "traits": {
       "Palette": 4,
@@ -1116,7 +1071,7 @@
     }
   },
   {
-    "index": 125,
+    "index": 120,
     "seed": "190713245",
     "traits": {
       "Palette": 5,
@@ -1125,7 +1080,7 @@
     }
   },
   {
-    "index": 126,
+    "index": 121,
     "seed": "411985354",
     "traits": {
       "Palette": 11,
@@ -1134,7 +1089,7 @@
     }
   },
   {
-    "index": 127,
+    "index": 122,
     "seed": "729715936",
     "traits": {
       "Palette": 11,
@@ -1143,7 +1098,7 @@
     }
   },
   {
-    "index": 128,
+    "index": 123,
     "seed": "408956868",
     "traits": {
       "Palette": 12,
@@ -1152,7 +1107,7 @@
     }
   },
   {
-    "index": 129,
+    "index": 124,
     "seed": "231940731",
     "traits": {
       "Palette": 9,
@@ -1161,7 +1116,7 @@
     }
   },
   {
-    "index": 130,
+    "index": 125,
     "seed": "792779152",
     "traits": {
       "Palette": 10,
@@ -1170,7 +1125,7 @@
     }
   },
   {
-    "index": 131,
+    "index": 126,
     "seed": "370211065",
     "traits": {
       "Palette": 0,
@@ -1179,7 +1134,7 @@
     }
   },
   {
-    "index": 132,
+    "index": 127,
     "seed": "964060846",
     "traits": {
       "Palette": 9,
@@ -1188,7 +1143,7 @@
     }
   },
   {
-    "index": 133,
+    "index": 128,
     "seed": "744090991",
     "traits": {
       "Palette": 9,
@@ -1197,7 +1152,7 @@
     }
   },
   {
-    "index": 134,
+    "index": 129,
     "seed": "885576277",
     "traits": {
       "Palette": 7,
@@ -1206,7 +1161,7 @@
     }
   },
   {
-    "index": 135,
+    "index": 130,
     "seed": "611117240",
     "traits": {
       "Palette": 0,
@@ -1215,7 +1170,7 @@
     }
   },
   {
-    "index": 136,
+    "index": 131,
     "seed": "279850535",
     "traits": {
       "Palette": 10,
@@ -1224,7 +1179,7 @@
     }
   },
   {
-    "index": 137,
+    "index": 132,
     "seed": "376610735",
     "traits": {
       "Palette": 10,
@@ -1233,7 +1188,7 @@
     }
   },
   {
-    "index": 138,
+    "index": 133,
     "seed": "368918403",
     "traits": {
       "Palette": 7,
@@ -1242,7 +1197,7 @@
     }
   },
   {
-    "index": 139,
+    "index": 134,
     "seed": "854274599",
     "traits": {
       "Palette": 10,
@@ -1251,7 +1206,7 @@
     }
   },
   {
-    "index": 140,
+    "index": 135,
     "seed": "830104731",
     "traits": {
       "Palette": 10,
@@ -1260,7 +1215,7 @@
     }
   },
   {
-    "index": 141,
+    "index": 136,
     "seed": "830934784",
     "traits": {
       "Palette": 5,
@@ -1269,7 +1224,7 @@
     }
   },
   {
-    "index": 142,
+    "index": 137,
     "seed": "198503073",
     "traits": {
       "Palette": 5,
@@ -1278,7 +1233,7 @@
     }
   },
   {
-    "index": 143,
+    "index": 138,
     "seed": "214401466",
     "traits": {
       "Palette": 8,
@@ -1287,7 +1242,7 @@
     }
   },
   {
-    "index": 144,
+    "index": 139,
     "seed": "412122696",
     "traits": {
       "Palette": 12,
@@ -1296,7 +1251,7 @@
     }
   },
   {
-    "index": 145,
+    "index": 140,
     "seed": "848762106",
     "traits": {
       "Palette": 11,
@@ -1305,7 +1260,7 @@
     }
   },
   {
-    "index": 146,
+    "index": 141,
     "seed": "403868086",
     "traits": {
       "Palette": 5,
@@ -1314,7 +1269,7 @@
     }
   },
   {
-    "index": 147,
+    "index": 142,
     "seed": "855303870",
     "traits": {
       "Palette": 11,
@@ -1323,7 +1278,7 @@
     }
   },
   {
-    "index": 148,
+    "index": 143,
     "seed": "870704688",
     "traits": {
       "Palette": 11,
@@ -1332,7 +1287,7 @@
     }
   },
   {
-    "index": 149,
+    "index": 144,
     "seed": "790623629",
     "traits": {
       "Palette": 10,
@@ -1341,7 +1296,7 @@
     }
   },
   {
-    "index": 150,
+    "index": 145,
     "seed": "969027985",
     "traits": {
       "Palette": 6,
@@ -1350,7 +1305,7 @@
     }
   },
   {
-    "index": 151,
+    "index": 146,
     "seed": "910829835",
     "traits": {
       "Palette": 4,
@@ -1359,7 +1314,7 @@
     }
   },
   {
-    "index": 152,
+    "index": 147,
     "seed": "606995493",
     "traits": {
       "Palette": 0,
@@ -1368,7 +1323,7 @@
     }
   },
   {
-    "index": 153,
+    "index": 148,
     "seed": "217013658",
     "traits": {
       "Palette": 0,
@@ -1377,7 +1332,7 @@
     }
   },
   {
-    "index": 154,
+    "index": 149,
     "seed": "975835150",
     "traits": {
       "Palette": 9,
@@ -1386,7 +1341,7 @@
     }
   },
   {
-    "index": 155,
+    "index": 150,
     "seed": "981295253",
     "traits": {
       "Palette": 1,
@@ -1395,7 +1350,7 @@
     }
   },
   {
-    "index": 156,
+    "index": 151,
     "seed": "681977948",
     "traits": {
       "Palette": 5,
@@ -1404,7 +1359,7 @@
     }
   },
   {
-    "index": 157,
+    "index": 152,
     "seed": "207401577",
     "traits": {
       "Palette": 7,
@@ -1413,7 +1368,7 @@
     }
   },
   {
-    "index": 158,
+    "index": 153,
     "seed": "249108458",
     "traits": {
       "Palette": 9,
@@ -1422,7 +1377,7 @@
     }
   },
   {
-    "index": 159,
+    "index": 154,
     "seed": "738053375",
     "traits": {
       "Palette": 7,
@@ -1431,7 +1386,7 @@
     }
   },
   {
-    "index": 160,
+    "index": 155,
     "seed": "348211498",
     "traits": {
       "Palette": 9,
@@ -1440,7 +1395,7 @@
     }
   },
   {
-    "index": 161,
+    "index": 156,
     "seed": "303228272",
     "traits": {
       "Palette": 10,
@@ -1449,7 +1404,7 @@
     }
   },
   {
-    "index": 162,
+    "index": 157,
     "seed": "689186174",
     "traits": {
       "Palette": 4,
@@ -1458,7 +1413,7 @@
     }
   },
   {
-    "index": 163,
+    "index": 158,
     "seed": "653919670",
     "traits": {
       "Palette": 1,
@@ -1467,7 +1422,7 @@
     }
   },
   {
-    "index": 164,
+    "index": 159,
     "seed": "606791984",
     "traits": {
       "Palette": 1,
@@ -1476,7 +1431,7 @@
     }
   },
   {
-    "index": 165,
+    "index": 160,
     "seed": "261575748",
     "traits": {
       "Palette": 12,
@@ -1485,7 +1440,7 @@
     }
   },
   {
-    "index": 166,
+    "index": 161,
     "seed": "121654409",
     "traits": {
       "Palette": 3,
@@ -1494,7 +1449,7 @@
     }
   },
   {
-    "index": 167,
+    "index": 162,
     "seed": "430797642",
     "traits": {
       "Palette": 0,
@@ -1503,7 +1458,7 @@
     }
   },
   {
-    "index": 168,
+    "index": 163,
     "seed": "412802219",
     "traits": {
       "Palette": 9,
@@ -1512,7 +1467,7 @@
     }
   },
   {
-    "index": 169,
+    "index": 164,
     "seed": "436796654",
     "traits": {
       "Palette": 6,
@@ -1521,7 +1476,7 @@
     }
   },
   {
-    "index": 170,
+    "index": 165,
     "seed": "625589002",
     "traits": {
       "Palette": 9,
@@ -1530,7 +1485,7 @@
     }
   },
   {
-    "index": 171,
+    "index": 166,
     "seed": "966872597",
     "traits": {
       "Palette": 6,
@@ -1539,7 +1494,7 @@
     }
   },
   {
-    "index": 172,
+    "index": 167,
     "seed": "770597943",
     "traits": {
       "Palette": 9,
@@ -1548,7 +1503,7 @@
     }
   },
   {
-    "index": 173,
+    "index": 168,
     "seed": "291990642",
     "traits": {
       "Palette": 9,
@@ -1557,7 +1512,7 @@
     }
   },
   {
-    "index": 174,
+    "index": 169,
     "seed": "121049499",
     "traits": {
       "Palette": 6,
@@ -1566,7 +1521,7 @@
     }
   },
   {
-    "index": 175,
+    "index": 170,
     "seed": "290861489",
     "traits": {
       "Palette": 9,
@@ -1575,7 +1530,7 @@
     }
   },
   {
-    "index": 176,
+    "index": 171,
     "seed": "542079683",
     "traits": {
       "Palette": 5,
@@ -1584,7 +1539,7 @@
     }
   },
   {
-    "index": 177,
+    "index": 172,
     "seed": "698248146",
     "traits": {
       "Palette": 4,
@@ -1593,7 +1548,7 @@
     }
   },
   {
-    "index": 178,
+    "index": 173,
     "seed": "571256754",
     "traits": {
       "Palette": 6,
@@ -1602,7 +1557,7 @@
     }
   },
   {
-    "index": 179,
+    "index": 174,
     "seed": "175949132",
     "traits": {
       "Palette": 8,
@@ -1611,7 +1566,7 @@
     }
   },
   {
-    "index": 180,
+    "index": 175,
     "seed": "207551061",
     "traits": {
       "Palette": 5,
@@ -1620,7 +1575,7 @@
     }
   },
   {
-    "index": 181,
+    "index": 176,
     "seed": "981488030",
     "traits": {
       "Palette": 7,
@@ -1629,7 +1584,7 @@
     }
   },
   {
-    "index": 182,
+    "index": 177,
     "seed": "830313282",
     "traits": {
       "Palette": 8,
@@ -1638,7 +1593,7 @@
     }
   },
   {
-    "index": 183,
+    "index": 178,
     "seed": "220026931",
     "traits": {
       "Palette": 12,
@@ -1647,7 +1602,7 @@
     }
   },
   {
-    "index": 184,
+    "index": 179,
     "seed": "214156189",
     "traits": {
       "Palette": 5,
@@ -1656,7 +1611,7 @@
     }
   },
   {
-    "index": 185,
+    "index": 180,
     "seed": "715278864",
     "traits": {
       "Palette": 3,
@@ -1665,7 +1620,7 @@
     }
   },
   {
-    "index": 186,
+    "index": 181,
     "seed": "490980337",
     "traits": {
       "Palette": 1,
@@ -1674,7 +1629,7 @@
     }
   },
   {
-    "index": 187,
+    "index": 182,
     "seed": "392424251",
     "traits": {
       "Palette": 7,
@@ -1683,16 +1638,7 @@
     }
   },
   {
-    "index": 188,
-    "seed": "855261769",
-    "traits": {
-      "Palette": 6,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 189,
+    "index": 183,
     "seed": "284329095",
     "traits": {
       "Palette": 10,
@@ -1701,7 +1647,7 @@
     }
   },
   {
-    "index": 190,
+    "index": 184,
     "seed": "145829503",
     "traits": {
       "Palette": 9,
@@ -1710,7 +1656,7 @@
     }
   },
   {
-    "index": 191,
+    "index": 185,
     "seed": "339712606",
     "traits": {
       "Palette": 10,
@@ -1719,7 +1665,7 @@
     }
   },
   {
-    "index": 192,
+    "index": 186,
     "seed": "210666386",
     "traits": {
       "Palette": 9,
@@ -1728,7 +1674,7 @@
     }
   },
   {
-    "index": 193,
+    "index": 187,
     "seed": "901764111",
     "traits": {
       "Palette": 12,
@@ -1737,7 +1683,7 @@
     }
   },
   {
-    "index": 194,
+    "index": 188,
     "seed": "658802055",
     "traits": {
       "Palette": 5,
@@ -1746,7 +1692,7 @@
     }
   },
   {
-    "index": 195,
+    "index": 189,
     "seed": "641002296",
     "traits": {
       "Palette": 2,
@@ -1755,7 +1701,7 @@
     }
   },
   {
-    "index": 196,
+    "index": 190,
     "seed": "702469706",
     "traits": {
       "Palette": 7,
@@ -1764,7 +1710,7 @@
     }
   },
   {
-    "index": 197,
+    "index": 191,
     "seed": "442288850",
     "traits": {
       "Palette": 2,
@@ -1773,7 +1719,7 @@
     }
   },
   {
-    "index": 198,
+    "index": 192,
     "seed": "365956543",
     "traits": {
       "Palette": 9,
@@ -1782,7 +1728,7 @@
     }
   },
   {
-    "index": 199,
+    "index": 193,
     "seed": "612718773",
     "traits": {
       "Palette": 8,
@@ -1791,7 +1737,7 @@
     }
   },
   {
-    "index": 200,
+    "index": 194,
     "seed": "943972567",
     "traits": {
       "Palette": 2,
@@ -1800,7 +1746,7 @@
     }
   },
   {
-    "index": 201,
+    "index": 195,
     "seed": "529604008",
     "traits": {
       "Palette": 8,
@@ -1809,7 +1755,7 @@
     }
   },
   {
-    "index": 202,
+    "index": 196,
     "seed": "433748035",
     "traits": {
       "Palette": 12,
@@ -1818,7 +1764,7 @@
     }
   },
   {
-    "index": 203,
+    "index": 197,
     "seed": "846805662",
     "traits": {
       "Palette": 5,
@@ -1827,7 +1773,7 @@
     }
   },
   {
-    "index": 204,
+    "index": 198,
     "seed": "766312454",
     "traits": {
       "Palette": 0,
@@ -1836,7 +1782,7 @@
     }
   },
   {
-    "index": 205,
+    "index": 199,
     "seed": "319158829",
     "traits": {
       "Palette": 5,
@@ -1845,7 +1791,7 @@
     }
   },
   {
-    "index": 206,
+    "index": 200,
     "seed": "965530551",
     "traits": {
       "Palette": 1,
@@ -1854,7 +1800,7 @@
     }
   },
   {
-    "index": 207,
+    "index": 201,
     "seed": "141539560",
     "traits": {
       "Palette": 9,
@@ -1863,7 +1809,7 @@
     }
   },
   {
-    "index": 208,
+    "index": 202,
     "seed": "814612601",
     "traits": {
       "Palette": 11,
@@ -1872,7 +1818,7 @@
     }
   },
   {
-    "index": 209,
+    "index": 203,
     "seed": "373236369",
     "traits": {
       "Palette": 9,
@@ -1881,7 +1827,7 @@
     }
   },
   {
-    "index": 210,
+    "index": 204,
     "seed": "111148926",
     "traits": {
       "Palette": 5,
@@ -1890,7 +1836,7 @@
     }
   },
   {
-    "index": 211,
+    "index": 205,
     "seed": "295830596",
     "traits": {
       "Palette": 0,
@@ -1899,7 +1845,7 @@
     }
   },
   {
-    "index": 212,
+    "index": 206,
     "seed": "795737948",
     "traits": {
       "Palette": 9,
@@ -1908,7 +1854,7 @@
     }
   },
   {
-    "index": 213,
+    "index": 207,
     "seed": "173229123",
     "traits": {
       "Palette": 5,
@@ -1917,7 +1863,7 @@
     }
   },
   {
-    "index": 214,
+    "index": 208,
     "seed": "869584643",
     "traits": {
       "Palette": 0,
@@ -1926,7 +1872,7 @@
     }
   },
   {
-    "index": 215,
+    "index": 209,
     "seed": "239632229",
     "traits": {
       "Palette": 4,
@@ -1935,7 +1881,7 @@
     }
   },
   {
-    "index": 216,
+    "index": 210,
     "seed": "357943717",
     "traits": {
       "Palette": 8,
@@ -1944,7 +1890,7 @@
     }
   },
   {
-    "index": 217,
+    "index": 211,
     "seed": "601038132",
     "traits": {
       "Palette": 5,
@@ -1953,7 +1899,7 @@
     }
   },
   {
-    "index": 218,
+    "index": 212,
     "seed": "779166974",
     "traits": {
       "Palette": 4,
@@ -1962,7 +1908,7 @@
     }
   },
   {
-    "index": 219,
+    "index": 213,
     "seed": "150362153",
     "traits": {
       "Palette": 5,
@@ -1971,7 +1917,7 @@
     }
   },
   {
-    "index": 220,
+    "index": 214,
     "seed": "974190568",
     "traits": {
       "Palette": 12,
@@ -1980,7 +1926,7 @@
     }
   },
   {
-    "index": 221,
+    "index": 215,
     "seed": "307562401",
     "traits": {
       "Palette": 2,
@@ -1989,7 +1935,7 @@
     }
   },
   {
-    "index": 222,
+    "index": 216,
     "seed": "647035170",
     "traits": {
       "Palette": 8,
@@ -1998,7 +1944,7 @@
     }
   },
   {
-    "index": 223,
+    "index": 217,
     "seed": "905876271",
     "traits": {
       "Palette": 8,
@@ -2007,7 +1953,7 @@
     }
   },
   {
-    "index": 224,
+    "index": 218,
     "seed": "549984872",
     "traits": {
       "Palette": 1,
@@ -2016,7 +1962,7 @@
     }
   },
   {
-    "index": 225,
+    "index": 219,
     "seed": "796638276",
     "traits": {
       "Palette": 9,
@@ -2025,7 +1971,7 @@
     }
   },
   {
-    "index": 226,
+    "index": 220,
     "seed": "213643650",
     "traits": {
       "Palette": 5,
@@ -2034,7 +1980,7 @@
     }
   },
   {
-    "index": 227,
+    "index": 221,
     "seed": "847336193",
     "traits": {
       "Palette": 2,
@@ -2043,7 +1989,7 @@
     }
   },
   {
-    "index": 228,
+    "index": 222,
     "seed": "151022908",
     "traits": {
       "Palette": 1,
@@ -2052,7 +1998,7 @@
     }
   },
   {
-    "index": 229,
+    "index": 223,
     "seed": "237062381",
     "traits": {
       "Palette": 0,
@@ -2061,7 +2007,7 @@
     }
   },
   {
-    "index": 230,
+    "index": 224,
     "seed": "668934247",
     "traits": {
       "Palette": 6,
@@ -2070,7 +2016,7 @@
     }
   },
   {
-    "index": 231,
+    "index": 225,
     "seed": "672647777",
     "traits": {
       "Palette": 2,
@@ -2079,7 +2025,7 @@
     }
   },
   {
-    "index": 232,
+    "index": 226,
     "seed": "102299083",
     "traits": {
       "Palette": 8,
@@ -2088,7 +2034,7 @@
     }
   },
   {
-    "index": 233,
+    "index": 227,
     "seed": "560468245",
     "traits": {
       "Palette": 0,
@@ -2097,7 +2043,7 @@
     }
   },
   {
-    "index": 234,
+    "index": 228,
     "seed": "695704799",
     "traits": {
       "Palette": 1,
@@ -2106,7 +2052,7 @@
     }
   },
   {
-    "index": 235,
+    "index": 229,
     "seed": "768565335",
     "traits": {
       "Palette": 8,
@@ -2115,7 +2061,7 @@
     }
   },
   {
-    "index": 236,
+    "index": 230,
     "seed": "463668214",
     "traits": {
       "Palette": 12,
@@ -2124,7 +2070,7 @@
     }
   },
   {
-    "index": 237,
+    "index": 231,
     "seed": "880979123",
     "traits": {
       "Palette": 7,
@@ -2133,7 +2079,7 @@
     }
   },
   {
-    "index": 238,
+    "index": 232,
     "seed": "986516348",
     "traits": {
       "Palette": 7,
@@ -2142,7 +2088,7 @@
     }
   },
   {
-    "index": 239,
+    "index": 233,
     "seed": "776302145",
     "traits": {
       "Palette": 7,
@@ -2151,7 +2097,7 @@
     }
   },
   {
-    "index": 240,
+    "index": 234,
     "seed": "343518665",
     "traits": {
       "Palette": 6,
@@ -2160,7 +2106,7 @@
     }
   },
   {
-    "index": 241,
+    "index": 235,
     "seed": "230041392",
     "traits": {
       "Palette": 3,
@@ -2169,7 +2115,7 @@
     }
   },
   {
-    "index": 242,
+    "index": 236,
     "seed": "816851328",
     "traits": {
       "Palette": 4,
@@ -2178,7 +2124,7 @@
     }
   },
   {
-    "index": 243,
+    "index": 237,
     "seed": "189972766",
     "traits": {
       "Palette": 2,
@@ -2187,7 +2133,7 @@
     }
   },
   {
-    "index": 244,
+    "index": 238,
     "seed": "137360687",
     "traits": {
       "Palette": 0,
@@ -2196,7 +2142,7 @@
     }
   },
   {
-    "index": 245,
+    "index": 239,
     "seed": "213484928",
     "traits": {
       "Palette": 3,
@@ -2205,7 +2151,7 @@
     }
   },
   {
-    "index": 246,
+    "index": 240,
     "seed": "693634707",
     "traits": {
       "Palette": 10,
@@ -2214,7 +2160,7 @@
     }
   },
   {
-    "index": 247,
+    "index": 241,
     "seed": "349518051",
     "traits": {
       "Palette": 7,
@@ -2223,7 +2169,7 @@
     }
   },
   {
-    "index": 248,
+    "index": 242,
     "seed": "224369075",
     "traits": {
       "Palette": 3,
@@ -2232,7 +2178,7 @@
     }
   },
   {
-    "index": 249,
+    "index": 243,
     "seed": "498344954",
     "traits": {
       "Palette": 3,
@@ -2241,7 +2187,7 @@
     }
   },
   {
-    "index": 250,
+    "index": 244,
     "seed": "972832833",
     "traits": {
       "Palette": 9,
@@ -2250,7 +2196,7 @@
     }
   },
   {
-    "index": 251,
+    "index": 245,
     "seed": "802161582",
     "traits": {
       "Palette": 8,
@@ -2259,7 +2205,7 @@
     }
   },
   {
-    "index": 252,
+    "index": 246,
     "seed": "221676171",
     "traits": {
       "Palette": 8,
@@ -2268,7 +2214,7 @@
     }
   },
   {
-    "index": 253,
+    "index": 247,
     "seed": "951198395",
     "traits": {
       "Palette": 4,
@@ -2277,7 +2223,7 @@
     }
   },
   {
-    "index": 254,
+    "index": 248,
     "seed": "629863383",
     "traits": {
       "Palette": 11,
@@ -2286,7 +2232,7 @@
     }
   },
   {
-    "index": 255,
+    "index": 249,
     "seed": "502988835",
     "traits": {
       "Palette": 7,
@@ -2295,7 +2241,7 @@
     }
   },
   {
-    "index": 256,
+    "index": 250,
     "seed": "700406512",
     "traits": {
       "Palette": 0,
@@ -2304,7 +2250,7 @@
     }
   },
   {
-    "index": 257,
+    "index": 251,
     "seed": "508393752",
     "traits": {
       "Palette": 9,
@@ -2313,7 +2259,7 @@
     }
   },
   {
-    "index": 258,
+    "index": 252,
     "seed": "573533738",
     "traits": {
       "Palette": 2,
@@ -2322,7 +2268,7 @@
     }
   },
   {
-    "index": 259,
+    "index": 253,
     "seed": "225951258",
     "traits": {
       "Palette": 8,
@@ -2331,7 +2277,7 @@
     }
   },
   {
-    "index": 260,
+    "index": 254,
     "seed": "343830059",
     "traits": {
       "Palette": 2,
@@ -2340,7 +2286,7 @@
     }
   },
   {
-    "index": 261,
+    "index": 255,
     "seed": "293865702",
     "traits": {
       "Palette": 6,
@@ -2349,7 +2295,7 @@
     }
   },
   {
-    "index": 262,
+    "index": 256,
     "seed": "493201661",
     "traits": {
       "Palette": 2,
@@ -2358,7 +2304,7 @@
     }
   },
   {
-    "index": 263,
+    "index": 257,
     "seed": "356159550",
     "traits": {
       "Palette": 7,
@@ -2367,7 +2313,7 @@
     }
   },
   {
-    "index": 264,
+    "index": 258,
     "seed": "394886828",
     "traits": {
       "Palette": 2,
@@ -2376,7 +2322,7 @@
     }
   },
   {
-    "index": 265,
+    "index": 259,
     "seed": "194676614",
     "traits": {
       "Palette": 6,
@@ -2385,7 +2331,7 @@
     }
   },
   {
-    "index": 266,
+    "index": 260,
     "seed": "350319522",
     "traits": {
       "Palette": 2,
@@ -2394,7 +2340,7 @@
     }
   },
   {
-    "index": 267,
+    "index": 261,
     "seed": "825843800",
     "traits": {
       "Palette": 5,
@@ -2403,7 +2349,7 @@
     }
   },
   {
-    "index": 268,
+    "index": 262,
     "seed": "642365415",
     "traits": {
       "Palette": 0,
@@ -2412,7 +2358,7 @@
     }
   },
   {
-    "index": 269,
+    "index": 263,
     "seed": "712103590",
     "traits": {
       "Palette": 4,
@@ -2421,7 +2367,7 @@
     }
   },
   {
-    "index": 270,
+    "index": 264,
     "seed": "571079125",
     "traits": {
       "Palette": 4,
@@ -2430,7 +2376,7 @@
     }
   },
   {
-    "index": 271,
+    "index": 265,
     "seed": "670862970",
     "traits": {
       "Palette": 8,
@@ -2439,7 +2385,7 @@
     }
   },
   {
-    "index": 272,
+    "index": 266,
     "seed": "966204253",
     "traits": {
       "Palette": 5,
@@ -2448,7 +2394,7 @@
     }
   },
   {
-    "index": 273,
+    "index": 267,
     "seed": "692665300",
     "traits": {
       "Palette": 8,
@@ -2457,7 +2403,7 @@
     }
   },
   {
-    "index": 274,
+    "index": 268,
     "seed": "103329840",
     "traits": {
       "Palette": 11,
@@ -2466,7 +2412,7 @@
     }
   },
   {
-    "index": 275,
+    "index": 269,
     "seed": "272738294",
     "traits": {
       "Palette": 11,
@@ -2475,7 +2421,7 @@
     }
   },
   {
-    "index": 276,
+    "index": 270,
     "seed": "632769820",
     "traits": {
       "Palette": 5,
@@ -2484,7 +2430,7 @@
     }
   },
   {
-    "index": 277,
+    "index": 271,
     "seed": "259607588",
     "traits": {
       "Palette": 4,
@@ -2493,7 +2439,7 @@
     }
   },
   {
-    "index": 278,
+    "index": 272,
     "seed": "753095257",
     "traits": {
       "Palette": 3,
@@ -2502,7 +2448,7 @@
     }
   },
   {
-    "index": 279,
+    "index": 273,
     "seed": "352392845",
     "traits": {
       "Palette": 4,
@@ -2511,7 +2457,7 @@
     }
   },
   {
-    "index": 280,
+    "index": 274,
     "seed": "462511019",
     "traits": {
       "Palette": 8,
@@ -2520,7 +2466,7 @@
     }
   },
   {
-    "index": 281,
+    "index": 275,
     "seed": "861394699",
     "traits": {
       "Palette": 11,
@@ -2529,7 +2475,7 @@
     }
   },
   {
-    "index": 282,
+    "index": 276,
     "seed": "518172087",
     "traits": {
       "Palette": 1,
@@ -2538,7 +2484,7 @@
     }
   },
   {
-    "index": 283,
+    "index": 277,
     "seed": "492417954",
     "traits": {
       "Palette": 12,
@@ -2547,7 +2493,7 @@
     }
   },
   {
-    "index": 284,
+    "index": 278,
     "seed": "135421367",
     "traits": {
       "Palette": 4,
@@ -2556,7 +2502,7 @@
     }
   },
   {
-    "index": 285,
+    "index": 279,
     "seed": "226319843",
     "traits": {
       "Palette": 8,
@@ -2565,7 +2511,7 @@
     }
   },
   {
-    "index": 286,
+    "index": 280,
     "seed": "922016247",
     "traits": {
       "Palette": 1,
@@ -2574,7 +2520,7 @@
     }
   },
   {
-    "index": 287,
+    "index": 281,
     "seed": "185661690",
     "traits": {
       "Palette": 10,
@@ -2583,7 +2529,7 @@
     }
   },
   {
-    "index": 288,
+    "index": 282,
     "seed": "250776072",
     "traits": {
       "Palette": 11,
@@ -2592,7 +2538,7 @@
     }
   },
   {
-    "index": 289,
+    "index": 283,
     "seed": "866256358",
     "traits": {
       "Palette": 2,
@@ -2601,7 +2547,7 @@
     }
   },
   {
-    "index": 290,
+    "index": 284,
     "seed": "114042216",
     "traits": {
       "Palette": 10,
@@ -2610,7 +2556,7 @@
     }
   },
   {
-    "index": 291,
+    "index": 285,
     "seed": "110972042",
     "traits": {
       "Palette": 4,
@@ -2619,7 +2565,7 @@
     }
   },
   {
-    "index": 292,
+    "index": 286,
     "seed": "509826672",
     "traits": {
       "Palette": 7,
@@ -2628,7 +2574,7 @@
     }
   },
   {
-    "index": 293,
+    "index": 287,
     "seed": "574626748",
     "traits": {
       "Palette": 8,
@@ -2637,7 +2583,7 @@
     }
   },
   {
-    "index": 294,
+    "index": 288,
     "seed": "402618262",
     "traits": {
       "Palette": 5,
@@ -2646,7 +2592,7 @@
     }
   },
   {
-    "index": 295,
+    "index": 289,
     "seed": "681567228",
     "traits": {
       "Palette": 8,
@@ -2655,7 +2601,7 @@
     }
   },
   {
-    "index": 296,
+    "index": 290,
     "seed": "182002628",
     "traits": {
       "Palette": 5,
@@ -2664,7 +2610,7 @@
     }
   },
   {
-    "index": 297,
+    "index": 291,
     "seed": "651081748",
     "traits": {
       "Palette": 12,
@@ -2673,7 +2619,7 @@
     }
   },
   {
-    "index": 298,
+    "index": 292,
     "seed": "842866790",
     "traits": {
       "Palette": 0,
@@ -2682,7 +2628,7 @@
     }
   },
   {
-    "index": 299,
+    "index": 293,
     "seed": "871173455",
     "traits": {
       "Palette": 0,
@@ -2691,7 +2637,7 @@
     }
   },
   {
-    "index": 300,
+    "index": 294,
     "seed": "222257035",
     "traits": {
       "Palette": 12,
@@ -2700,7 +2646,7 @@
     }
   },
   {
-    "index": 301,
+    "index": 295,
     "seed": "351855643",
     "traits": {
       "Palette": 7,
@@ -2709,7 +2655,7 @@
     }
   },
   {
-    "index": 302,
+    "index": 296,
     "seed": "520169444",
     "traits": {
       "Palette": 8,
@@ -2718,7 +2664,7 @@
     }
   },
   {
-    "index": 303,
+    "index": 297,
     "seed": "334304523",
     "traits": {
       "Palette": 5,
@@ -2727,7 +2673,7 @@
     }
   },
   {
-    "index": 304,
+    "index": 298,
     "seed": "992943191",
     "traits": {
       "Palette": 12,
@@ -2736,7 +2682,7 @@
     }
   },
   {
-    "index": 305,
+    "index": 299,
     "seed": "111538727",
     "traits": {
       "Palette": 11,
@@ -2745,7 +2691,7 @@
     }
   },
   {
-    "index": 306,
+    "index": 300,
     "seed": "861314574",
     "traits": {
       "Palette": 7,
@@ -2754,7 +2700,7 @@
     }
   },
   {
-    "index": 307,
+    "index": 301,
     "seed": "352024823",
     "traits": {
       "Palette": 3,
@@ -2763,7 +2709,7 @@
     }
   },
   {
-    "index": 308,
+    "index": 302,
     "seed": "344803055",
     "traits": {
       "Palette": 11,
@@ -2772,7 +2718,7 @@
     }
   },
   {
-    "index": 309,
+    "index": 303,
     "seed": "948987382",
     "traits": {
       "Palette": 11,
@@ -2781,7 +2727,7 @@
     }
   },
   {
-    "index": 310,
+    "index": 304,
     "seed": "601779151",
     "traits": {
       "Palette": 5,
@@ -2790,7 +2736,7 @@
     }
   },
   {
-    "index": 311,
+    "index": 305,
     "seed": "749685835",
     "traits": {
       "Palette": 4,
@@ -2799,7 +2745,7 @@
     }
   },
   {
-    "index": 312,
+    "index": 306,
     "seed": "111017142",
     "traits": {
       "Palette": 1,
@@ -2808,7 +2754,7 @@
     }
   },
   {
-    "index": 313,
+    "index": 307,
     "seed": "256951240",
     "traits": {
       "Palette": 1,
@@ -2817,7 +2763,7 @@
     }
   },
   {
-    "index": 314,
+    "index": 308,
     "seed": "873961490",
     "traits": {
       "Palette": 1,
@@ -2826,7 +2772,7 @@
     }
   },
   {
-    "index": 315,
+    "index": 309,
     "seed": "254277428",
     "traits": {
       "Palette": 10,
@@ -2835,7 +2781,7 @@
     }
   },
   {
-    "index": 316,
+    "index": 310,
     "seed": "217724729",
     "traits": {
       "Palette": 6,
@@ -2844,7 +2790,7 @@
     }
   },
   {
-    "index": 317,
+    "index": 311,
     "seed": "924477335",
     "traits": {
       "Palette": 4,
@@ -2853,7 +2799,7 @@
     }
   },
   {
-    "index": 318,
+    "index": 312,
     "seed": "491493794",
     "traits": {
       "Palette": 6,
@@ -2862,7 +2808,7 @@
     }
   },
   {
-    "index": 319,
+    "index": 313,
     "seed": "514589254",
     "traits": {
       "Palette": 12,
@@ -2871,7 +2817,7 @@
     }
   },
   {
-    "index": 320,
+    "index": 314,
     "seed": "208458985",
     "traits": {
       "Palette": 0,
@@ -2880,7 +2826,7 @@
     }
   },
   {
-    "index": 321,
+    "index": 315,
     "seed": "307846323",
     "traits": {
       "Palette": 9,
@@ -2889,7 +2835,7 @@
     }
   },
   {
-    "index": 322,
+    "index": 316,
     "seed": "804775625",
     "traits": {
       "Palette": 0,
@@ -2898,7 +2844,7 @@
     }
   },
   {
-    "index": 323,
+    "index": 317,
     "seed": "983059599",
     "traits": {
       "Palette": 10,
@@ -2907,7 +2853,7 @@
     }
   },
   {
-    "index": 324,
+    "index": 318,
     "seed": "184260324",
     "traits": {
       "Palette": 3,
@@ -2916,7 +2862,7 @@
     }
   },
   {
-    "index": 325,
+    "index": 319,
     "seed": "566815455",
     "traits": {
       "Palette": 12,
@@ -2925,7 +2871,7 @@
     }
   },
   {
-    "index": 326,
+    "index": 320,
     "seed": "982517511",
     "traits": {
       "Palette": 9,
@@ -2934,7 +2880,7 @@
     }
   },
   {
-    "index": 327,
+    "index": 321,
     "seed": "368319520",
     "traits": {
       "Palette": 3,
@@ -2943,7 +2889,7 @@
     }
   },
   {
-    "index": 328,
+    "index": 322,
     "seed": "287992543",
     "traits": {
       "Palette": 8,
@@ -2952,7 +2898,7 @@
     }
   },
   {
-    "index": 329,
+    "index": 323,
     "seed": "210733218",
     "traits": {
       "Palette": 10,
@@ -2961,7 +2907,7 @@
     }
   },
   {
-    "index": 330,
+    "index": 324,
     "seed": "873460669",
     "traits": {
       "Palette": 10,
@@ -2970,7 +2916,7 @@
     }
   },
   {
-    "index": 331,
+    "index": 325,
     "seed": "549256784",
     "traits": {
       "Palette": 10,
@@ -2979,7 +2925,7 @@
     }
   },
   {
-    "index": 332,
+    "index": 326,
     "seed": "691718379",
     "traits": {
       "Palette": 7,
@@ -2988,7 +2934,7 @@
     }
   },
   {
-    "index": 333,
+    "index": 327,
     "seed": "642877808",
     "traits": {
       "Palette": 11,
@@ -2997,7 +2943,7 @@
     }
   },
   {
-    "index": 334,
+    "index": 328,
     "seed": "965520494",
     "traits": {
       "Palette": 4,
@@ -3006,7 +2952,7 @@
     }
   },
   {
-    "index": 335,
+    "index": 329,
     "seed": "789227937",
     "traits": {
       "Palette": 9,
@@ -3015,7 +2961,7 @@
     }
   },
   {
-    "index": 336,
+    "index": 330,
     "seed": "897322364",
     "traits": {
       "Palette": 6,
@@ -3024,7 +2970,7 @@
     }
   },
   {
-    "index": 337,
+    "index": 331,
     "seed": "185088815",
     "traits": {
       "Palette": 12,
@@ -3033,7 +2979,7 @@
     }
   },
   {
-    "index": 338,
+    "index": 332,
     "seed": "418051583",
     "traits": {
       "Palette": 3,
@@ -3042,7 +2988,7 @@
     }
   },
   {
-    "index": 339,
+    "index": 333,
     "seed": "904325615",
     "traits": {
       "Palette": 4,
@@ -3051,7 +2997,7 @@
     }
   },
   {
-    "index": 340,
+    "index": 334,
     "seed": "568398054",
     "traits": {
       "Palette": 5,
@@ -3060,7 +3006,7 @@
     }
   },
   {
-    "index": 341,
+    "index": 335,
     "seed": "423770410",
     "traits": {
       "Palette": 4,
@@ -3069,7 +3015,7 @@
     }
   },
   {
-    "index": 342,
+    "index": 336,
     "seed": "288183137",
     "traits": {
       "Palette": 11,
@@ -3078,7 +3024,7 @@
     }
   },
   {
-    "index": 343,
+    "index": 337,
     "seed": "937990040",
     "traits": {
       "Palette": 9,
@@ -3087,7 +3033,7 @@
     }
   },
   {
-    "index": 344,
+    "index": 338,
     "seed": "305671452",
     "traits": {
       "Palette": 0,
@@ -3096,7 +3042,7 @@
     }
   },
   {
-    "index": 345,
+    "index": 339,
     "seed": "191685456",
     "traits": {
       "Palette": 1,
@@ -3105,7 +3051,7 @@
     }
   },
   {
-    "index": 346,
+    "index": 340,
     "seed": "821894622",
     "traits": {
       "Palette": 1,
@@ -3114,7 +3060,7 @@
     }
   },
   {
-    "index": 347,
+    "index": 341,
     "seed": "292695139",
     "traits": {
       "Palette": 10,
@@ -3123,7 +3069,7 @@
     }
   },
   {
-    "index": 348,
+    "index": 342,
     "seed": "886071469",
     "traits": {
       "Palette": 0,
@@ -3132,7 +3078,7 @@
     }
   },
   {
-    "index": 349,
+    "index": 343,
     "seed": "730116380",
     "traits": {
       "Palette": 2,
@@ -3141,7 +3087,7 @@
     }
   },
   {
-    "index": 350,
+    "index": 344,
     "seed": "342816000",
     "traits": {
       "Palette": 3,
@@ -3150,7 +3096,7 @@
     }
   },
   {
-    "index": 351,
+    "index": 345,
     "seed": "933397434",
     "traits": {
       "Palette": 4,
@@ -3159,7 +3105,7 @@
     }
   },
   {
-    "index": 352,
+    "index": 346,
     "seed": "436811741",
     "traits": {
       "Palette": 3,
@@ -3168,7 +3114,7 @@
     }
   },
   {
-    "index": 353,
+    "index": 347,
     "seed": "283130666",
     "traits": {
       "Palette": 5,
@@ -3177,7 +3123,7 @@
     }
   },
   {
-    "index": 354,
+    "index": 348,
     "seed": "194718396",
     "traits": {
       "Palette": 4,
@@ -3186,7 +3132,7 @@
     }
   },
   {
-    "index": 355,
+    "index": 349,
     "seed": "907539189",
     "traits": {
       "Palette": 7,
@@ -3195,7 +3141,7 @@
     }
   },
   {
-    "index": 356,
+    "index": 350,
     "seed": "277371671",
     "traits": {
       "Palette": 3,
@@ -3204,7 +3150,7 @@
     }
   },
   {
-    "index": 357,
+    "index": 351,
     "seed": "890515898",
     "traits": {
       "Palette": 11,
@@ -3213,7 +3159,7 @@
     }
   },
   {
-    "index": 358,
+    "index": 352,
     "seed": "254210814",
     "traits": {
       "Palette": 10,
@@ -3222,7 +3168,7 @@
     }
   },
   {
-    "index": 359,
+    "index": 353,
     "seed": "559597725",
     "traits": {
       "Palette": 10,
@@ -3231,7 +3177,7 @@
     }
   },
   {
-    "index": 360,
+    "index": 354,
     "seed": "856274740",
     "traits": {
       "Palette": 12,
@@ -3240,7 +3186,7 @@
     }
   },
   {
-    "index": 361,
+    "index": 355,
     "seed": "467871029",
     "traits": {
       "Palette": 5,
@@ -3249,7 +3195,7 @@
     }
   },
   {
-    "index": 362,
+    "index": 356,
     "seed": "830598716",
     "traits": {
       "Palette": 9,
@@ -3258,7 +3204,7 @@
     }
   },
   {
-    "index": 363,
+    "index": 357,
     "seed": "270243624",
     "traits": {
       "Palette": 0,
@@ -3267,7 +3213,7 @@
     }
   },
   {
-    "index": 364,
+    "index": 358,
     "seed": "482966186",
     "traits": {
       "Palette": 4,
@@ -3276,7 +3222,7 @@
     }
   },
   {
-    "index": 365,
+    "index": 359,
     "seed": "925884310",
     "traits": {
       "Palette": 11,
@@ -3285,7 +3231,7 @@
     }
   },
   {
-    "index": 366,
+    "index": 360,
     "seed": "461388598",
     "traits": {
       "Palette": 3,
@@ -3294,7 +3240,7 @@
     }
   },
   {
-    "index": 367,
+    "index": 361,
     "seed": "745803749",
     "traits": {
       "Palette": 6,
@@ -3303,7 +3249,7 @@
     }
   },
   {
-    "index": 368,
+    "index": 362,
     "seed": "430927467",
     "traits": {
       "Palette": 8,
@@ -3312,7 +3258,7 @@
     }
   },
   {
-    "index": 369,
+    "index": 363,
     "seed": "984700364",
     "traits": {
       "Palette": 7,
@@ -3321,7 +3267,7 @@
     }
   },
   {
-    "index": 370,
+    "index": 364,
     "seed": "981850603",
     "traits": {
       "Palette": 4,
@@ -3330,7 +3276,7 @@
     }
   },
   {
-    "index": 371,
+    "index": 365,
     "seed": "685866187",
     "traits": {
       "Palette": 0,
@@ -3339,7 +3285,7 @@
     }
   },
   {
-    "index": 372,
+    "index": 366,
     "seed": "136099243",
     "traits": {
       "Palette": 7,
@@ -3348,7 +3294,7 @@
     }
   },
   {
-    "index": 373,
+    "index": 367,
     "seed": "955774596",
     "traits": {
       "Palette": 6,
@@ -3357,7 +3303,7 @@
     }
   },
   {
-    "index": 374,
+    "index": 368,
     "seed": "324149715",
     "traits": {
       "Palette": 1,
@@ -3366,7 +3312,7 @@
     }
   },
   {
-    "index": 375,
+    "index": 369,
     "seed": "171778042",
     "traits": {
       "Palette": 4,
@@ -3375,7 +3321,7 @@
     }
   },
   {
-    "index": 376,
+    "index": 370,
     "seed": "955565327",
     "traits": {
       "Palette": 10,
@@ -3384,7 +3330,7 @@
     }
   },
   {
-    "index": 377,
+    "index": 371,
     "seed": "392175356",
     "traits": {
       "Palette": 1,
@@ -3393,7 +3339,7 @@
     }
   },
   {
-    "index": 378,
+    "index": 372,
     "seed": "770505273",
     "traits": {
       "Palette": 5,
@@ -3402,7 +3348,7 @@
     }
   },
   {
-    "index": 379,
+    "index": 373,
     "seed": "101092724",
     "traits": {
       "Palette": 12,
@@ -3411,7 +3357,7 @@
     }
   },
   {
-    "index": 380,
+    "index": 374,
     "seed": "146554855",
     "traits": {
       "Palette": 4,
@@ -3420,7 +3366,7 @@
     }
   },
   {
-    "index": 381,
+    "index": 375,
     "seed": "452904077",
     "traits": {
       "Palette": 9,
@@ -3429,7 +3375,7 @@
     }
   },
   {
-    "index": 382,
+    "index": 376,
     "seed": "210651792",
     "traits": {
       "Palette": 8,
@@ -3438,7 +3384,7 @@
     }
   },
   {
-    "index": 383,
+    "index": 377,
     "seed": "451523268",
     "traits": {
       "Palette": 11,
@@ -3447,7 +3393,7 @@
     }
   },
   {
-    "index": 384,
+    "index": 378,
     "seed": "356551790",
     "traits": {
       "Palette": 8,
@@ -3456,7 +3402,7 @@
     }
   },
   {
-    "index": 385,
+    "index": 379,
     "seed": "576911104",
     "traits": {
       "Palette": 5,
@@ -3465,7 +3411,7 @@
     }
   },
   {
-    "index": 386,
+    "index": 380,
     "seed": "905661254",
     "traits": {
       "Palette": 1,
@@ -3474,7 +3420,7 @@
     }
   },
   {
-    "index": 387,
+    "index": 381,
     "seed": "143631969",
     "traits": {
       "Palette": 9,
@@ -3483,7 +3429,7 @@
     }
   },
   {
-    "index": 388,
+    "index": 382,
     "seed": "507787780",
     "traits": {
       "Palette": 11,
@@ -3492,7 +3438,7 @@
     }
   },
   {
-    "index": 389,
+    "index": 383,
     "seed": "493932289",
     "traits": {
       "Palette": 9,
@@ -3501,7 +3447,7 @@
     }
   },
   {
-    "index": 390,
+    "index": 384,
     "seed": "451958437",
     "traits": {
       "Palette": 5,
@@ -3510,7 +3456,7 @@
     }
   },
   {
-    "index": 391,
+    "index": 385,
     "seed": "142286537",
     "traits": {
       "Palette": 7,
@@ -3519,7 +3465,7 @@
     }
   },
   {
-    "index": 392,
+    "index": 386,
     "seed": "240882626",
     "traits": {
       "Palette": 10,
@@ -3528,7 +3474,7 @@
     }
   },
   {
-    "index": 393,
+    "index": 387,
     "seed": "425402689",
     "traits": {
       "Palette": 0,
@@ -3537,7 +3483,7 @@
     }
   },
   {
-    "index": 394,
+    "index": 388,
     "seed": "517443386",
     "traits": {
       "Palette": 5,
@@ -3546,7 +3492,7 @@
     }
   },
   {
-    "index": 395,
+    "index": 389,
     "seed": "285349675",
     "traits": {
       "Palette": 7,
@@ -3555,7 +3501,7 @@
     }
   },
   {
-    "index": 396,
+    "index": 390,
     "seed": "904416439",
     "traits": {
       "Palette": 5,
@@ -3564,7 +3510,7 @@
     }
   },
   {
-    "index": 397,
+    "index": 391,
     "seed": "651431949",
     "traits": {
       "Palette": 0,
@@ -3573,7 +3519,7 @@
     }
   },
   {
-    "index": 398,
+    "index": 392,
     "seed": "184661307",
     "traits": {
       "Palette": 7,
@@ -3582,7 +3528,7 @@
     }
   },
   {
-    "index": 399,
+    "index": 393,
     "seed": "646167125",
     "traits": {
       "Palette": 12,
@@ -3591,7 +3537,7 @@
     }
   },
   {
-    "index": 400,
+    "index": 394,
     "seed": "682785240",
     "traits": {
       "Palette": 5,
@@ -3600,7 +3546,7 @@
     }
   },
   {
-    "index": 401,
+    "index": 395,
     "seed": "166067010",
     "traits": {
       "Palette": 8,
@@ -3609,7 +3555,7 @@
     }
   },
   {
-    "index": 402,
+    "index": 396,
     "seed": "841021274",
     "traits": {
       "Palette": 8,
@@ -3618,7 +3564,7 @@
     }
   },
   {
-    "index": 403,
+    "index": 397,
     "seed": "408971781",
     "traits": {
       "Palette": 7,
@@ -3627,7 +3573,7 @@
     }
   },
   {
-    "index": 404,
+    "index": 398,
     "seed": "202283665",
     "traits": {
       "Palette": 2,
@@ -3636,7 +3582,7 @@
     }
   },
   {
-    "index": 405,
+    "index": 399,
     "seed": "579909106",
     "traits": {
       "Palette": 1,
@@ -3645,7 +3591,7 @@
     }
   },
   {
-    "index": 406,
+    "index": 400,
     "seed": "653469526",
     "traits": {
       "Palette": 6,
@@ -3654,7 +3600,7 @@
     }
   },
   {
-    "index": 407,
+    "index": 401,
     "seed": "102220914",
     "traits": {
       "Palette": 11,
@@ -3663,7 +3609,7 @@
     }
   },
   {
-    "index": 408,
+    "index": 402,
     "seed": "382039305",
     "traits": {
       "Palette": 8,
@@ -3672,7 +3618,7 @@
     }
   },
   {
-    "index": 409,
+    "index": 403,
     "seed": "309600127",
     "traits": {
       "Palette": 0,
@@ -3681,7 +3627,7 @@
     }
   },
   {
-    "index": 410,
+    "index": 404,
     "seed": "489487641",
     "traits": {
       "Palette": 1,
@@ -3690,7 +3636,7 @@
     }
   },
   {
-    "index": 411,
+    "index": 405,
     "seed": "922175354",
     "traits": {
       "Palette": 2,
@@ -3699,7 +3645,7 @@
     }
   },
   {
-    "index": 412,
+    "index": 406,
     "seed": "278298908",
     "traits": {
       "Palette": 5,
@@ -3708,7 +3654,7 @@
     }
   },
   {
-    "index": 413,
+    "index": 407,
     "seed": "330462995",
     "traits": {
       "Palette": 1,
@@ -3717,7 +3663,7 @@
     }
   },
   {
-    "index": 414,
+    "index": 408,
     "seed": "270583002",
     "traits": {
       "Palette": 8,
@@ -3726,7 +3672,7 @@
     }
   },
   {
-    "index": 415,
+    "index": 409,
     "seed": "302725584",
     "traits": {
       "Palette": 6,
@@ -3735,7 +3681,7 @@
     }
   },
   {
-    "index": 416,
+    "index": 410,
     "seed": "715807330",
     "traits": {
       "Palette": 0,
@@ -3744,7 +3690,7 @@
     }
   },
   {
-    "index": 417,
+    "index": 411,
     "seed": "409634380",
     "traits": {
       "Palette": 1,
@@ -3753,7 +3699,7 @@
     }
   },
   {
-    "index": 418,
+    "index": 412,
     "seed": "988865464",
     "traits": {
       "Palette": 1,
@@ -3762,7 +3708,7 @@
     }
   },
   {
-    "index": 419,
+    "index": 413,
     "seed": "755128946",
     "traits": {
       "Palette": 7,
@@ -3771,7 +3717,7 @@
     }
   },
   {
-    "index": 420,
+    "index": 414,
     "seed": "421636381",
     "traits": {
       "Palette": 8,
@@ -3780,7 +3726,7 @@
     }
   },
   {
-    "index": 421,
+    "index": 415,
     "seed": "374034703",
     "traits": {
       "Palette": 9,
@@ -3789,7 +3735,7 @@
     }
   },
   {
-    "index": 422,
+    "index": 416,
     "seed": "909554832",
     "traits": {
       "Palette": 9,
@@ -3798,7 +3744,7 @@
     }
   },
   {
-    "index": 423,
+    "index": 417,
     "seed": "817709646",
     "traits": {
       "Palette": 0,
@@ -3807,7 +3753,7 @@
     }
   },
   {
-    "index": 424,
+    "index": 418,
     "seed": "884161647",
     "traits": {
       "Palette": 4,
@@ -3816,7 +3762,7 @@
     }
   },
   {
-    "index": 425,
+    "index": 419,
     "seed": "594518895",
     "traits": {
       "Palette": 1,
@@ -3825,7 +3771,7 @@
     }
   },
   {
-    "index": 426,
+    "index": 420,
     "seed": "680061947",
     "traits": {
       "Palette": 8,
@@ -3834,7 +3780,7 @@
     }
   },
   {
-    "index": 427,
+    "index": 421,
     "seed": "493678253",
     "traits": {
       "Palette": 3,
@@ -3843,7 +3789,7 @@
     }
   },
   {
-    "index": 428,
+    "index": 422,
     "seed": "205334622",
     "traits": {
       "Palette": 11,
@@ -3852,7 +3798,7 @@
     }
   },
   {
-    "index": 429,
+    "index": 423,
     "seed": "996922698",
     "traits": {
       "Palette": 7,
@@ -3861,7 +3807,7 @@
     }
   },
   {
-    "index": 430,
+    "index": 424,
     "seed": "750430682",
     "traits": {
       "Palette": 7,
@@ -3870,7 +3816,7 @@
     }
   },
   {
-    "index": 431,
+    "index": 425,
     "seed": "336429952",
     "traits": {
       "Palette": 9,
@@ -3879,7 +3825,7 @@
     }
   },
   {
-    "index": 432,
+    "index": 426,
     "seed": "249132839",
     "traits": {
       "Palette": 8,
@@ -3888,7 +3834,7 @@
     }
   },
   {
-    "index": 433,
+    "index": 427,
     "seed": "409585520",
     "traits": {
       "Palette": 12,
@@ -3897,7 +3843,7 @@
     }
   },
   {
-    "index": 434,
+    "index": 428,
     "seed": "272829346",
     "traits": {
       "Palette": 6,
@@ -3906,7 +3852,7 @@
     }
   },
   {
-    "index": 435,
+    "index": 429,
     "seed": "923025246",
     "traits": {
       "Palette": 8,
@@ -3915,7 +3861,7 @@
     }
   },
   {
-    "index": 436,
+    "index": 430,
     "seed": "184827129",
     "traits": {
       "Palette": 6,
@@ -3924,7 +3870,7 @@
     }
   },
   {
-    "index": 437,
+    "index": 431,
     "seed": "398166851",
     "traits": {
       "Palette": 0,
@@ -3933,7 +3879,7 @@
     }
   },
   {
-    "index": 438,
+    "index": 432,
     "seed": "802079485",
     "traits": {
       "Palette": 10,
@@ -3942,7 +3888,7 @@
     }
   },
   {
-    "index": 439,
+    "index": 433,
     "seed": "763232227",
     "traits": {
       "Palette": 11,
@@ -3951,7 +3897,7 @@
     }
   },
   {
-    "index": 440,
+    "index": 434,
     "seed": "729496244",
     "traits": {
       "Palette": 9,
@@ -3960,7 +3906,7 @@
     }
   },
   {
-    "index": 441,
+    "index": 435,
     "seed": "308365819",
     "traits": {
       "Palette": 6,
@@ -3969,7 +3915,7 @@
     }
   },
   {
-    "index": 442,
+    "index": 436,
     "seed": "831295955",
     "traits": {
       "Palette": 12,
@@ -3978,7 +3924,7 @@
     }
   },
   {
-    "index": 443,
+    "index": 437,
     "seed": "465873171",
     "traits": {
       "Palette": 3,
@@ -3987,7 +3933,7 @@
     }
   },
   {
-    "index": 444,
+    "index": 438,
     "seed": "219500608",
     "traits": {
       "Palette": 7,
@@ -3996,7 +3942,7 @@
     }
   },
   {
-    "index": 445,
+    "index": 439,
     "seed": "827117796",
     "traits": {
       "Palette": 0,
@@ -4005,7 +3951,7 @@
     }
   },
   {
-    "index": 446,
+    "index": 440,
     "seed": "369761661",
     "traits": {
       "Palette": 10,
@@ -4014,7 +3960,7 @@
     }
   },
   {
-    "index": 447,
+    "index": 441,
     "seed": "185949344",
     "traits": {
       "Palette": 11,
@@ -4023,7 +3969,7 @@
     }
   },
   {
-    "index": 448,
+    "index": 442,
     "seed": "584262018",
     "traits": {
       "Palette": 9,
@@ -4032,7 +3978,7 @@
     }
   },
   {
-    "index": 449,
+    "index": 443,
     "seed": "977296430",
     "traits": {
       "Palette": 9,
@@ -4041,7 +3987,7 @@
     }
   },
   {
-    "index": 450,
+    "index": 444,
     "seed": "159177256",
     "traits": {
       "Palette": 9,
@@ -4050,7 +3996,7 @@
     }
   },
   {
-    "index": 451,
+    "index": 445,
     "seed": "973396329",
     "traits": {
       "Palette": 10,
@@ -4059,7 +4005,7 @@
     }
   },
   {
-    "index": 452,
+    "index": 446,
     "seed": "830038128",
     "traits": {
       "Palette": 0,
@@ -4068,7 +4014,7 @@
     }
   },
   {
-    "index": 453,
+    "index": 447,
     "seed": "401291870",
     "traits": {
       "Palette": 9,
@@ -4077,7 +4023,7 @@
     }
   },
   {
-    "index": 454,
+    "index": 448,
     "seed": "555865296",
     "traits": {
       "Palette": 1,
@@ -4086,7 +4032,7 @@
     }
   },
   {
-    "index": 455,
+    "index": 449,
     "seed": "625088897",
     "traits": {
       "Palette": 10,
@@ -4095,10 +4041,64 @@
     }
   },
   {
-    "index": 456,
+    "index": 450,
     "seed": "621972731",
     "traits": {
       "Palette": 8,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 451,
+    "seed": "739629304",
+    "traits": {
+      "Palette": 10,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 452,
+    "seed": "762142950",
+    "traits": {
+      "Palette": 7,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 453,
+    "seed": "847850072",
+    "traits": {
+      "Palette": 1,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 454,
+    "seed": "471062526",
+    "traits": {
+      "Palette": 5,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 455,
+    "seed": "437111470",
+    "traits": {
+      "Palette": 11,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 456,
+    "seed": "200069257",
+    "traits": {
+      "Palette": 3,
       "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
