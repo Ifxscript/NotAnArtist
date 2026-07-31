@@ -291,7 +291,7 @@ function SparkModal({ isOpen, onClose, data, allCats, currentIndex, onNavigate, 
                         src={data.iframeUrl}
                         title={data.title}
                         className="spark-modal__image"
-                        sandbox="allow-scripts allow-same-origin"
+                        sandbox="allow-scripts allow-same-origin allow-downloads"
                     />
                 </div>
 
