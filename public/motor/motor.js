@@ -23,6 +23,13 @@ let isAnimating = true;
 let artLayerCache;
 let isArtBaking = false;
 let globalBandDepth;
+let tth = 3.3;
+let nR = 20;
+
+const LAYER_BAND = 6;
+const CONNECTOR_LAYER = LAYER_BAND * 6;
+const OVERLAY_BAND = 7;
+const STRAIGHT_ARC_LENGTH = 1800;
 
 let colorPalettes = [
     ['#BFBAA8', '#D9D3C1', '#575243', '#DED9C7', '#736B5C'],
@@ -39,10 +46,6 @@ let colorPalettes = [
     ['#D2C0B0', '#d9a336', '#11796D', '#746A61', '#0F3759']
 
 ];
-
-
-let tth = 3.3;
-let nR = 20;
 
 function setup() {
     // Use ?seed= URL parameter, injected window.HASH, or fallback to a random integer
@@ -150,7 +153,6 @@ function setup() {
     isArtBaking = false;
     // -------------------------------------
 }
-
 function draw() {
     background(col[0]);
     push()
@@ -207,17 +209,16 @@ function draw() {
     }
 
     // Palette Color Grade Overlay (Conditional Tint)
-    if (typeof tintMode !== 'undefined' && tintMode === 'tinted') {
-        push();
-        blendMode(OVERLAY);
-        let tintCol = color(0, 40);
-        fill(tintCol);
-        noStroke();
-        rectMode(CORNER);
-        rect(0, 0, width, height);
-        pop();
-        blendMode(BLEND);
-    }
+    push();
+    blendMode(OVERLAY);
+    let tintCol = color(0, 40);
+    fill(tintCol);
+    noStroke();
+    rectMode(CORNER);
+    rect(0, 0, width, height);
+    pop();
+    blendMode(BLEND);
+
     // Canvas border frame
     stroke(col[3]);
     strokeWeight(width * 0.069);
@@ -228,9 +229,6 @@ function draw() {
     // Signal that first frame is ready for gallery capture
     if (!window._firstFrameDrawn) window._firstFrameDrawn = true;
 }
-
-
-
 class Bolt {
     constructor(x, y, options = {}) {
         this.x = x;
@@ -277,7 +275,6 @@ class Bolt {
         pg.pop();
     }
 }
-
 class Gear {
     constructor(x, y, options = {}) {
         this.x = x;
@@ -646,9 +643,6 @@ class Gear {
         }
     }
 }
-
-
-
 class Belt {
     constructor(gears, layer = 0, speed = 1.5, style = 'chain', c = null) {
         this.gears = gears; // Array of {gear: Gear, cw: boolean} or raw Gear objects
@@ -1042,8 +1036,6 @@ class Belt {
         pop();
     }
 }
-
-
 class Arm {
     constructor(g1, g2, pinR, angOffset1 = 0, layer = 0, armThickness, armColor, style = 'truss') {
         this.style = style;
@@ -1289,7 +1281,6 @@ class Arm {
         pop();
     }
 }
-
 class PistonEngine {
     constructor(gear, options = {}) {
         this.gear = gear;
@@ -1580,7 +1571,6 @@ class PistonEngine {
         pop();
     }
 }
-
 class ArmPair {
     constructor(closed = false, style = 'truss', col = undefined, ...gears) {
         this.closed = closed;
@@ -1615,9 +1605,6 @@ class ArmPair {
     getArms() { return this.arms; }
     display() { for (const a of this.arms) a.display(); }
 }
-
-
-
 class PipingChassis {
     constructor(gears, options = {}) {
         this.gears = gears;
@@ -2302,10 +2289,6 @@ class PipingChassis {
         target.noFill();
     }
 }
-
-
-const STRAIGHT_ARC_LENGTH = 1800;
-
 class ArtLayer {
     constructor(opts = {}) {
         this.drawMode = opts.drawMode || 'circle'; // 'circle' | 'straight' | 'paper' | 'l'
@@ -2719,10 +2702,6 @@ class ArtLayer {
         pop();
     }
 }
-
-
-
-
 class CircleArcRow {
     constructor(rowHeight = 0.15, layer = 0) {
         this.startA = 0;
@@ -2803,7 +2782,6 @@ class CircleArcRow {
         return innerR / r;
     }
 }
-
 class SquareArcRow {
     constructor(rowHeight = 0.15, layer = 0) {
         this.startA = 0;
@@ -2891,7 +2869,6 @@ class SquareArcRow {
         return innerR / r;
     }
 }
-
 class TriangleGridArcRow {
     constructor(rowHeight = 0.15, layer = 0) {
         this.startA = 0;
@@ -2982,7 +2959,6 @@ class TriangleGridArcRow {
         return innerR / r;
     }
 }
-
 class LayeredBlockArcRow {
     constructor(rowHeight = 0.18, numLanes = 3, layer = 0) {
         this.startA = 0;
@@ -3084,7 +3060,6 @@ class LayeredBlockArcRow {
         return innerR / r;
     }
 }
-
 class BlackWhiteTileArc {
     constructor(rowHeight = 0.09, tileWidthRatio = 0.55, layer = 0) {
         this.startA = 0;
@@ -3196,7 +3171,6 @@ class BlackWhiteTileArc {
         return innerR / r;
     }
 }
-
 class SlantedLineArc {
 
     constructor(
@@ -3508,7 +3482,7 @@ class SlantedLineArc {
                         radians(this.angle)
                     );
 
-                    let scaleFactor = r / 90.0;
+                    let scaleFactor = width / 200.0;
                     stroke(0);
                     strokeWeight(width * 0.0025);
 
@@ -3533,7 +3507,7 @@ class SlantedLineArc {
 
                     // concentric pattern
 
-                    let scaleFactor = r / 90.0;
+                    let scaleFactor = width / 200.0;
                     stroke(0);
                     strokeWeight(width * 0.004);
 
@@ -3607,7 +3581,6 @@ class SlantedLineArc {
         return innerR / r;
     }
 }
-
 class ArmGroup {
     _nodes;
 
@@ -3658,7 +3631,6 @@ void main(){
   gl_Position=uProjectionMatrix*uModelViewMatrix*vec4(aPosition,1.);
   vUV=aTexCoord;
 }`;
-
 const FRAG_SHADER = `precision highp float;
 varying vec2 vUV;
 uniform sampler2D source; uniform float amt;
@@ -3689,7 +3661,6 @@ void main(){
   float vignette=1.-smoothstep(.35,.5,radius)*.25;
   gl_FragColor=vec4((c.rgb+n)*vignette,c.a);
 }`;
-
 class GearLayout {
     constructor(x, y, col, bandOffset = 0) {
         this.gears = [];
@@ -3999,7 +3970,6 @@ class GearLayout {
         for (const p of (this.layerPistons[layer] || [])) p.display();
     }
 }
-
 class GearLayout2 {
 
     // ── G0 CONFIG — edit here to update all sets in this layout ────────────
@@ -4764,10 +4734,57 @@ class GearLayout2 {
         for (const p of (this.layerPistons[layer] || [])) p.display();
     }
 }
+class GearLayout3 extends GearLayout2 {
+    _buildAnchorSet(x, y, col) {
+        const anchors = [
+            { ax: x + width * 0.32, ay: y - height * 0.45, r: 0.65, plateAngle: 310, plateSize: 75 },
+            { ax: x - width * 0.3, ay: y - height * 0.15, r: 0.55, plateAngle: 130, plateSize: 60 },
+            { ax: x + width * 0.35, ay: y - height * 0.15, r: 0.55, plateAngle: 0, plateSize: 67 },
+            { ax: x - width * 0.2, ay: y + height * 0.18, r: 0.65, plateAngle: 220, plateSize: 65 },
+            { ax: x + width * 0.35, ay: y + height * 0.15, r: 0.55, plateAngle: 300, plateSize: 55 },
+            { ax: x - width * 0.4, ay: y - height * 0.38, r: 0.55, plateAngle: 180, plateSize: 60 },
+        ];
+        for (const { ax, ay, r, plateAngle, plateSize } of anchors) {
+            const anchor = new Gear(ax, ay, {
+                c: col[0],
+                r,
+                speed: GearLayout2.g0Cfg.speed,
+                noTeeth: true,
+                style: floor(random(24)),
+                layer: CONNECTOR_LAYER + 1,
+                plate: { enabled: true, angle: plateAngle, size: plateSize !== undefined ? plateSize : 67, color: col[0] }
+            });
+            this.gears.push(anchor);
+            this.beltGears.push(anchor);
+            this.topSprockets.push(anchor);
+        }
+    }
 
-const LAYER_BAND = 6;
-const CONNECTOR_LAYER = LAYER_BAND * 6;
-const OVERLAY_BAND = 7;
+    _build(x, y, col, bo) {
+        this._buildSet1(x - width * 0.0, y - height * 0.0, col, bo + 5);
+        this._buildSet2(x - width * 0.35, y - height * 0.3, col, bo + 1);
+        this._buildSet3(x - width * 0.2, y + height * 0.25, col, bo + 0);
+        this._buildSet4(x + width * 0.25, y + height * 0.35, col, bo + 0);
+        this._buildSet1(x + width * 0.2, y - height * 0.0, col, bo + 0);
+
+        this._buildSet6(x - width * 0.1, y - height * 0.25, col, bo + 4);
+        this._buildSet7(x - width * 0.0, y - height * 0.3, col, bo + 2);
+        this._buildSet8(x - width * 0.2, y - height * 0.4, col, bo + 3);
+        this._buildSet8(x - width * 0.5, y + height * 0.05, col, bo + 3);
+        this._buildSet8(x - width * 0.5, y + height * 0.35, col, bo + 3);
+        this._buildAnchorSet(x, y, col);
+
+        const sortedSprockets = [...this.topSprockets].sort((a, b) =>
+            atan2(a.y - y, a.x - x) - atan2(b.y - y, b.x - x)
+        );
+        const backboneBelt = new Belt(
+            sortedSprockets.map(s => ({ gear: s, cw: true })),
+            0, 1.2, 'rubber', col[0]
+        );
+        backboneBelt.layer = CONNECTOR_LAYER;
+        this.belts.push(backboneBelt);
+    }
+}
 function applyLayer(set, band) {
     for (const [key, g] of Object.entries(set)) {
         if (!g) continue;
@@ -4782,22 +4799,18 @@ function applyBeltLayer(beltArr, band) {
         b.layer = band * LAYER_BAND + (b.layer || 0);
     }
 }
-
 // Same band offset logic for arm arrays
 function applyArmLayer(armArr, band) {
     for (const a of armArr) {
         a.layer = band * LAYER_BAND + (a.layer || 0);
     }
 }
-
 // Same band offset logic for piston arrays
 function applyPistonLayer(pistonArr, band) {
     for (const p of pistonArr) {
         p.layer = band * LAYER_BAND + (p.layer || 0);
     }
 }
-
-
 function getOptPositions() {
     const base = [
         [1, -1, 3.3, [20, 25]], [-1, -1, 3.3, [20, 25]], [1, 1, 3.3, [20, 25]], [-1, 1, 3.3, [20, 25]],
@@ -4823,7 +4836,6 @@ function getOptPositions() {
     ];
     return base.map(p => ({ x: width * p[0], y: height * p[1], tth: p[2], nR: p[3] }));
 }
-
 function getSoptPositions() {
     const base = [
         [-0.25, 0, 0], [0.25, 0, 180],
@@ -4836,7 +4848,6 @@ function getSoptPositions() {
     ];
     return base.map(p => ({ x: width * p[0], y: height * p[1], a: p[2] }));
 }
-
 // --- MOVED FROM motor.js ---
 function buildArtLayer(nR, tth, chosenMode, col) {
     let artClasses = [
@@ -4935,7 +4946,6 @@ function buildArtLayer(nR, tth, chosenMode, col) {
         paperCpY: chosenPaperPos.cpY,
     });
 }
-
 // --- ENGINE & ART CONFIG HELPERS ---
 function getArtConfig(topt) {
     let layermode = ['circle', 'straight', 'paper', 'l'];
@@ -4966,7 +4976,6 @@ function getArtConfig(topt) {
 
     return { chosenMode, tth, nR };
 }
-
 function buildEngineSystem(x, y, col, u) {
     let gearsArr = [];
     let belts = [];
@@ -4974,9 +4983,12 @@ function buildEngineSystem(x, y, col, u) {
     let pistons = [];
     let maxLayer = 0;
 
-    let gearslayarr = [GearLayout2, GearLayout];
+    let gearslayarr = [GearLayout, GearLayout2, GearLayout3];
     let layoutIdx = floor(random(gearslayarr.length));
-    if (window.traits) window.traits["Gear Layout Mode"] = layoutIdx === 0 ? "Layout 2" : "Layout 1";
+    if (window.traits) {
+        const layoutNames = ["Layout 1", "Layout 2", "Layout 3"];
+        window.traits["Gear Layout Mode"] = layoutNames[layoutIdx];
+    }
     let layout = new gearslayarr[layoutIdx](x, y, col, 0);
     layout.pushTo(gearsArr, belts, arms, pistons);
     let sets = layout.sets;
