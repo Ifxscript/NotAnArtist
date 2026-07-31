@@ -3001,6 +3001,7 @@ class LayeredBlockArcRow {
         let innerR = outerR - rowHeight;
         let trackR = (innerR + outerR) * 0.5;
         let arcLength = art.getArcLength(trackR);
+        let scaleFactor = r / 90.0;
 
         let laneWidth = rowHeight / this.numLanes;
         let blockSize = laneWidth * 0.96;
@@ -3016,6 +3017,7 @@ class LayeredBlockArcRow {
             return;
         }
 
+        strokeWeight(width * 0.004);
         rectMode(CENTER);
 
         for (let i = -1; i < count; i++) {
@@ -3101,6 +3103,7 @@ class BlackWhiteTileArc {
         let innerR = outerR - rowHeight;
         let trackR = (innerR + outerR) * 0.5;
         let arcLength = art.getArcLength(trackR);
+        let scaleFactor = r / 90.0;
         let tileW = rowHeight * this.tileWidthRatio;
         let tileH = rowHeight * 0.92;
         let tiles = max(8, floor(arcLength / tileW));
