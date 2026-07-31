@@ -44,6 +44,23 @@ function SparkModal({ isOpen, onClose, data, allCats, currentIndex, onNavigate, 
     const [loadInteractive, setLoadInteractive] = useState(false);
 
     useEffect(() => {
+        const handleMessage = (e) => {
+            if (e.data && e.data.type === 'DOWNLOAD_MEDIA') {
+                const link = document.createElement('a');
+                link.href = e.data.dataUrl;
+                link.download = e.data.filename;
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+                setExportingGif(false);
+            }
+        };
+
+        window.addEventListener('message', handleMessage);
+        return () => window.removeEventListener('message', handleMessage);
+    }, []);
+
+    useEffect(() => {
         const checkMobilePortrait = () => {
             const width = window.innerWidth;
             const height = window.innerHeight;
