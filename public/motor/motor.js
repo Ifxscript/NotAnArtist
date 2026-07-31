@@ -84,6 +84,12 @@ function setup() {
         else noLoop();
     });
 
+    window.addEventListener('message', (e) => {
+        if (e.data && e.data.type === 'EXPORT_GIF') {
+            saveGif(e.data.filename || 'motor-art', e.data.duration || 3, { delay: 0, units: 'seconds' });
+        }
+    });
+
     rectMode(CENTER);
     let ap = [45, 90, 135, 180, 225, 270, 315, 0]
     pangle = random(ap);

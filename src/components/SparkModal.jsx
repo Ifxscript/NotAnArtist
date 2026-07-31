@@ -17,6 +17,22 @@ function SparkModal({ isOpen, onClose, data, allCats, currentIndex, onNavigate, 
 
     // Copy feedback state
     const [copiedField, setCopiedField] = useState(null);
+    const [exportingGif, setExportingGif] = useState(false);
+
+    const handleExportGif = () => {
+        setExportingGif(true);
+        const iframeElt = document.querySelector('.spark-modal__image');
+        if (iframeElt && iframeElt.contentWindow) {
+            iframeElt.contentWindow.postMessage({
+                type: 'EXPORT_GIF',
+                filename: `motor-nft-${data.inscriptionId}`,
+                duration: 3
+            }, '*');
+        }
+        setTimeout(() => {
+            setExportingGif(false);
+        }, 4500);
+    };
 
     // Mobile portrait detection - immediate check to prevent layout shift
     const [isMobilePortrait, setIsMobilePortrait] = useState(() => {
@@ -372,6 +388,31 @@ function SparkModal({ isOpen, onClose, data, allCats, currentIndex, onNavigate, 
                             </div>
                         )}
                     </div>
+
+                    <button
+                        onClick={handleExportGif}
+                        disabled={exportingGif}
+                        style={{
+                            marginTop: '16px',
+                            width: '100%',
+                            padding: '12px 16px',
+                            background: exportingGif ? 'rgba(255, 84, 0, 0.25)' : 'rgba(255, 84, 0, 0.12)',
+                            border: '1px solid rgba(255, 84, 0, 0.5)',
+                            borderRadius: '8px',
+                            color: '#ff5400',
+                            fontWeight: '700',
+                            fontSize: '12px',
+                            fontFamily: 'monospace',
+                            cursor: exportingGif ? 'wait' : 'pointer',
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            gap: '8px',
+                            transition: 'all 0.2s ease'
+                        }}
+                    >
+                        {exportingGif ? '🎥 Recording GIF (3s)...' : '🎥 Download High-Res GIF'}
+                    </button>
                 </div>
             </div>
         </div>
