@@ -1,52 +1,34 @@
 [
   {
     "index": 1,
-    "seed": "306025570487",
+    "seed": "419165377",
     "traits": {
-      "Palette": 0,
-      "Art Mode": "paper",
+      "Palette": 1,
+      "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 2,
-    "seed": "318790674601",
+    "seed": "417812448",
     "traits": {
-      "Palette": 7,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 5,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 3,
-    "seed": "204781910243",
+    "seed": "637120559",
     "traits": {
-      "Palette": 0,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 2,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 4,
-    "seed": "685123418727",
-    "traits": {
-      "Palette": 2,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 5,
-    "seed": "162686073536",
-    "traits": {
-      "Palette": 1,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 6,
-    "seed": "729577569297",
+    "seed": "615199384",
     "traits": {
       "Palette": 6,
       "Art Mode": "straight",
@@ -54,62 +36,98 @@
     }
   },
   {
-    "index": 7,
-    "seed": "367138481983",
+    "index": 5,
+    "seed": "461593899",
     "traits": {
-      "Palette": 12,
+      "Palette": 1,
       "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "index": 8,
-    "seed": "923669581905",
+    "index": 6,
+    "seed": "497994557",
     "traits": {
-      "Palette": 2,
+      "Palette": 8,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 7,
+    "seed": "964707948",
+    "traits": {
+      "Palette": 11,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 8,
+    "seed": "221046231",
+    "traits": {
+      "Palette": 8,
       "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 9,
-    "seed": "995442308186",
+    "seed": "542155038",
     "traits": {
-      "Palette": 11,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 2,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 10,
-    "seed": "246066471734",
+    "seed": "549531377",
     "traits": {
-      "Palette": 9,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 0,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 11,
-    "seed": "404537636620",
+    "seed": "992661260",
     "traits": {
-      "Palette": 11,
+      "Palette": 0,
       "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 12,
-    "seed": "249236750758",
+    "seed": "128496382",
     "traits": {
-      "Palette": 8,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 10,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 13,
-    "seed": "811595748888",
+    "seed": "487508135",
+    "traits": {
+      "Palette": 12,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 14,
+    "seed": "302365092",
+    "traits": {
+      "Palette": 9,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 15,
+    "seed": "966998810",
     "traits": {
       "Palette": 4,
       "Art Mode": "straight",
@@ -117,422 +135,377 @@
     }
   },
   {
-    "index": 14,
-    "seed": "590535569536",
-    "traits": {
-      "Palette": 9,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 15,
-    "seed": "178970629918",
-    "traits": {
-      "Palette": 7,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
     "index": 16,
-    "seed": "332245938454",
+    "seed": "418768158",
     "traits": {
-      "Palette": 0,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 1,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 17,
-    "seed": "752107944493",
+    "seed": "467661522",
     "traits": {
-      "Palette": 0,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 9,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 18,
-    "seed": "120918219647",
+    "seed": "479050953",
     "traits": {
-      "Palette": 5,
+      "Palette": 0,
       "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 19,
-    "seed": "906221416545",
+    "seed": "167798311",
     "traits": {
-      "Palette": 10,
-      "Art Mode": "straight",
+      "Palette": 3,
+      "Art Mode": "l",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 20,
-    "seed": "1396533715",
+    "seed": "194863551",
     "traits": {
-      "Palette": 7,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 3,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 21,
-    "seed": "475906445849",
+    "seed": "300938674",
     "traits": {
-      "Palette": 5,
+      "Palette": 6,
       "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 22,
-    "seed": "181784431929",
+    "seed": "323885929",
     "traits": {
-      "Palette": 0,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 23,
-    "seed": "502172809010",
-    "traits": {
-      "Palette": 9,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 24,
-    "seed": "194670513189",
-    "traits": {
-      "Palette": 4,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 25,
-    "seed": "43997851245",
-    "traits": {
-      "Palette": 12,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 26,
-    "seed": "751209137425",
-    "traits": {
-      "Palette": 11,
+      "Palette": 5,
       "Art Mode": "straight",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "index": 27,
-    "seed": "649251869517",
+    "index": 23,
+    "seed": "366611286",
     "traits": {
-      "Palette": 8,
+      "Palette": 2,
       "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 24,
+    "seed": "528448455",
+    "traits": {
+      "Palette": 1,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 25,
+    "seed": "699990049",
+    "traits": {
+      "Palette": 1,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 26,
+    "seed": "904608653",
+    "traits": {
+      "Palette": 12,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 27,
+    "seed": "989573362",
+    "traits": {
+      "Palette": 2,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 28,
-    "seed": "468093761094",
+    "seed": "642303557",
     "traits": {
-      "Palette": 12,
+      "Palette": 2,
       "Art Mode": "straight",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 29,
-    "seed": "269478509721",
+    "seed": "454370559",
     "traits": {
       "Palette": 3,
-      "Art Mode": "circle",
+      "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 30,
-    "seed": "849452247081",
+    "seed": "191105832",
     "traits": {
-      "Palette": 0,
+      "Palette": 12,
       "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 31,
-    "seed": "99420490199",
+    "seed": "339908985",
     "traits": {
       "Palette": 6,
-      "Art Mode": "straight",
+      "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 32,
-    "seed": "456001246686",
+    "seed": "998059241",
     "traits": {
-      "Palette": 9,
+      "Palette": 1,
       "Art Mode": "straight",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 33,
-    "seed": "768305142119",
+    "seed": "778411820",
     "traits": {
-      "Palette": 4,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 6,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 34,
-    "seed": "702140213769",
+    "seed": "393007347",
     "traits": {
-      "Palette": 1,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 10,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 35,
-    "seed": "663822039438",
+    "seed": "900019632",
     "traits": {
-      "Palette": 11,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 0,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 36,
-    "seed": "838627672285",
+    "seed": "133095103",
     "traits": {
       "Palette": 6,
-      "Art Mode": "straight",
+      "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 37,
-    "seed": "475440266989",
+    "seed": "358435734",
     "traits": {
-      "Palette": 9,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 1,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 38,
-    "seed": "543263571374",
+    "seed": "205963923",
     "traits": {
-      "Palette": 1,
-      "Art Mode": "straight",
+      "Palette": 0,
+      "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 39,
-    "seed": "30338282408",
+    "seed": "346359861",
     "traits": {
-      "Palette": 10,
+      "Palette": 7,
       "Art Mode": "l",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 40,
-    "seed": "783962400816",
+    "seed": "909405250",
     "traits": {
-      "Palette": 11,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 8,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 41,
-    "seed": "3350354582",
+    "seed": "477150966",
     "traits": {
-      "Palette": 2,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 1,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 42,
-    "seed": "53442927900",
+    "seed": "385299154",
     "traits": {
-      "Palette": 4,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 1,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 43,
-    "seed": "895546782861",
+    "seed": "741707621",
     "traits": {
-      "Palette": 1,
+      "Palette": 0,
       "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 44,
-    "seed": "289645151603",
+    "seed": "665621154",
     "traits": {
-      "Palette": 1,
+      "Palette": 10,
       "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 45,
-    "seed": "463049990092",
+    "seed": "527994559",
     "traits": {
-      "Palette": 8,
+      "Palette": 1,
       "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 46,
-    "seed": "171834718117",
+    "seed": "679635290",
     "traits": {
-      "Palette": 5,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 7,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 47,
-    "seed": "513633473794",
+    "seed": "309443820",
     "traits": {
-      "Palette": 9,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 7,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 48,
-    "seed": "632232908789",
+    "seed": "164328979",
     "traits": {
-      "Palette": 10,
+      "Palette": 12,
       "Art Mode": "l",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 49,
-    "seed": "115151673493",
+    "seed": "208125038",
     "traits": {
-      "Palette": 6,
+      "Palette": 3,
       "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 50,
-    "seed": "21654096046",
+    "seed": "816298367",
     "traits": {
-      "Palette": 1,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 5,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 51,
-    "seed": "175942565305",
+    "seed": "957616021",
     "traits": {
-      "Palette": 3,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 0,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 52,
-    "seed": "785958991248",
+    "seed": "997801930",
     "traits": {
-      "Palette": 0,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 11,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 53,
-    "seed": "875375630403",
+    "seed": "207326516",
     "traits": {
-      "Palette": 7,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 8,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 54,
-    "seed": "314048585149",
+    "seed": "222935409",
     "traits": {
-      "Palette": 8,
+      "Palette": 7,
       "Art Mode": "l",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 55,
-    "seed": "98398764292",
+    "seed": "388174012",
     "traits": {
-      "Palette": 8,
-      "Art Mode": "straight",
+      "Palette": 9,
+      "Art Mode": "l",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 56,
-    "seed": "778153962631",
+    "seed": "763905190",
     "traits": {
-      "Palette": 2,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 7,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 57,
-    "seed": "590497527822",
-    "traits": {
-      "Palette": 10,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 58,
-    "seed": "378676675694",
-    "traits": {
-      "Palette": 2,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 59,
-    "seed": "958272100678",
-    "traits": {
-      "Palette": 3,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 60,
-    "seed": "748027583058",
+    "seed": "907168856",
     "traits": {
       "Palette": 6,
       "Art Mode": "l",
@@ -540,35 +513,17 @@
     }
   },
   {
-    "index": 61,
-    "seed": "776395028889",
+    "index": 58,
+    "seed": "340579569",
     "traits": {
-      "Palette": 10,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 62,
-    "seed": "502754804233",
-    "traits": {
-      "Palette": 7,
-      "Art Mode": "paper",
+      "Palette": 6,
+      "Art Mode": "l",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "index": 63,
-    "seed": "102109356009",
-    "traits": {
-      "Palette": 9,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 64,
-    "seed": "536836395026",
+    "index": 59,
+    "seed": "161052837",
     "traits": {
       "Palette": 0,
       "Art Mode": "straight",
@@ -576,152 +531,179 @@
     }
   },
   {
-    "index": 65,
-    "seed": "144706388965",
+    "index": 60,
+    "seed": "747993472",
     "traits": {
-      "Palette": 7,
+      "Palette": 1,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 61,
+    "seed": "192734984",
+    "traits": {
+      "Palette": 8,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 62,
+    "seed": "660595763",
+    "traits": {
+      "Palette": 4,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 63,
+    "seed": "325703572",
+    "traits": {
+      "Palette": 11,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 64,
+    "seed": "826940233",
+    "traits": {
+      "Palette": 3,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 65,
+    "seed": "196919003",
+    "traits": {
+      "Palette": 1,
       "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 66,
-    "seed": "378717928639",
+    "seed": "271419198",
     "traits": {
       "Palette": 6,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 67,
-    "seed": "328920134249",
-    "traits": {
-      "Palette": 1,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 68,
-    "seed": "975568747833",
-    "traits": {
-      "Palette": 3,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 69,
-    "seed": "81562247789",
-    "traits": {
-      "Palette": 5,
       "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "index": 70,
-    "seed": "403815572265",
+    "index": 67,
+    "seed": "160534207",
     "traits": {
-      "Palette": 11,
+      "Palette": 9,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 68,
+    "seed": "755443542",
+    "traits": {
+      "Palette": 5,
       "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 69,
+    "seed": "134027859",
+    "traits": {
+      "Palette": 3,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 70,
+    "seed": "768225281",
+    "traits": {
+      "Palette": 7,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 71,
-    "seed": "690676184052",
+    "seed": "330466337",
     "traits": {
-      "Palette": 1,
+      "Palette": 0,
       "Art Mode": "l",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 72,
-    "seed": "460866169209",
+    "seed": "128501471",
     "traits": {
-      "Palette": 8,
+      "Palette": 12,
       "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 73,
-    "seed": "506705077649",
+    "seed": "584922870",
     "traits": {
-      "Palette": 8,
+      "Palette": 12,
       "Art Mode": "straight",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 74,
-    "seed": "834988252050",
+    "seed": "515723617",
     "traits": {
-      "Palette": 11,
+      "Palette": 6,
       "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 75,
-    "seed": "708792791246",
+    "seed": "595720016",
     "traits": {
-      "Palette": 10,
-      "Art Mode": "straight",
+      "Palette": 4,
+      "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 76,
-    "seed": "376413941816",
+    "seed": "233772263",
     "traits": {
-      "Palette": 3,
+      "Palette": 1,
       "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 77,
-    "seed": "161577938332",
+    "seed": "407129388",
     "traits": {
-      "Palette": 11,
+      "Palette": 4,
       "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 78,
-    "seed": "597006299453",
+    "seed": "275579168",
     "traits": {
-      "Palette": 8,
-      "Art Mode": "l",
+      "Palette": 3,
+      "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 79,
-    "seed": "543118384902",
-    "traits": {
-      "Palette": 3,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 80,
-    "seed": "690121130768",
-    "traits": {
-      "Palette": 10,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 81,
-    "seed": "223707319657",
+    "seed": "119445520",
     "traits": {
       "Palette": 12,
       "Art Mode": "l",
@@ -729,206 +711,233 @@
     }
   },
   {
-    "index": 82,
-    "seed": "903827837926",
+    "index": 80,
+    "seed": "210501772",
     "traits": {
       "Palette": 1,
-      "Art Mode": "paper",
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 81,
+    "seed": "647933834",
+    "traits": {
+      "Palette": 5,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 82,
+    "seed": "499435634",
+    "traits": {
+      "Palette": 7,
+      "Art Mode": "straight",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 83,
-    "seed": "631531655572",
+    "seed": "748144890",
     "traits": {
-      "Palette": 11,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 0,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 84,
-    "seed": "690099234879",
+    "seed": "572228837",
     "traits": {
-      "Palette": 8,
+      "Palette": 6,
       "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 85,
-    "seed": "922394631961",
+    "seed": "362201107",
     "traits": {
-      "Palette": 0,
-      "Art Mode": "l",
+      "Palette": 5,
+      "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 86,
-    "seed": "883728712193",
+    "seed": "375149209",
     "traits": {
-      "Palette": 8,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 12,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 87,
-    "seed": "864396074478",
+    "seed": "837360373",
     "traits": {
-      "Palette": 8,
+      "Palette": 2,
       "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 88,
-    "seed": "173288235050",
+    "seed": "748208717",
     "traits": {
-      "Palette": 9,
+      "Palette": 2,
       "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 89,
-    "seed": "11908643925",
+    "seed": "793318164",
     "traits": {
-      "Palette": 7,
-      "Art Mode": "straight",
+      "Palette": 11,
+      "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 90,
-    "seed": "582732287462",
+    "seed": "759465413",
     "traits": {
       "Palette": 1,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 91,
-    "seed": "10380575683",
+    "seed": "960720132",
     "traits": {
-      "Palette": 5,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 7,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 92,
-    "seed": "706910507516",
+    "seed": "758795053",
     "traits": {
-      "Palette": 11,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 8,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 93,
-    "seed": "90103105294",
+    "seed": "440013356",
     "traits": {
-      "Palette": 2,
-      "Art Mode": "l",
+      "Palette": 7,
+      "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 94,
-    "seed": "913887296853",
+    "seed": "129669075",
     "traits": {
-      "Palette": 11,
-      "Art Mode": "l",
+      "Palette": 1,
+      "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 95,
-    "seed": "519034442599",
+    "seed": "273140207",
     "traits": {
-      "Palette": 0,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 8,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 96,
-    "seed": "619404906280",
+    "seed": "299471977",
     "traits": {
-      "Palette": 10,
+      "Palette": 2,
       "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 97,
-    "seed": "841757154650",
+    "seed": "510440466",
     "traits": {
-      "Palette": 2,
-      "Art Mode": "l",
+      "Palette": 0,
+      "Art Mode": "straight",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 98,
-    "seed": "791554035296",
+    "seed": "711123930",
     "traits": {
-      "Palette": 7,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 12,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 99,
-    "seed": "616879165270",
+    "seed": "279452390",
     "traits": {
-      "Palette": 2,
+      "Palette": 5,
       "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 100,
-    "seed": "884544456946",
+    "seed": "540525828",
     "traits": {
       "Palette": 2,
-      "Art Mode": "l",
+      "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 101,
-    "seed": "524519202234",
+    "seed": "890919150",
     "traits": {
-      "Palette": 6,
-      "Art Mode": "l",
+      "Palette": 10,
+      "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 102,
-    "seed": "208749451339",
+    "seed": "195634770",
     "traits": {
       "Palette": 1,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 103,
-    "seed": "637719996490",
-    "traits": {
-      "Palette": 6,
       "Art Mode": "straight",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
+    "index": 103,
+    "seed": "588107155",
+    "traits": {
+      "Palette": 5,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
     "index": 104,
-    "seed": "611978774241",
+    "seed": "236562710",
+    "traits": {
+      "Palette": 8,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 105,
+    "seed": "824800507",
     "traits": {
       "Palette": 11,
       "Art Mode": "circle",
@@ -936,17 +945,17 @@
     }
   },
   {
-    "index": 105,
-    "seed": "755075334875",
+    "index": 106,
+    "seed": "326446789",
     "traits": {
-      "Palette": 7,
-      "Art Mode": "paper",
+      "Palette": 3,
+      "Art Mode": "l",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "index": 106,
-    "seed": "676389567905",
+    "index": 107,
+    "seed": "970739186",
     "traits": {
       "Palette": 1,
       "Art Mode": "straight",
@@ -954,71 +963,35 @@
     }
   },
   {
-    "index": 107,
-    "seed": "612918846547",
-    "traits": {
-      "Palette": 11,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
     "index": 108,
-    "seed": "201142193141",
+    "seed": "105788390",
     "traits": {
-      "Palette": 9,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 5,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 109,
-    "seed": "735184797848",
+    "seed": "943029568",
     "traits": {
-      "Palette": 4,
+      "Palette": 7,
       "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 110,
-    "seed": "36019507074",
+    "seed": "443341160",
     "traits": {
-      "Palette": 12,
+      "Palette": 10,
       "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 111,
-    "seed": "883867185228",
-    "traits": {
-      "Palette": 8,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 112,
-    "seed": "257936437362",
-    "traits": {
-      "Palette": 9,
-      "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "index": 113,
-    "seed": "757545635867",
-    "traits": {
-      "Palette": 3,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 114,
-    "seed": "930689624348",
+    "index": 111,
+    "seed": "400528276",
     "traits": {
       "Palette": 2,
       "Art Mode": "paper",
@@ -1026,278 +999,305 @@
     }
   },
   {
-    "index": 115,
-    "seed": "346982177108",
+    "index": 112,
+    "seed": "115089888",
     "traits": {
       "Palette": 7,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 113,
+    "seed": "660469546",
+    "traits": {
+      "Palette": 7,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 114,
+    "seed": "625517600",
+    "traits": {
+      "Palette": 9,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 115,
+    "seed": "931802571",
+    "traits": {
+      "Palette": 12,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 116,
-    "seed": "713353991530",
+    "seed": "846881235",
     "traits": {
-      "Palette": 1,
+      "Palette": 2,
       "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 117,
-    "seed": "452203347140",
+    "seed": "612892507",
     "traits": {
-      "Palette": 0,
+      "Palette": 6,
       "Art Mode": "l",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 118,
-    "seed": "424475510589",
+    "seed": "506994555",
     "traits": {
-      "Palette": 0,
-      "Art Mode": "paper",
+      "Palette": 12,
+      "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 119,
-    "seed": "810419894809",
+    "seed": "355294763",
     "traits": {
-      "Palette": 4,
-      "Art Mode": "l",
+      "Palette": 12,
+      "Art Mode": "straight",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 120,
-    "seed": "408660029643",
+    "seed": "653266081",
     "traits": {
-      "Palette": 7,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 121,
-    "seed": "56593973929",
-    "traits": {
-      "Palette": 12,
+      "Palette": 6,
       "Art Mode": "l",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "index": 122,
-    "seed": "392679096387",
+    "index": 121,
+    "seed": "762589569",
     "traits": {
-      "Palette": 11,
+      "Palette": 6,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 122,
+    "seed": "939359631",
+    "traits": {
+      "Palette": 10,
       "Art Mode": "straight",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 123,
-    "seed": "448857676270",
+    "seed": "680773563",
     "traits": {
-      "Palette": 11,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 9,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 124,
-    "seed": "766489961341",
+    "seed": "125340148",
     "traits": {
-      "Palette": 12,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 4,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 125,
-    "seed": "799486455731",
+    "seed": "190713245",
     "traits": {
-      "Palette": 1,
-      "Art Mode": "paper",
+      "Palette": 5,
+      "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 126,
-    "seed": "769665456192",
+    "seed": "411985354",
     "traits": {
-      "Palette": 5,
-      "Art Mode": "l",
+      "Palette": 11,
+      "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 127,
-    "seed": "864102581788",
+    "seed": "729715936",
     "traits": {
-      "Palette": 12,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 128,
-    "seed": "121522191506",
-    "traits": {
-      "Palette": 10,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 129,
-    "seed": "914039885981",
-    "traits": {
-      "Palette": 0,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 130,
-    "seed": "788403970437",
-    "traits": {
-      "Palette": 5,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 131,
-    "seed": "160810951610",
-    "traits": {
-      "Palette": 12,
+      "Palette": 11,
       "Art Mode": "l",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "index": 132,
-    "seed": "861361412556",
+    "index": 128,
+    "seed": "408956868",
     "traits": {
-      "Palette": 8,
+      "Palette": 12,
       "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 129,
+    "seed": "231940731",
+    "traits": {
+      "Palette": 9,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 130,
+    "seed": "792779152",
+    "traits": {
+      "Palette": 10,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 131,
+    "seed": "370211065",
+    "traits": {
+      "Palette": 0,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 132,
+    "seed": "964060846",
+    "traits": {
+      "Palette": 9,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 133,
-    "seed": "248715494765",
+    "seed": "744090991",
     "traits": {
-      "Palette": 2,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 9,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 134,
-    "seed": "376840890998",
+    "seed": "885576277",
     "traits": {
-      "Palette": 4,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 7,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 135,
-    "seed": "916630829441",
-    "traits": {
-      "Palette": 1,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 136,
-    "seed": "420865402289",
-    "traits": {
-      "Palette": 10,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 137,
-    "seed": "749277024888",
-    "traits": {
-      "Palette": 7,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 138,
-    "seed": "479818663894",
+    "seed": "611117240",
     "traits": {
       "Palette": 0,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 139,
-    "seed": "506157191742",
-    "traits": {
-      "Palette": 0,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 140,
-    "seed": "569665958440",
-    "traits": {
-      "Palette": 5,
       "Art Mode": "straight",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "index": 141,
-    "seed": "525389622070",
+    "index": 136,
+    "seed": "279850535",
     "traits": {
       "Palette": 10,
       "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 137,
+    "seed": "376610735",
+    "traits": {
+      "Palette": 10,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 138,
+    "seed": "368918403",
+    "traits": {
+      "Palette": 7,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 139,
+    "seed": "854274599",
+    "traits": {
+      "Palette": 10,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 140,
+    "seed": "830104731",
+    "traits": {
+      "Palette": 10,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 141,
+    "seed": "830934784",
+    "traits": {
+      "Palette": 5,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 142,
-    "seed": "641544664085",
+    "seed": "198503073",
     "traits": {
-      "Palette": 3,
+      "Palette": 5,
       "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 143,
-    "seed": "666963641061",
+    "seed": "214401466",
     "traits": {
-      "Palette": 5,
+      "Palette": 8,
       "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 144,
-    "seed": "641700466519",
+    "seed": "412122696",
     "traits": {
-      "Palette": 3,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 12,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 145,
-    "seed": "93247663766",
+    "seed": "848762106",
     "traits": {
       "Palette": 11,
       "Art Mode": "l",
@@ -1306,529 +1306,547 @@
   },
   {
     "index": 146,
-    "seed": "778551990554",
+    "seed": "403868086",
     "traits": {
-      "Palette": 8,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 5,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 147,
-    "seed": "617245591513",
+    "seed": "855303870",
     "traits": {
-      "Palette": 1,
-      "Art Mode": "circle",
+      "Palette": 11,
+      "Art Mode": "straight",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 148,
-    "seed": "357495070798",
+    "seed": "870704688",
     "traits": {
-      "Palette": 1,
-      "Art Mode": "straight",
+      "Palette": 11,
+      "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 149,
-    "seed": "968898205811",
+    "seed": "790623629",
     "traits": {
-      "Palette": 0,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 10,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 150,
-    "seed": "654093387069",
+    "seed": "969027985",
     "traits": {
       "Palette": 6,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 151,
-    "seed": "18654389186",
+    "seed": "910829835",
     "traits": {
-      "Palette": 11,
+      "Palette": 4,
       "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 152,
-    "seed": "267906296594",
+    "seed": "606995493",
     "traits": {
-      "Palette": 10,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 0,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 153,
-    "seed": "188724569982",
+    "seed": "217013658",
     "traits": {
-      "Palette": 4,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 0,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 154,
-    "seed": "289599924767",
+    "seed": "975835150",
     "traits": {
-      "Palette": 4,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 9,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 155,
-    "seed": "705084181832",
+    "seed": "981295253",
     "traits": {
       "Palette": 1,
-      "Art Mode": "straight",
+      "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 156,
-    "seed": "942644722733",
+    "seed": "681977948",
     "traits": {
-      "Palette": 9,
-      "Art Mode": "circle",
+      "Palette": 5,
+      "Art Mode": "straight",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 157,
-    "seed": "779139817991",
+    "seed": "207401577",
     "traits": {
-      "Palette": 3,
+      "Palette": 7,
       "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 158,
-    "seed": "206431151826",
+    "seed": "249108458",
     "traits": {
-      "Palette": 1,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 9,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 159,
-    "seed": "59268234532",
+    "seed": "738053375",
     "traits": {
-      "Palette": 2,
-      "Art Mode": "l",
+      "Palette": 7,
+      "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 160,
-    "seed": "155216111002",
+    "seed": "348211498",
     "traits": {
       "Palette": 9,
-      "Art Mode": "straight",
+      "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 161,
-    "seed": "542134360572",
+    "seed": "303228272",
     "traits": {
-      "Palette": 3,
-      "Art Mode": "l",
+      "Palette": 10,
+      "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 162,
-    "seed": "710950745017",
+    "seed": "689186174",
     "traits": {
-      "Palette": 0,
-      "Art Mode": "l",
+      "Palette": 4,
+      "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 163,
-    "seed": "668020915142",
+    "seed": "653919670",
     "traits": {
-      "Palette": 4,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 1,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 164,
-    "seed": "850054236416",
+    "seed": "606791984",
     "traits": {
-      "Palette": 9,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 1,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 165,
-    "seed": "49671231843",
+    "seed": "261575748",
     "traits": {
-      "Palette": 2,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 12,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 166,
-    "seed": "811522734623",
+    "seed": "121654409",
     "traits": {
-      "Palette": 12,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 3,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 167,
-    "seed": "602954429260",
+    "seed": "430797642",
     "traits": {
-      "Palette": 2,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 0,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 168,
-    "seed": "591213317000",
+    "seed": "412802219",
     "traits": {
       "Palette": 9,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 169,
-    "seed": "747294032153",
+    "seed": "436796654",
     "traits": {
-      "Palette": 3,
+      "Palette": 6,
       "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 170,
-    "seed": "990290264403",
+    "seed": "625589002",
     "traits": {
-      "Palette": 8,
+      "Palette": 9,
       "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 171,
-    "seed": "93245665113",
+    "seed": "966872597",
     "traits": {
-      "Palette": 4,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 6,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 172,
-    "seed": "693309587952",
+    "seed": "770597943",
     "traits": {
-      "Palette": 7,
-      "Art Mode": "l",
+      "Palette": 9,
+      "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 173,
-    "seed": "171303934171",
+    "seed": "291990642",
     "traits": {
-      "Palette": 12,
-      "Art Mode": "l",
+      "Palette": 9,
+      "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 174,
-    "seed": "50713609143",
+    "seed": "121049499",
     "traits": {
-      "Palette": 0,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 6,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 175,
-    "seed": "537238559993",
+    "seed": "290861489",
     "traits": {
-      "Palette": 3,
+      "Palette": 9,
       "Art Mode": "l",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 176,
-    "seed": "367466313476",
+    "seed": "542079683",
     "traits": {
-      "Palette": 10,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 5,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 177,
-    "seed": "880132343055",
+    "seed": "698248146",
     "traits": {
-      "Palette": 1,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 4,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 178,
-    "seed": "488029094261",
+    "seed": "571256754",
     "traits": {
-      "Palette": 11,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 6,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 179,
-    "seed": "579695825394",
+    "seed": "175949132",
     "traits": {
-      "Palette": 4,
-      "Art Mode": "straight",
+      "Palette": 8,
+      "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 180,
-    "seed": "924087168693",
+    "seed": "207551061",
     "traits": {
-      "Palette": 6,
-      "Art Mode": "paper",
+      "Palette": 5,
+      "Art Mode": "straight",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 181,
-    "seed": "875624131815",
+    "seed": "981488030",
     "traits": {
-      "Palette": 10,
-      "Art Mode": "circle",
+      "Palette": 7,
+      "Art Mode": "straight",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 182,
-    "seed": "171863931826",
+    "seed": "830313282",
     "traits": {
-      "Palette": 1,
-      "Art Mode": "straight",
+      "Palette": 8,
+      "Art Mode": "l",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 183,
-    "seed": "99518158789",
+    "seed": "220026931",
     "traits": {
-      "Palette": 7,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 12,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 184,
-    "seed": "811152337647",
+    "seed": "214156189",
     "traits": {
-      "Palette": 10,
-      "Art Mode": "paper",
+      "Palette": 5,
+      "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 185,
-    "seed": "991107960879",
+    "seed": "715278864",
     "traits": {
-      "Palette": 9,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 3,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 186,
-    "seed": "917950611968",
+    "seed": "490980337",
     "traits": {
-      "Palette": 9,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 1,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 187,
-    "seed": "129848147964",
+    "seed": "392424251",
     "traits": {
-      "Palette": 4,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 7,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 188,
-    "seed": "464693992029",
+    "seed": "855261769",
     "traits": {
       "Palette": 6,
-      "Art Mode": "circle",
+      "Art Mode": "l",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 189,
-    "seed": "650394552059",
+    "seed": "284329095",
     "traits": {
-      "Palette": 12,
-      "Art Mode": "circle",
+      "Palette": 10,
+      "Art Mode": "l",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 190,
-    "seed": "882136129608",
+    "seed": "145829503",
     "traits": {
-      "Palette": 1,
-      "Art Mode": "circle",
+      "Palette": 9,
+      "Art Mode": "l",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 191,
-    "seed": "445658350954",
+    "seed": "339712606",
     "traits": {
-      "Palette": 9,
-      "Art Mode": "paper",
+      "Palette": 10,
+      "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 192,
-    "seed": "480677236236",
+    "seed": "210666386",
     "traits": {
-      "Palette": 4,
-      "Art Mode": "l",
+      "Palette": 9,
+      "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 193,
-    "seed": "636525868467",
+    "seed": "901764111",
     "traits": {
-      "Palette": 0,
+      "Palette": 12,
       "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 194,
-    "seed": "984199670944",
+    "seed": "658802055",
     "traits": {
-      "Palette": 4,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 5,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 195,
-    "seed": "445035595872",
+    "seed": "641002296",
     "traits": {
-      "Palette": 5,
-      "Art Mode": "straight",
+      "Palette": 2,
+      "Art Mode": "l",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 196,
-    "seed": "469596021892",
+    "seed": "702469706",
     "traits": {
-      "Palette": 10,
-      "Art Mode": "circle",
+      "Palette": 7,
+      "Art Mode": "l",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 197,
-    "seed": "704816072109",
+    "seed": "442288850",
     "traits": {
-      "Palette": 8,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 2,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 198,
-    "seed": "105131726101",
+    "seed": "365956543",
     "traits": {
-      "Palette": 11,
-      "Art Mode": "straight",
+      "Palette": 9,
+      "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 199,
-    "seed": "102945650399",
+    "seed": "612718773",
     "traits": {
-      "Palette": 3,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 8,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 200,
-    "seed": "508569420552",
+    "seed": "943972567",
     "traits": {
       "Palette": 2,
       "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 201,
-    "seed": "592689521526",
+    "seed": "529604008",
     "traits": {
-      "Palette": 11,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 8,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 202,
-    "seed": "302503269623",
+    "seed": "433748035",
     "traits": {
-      "Palette": 11,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 12,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 203,
-    "seed": "35738209226",
+    "seed": "846805662",
     "traits": {
-      "Palette": 1,
-      "Art Mode": "l",
+      "Palette": 5,
+      "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 204,
-    "seed": "604088767873",
+    "seed": "766312454",
+    "traits": {
+      "Palette": 0,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 205,
+    "seed": "319158829",
+    "traits": {
+      "Palette": 5,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 206,
+    "seed": "965530551",
     "traits": {
       "Palette": 1,
       "Art Mode": "circle",
@@ -1836,116 +1854,134 @@
     }
   },
   {
-    "index": 205,
-    "seed": "269041757732",
+    "index": 207,
+    "seed": "141539560",
     "traits": {
-      "Palette": 11,
+      "Palette": 9,
       "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 206,
-    "seed": "492765620524",
-    "traits": {
-      "Palette": 0,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 207,
-    "seed": "305582816131",
-    "traits": {
-      "Palette": 8,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
     }
   },
   {
     "index": 208,
-    "seed": "39489653901",
+    "seed": "814612601",
     "traits": {
       "Palette": 11,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 209,
-    "seed": "251502754288",
+    "seed": "373236369",
     "traits": {
-      "Palette": 12,
-      "Art Mode": "circle",
+      "Palette": 9,
+      "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 210,
-    "seed": "536336512866",
+    "seed": "111148926",
     "traits": {
-      "Palette": 9,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 211,
-    "seed": "530465520400",
-    "traits": {
-      "Palette": 4,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 212,
-    "seed": "708304254254",
-    "traits": {
-      "Palette": 11,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 213,
-    "seed": "923990233839",
-    "traits": {
-      "Palette": 10,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 214,
-    "seed": "220727131396",
-    "traits": {
-      "Palette": 2,
+      "Palette": 5,
       "Art Mode": "l",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "index": 215,
-    "seed": "88328928962",
+    "index": 211,
+    "seed": "295830596",
     "traits": {
-      "Palette": 7,
+      "Palette": 0,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 212,
+    "seed": "795737948",
+    "traits": {
+      "Palette": 9,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 213,
+    "seed": "173229123",
+    "traits": {
+      "Palette": 5,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 214,
+    "seed": "869584643",
+    "traits": {
+      "Palette": 0,
       "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 215,
+    "seed": "239632229",
+    "traits": {
+      "Palette": 4,
+      "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 216,
-    "seed": "76952605359",
+    "seed": "357943717",
     "traits": {
-      "Palette": 2,
-      "Art Mode": "circle",
+      "Palette": 8,
+      "Art Mode": "l",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 217,
-    "seed": "863802414411",
+    "seed": "601038132",
+    "traits": {
+      "Palette": 5,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 218,
+    "seed": "779166974",
+    "traits": {
+      "Palette": 4,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 219,
+    "seed": "150362153",
+    "traits": {
+      "Palette": 5,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 220,
+    "seed": "974190568",
+    "traits": {
+      "Palette": 12,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 221,
+    "seed": "307562401",
     "traits": {
       "Palette": 2,
       "Art Mode": "circle",
@@ -1953,296 +1989,278 @@
     }
   },
   {
-    "index": 218,
-    "seed": "53781719568",
-    "traits": {
-      "Palette": 2,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 219,
-    "seed": "916135219101",
-    "traits": {
-      "Palette": 0,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 220,
-    "seed": "117127773699",
-    "traits": {
-      "Palette": 0,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 221,
-    "seed": "5536909246",
-    "traits": {
-      "Palette": 12,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
     "index": 222,
-    "seed": "508979752125",
+    "seed": "647035170",
     "traits": {
-      "Palette": 5,
+      "Palette": 8,
       "Art Mode": "straight",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 223,
-    "seed": "824511088527",
-    "traits": {
-      "Palette": 6,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 224,
-    "seed": "852934425242",
-    "traits": {
-      "Palette": 2,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 225,
-    "seed": "320105355568",
-    "traits": {
-      "Palette": 4,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 226,
-    "seed": "429499375794",
+    "seed": "905876271",
     "traits": {
       "Palette": 8,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 227,
-    "seed": "900393945400",
-    "traits": {
-      "Palette": 0,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 228,
-    "seed": "561071636536",
-    "traits": {
-      "Palette": 7,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 229,
-    "seed": "939300250886",
-    "traits": {
-      "Palette": 1,
       "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "index": 230,
-    "seed": "769295064337",
+    "index": 224,
+    "seed": "549984872",
     "traits": {
-      "Palette": 4,
+      "Palette": 1,
       "Art Mode": "l",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "index": 231,
-    "seed": "275676780423",
+    "index": 225,
+    "seed": "796638276",
     "traits": {
-      "Palette": 3,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 232,
-    "seed": "161528667078",
-    "traits": {
-      "Palette": 10,
+      "Palette": 9,
       "Art Mode": "straight",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "index": 233,
-    "seed": "492870219938",
+    "index": 226,
+    "seed": "213643650",
     "traits": {
-      "Palette": 7,
+      "Palette": 5,
       "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 227,
+    "seed": "847336193",
+    "traits": {
+      "Palette": 2,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 228,
+    "seed": "151022908",
+    "traits": {
+      "Palette": 1,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 229,
+    "seed": "237062381",
+    "traits": {
+      "Palette": 0,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 230,
+    "seed": "668934247",
+    "traits": {
+      "Palette": 6,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 231,
+    "seed": "672647777",
+    "traits": {
+      "Palette": 2,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 232,
+    "seed": "102299083",
+    "traits": {
+      "Palette": 8,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 233,
+    "seed": "560468245",
+    "traits": {
+      "Palette": 0,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 234,
-    "seed": "1152675247",
+    "seed": "695704799",
     "traits": {
-      "Palette": 0,
+      "Palette": 1,
       "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 235,
-    "seed": "810535632582",
+    "seed": "768565335",
     "traits": {
-      "Palette": 12,
-      "Art Mode": "paper",
+      "Palette": 8,
+      "Art Mode": "straight",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 236,
-    "seed": "133609405254",
+    "seed": "463668214",
     "traits": {
       "Palette": 12,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 237,
-    "seed": "424954474675",
-    "traits": {
-      "Palette": 1,
       "Art Mode": "l",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "index": 238,
-    "seed": "306626320123",
+    "index": 237,
+    "seed": "880979123",
     "traits": {
-      "Palette": 4,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 7,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 238,
+    "seed": "986516348",
+    "traits": {
+      "Palette": 7,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 239,
-    "seed": "50111911439",
+    "seed": "776302145",
     "traits": {
-      "Palette": 0,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 240,
-    "seed": "346446526286",
-    "traits": {
-      "Palette": 0,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 241,
-    "seed": "957262829606",
-    "traits": {
-      "Palette": 12,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 242,
-    "seed": "138476676680",
-    "traits": {
-      "Palette": 3,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 243,
-    "seed": "772474536548",
-    "traits": {
-      "Palette": 1,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 244,
-    "seed": "149811476893",
-    "traits": {
-      "Palette": 10,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 245,
-    "seed": "415645186783",
-    "traits": {
-      "Palette": 5,
+      "Palette": 7,
       "Art Mode": "straight",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "index": 246,
-    "seed": "32803090449",
+    "index": 240,
+    "seed": "343518665",
+    "traits": {
+      "Palette": 6,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 241,
+    "seed": "230041392",
+    "traits": {
+      "Palette": 3,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 242,
+    "seed": "816851328",
     "traits": {
       "Palette": 4,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 243,
+    "seed": "189972766",
+    "traits": {
+      "Palette": 2,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 244,
+    "seed": "137360687",
+    "traits": {
+      "Palette": 0,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 245,
+    "seed": "213484928",
+    "traits": {
+      "Palette": 3,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 246,
+    "seed": "693634707",
+    "traits": {
+      "Palette": 10,
       "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 247,
-    "seed": "122686682927",
+    "seed": "349518051",
     "traits": {
-      "Palette": 12,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 7,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 248,
-    "seed": "947306620681",
+    "seed": "224369075",
     "traits": {
-      "Palette": 9,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 3,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 249,
-    "seed": "776046415441",
+    "seed": "498344954",
     "traits": {
-      "Palette": 4,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 3,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 250,
-    "seed": "516936384369",
+    "seed": "972832833",
+    "traits": {
+      "Palette": 9,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 251,
+    "seed": "802161582",
+    "traits": {
+      "Palette": 8,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 252,
+    "seed": "221676171",
     "traits": {
       "Palette": 8,
       "Art Mode": "paper",
@@ -2250,53 +2268,8 @@
     }
   },
   {
-    "index": 251,
-    "seed": "768863144408",
-    "traits": {
-      "Palette": 9,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 252,
-    "seed": "303634888133",
-    "traits": {
-      "Palette": 3,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
     "index": 253,
-    "seed": "994964893836",
-    "traits": {
-      "Palette": 3,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 254,
-    "seed": "431527836927",
-    "traits": {
-      "Palette": 3,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 255,
-    "seed": "373428322065",
-    "traits": {
-      "Palette": 6,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 256,
-    "seed": "979045485732",
+    "seed": "951198395",
     "traits": {
       "Palette": 4,
       "Art Mode": "straight",
@@ -2304,143 +2277,125 @@
     }
   },
   {
-    "index": 257,
-    "seed": "953978296675",
+    "index": 254,
+    "seed": "629863383",
     "traits": {
-      "Palette": 1,
+      "Palette": 11,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 255,
+    "seed": "502988835",
+    "traits": {
+      "Palette": 7,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 256,
+    "seed": "700406512",
+    "traits": {
+      "Palette": 0,
       "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 257,
+    "seed": "508393752",
+    "traits": {
+      "Palette": 9,
+      "Art Mode": "l",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 258,
-    "seed": "428199581160",
+    "seed": "573533738",
     "traits": {
-      "Palette": 10,
+      "Palette": 2,
       "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 259,
-    "seed": "33384152284",
+    "seed": "225951258",
     "traits": {
-      "Palette": 10,
-      "Art Mode": "paper",
+      "Palette": 8,
+      "Art Mode": "l",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 260,
-    "seed": "261034507199",
+    "seed": "343830059",
     "traits": {
-      "Palette": 11,
+      "Palette": 2,
       "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 261,
-    "seed": "219835096096",
+    "seed": "293865702",
     "traits": {
-      "Palette": 7,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 6,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 262,
-    "seed": "442934399441",
+    "seed": "493201661",
     "traits": {
-      "Palette": 0,
-      "Art Mode": "l",
+      "Palette": 2,
+      "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 263,
-    "seed": "440691378873",
+    "seed": "356159550",
     "traits": {
-      "Palette": 3,
+      "Palette": 7,
       "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 264,
-    "seed": "605478001156",
+    "seed": "394886828",
     "traits": {
-      "Palette": 9,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 2,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 265,
-    "seed": "768266342340",
+    "seed": "194676614",
     "traits": {
-      "Palette": 12,
+      "Palette": 6,
       "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 266,
-    "seed": "567930675486",
+    "seed": "350319522",
     "traits": {
-      "Palette": 3,
-      "Art Mode": "l",
+      "Palette": 2,
+      "Art Mode": "straight",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 267,
-    "seed": "270106323491",
-    "traits": {
-      "Palette": 7,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 268,
-    "seed": "792267217569",
-    "traits": {
-      "Palette": 3,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 269,
-    "seed": "976514394414",
-    "traits": {
-      "Palette": 3,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 270,
-    "seed": "253472382110",
-    "traits": {
-      "Palette": 7,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 271,
-    "seed": "163051434156",
-    "traits": {
-      "Palette": 1,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 272,
-    "seed": "407982349947",
+    "seed": "825843800",
     "traits": {
       "Palette": 5,
       "Art Mode": "l",
@@ -2448,62 +2403,134 @@
     }
   },
   {
-    "index": 273,
-    "seed": "647402512113",
+    "index": 268,
+    "seed": "642365415",
     "traits": {
-      "Palette": 7,
+      "Palette": 0,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 269,
+    "seed": "712103590",
+    "traits": {
+      "Palette": 4,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 270,
+    "seed": "571079125",
+    "traits": {
+      "Palette": 4,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 271,
+    "seed": "670862970",
+    "traits": {
+      "Palette": 8,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 272,
+    "seed": "966204253",
+    "traits": {
+      "Palette": 5,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 273,
+    "seed": "692665300",
+    "traits": {
+      "Palette": 8,
       "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 274,
-    "seed": "931757824164",
+    "seed": "103329840",
     "traits": {
       "Palette": 11,
-      "Art Mode": "l",
+      "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 275,
-    "seed": "69817227726",
+    "seed": "272738294",
     "traits": {
-      "Palette": 2,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 11,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 276,
-    "seed": "462581459992",
+    "seed": "632769820",
     "traits": {
-      "Palette": 4,
-      "Art Mode": "circle",
+      "Palette": 5,
+      "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 277,
-    "seed": "914904064270",
+    "seed": "259607588",
     "traits": {
-      "Palette": 10,
+      "Palette": 4,
       "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 278,
-    "seed": "792208831092",
+    "seed": "753095257",
     "traits": {
-      "Palette": 12,
+      "Palette": 3,
       "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 279,
-    "seed": "69156192849",
+    "seed": "352392845",
+    "traits": {
+      "Palette": 4,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 280,
+    "seed": "462511019",
+    "traits": {
+      "Palette": 8,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 281,
+    "seed": "861394699",
+    "traits": {
+      "Palette": 11,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 282,
+    "seed": "518172087",
     "traits": {
       "Palette": 1,
       "Art Mode": "straight",
@@ -2511,215 +2538,98 @@
     }
   },
   {
-    "index": 280,
-    "seed": "683939391944",
-    "traits": {
-      "Palette": 8,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 281,
-    "seed": "214127842547",
-    "traits": {
-      "Palette": 10,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 282,
-    "seed": "196579774646",
-    "traits": {
-      "Palette": 10,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
     "index": 283,
-    "seed": "806711171764",
+    "seed": "492417954",
     "traits": {
-      "Palette": 7,
+      "Palette": 12,
       "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 284,
-    "seed": "788531208895",
+    "seed": "135421367",
     "traits": {
-      "Palette": 2,
-      "Art Mode": "straight",
+      "Palette": 4,
+      "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 285,
-    "seed": "440968092404",
+    "seed": "226319843",
     "traits": {
-      "Palette": 6,
+      "Palette": 8,
       "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 286,
-    "seed": "761919674555",
+    "seed": "922016247",
     "traits": {
-      "Palette": 4,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 1,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 287,
-    "seed": "334236371561",
+    "seed": "185661690",
     "traits": {
-      "Palette": 4,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 10,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 288,
-    "seed": "543285502835",
+    "seed": "250776072",
     "traits": {
       "Palette": 11,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 289,
-    "seed": "457348545810",
+    "seed": "866256358",
     "traits": {
-      "Palette": 12,
+      "Palette": 2,
       "Art Mode": "straight",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 290,
-    "seed": "587478090259",
+    "seed": "114042216",
     "traits": {
-      "Palette": 5,
-      "Art Mode": "straight",
+      "Palette": 10,
+      "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 291,
-    "seed": "474188876374",
+    "seed": "110972042",
     "traits": {
-      "Palette": 12,
+      "Palette": 4,
       "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 292,
-    "seed": "370431744413",
+    "seed": "509826672",
     "traits": {
-      "Palette": 0,
-      "Art Mode": "circle",
+      "Palette": 7,
+      "Art Mode": "l",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 293,
-    "seed": "185266141250",
-    "traits": {
-      "Palette": 5,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 294,
-    "seed": "877219029309",
-    "traits": {
-      "Palette": 12,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 295,
-    "seed": "315066769407",
-    "traits": {
-      "Palette": 0,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 296,
-    "seed": "897277156608",
-    "traits": {
-      "Palette": 10,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 297,
-    "seed": "963035495752",
-    "traits": {
-      "Palette": 4,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 298,
-    "seed": "171529677150",
-    "traits": {
-      "Palette": 6,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 299,
-    "seed": "726860809815",
-    "traits": {
-      "Palette": 6,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 300,
-    "seed": "271655062420",
-    "traits": {
-      "Palette": 1,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 301,
-    "seed": "605299043199",
-    "traits": {
-      "Palette": 6,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 302,
-    "seed": "118874282141",
-    "traits": {
-      "Palette": 7,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 303,
-    "seed": "466570848560",
+    "seed": "574626748",
     "traits": {
       "Palette": 8,
       "Art Mode": "paper",
@@ -2727,611 +2637,566 @@
     }
   },
   {
-    "index": 304,
-    "seed": "870912875942",
+    "index": 294,
+    "seed": "402618262",
+    "traits": {
+      "Palette": 5,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 295,
+    "seed": "681567228",
+    "traits": {
+      "Palette": 8,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 296,
+    "seed": "182002628",
+    "traits": {
+      "Palette": 5,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 297,
+    "seed": "651081748",
+    "traits": {
+      "Palette": 12,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 298,
+    "seed": "842866790",
+    "traits": {
+      "Palette": 0,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 299,
+    "seed": "871173455",
+    "traits": {
+      "Palette": 0,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 300,
+    "seed": "222257035",
     "traits": {
       "Palette": 12,
       "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 301,
+    "seed": "351855643",
+    "traits": {
+      "Palette": 7,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 302,
+    "seed": "520169444",
+    "traits": {
+      "Palette": 8,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 303,
+    "seed": "334304523",
+    "traits": {
+      "Palette": 5,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 304,
+    "seed": "992943191",
+    "traits": {
+      "Palette": 12,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 305,
-    "seed": "864528114362",
+    "seed": "111538727",
     "traits": {
-      "Palette": 10,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 11,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 306,
-    "seed": "652174072953",
+    "seed": "861314574",
     "traits": {
       "Palette": 7,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 307,
-    "seed": "615592706107",
+    "seed": "352024823",
     "traits": {
-      "Palette": 12,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 3,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 308,
-    "seed": "363598752052",
+    "seed": "344803055",
     "traits": {
-      "Palette": 12,
-      "Art Mode": "straight",
+      "Palette": 11,
+      "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 309,
-    "seed": "404510575837",
+    "seed": "948987382",
     "traits": {
-      "Palette": 4,
-      "Art Mode": "straight",
+      "Palette": 11,
+      "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 310,
-    "seed": "409774461055",
+    "seed": "601779151",
     "traits": {
-      "Palette": 12,
+      "Palette": 5,
       "Art Mode": "straight",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 311,
-    "seed": "150959868823",
+    "seed": "749685835",
     "traits": {
-      "Palette": 6,
-      "Art Mode": "l",
+      "Palette": 4,
+      "Art Mode": "straight",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 312,
-    "seed": "587258797176",
+    "seed": "111017142",
     "traits": {
-      "Palette": 2,
+      "Palette": 1,
       "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 313,
-    "seed": "830238985117",
+    "seed": "256951240",
     "traits": {
-      "Palette": 5,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 1,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 314,
-    "seed": "59252417630",
+    "seed": "873961490",
     "traits": {
-      "Palette": 9,
+      "Palette": 1,
       "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 315,
-    "seed": "326405827040",
+    "seed": "254277428",
     "traits": {
-      "Palette": 9,
+      "Palette": 10,
       "Art Mode": "l",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 316,
-    "seed": "313164120801",
+    "seed": "217724729",
     "traits": {
-      "Palette": 1,
+      "Palette": 6,
       "Art Mode": "straight",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 317,
-    "seed": "263730913471",
+    "seed": "924477335",
     "traits": {
-      "Palette": 6,
+      "Palette": 4,
       "Art Mode": "l",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 318,
-    "seed": "171293642578",
+    "seed": "491493794",
     "traits": {
-      "Palette": 0,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 319,
-    "seed": "243606488232",
-    "traits": {
-      "Palette": 5,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 320,
-    "seed": "385727699485",
-    "traits": {
-      "Palette": 10,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 321,
-    "seed": "199338575207",
-    "traits": {
-      "Palette": 5,
+      "Palette": 6,
       "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "index": 322,
-    "seed": "908607836134",
+    "index": 319,
+    "seed": "514589254",
     "traits": {
-      "Palette": 11,
+      "Palette": 12,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 320,
+    "seed": "208458985",
+    "traits": {
+      "Palette": 0,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 321,
+    "seed": "307846323",
+    "traits": {
+      "Palette": 9,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 322,
+    "seed": "804775625",
+    "traits": {
+      "Palette": 0,
       "Art Mode": "l",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 323,
-    "seed": "438661178488",
+    "seed": "983059599",
     "traits": {
-      "Palette": 0,
-      "Art Mode": "straight",
+      "Palette": 10,
+      "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 324,
-    "seed": "272080166937",
+    "seed": "184260324",
     "traits": {
-      "Palette": 1,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 3,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 325,
-    "seed": "535779683275",
+    "seed": "566815455",
     "traits": {
-      "Palette": 6,
-      "Art Mode": "circle",
+      "Palette": 12,
+      "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 326,
-    "seed": "958016184068",
+    "seed": "982517511",
     "traits": {
-      "Palette": 12,
+      "Palette": 9,
       "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 327,
-    "seed": "530781863040",
+    "seed": "368319520",
     "traits": {
-      "Palette": 0,
-      "Art Mode": "paper",
+      "Palette": 3,
+      "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 328,
-    "seed": "716136070879",
+    "seed": "287992543",
     "traits": {
-      "Palette": 5,
-      "Art Mode": "circle",
+      "Palette": 8,
+      "Art Mode": "straight",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 329,
-    "seed": "573669509223",
+    "seed": "210733218",
     "traits": {
       "Palette": 10,
-      "Art Mode": "l",
+      "Art Mode": "straight",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 330,
-    "seed": "771309242110",
+    "seed": "873460669",
     "traits": {
-      "Palette": 6,
-      "Art Mode": "paper",
+      "Palette": 10,
+      "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 331,
-    "seed": "933848943895",
+    "seed": "549256784",
     "traits": {
-      "Palette": 1,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 10,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 332,
-    "seed": "708837583227",
+    "seed": "691718379",
     "traits": {
-      "Palette": 9,
+      "Palette": 7,
       "Art Mode": "straight",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 333,
-    "seed": "517005189431",
+    "seed": "642877808",
     "traits": {
-      "Palette": 3,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 334,
-    "seed": "549629657340",
-    "traits": {
-      "Palette": 9,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 335,
-    "seed": "518650954662",
-    "traits": {
-      "Palette": 1,
-      "Art Mode": "l",
+      "Palette": 11,
+      "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "index": 336,
-    "seed": "750197027107",
+    "index": 334,
+    "seed": "965520494",
     "traits": {
-      "Palette": 5,
+      "Palette": 4,
       "Art Mode": "straight",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "index": 337,
-    "seed": "246043500588",
+    "index": 335,
+    "seed": "789227937",
     "traits": {
-      "Palette": 3,
+      "Palette": 9,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 336,
+    "seed": "897322364",
+    "traits": {
+      "Palette": 6,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 337,
+    "seed": "185088815",
+    "traits": {
+      "Palette": 12,
       "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 338,
-    "seed": "245329231135",
+    "seed": "418051583",
     "traits": {
-      "Palette": 2,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 3,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 339,
-    "seed": "333355108929",
+    "seed": "904325615",
     "traits": {
-      "Palette": 7,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 4,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 340,
-    "seed": "344919348061",
+    "seed": "568398054",
     "traits": {
-      "Palette": 2,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 5,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 341,
-    "seed": "399566938780",
+    "seed": "423770410",
     "traits": {
-      "Palette": 11,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 4,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 342,
-    "seed": "828636278468",
+    "seed": "288183137",
     "traits": {
-      "Palette": 2,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 11,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 343,
-    "seed": "564551727346",
+    "seed": "937990040",
     "traits": {
-      "Palette": 8,
+      "Palette": 9,
       "Art Mode": "straight",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 344,
-    "seed": "16390830551",
+    "seed": "305671452",
     "traits": {
-      "Palette": 2,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 0,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 345,
-    "seed": "735399384500",
+    "seed": "191685456",
     "traits": {
-      "Palette": 12,
+      "Palette": 1,
       "Art Mode": "straight",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 346,
-    "seed": "766140995693",
+    "seed": "821894622",
     "traits": {
-      "Palette": 8,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 1,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 347,
-    "seed": "498343352201",
+    "seed": "292695139",
     "traits": {
-      "Palette": 7,
-      "Art Mode": "l",
+      "Palette": 10,
+      "Art Mode": "straight",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 348,
-    "seed": "710094220226",
+    "seed": "886071469",
     "traits": {
-      "Palette": 11,
-      "Art Mode": "l",
+      "Palette": 0,
+      "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 349,
-    "seed": "189218279983",
+    "seed": "730116380",
     "traits": {
-      "Palette": 4,
+      "Palette": 2,
       "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 350,
-    "seed": "321614008362",
+    "seed": "342816000",
     "traits": {
-      "Palette": 1,
+      "Palette": 3,
       "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 351,
-    "seed": "950387784005",
+    "seed": "933397434",
     "traits": {
       "Palette": 4,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 352,
-    "seed": "728970063624",
+    "seed": "436811741",
     "traits": {
-      "Palette": 12,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 3,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 353,
-    "seed": "380513090975",
+    "seed": "283130666",
     "traits": {
-      "Palette": 3,
+      "Palette": 5,
       "Art Mode": "l",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 354,
-    "seed": "697095085633",
+    "seed": "194718396",
     "traits": {
-      "Palette": 12,
+      "Palette": 4,
       "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 355,
-    "seed": "23962120175",
+    "seed": "907539189",
     "traits": {
-      "Palette": 11,
+      "Palette": 7,
       "Art Mode": "l",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 356,
-    "seed": "600618145233",
-    "traits": {
-      "Palette": 8,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 357,
-    "seed": "434674851899",
-    "traits": {
-      "Palette": 8,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 358,
-    "seed": "13035054236",
-    "traits": {
-      "Palette": 12,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 359,
-    "seed": "476416717237",
-    "traits": {
-      "Palette": 4,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 360,
-    "seed": "303009178114",
-    "traits": {
-      "Palette": 5,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 361,
-    "seed": "855783693231",
-    "traits": {
-      "Palette": 10,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 362,
-    "seed": "759727994436",
-    "traits": {
-      "Palette": 2,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 363,
-    "seed": "884510157174",
-    "traits": {
-      "Palette": 12,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 364,
-    "seed": "489066048120",
-    "traits": {
-      "Palette": 12,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 365,
-    "seed": "268274528879",
-    "traits": {
-      "Palette": 12,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 366,
-    "seed": "844530449098",
-    "traits": {
-      "Palette": 7,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 367,
-    "seed": "817918336945",
-    "traits": {
-      "Palette": 8,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 368,
-    "seed": "739651644619",
-    "traits": {
-      "Palette": 7,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 369,
-    "seed": "370743655984",
-    "traits": {
-      "Palette": 2,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 370,
-    "seed": "665233169674",
-    "traits": {
-      "Palette": 2,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 371,
-    "seed": "20391457535",
+    "seed": "277371671",
     "traits": {
       "Palette": 3,
       "Art Mode": "circle",
@@ -3339,26 +3204,8 @@
     }
   },
   {
-    "index": 372,
-    "seed": "813885867213",
-    "traits": {
-      "Palette": 10,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 373,
-    "seed": "603899635366",
-    "traits": {
-      "Palette": 4,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 374,
-    "seed": "207090318086",
+    "index": 357,
+    "seed": "890515898",
     "traits": {
       "Palette": 11,
       "Art Mode": "straight",
@@ -3366,44 +3213,188 @@
     }
   },
   {
-    "index": 375,
-    "seed": "952361984336",
+    "index": 358,
+    "seed": "254210814",
+    "traits": {
+      "Palette": 10,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 359,
+    "seed": "559597725",
+    "traits": {
+      "Palette": 10,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 360,
+    "seed": "856274740",
+    "traits": {
+      "Palette": 12,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 361,
+    "seed": "467871029",
+    "traits": {
+      "Palette": 5,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 362,
+    "seed": "830598716",
+    "traits": {
+      "Palette": 9,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 363,
+    "seed": "270243624",
+    "traits": {
+      "Palette": 0,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 364,
+    "seed": "482966186",
+    "traits": {
+      "Palette": 4,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 365,
+    "seed": "925884310",
+    "traits": {
+      "Palette": 11,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 366,
+    "seed": "461388598",
+    "traits": {
+      "Palette": 3,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 367,
+    "seed": "745803749",
+    "traits": {
+      "Palette": 6,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 368,
+    "seed": "430927467",
     "traits": {
       "Palette": 8,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 369,
+    "seed": "984700364",
+    "traits": {
+      "Palette": 7,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 370,
+    "seed": "981850603",
+    "traits": {
+      "Palette": 4,
       "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 371,
+    "seed": "685866187",
+    "traits": {
+      "Palette": 0,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 372,
+    "seed": "136099243",
+    "traits": {
+      "Palette": 7,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 373,
+    "seed": "955774596",
+    "traits": {
+      "Palette": 6,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 374,
+    "seed": "324149715",
+    "traits": {
+      "Palette": 1,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 375,
+    "seed": "171778042",
+    "traits": {
+      "Palette": 4,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 376,
-    "seed": "360945058361",
+    "seed": "955565327",
     "traits": {
-      "Palette": 3,
-      "Art Mode": "paper",
+      "Palette": 10,
+      "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 377,
-    "seed": "671416761488",
+    "seed": "392175356",
     "traits": {
-      "Palette": 2,
-      "Art Mode": "circle",
+      "Palette": 1,
+      "Art Mode": "l",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 378,
-    "seed": "732723152302",
-    "traits": {
-      "Palette": 8,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 379,
-    "seed": "312869340374",
+    "seed": "770505273",
     "traits": {
       "Palette": 5,
       "Art Mode": "l",
@@ -3411,17 +3402,26 @@
     }
   },
   {
-    "index": 380,
-    "seed": "258177359406",
+    "index": 379,
+    "seed": "101092724",
     "traits": {
-      "Palette": 2,
+      "Palette": 12,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 380,
+    "seed": "146554855",
+    "traits": {
+      "Palette": 4,
       "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 381,
-    "seed": "233863134783",
+    "seed": "452904077",
     "traits": {
       "Palette": 9,
       "Art Mode": "paper",
@@ -3430,79 +3430,34 @@
   },
   {
     "index": 382,
-    "seed": "596243128839",
+    "seed": "210651792",
     "traits": {
-      "Palette": 1,
+      "Palette": 8,
       "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 383,
-    "seed": "983051937458",
+    "seed": "451523268",
     "traits": {
-      "Palette": 4,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 384,
-    "seed": "965672323589",
-    "traits": {
-      "Palette": 9,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 385,
-    "seed": "844791125446",
-    "traits": {
-      "Palette": 9,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 386,
-    "seed": "619707874942",
-    "traits": {
-      "Palette": 10,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 387,
-    "seed": "487342146288",
-    "traits": {
-      "Palette": 4,
+      "Palette": 11,
       "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "index": 388,
-    "seed": "808976433003",
+    "index": 384,
+    "seed": "356551790",
     "traits": {
-      "Palette": 10,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 8,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "index": 389,
-    "seed": "583589214243",
-    "traits": {
-      "Palette": 7,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 390,
-    "seed": "882572022991",
+    "index": 385,
+    "seed": "576911104",
     "traits": {
       "Palette": 5,
       "Art Mode": "straight",
@@ -3510,323 +3465,386 @@
     }
   },
   {
-    "index": 391,
-    "seed": "774714791574",
+    "index": 386,
+    "seed": "905661254",
     "traits": {
       "Palette": 1,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 387,
+    "seed": "143631969",
+    "traits": {
+      "Palette": 9,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 388,
+    "seed": "507787780",
+    "traits": {
+      "Palette": 11,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 389,
+    "seed": "493932289",
+    "traits": {
+      "Palette": 9,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 390,
+    "seed": "451958437",
+    "traits": {
+      "Palette": 5,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 391,
+    "seed": "142286537",
+    "traits": {
+      "Palette": 7,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 392,
-    "seed": "978346331901",
+    "seed": "240882626",
     "traits": {
-      "Palette": 1,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 10,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 393,
-    "seed": "434333363124",
+    "seed": "425402689",
     "traits": {
-      "Palette": 8,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 0,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 394,
-    "seed": "280635574169",
+    "seed": "517443386",
     "traits": {
-      "Palette": 10,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 5,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 395,
-    "seed": "167902112990",
+    "seed": "285349675",
     "traits": {
-      "Palette": 0,
+      "Palette": 7,
       "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 396,
-    "seed": "840992895142",
+    "seed": "904416439",
     "traits": {
-      "Palette": 10,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 5,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 397,
-    "seed": "999142171099",
+    "seed": "651431949",
     "traits": {
-      "Palette": 8,
-      "Art Mode": "circle",
+      "Palette": 0,
+      "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 398,
-    "seed": "966603502629",
+    "seed": "184661307",
     "traits": {
-      "Palette": 1,
+      "Palette": 7,
       "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 399,
-    "seed": "854398348391",
+    "seed": "646167125",
     "traits": {
-      "Palette": 3,
-      "Art Mode": "l",
+      "Palette": 12,
+      "Art Mode": "straight",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 400,
-    "seed": "704434585580",
+    "seed": "682785240",
     "traits": {
-      "Palette": 4,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 401,
-    "seed": "999660321054",
-    "traits": {
-      "Palette": 10,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 402,
-    "seed": "961537330226",
-    "traits": {
-      "Palette": 11,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 403,
-    "seed": "955405949314",
-    "traits": {
-      "Palette": 9,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 404,
-    "seed": "4938723493",
-    "traits": {
-      "Palette": 11,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 405,
-    "seed": "348541817126",
-    "traits": {
-      "Palette": 10,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 406,
-    "seed": "215807847341",
-    "traits": {
-      "Palette": 0,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 407,
-    "seed": "216035169219",
-    "traits": {
-      "Palette": 6,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 408,
-    "seed": "519821825149",
-    "traits": {
-      "Palette": 2,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 409,
-    "seed": "105953176161",
-    "traits": {
-      "Palette": 6,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 410,
-    "seed": "513486041452",
-    "traits": {
-      "Palette": 6,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 411,
-    "seed": "570306067157",
-    "traits": {
-      "Palette": 3,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 412,
-    "seed": "506274411031",
-    "traits": {
-      "Palette": 3,
+      "Palette": 5,
       "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "index": 413,
-    "seed": "838318440583",
+    "index": 401,
+    "seed": "166067010",
+    "traits": {
+      "Palette": 8,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 402,
+    "seed": "841021274",
+    "traits": {
+      "Palette": 8,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 403,
+    "seed": "408971781",
+    "traits": {
+      "Palette": 7,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 404,
+    "seed": "202283665",
+    "traits": {
+      "Palette": 2,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 405,
+    "seed": "579909106",
+    "traits": {
+      "Palette": 1,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 406,
+    "seed": "653469526",
     "traits": {
       "Palette": 6,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 407,
+    "seed": "102220914",
+    "traits": {
+      "Palette": 11,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 408,
+    "seed": "382039305",
+    "traits": {
+      "Palette": 8,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 409,
+    "seed": "309600127",
+    "traits": {
+      "Palette": 0,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 410,
+    "seed": "489487641",
+    "traits": {
+      "Palette": 1,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 411,
+    "seed": "922175354",
+    "traits": {
+      "Palette": 2,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 412,
+    "seed": "278298908",
+    "traits": {
+      "Palette": 5,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 413,
+    "seed": "330462995",
+    "traits": {
+      "Palette": 1,
       "Art Mode": "l",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 414,
-    "seed": "611634110833",
+    "seed": "270583002",
     "traits": {
-      "Palette": 2,
+      "Palette": 8,
       "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 415,
-    "seed": "140038777989",
+    "seed": "302725584",
     "traits": {
       "Palette": 6,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 416,
-    "seed": "396429521121",
+    "seed": "715807330",
     "traits": {
-      "Palette": 8,
-      "Art Mode": "paper",
+      "Palette": 0,
+      "Art Mode": "straight",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 417,
-    "seed": "997646537492",
+    "seed": "409634380",
     "traits": {
-      "Palette": 6,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 418,
-    "seed": "805074611679",
-    "traits": {
-      "Palette": 5,
+      "Palette": 1,
       "Art Mode": "paper",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "index": 419,
-    "seed": "726388875641",
+    "index": 418,
+    "seed": "988865464",
     "traits": {
       "Palette": 1,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 420,
-    "seed": "38343249931",
-    "traits": {
-      "Palette": 5,
       "Art Mode": "l",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "index": 421,
-    "seed": "305710076541",
+    "index": 419,
+    "seed": "755128946",
     "traits": {
-      "Palette": 1,
+      "Palette": 7,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 420,
+    "seed": "421636381",
+    "traits": {
+      "Palette": 8,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 421,
+    "seed": "374034703",
+    "traits": {
+      "Palette": 9,
       "Art Mode": "l",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 422,
-    "seed": "1755986306",
+    "seed": "909554832",
     "traits": {
-      "Palette": 0,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 9,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 423,
-    "seed": "469863440129",
+    "seed": "817709646",
     "traits": {
-      "Palette": 8,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 424,
-    "seed": "744641754126",
-    "traits": {
-      "Palette": 12,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 425,
-    "seed": "121619683592",
-    "traits": {
-      "Palette": 12,
+      "Palette": 0,
       "Art Mode": "l",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
+    "index": 424,
+    "seed": "884161647",
+    "traits": {
+      "Palette": 4,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 425,
+    "seed": "594518895",
+    "traits": {
+      "Palette": 1,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
     "index": 426,
-    "seed": "589618470264",
+    "seed": "680061947",
+    "traits": {
+      "Palette": 8,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 427,
+    "seed": "493678253",
+    "traits": {
+      "Palette": 3,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 428,
+    "seed": "205334622",
     "traits": {
       "Palette": 11,
       "Art Mode": "straight",
@@ -3834,8 +3852,161 @@
     }
   },
   {
-    "index": 427,
-    "seed": "129029948662",
+    "index": 429,
+    "seed": "996922698",
+    "traits": {
+      "Palette": 7,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 430,
+    "seed": "750430682",
+    "traits": {
+      "Palette": 7,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 431,
+    "seed": "336429952",
+    "traits": {
+      "Palette": 9,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 432,
+    "seed": "249132839",
+    "traits": {
+      "Palette": 8,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 433,
+    "seed": "409585520",
+    "traits": {
+      "Palette": 12,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 434,
+    "seed": "272829346",
+    "traits": {
+      "Palette": 6,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 435,
+    "seed": "923025246",
+    "traits": {
+      "Palette": 8,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 436,
+    "seed": "184827129",
+    "traits": {
+      "Palette": 6,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 437,
+    "seed": "398166851",
+    "traits": {
+      "Palette": 0,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 438,
+    "seed": "802079485",
+    "traits": {
+      "Palette": 10,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 439,
+    "seed": "763232227",
+    "traits": {
+      "Palette": 11,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 440,
+    "seed": "729496244",
+    "traits": {
+      "Palette": 9,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 441,
+    "seed": "308365819",
+    "traits": {
+      "Palette": 6,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 442,
+    "seed": "831295955",
+    "traits": {
+      "Palette": 12,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 443,
+    "seed": "465873171",
+    "traits": {
+      "Palette": 3,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 444,
+    "seed": "219500608",
+    "traits": {
+      "Palette": 7,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 445,
+    "seed": "827117796",
+    "traits": {
+      "Palette": 0,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
+    }
+  },
+  {
+    "index": 446,
+    "seed": "369761661",
     "traits": {
       "Palette": 10,
       "Art Mode": "l",
@@ -3843,35 +4014,26 @@
     }
   },
   {
-    "index": 428,
-    "seed": "474778509906",
+    "index": 447,
+    "seed": "185949344",
     "traits": {
-      "Palette": 5,
+      "Palette": 11,
       "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 1"
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "index": 429,
-    "seed": "593392945555",
+    "index": 448,
+    "seed": "584262018",
     "traits": {
-      "Palette": 6,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 9,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
-    "index": 430,
-    "seed": "91953274753",
-    "traits": {
-      "Palette": 8,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 431,
-    "seed": "585785398995",
+    "index": 449,
+    "seed": "977296430",
     "traits": {
       "Palette": 9,
       "Art Mode": "circle",
@@ -3879,227 +4041,65 @@
     }
   },
   {
-    "index": 432,
-    "seed": "363951548627",
-    "traits": {
-      "Palette": 12,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 433,
-    "seed": "888587137523",
-    "traits": {
-      "Palette": 10,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 434,
-    "seed": "746648312293",
-    "traits": {
-      "Palette": 10,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 435,
-    "seed": "980486947749",
-    "traits": {
-      "Palette": 12,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 436,
-    "seed": "88628330539",
-    "traits": {
-      "Palette": 4,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 437,
-    "seed": "270111043276",
-    "traits": {
-      "Palette": 1,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 438,
-    "seed": "569126696397",
-    "traits": {
-      "Palette": 8,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 439,
-    "seed": "668447315474",
-    "traits": {
-      "Palette": 3,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 440,
-    "seed": "884310108054",
-    "traits": {
-      "Palette": 12,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 441,
-    "seed": "96275725330",
-    "traits": {
-      "Palette": 6,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 442,
-    "seed": "222580284922",
-    "traits": {
-      "Palette": 12,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 443,
-    "seed": "378459126099",
-    "traits": {
-      "Palette": 11,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 444,
-    "seed": "985442357304",
-    "traits": {
-      "Palette": 1,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 445,
-    "seed": "246178703212",
-    "traits": {
-      "Palette": 6,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 446,
-    "seed": "363989784582",
-    "traits": {
-      "Palette": 0,
-      "Art Mode": "straight",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 447,
-    "seed": "206023137358",
-    "traits": {
-      "Palette": 5,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
-    }
-  },
-  {
-    "index": 448,
-    "seed": "176125558335",
-    "traits": {
-      "Palette": 4,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
-    "index": 449,
-    "seed": "382479172575",
-    "traits": {
-      "Palette": 2,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 2"
-    }
-  },
-  {
     "index": 450,
-    "seed": "690857336423",
+    "seed": "159177256",
     "traits": {
-      "Palette": 6,
-      "Art Mode": "l",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 9,
+      "Art Mode": "circle",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 451,
-    "seed": "569144636634",
+    "seed": "973396329",
     "traits": {
       "Palette": 10,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 452,
-    "seed": "640570105320",
+    "seed": "830038128",
     "traits": {
-      "Palette": 1,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 0,
+      "Art Mode": "paper",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 453,
-    "seed": "146142851165",
+    "seed": "401291870",
     "traits": {
-      "Palette": 8,
-      "Art Mode": "circle",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 9,
+      "Art Mode": "l",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 454,
-    "seed": "960663014781",
+    "seed": "555865296",
     "traits": {
-      "Palette": 4,
-      "Art Mode": "paper",
-      "Gear Layout Mode": "Layout 1"
+      "Palette": 1,
+      "Art Mode": "straight",
+      "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 455,
-    "seed": "464923340598",
+    "seed": "625088897",
     "traits": {
-      "Palette": 11,
-      "Art Mode": "l",
+      "Palette": 10,
+      "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   },
   {
     "index": 456,
-    "seed": "111177041481",
+    "seed": "621972731",
     "traits": {
-      "Palette": 6,
-      "Art Mode": "l",
+      "Palette": 8,
+      "Art Mode": "circle",
       "Gear Layout Mode": "Layout 2"
     }
   }

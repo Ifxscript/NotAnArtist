@@ -32,6 +32,7 @@ const OVERLAY_BAND = 7;
 const STRAIGHT_ARC_LENGTH = 1800;
 
 let colorPalettes = [
+    ['#D3AA24', '#A38A1B', '#43835A', '#253D47', ' #0B0C09'],
     ['#BFBAA8', '#D9D3C1', '#575243', '#DED9C7', '#736B5C'],
     ['#BFBAA8', '#9F8170', '#575243', '#29AB87', '#736B5C'],
     ['#F2E6D0', '#0DB3D9', '#D96A29', '#e3d4baff', '#11796D'],
@@ -2733,7 +2734,7 @@ class CircleArcRow {
             return;
         }
 
-        strokeWeight(width * 0.005);
+        strokeWeight(width * 0.008);
 
         for (let i = -1; i < count; i++) {
             let a = this.startA + i * step + phase;
@@ -2761,7 +2762,7 @@ class CircleArcRow {
                 let isHollow = (((globalIdx * 846283) >>> 0) % 2) === 0;
 
                 for (let j = 0; j < numStrokes; j++) {
-                    let scale = 1 - (j * 0.18);
+                    let scale = 1 - (j * 0.25);
 
                     if (isHollow) {
                         noFill();
@@ -4853,7 +4854,7 @@ function buildArtLayer(nR, tth, chosenMode, col) {
     let artClasses = [
         CircleArcRow,
         SquareArcRow,
-        TriangleGridArcRow,
+        // TriangleGridArcRow,
         LayeredBlockArcRow,
         BlackWhiteTileArc,
         SlantedLineArc
