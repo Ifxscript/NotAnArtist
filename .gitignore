@@ -23,6 +23,7 @@ dist-ssr
 *.sln
 *.sw?
 
-# Generated Images
+# Generated Images & Videos
 public/images/
 public/images-test/
+public/videos-v2/

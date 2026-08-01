@@ -20,18 +20,13 @@ function SparkModal({ isOpen, onClose, data, allCats, currentIndex, onNavigate, 
     const [exportingGif, setExportingGif] = useState(false);
 
     const handleExportGif = () => {
-        setExportingGif(true);
-        const iframeElt = document.querySelector('.spark-modal__image');
-        if (iframeElt && iframeElt.contentWindow) {
-            iframeElt.contentWindow.postMessage({
-                type: 'EXPORT_GIF',
-                filename: `motor-nft-${data.inscriptionId}`,
-                duration: 3
-            }, '*');
-        }
-        setTimeout(() => {
-            setExportingGif(false);
-        }, 4500);
+        const videoUrl = `/videos-v2/${data.inscriptionId}.webm`;
+        const link = document.createElement('a');
+        link.href = videoUrl;
+        link.download = `motor-nft-${data.inscriptionId}.webm`;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
     };
 
     // Mobile portrait detection - immediate check to prevent layout shift

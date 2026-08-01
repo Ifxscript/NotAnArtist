@@ -84,50 +84,6 @@ function setup() {
         else noLoop();
     });
 
-    window.addEventListener('message', (e) => {
-        if (e.data && e.data.type === 'EXPORT_GIF') {
-            const filename = e.data.filename || 'motor-art';
-            const duration = e.data.duration || 3;
-            
-            // Try p5 saveGif
-            try {
-                saveGif(filename, duration, { delay: 0, units: 'seconds' });
-            } catch(err) {}
-
-            // Send recorded media to parent window to guarantee download execution
-            let canvas = document.querySelector('canvas');
-            if (canvas && window.MediaRecorder && window.parent) {
-                try {
-                    let stream = canvas.captureStream(30);
-                    let mimeType = MediaRecorder.isTypeSupported('video/mp4') ? 'video/mp4' : 'video/webm';
-                    let recorder = new MediaRecorder(stream, { mimeType });
-                    let chunks = [];
-
-                    recorder.ondataavailable = (ev) => {
-                        if (ev.data.size > 0) chunks.push(ev.data);
-                    };
-
-                    recorder.onstop = () => {
-                        let blob = new Blob(chunks, { type: mimeType });
-                        let reader = new FileReader();
-                        reader.onloadend = () => {
-                            window.parent.postMessage({
-                                type: 'DOWNLOAD_MEDIA',
-                                dataUrl: reader.result,
-                                filename: `${filename}.${mimeType.includes('mp4') ? 'mp4' : 'webm'}`
-                            }, '*');
-                        };
-                        reader.readAsDataURL(blob);
-                    };
-
-                    recorder.start();
-                    setTimeout(() => {
-                        if (recorder.state !== 'inactive') recorder.stop();
-                    }, duration * 1000);
-                } catch(err) {}
-            }
-        }
-    });
 
     rectMode(CENTER);
     let ap = [45, 90, 135, 180, 225, 270, 315, 0]
@@ -657,7 +613,7 @@ class Gear {
     }
 
     update() {
-        this.a += this.speed;
+        this.a += this.speed * (window._exportSpeedBoost || 1.0);
     }
 
 
