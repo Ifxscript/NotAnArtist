@@ -2871,96 +2871,6 @@ class SquareArcRow {
         return innerR / r;
     }
 }
-class TriangleGridArcRow {
-    constructor(rowHeight = 0.15, layer = 0) {
-        this.startA = 0;
-        this.endA = TWO_PI;
-        this.rowHeight = rowHeight;
-        this.numLanes = 3; // Always exactly 3 lanes (col 0: Up, col 1: Down, col 2: Up)
-        this.speed = 0.015;
-        this.layer = layer;
-    }
-
-    get rowHeightTotal() { return this.rowHeight; }
-
-    display(art, r, outerRadius) {
-        let rowHeight = r * this.rowHeight;
-        let outerR = r * outerRadius;
-        let innerR = outerR - rowHeight;
-        let trackR = (innerR + outerR) * 0.5;
-        let arcLength = art.getArcLength(trackR);
-
-        // Scale triangle size to use ~80% of the band height
-        let s = rowHeight / 7;
-        let spacingX = 2 * s;
-        let spacingY = 2.5 * s;
-
-        let count = max(1, floor(arcLength / spacingY));
-        let step = (this.endA - this.startA) / count;
-        let totalSteps = floor((frameCount * this.speed) / step);
-        let phase = (frameCount * this.speed) % step;
-
-        if (isArtBaking) {
-            art.drawArcBackground(this.startA, this.endA, innerR, outerR);
-            return;
-        }
-
-        strokeWeight(width * 0.0025);
-        noFill();
-
-        for (let i = -1; i < count; i++) {
-            let a = this.startA + i * step + phase;
-            let globalIdx = i - totalSteps;
-
-
-            for (let cIdx = 0; cIdx < 3; cIdx++) {
-                let laneOffset = (cIdx - 1) * spacingX;
-                let p, rot;
-
-                if (art.drawMode === 'l') {
-                    // L mode: offset perpendicular to path direction
-                    let pCenter = art.getXY(a, trackR);
-                    let tangent = art.getRotation(a, trackR);
-                    let perpAngle = tangent + HALF_PI;
-                    p = {
-                        x: pCenter.x + cos(perpAngle) * laneOffset,
-                        y: pCenter.y + sin(perpAngle) * laneOffset
-                    };
-
-                    let totalLen = art._lSharpTotalLen(trackR);
-                    let hLen = width - trackR;
-                    let sPos = ((a / TWO_PI) * totalLen) % totalLen;
-                    if (sPos < 0) sPos += totalLen;
-
-                    if (sPos > hLen) {
-                        rot = 0; // Vertical leg: △ ▽ △
-                    } else {
-                        rot = HALF_PI; // Horizontal leg: ◁ ▷ ◁
-                    }
-                } else {
-                    let laneR = trackR + laneOffset;
-                    p = art.getXY(a, laneR);
-                    rot = art.getRotation(a, laneR);
-                }
-
-                stroke(col[4]);
-
-                push();
-                translate(p.x, p.y);
-                rotate(rot);
-
-                if (cIdx % 2 === 0) {
-                    triangle(0, -s, -s * 0.866, s * 0.5, s * 0.866, s * 0.5);
-                } else {
-                    triangle(0, s, -s * 0.866, -s * 0.5, s * 0.866, -s * 0.5);
-                }
-                pop();
-            }
-        }
-
-        return innerR / r;
-    }
-}
 class LayeredBlockArcRow {
     constructor(rowHeight = 0.18, numLanes = 3, layer = 0) {
         this.startA = 0;
@@ -4855,7 +4765,6 @@ function buildArtLayer(nR, tth, chosenMode, col) {
     let artClasses = [
         CircleArcRow,
         SquareArcRow,
-        // TriangleGridArcRow,
         LayeredBlockArcRow,
         BlackWhiteTileArc,
         SlantedLineArc
@@ -4876,11 +4785,6 @@ function buildArtLayer(nR, tth, chosenMode, col) {
             let rowHeight = random([0.15, 0.25, 0.35, 0.5]);
             let row = new SquareArcRow(rowHeight, layer);
             row.speed = random([-0.025, -0.01, 0.01, 0.025]);
-            artRows.push(row);
-        } else if (cls === TriangleGridArcRow) {
-            let rowHeight = random([0.12, 0.18, 0.25]);
-            let row = new TriangleGridArcRow(rowHeight, layer);
-            row.speed = random([-0.02, -0.01, 0.01, 0.02]);
             artRows.push(row);
         } else if (cls === LayeredBlockArcRow) {
             let rowHeight = random([0.15, 0.22, 0.3]);
