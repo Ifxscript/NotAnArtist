@@ -23,7 +23,7 @@ function SparkModal({ isOpen, onClose, data, allCats, currentIndex, onNavigate, 
         if (exportingGif) return;
         setExportingGif(true);
         try {
-            const videoUrl = `https://pub-1c9aac54d246404cb44afe546cc7a9d2.r2.dev/videos-v2/${data.inscriptionId}.webm`;
+            const videoUrl = `https://pub-1c9aac54d246404cb44afe546cc7a9d2.r2.dev/videos-v2/${data.inscriptionId}.mp4`;
             const res = await fetch(videoUrl);
             if (!res.ok) throw new Error('Network response was not ok');
             const blob = await res.blob();
@@ -31,7 +31,7 @@ function SparkModal({ isOpen, onClose, data, allCats, currentIndex, onNavigate, 
             
             const link = document.createElement('a');
             link.href = blobUrl;
-            link.download = `motor-nft-${data.inscriptionId}.webm`;
+            link.download = `motor-nft-${data.inscriptionId}.mp4`;
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
@@ -39,7 +39,7 @@ function SparkModal({ isOpen, onClose, data, allCats, currentIndex, onNavigate, 
         } catch (err) {
             console.error('Error downloading video:', err);
             // Fallback direct link
-            window.open(`https://pub-1c9aac54d246404cb44afe546cc7a9d2.r2.dev/videos-v2/${data.inscriptionId}.webm`, '_blank');
+            window.open(`https://pub-1c9aac54d246404cb44afe546cc7a9d2.r2.dev/videos-v2/${data.inscriptionId}.mp4`, '_blank');
         } finally {
             setExportingGif(false);
         }
