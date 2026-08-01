@@ -19,14 +19,30 @@ function SparkModal({ isOpen, onClose, data, allCats, currentIndex, onNavigate, 
     const [copiedField, setCopiedField] = useState(null);
     const [exportingGif, setExportingGif] = useState(false);
 
-    const handleExportGif = () => {
-        const videoUrl = `/videos-v2/${data.inscriptionId}.webm`;
-        const link = document.createElement('a');
-        link.href = videoUrl;
-        link.download = `motor-nft-${data.inscriptionId}.webm`;
-        document.body.appendChild(link);
-        link.click();
-        document.body.removeChild(link);
+    const handleExportGif = async () => {
+        if (exportingGif) return;
+        setExportingGif(true);
+        try {
+            const videoUrl = `https://pub-1c9aac54d246404cb44afe546cc7a9d2.r2.dev/videos-v2/${data.inscriptionId}.webm`;
+            const res = await fetch(videoUrl);
+            if (!res.ok) throw new Error('Network response was not ok');
+            const blob = await res.blob();
+            const blobUrl = URL.createObjectURL(blob);
+            
+            const link = document.createElement('a');
+            link.href = blobUrl;
+            link.download = `motor-nft-${data.inscriptionId}.webm`;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            setTimeout(() => URL.revokeObjectURL(blobUrl), 1000);
+        } catch (err) {
+            console.error('Error downloading video:', err);
+            // Fallback direct link
+            window.open(`https://pub-1c9aac54d246404cb44afe546cc7a9d2.r2.dev/videos-v2/${data.inscriptionId}.webm`, '_blank');
+        } finally {
+            setExportingGif(false);
+        }
     };
 
     // Mobile portrait detection - immediate check to prevent layout shift
