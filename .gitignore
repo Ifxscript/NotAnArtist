@@ -3,7 +3,6 @@ logs
 *.log
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
@@ -26,4 +25,6 @@ dist-ssr
 # Generated Images & Videos
 public/images/
 public/images-test/
+public/images-1350x1800/
+public/images-test-1350x1800/
 public/videos-v2/

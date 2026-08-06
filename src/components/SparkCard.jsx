@@ -1,40 +1,41 @@
 import './SparkCard.css';
 
 function SparkCard({ title, imageUrl, traits, onClick }) {
-    const traitColors = {
-        "Palette": 'rgba(255, 84, 0, 0.7)',
-        "Art Mode": 'rgba(191, 146, 63, 0.7)',
-        "Gear Layout Mode": 'rgba(90, 115, 2, 0.7)'
-    };
+    // Extract token number if present (e.g. "MOTOR #001")
+    const match = title ? title.match(/(#\d+)/) : null;
+    const tokenNum = match ? match[1] : '';
+    const cleanTitle = match ? title.replace(/(#\d+)/, '').trim() : title;
 
     return (
         <div className="spark-card" onClick={onClick}>
-            <div className="spark-card__image">
+            <div className="spark-card__image-container">
                 <img
                     src={imageUrl}
                     alt={title}
                     loading="lazy"
                     decoding="async"
-                    style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+                    className="spark-card__image"
                 />
-                <div className="spark-card__info">
-                    <span className="spark-card__title">{title}</span>
+            </div>
+            <div className="spark-card__info-box">
+                <div className="spark-card__header">
+                    <span className="spark-card__title">{cleanTitle || title}</span>
+                    {tokenNum && <span className="spark-card__token-id">{tokenNum}</span>}
+                </div>
 
+                {traits && Object.keys(traits).length > 0 && (
                     <div className="spark-card__traits">
                         {Object.entries(traits).map(([trait, value]) => (
-                            <span
-                                key={trait}
-                                className="spark-card__trait"
-                                style={{ backgroundColor: traitColors[trait] }}
-                            >
+                            <span key={trait} className="spark-card__trait-pill">
                                 {value}
                             </span>
                         ))}
                     </div>
-                </div>
+                )}
             </div>
         </div>
     );
 }
 
 export default SparkCard;
+

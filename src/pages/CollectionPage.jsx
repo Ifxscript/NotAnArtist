@@ -378,8 +378,12 @@ function CollectionPage({ onNavigateToTraits }) {
                     <div className="collection-page__about-content">
                         <h2 className="collection-page__about-title">About Not An Artist</h2>
                         <p className="collection-page__about-description">
-                            Not An Artist is a generative art collection pushing the limits of what's possible on-chain.
+                            <strong>NotAnArtist</strong> is a generative art collection exploring code, randomness, geometry, and the question of who gets to call themselves an artist.
                         </p>
+                        <p className="collection-page__about-description" style={{ marginTop: '8px' }}>
+                            456 unique pieces, created by Ifxscript.
+                        </p>
+
 
                     </div>
                 </div>

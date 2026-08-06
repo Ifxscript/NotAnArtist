@@ -249,7 +249,7 @@
 
 .spark-modal__trait-label {
     font-size: 10px;
-    color: var(--color-primary, #ff5400);
+    color: var(--color-primary, #ffffff);
     text-transform: uppercase;
     letter-spacing: 0.05em;
     font-weight: 500;

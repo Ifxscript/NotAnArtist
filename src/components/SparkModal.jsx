@@ -17,29 +17,124 @@ function SparkModal({ isOpen, onClose, data, allCats, currentIndex, onNavigate, 
 
     // Copy feedback state
     const [copiedField, setCopiedField] = useState(null);
+    const [exportingMp4, setExportingMp4] = useState(false);
+    const [downloadProgress, setDownloadProgress] = useState(0);
+    const [exportingImg, setExportingImg] = useState(false);
     const [exportingGif, setExportingGif] = useState(false);
 
-    const handleExportGif = async () => {
+    const isMobileDevice = () => {
+        return typeof navigator !== 'undefined' && /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
+    };
+
+    const handleDownloadImage = async () => {
+        if (exportingImg) return;
+        setExportingImg(true);
+        const imageUrl = `https://pub-1c9aac54d246404cb44afe546cc7a9d2.r2.dev/images-1350x1800/${data.inscriptionId}.jpg`;
+        const fileName = `motor-nft-${data.inscriptionId}.jpg`;
+
+        try {
+            const response = await fetch(imageUrl);
+            if (!response.ok) throw new Error('Failed to fetch image');
+            const blob = await response.blob();
+            const blobUrl = window.URL.createObjectURL(blob);
+
+            const link = document.createElement('a');
+            link.href = blobUrl;
+            link.download = fileName;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+
+            setTimeout(() => window.URL.revokeObjectURL(blobUrl), 10000);
+        } catch (err) {
+            console.error('Error downloading image:', err);
+            window.open(imageUrl, '_blank');
+        } finally {
+            setExportingImg(false);
+        }
+    };
+
+
+    const handleDownloadMp4 = async () => {
+        if (exportingMp4) return;
+        setExportingMp4(true);
+        setDownloadProgress(0);
+        const videoUrl = `https://pub-1c9aac54d246404cb44afe546cc7a9d2.r2.dev/videos-v2/${data.inscriptionId}.mp4`;
+        const fileName = `motor-nft-${data.inscriptionId}.mp4`;
+
+        try {
+            const response = await fetch(videoUrl);
+            if (!response.ok) throw new Error('Failed to fetch video');
+
+            const contentLength = response.headers.get('content-length');
+            const total = contentLength ? parseInt(contentLength, 10) : 0;
+            let loaded = 0;
+
+            const reader = response.body.getReader();
+            const chunks = [];
+
+            while (true) {
+                const { done, value } = await reader.read();
+                if (done) break;
+                chunks.push(value);
+                loaded += value.length;
+                if (total) {
+                    setDownloadProgress(Math.round((loaded / total) * 100));
+                }
+            }
+
+            const blob = new Blob(chunks, { type: 'video/mp4' });
+            const blobUrl = window.URL.createObjectURL(blob);
+
+            const link = document.createElement('a');
+            link.href = blobUrl;
+            link.download = fileName;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+
+            setTimeout(() => window.URL.revokeObjectURL(blobUrl), 10000);
+        } catch (err) {
+            console.error('Error downloading video:', err);
+            window.open(videoUrl, '_blank');
+        } finally {
+            setExportingMp4(false);
+            setDownloadProgress(0);
+        }
+    };
+
+
+
+
+    const handleDownloadGif = async () => {
         if (exportingGif) return;
         setExportingGif(true);
+        // Direct GIF URL if available on R2, or fallback to MP4 video format
+        const gifUrl = `https://pub-1c9aac54d246404cb44afe546cc7a9d2.r2.dev/videos-v2/${data.inscriptionId}.gif`;
+        const fallbackMp4Url = `https://pub-1c9aac54d246404cb44afe546cc7a9d2.r2.dev/videos-v2/${data.inscriptionId}.mp4`;
+
+        if (isMobileDevice()) {
+            window.open(gifUrl, '_blank');
+            setExportingGif(false);
+            return;
+        }
+
         try {
-            const videoUrl = `https://pub-1c9aac54d246404cb44afe546cc7a9d2.r2.dev/videos-v2/${data.inscriptionId}.mp4`;
-            const res = await fetch(videoUrl);
-            if (!res.ok) throw new Error('Network response was not ok');
+            const res = await fetch(gifUrl);
+            if (!res.ok) throw new Error('GIF not available');
             const blob = await res.blob();
             const blobUrl = URL.createObjectURL(blob);
             
             const link = document.createElement('a');
             link.href = blobUrl;
-            link.download = `motor-nft-${data.inscriptionId}.mp4`;
+            link.download = `motor-nft-${data.inscriptionId}.gif`;
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
             setTimeout(() => URL.revokeObjectURL(blobUrl), 1000);
         } catch (err) {
-            console.error('Error downloading video:', err);
-            // Fallback direct link
-            window.open(`https://pub-1c9aac54d246404cb44afe546cc7a9d2.r2.dev/videos-v2/${data.inscriptionId}.mp4`, '_blank');
+            console.warn('GIF direct download unavailable, opening media:', err);
+            window.open(fallbackMp4Url, '_blank');
         } finally {
             setExportingGif(false);
         }
@@ -365,7 +460,7 @@ function SparkModal({ isOpen, onClose, data, allCats, currentIndex, onNavigate, 
                     <span className="spark-modal__title">{data.title}</span>
 
                     <div style={{ display: 'inline-flex', alignItems: 'center', gap: '8px', background: 'rgba(255, 255, 255, 0.05)', padding: '6px 12px', borderRadius: '20px', border: '1px solid rgba(255, 255, 255, 0.08)', marginTop: '8px', marginBottom: '24px', width: 'fit-content' }}>
-                        <span style={{ fontSize: '11px', color: '#ff5400', fontFamily: 'monospace', fontWeight: '700', letterSpacing: '0.05em' }}>ID: {data.inscriptionId}</span>
+                        <span style={{ fontSize: '11px', color: '#ffffff', fontFamily: 'monospace', fontWeight: '700', letterSpacing: '0.05em' }}>ID: {data.inscriptionId}</span>
                         <button
                             className={`spark-modal__copy-btn ${copiedField === 'id' ? 'copied' : ''}`}
                             onClick={() => handleCopy(data.inscriptionId, 'id')}
@@ -406,7 +501,7 @@ function SparkModal({ isOpen, onClose, data, allCats, currentIndex, onNavigate, 
                                             className="spark-modal__trait-row-hover"
                                         >
                                             <div style={{ display: 'flex', alignItems: 'center', gap: '8px', height: '20px' }}>
-                                                <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: 'var(--color-primary, #ff5400)', display: 'inline-block', flexShrink: 0 }}></span>
+                                                <span style={{ width: '6px', height: '6px', borderRadius: '50%', background: '#ffffff', display: 'inline-block', flexShrink: 0 }}></span>
                                                 <span style={{ fontSize: '10px', color: '#888', textTransform: 'uppercase', fontWeight: '700', letterSpacing: '0.08em', fontFamily: 'monospace', lineHeight: '1' }}>{displayType}</span>
                                             </div>
                                             <span style={{ fontSize: '12px', color: '#fff', fontWeight: '700', fontFamily: 'monospace', lineHeight: '1', textAlign: 'right' }}>{traitValue}</span>
@@ -417,30 +512,62 @@ function SparkModal({ isOpen, onClose, data, allCats, currentIndex, onNavigate, 
                         )}
                     </div>
 
-                    <button
-                        onClick={handleExportGif}
-                        disabled={exportingGif}
-                        style={{
-                            marginTop: '16px',
-                            width: '100%',
-                            padding: '12px 16px',
-                            background: exportingGif ? 'rgba(255, 84, 0, 0.25)' : 'rgba(255, 84, 0, 0.12)',
-                            border: '1px solid rgba(255, 84, 0, 0.5)',
-                            borderRadius: '8px',
-                            color: '#ff5400',
-                            fontWeight: '700',
-                            fontSize: '12px',
-                            fontFamily: 'monospace',
-                            cursor: exportingGif ? 'wait' : 'pointer',
-                            display: 'flex',
-                            alignItems: 'center',
-                            justifyContent: 'center',
-                            gap: '8px',
-                            transition: 'all 0.2s ease'
-                        }}
-                    >
-                        {exportingGif ? '🎥 Recording GIF (3s)...' : '🎥 Download High-Res GIF'}
-                    </button>
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '10px', marginTop: '16px' }}>
+                        <button
+                            onClick={handleDownloadImage}
+                            disabled={exportingImg}
+                            style={{
+                                width: '100%',
+                                padding: '14px 16px',
+                                background: exportingImg 
+                                    ? 'rgba(255, 255, 255, 0.4)' 
+                                    : 'linear-gradient(135deg, #ffffff, #e0e0e0)',
+                                border: 'none',
+                                borderRadius: '8px',
+                                color: '#000000',
+                                fontWeight: '700',
+                                fontSize: '13px',
+                                fontFamily: 'monospace',
+                                cursor: exportingImg ? 'wait' : 'pointer',
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'center',
+                                gap: '8px',
+                                boxShadow: '0 4px 14px rgba(255, 255, 255, 0.25)',
+                                transition: 'all 0.2s ease'
+                            }}
+                        >
+                            {exportingImg ? 'Downloading High Res Image...' : 'Download High Res Image'}
+                        </button>
+
+                        <button
+                            onClick={handleDownloadMp4}
+                            disabled={exportingMp4}
+                            style={{
+                                width: '100%',
+                                padding: '12px 16px',
+                                background: 'rgba(255, 255, 255, 0.06)',
+                                border: '1px solid rgba(255, 255, 255, 0.15)',
+                                borderRadius: '8px',
+                                color: '#ffffff',
+                                fontWeight: '700',
+                                fontSize: '13px',
+                                fontFamily: 'monospace',
+                                cursor: exportingMp4 ? 'wait' : 'pointer',
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'center',
+                                gap: '8px',
+                                transition: 'all 0.2s ease'
+                            }}
+                        >
+                            {exportingMp4 
+                                ? (downloadProgress > 0 ? `Downloading 10s Video (${downloadProgress}%)...` : 'Downloading 10s Video...') 
+                                : 'Download 10s Video'}
+                        </button>
+                    </div>
+
+
                 </div>
             </div>
         </div>

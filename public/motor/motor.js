@@ -29,7 +29,7 @@ let nR = 20;
 const LAYER_BAND = 6;
 const CONNECTOR_LAYER = LAYER_BAND * 6;
 const OVERLAY_BAND = 7;
-const STRAIGHT_ARC_LENGTH = 1800;
+const STRAIGHT_ARC_LENGTH = 3600;
 
 let colorPalettes = [
     ['#D3AA24', '#A38A1B', '#43835A', '#253D47', ' #0B0C09'],

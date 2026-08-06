@@ -1,95 +1,135 @@
 .spark-card {
     width: 100%;
-    background: transparent;
+    background: #121212;
+    border: 1px solid #242426;
+    border-radius: 10px;
+    overflow: hidden;
     cursor: pointer;
-    transition: all 0.1s ease;
-    font-family: 'Courier New', Courier, monospace;
-    border: 2px solid var(--border-strong);
+    transition: all 0.2s cubic-bezier(0.16, 1, 0.3, 1);
+    display: flex;
+    flex-direction: column;
 }
 
+.spark-card:hover {
+    border-color: rgba(255, 255, 255, 0.7);
+    transform: translateY(-3px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6), 0 0 12px rgba(255, 255, 255, 0.2);
+}
+
+
 /* Image Container */
-.spark-card__image {
+.spark-card__image-container {
+    width: 100%;
     aspect-ratio: 3 / 4;
-    background: var(--bg-card);
+    background: #09090b;
     position: relative;
     overflow: hidden;
-    transition: all 0.1s ease;
+}
+
+.spark-card__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.3s ease;
 }
 
 .spark-card:hover .spark-card__image {
-    border-color: var(--border-subtle);
+    transform: scale(1.02);
 }
 
-.spark-card__image iframe {
-    width: 100%;
-    height: 100%;
-    border: none;
-    pointer-events: none;
-}
-
-/* Info Section - Visible on hover */
-.spark-card__info {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 12px 8px 8px;
+/* Info Box - Exactly 3 rows total (Row 1: Title/ID, Row 2: Traits 1&2, Row 3: Traits 3&4) */
+.spark-card__info-box {
+    padding: 10px 10px 12px;
+    background: #121212;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     gap: 6px;
-    background: var(--bg-overlay-gradient);
-    opacity: 0;
-    transition: opacity 0.2s ease;
+    border-top: 1px solid #1a1a1c;
 }
 
-.spark-card:hover .spark-card__info {
-    opacity: 1;
+.spark-card__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 6px;
+    height: 20px;
 }
 
 .spark-card__title {
-    font-size: 11px;
-    font-weight: bold;
-    color: var(--text-primary);
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
+    font-size: 12.5px;
+    font-weight: 700;
+    color: #ffffff;
+    font-family: monospace, 'Courier New', Courier;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
 
-/* Trait Labels */
+.spark-card__token-id {
+    font-size: 10.5px;
+    font-weight: 600;
+    color: #a1a1aa;
+    background: #1c1c1f;
+    padding: 1px 5px;
+    border-radius: 4px;
+    border: 1px solid #27272a;
+    font-family: monospace;
+    flex-shrink: 0;
+}
+
+/* Trait Grid - Exactly 2 rows (2 pills per row) for a 3-row total card info box */
 .spark-card__traits {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px 6px;
+    max-height: 44px;
+    overflow: hidden;
 }
 
-.spark-card__trait {
-    padding: 2px 5px;
-    font-size: 9px;
-    color: var(--text-primary);
-    font-weight: bold;
+.spark-card__trait-pill {
+    padding: 2px 4px;
+    font-size: 9.5px;
+    font-weight: 600;
+    color: #e4e4e7;
+    background: #1a1a1d;
+    border: 1px solid #27272a;
+    border-radius: 4px;
+    font-family: monospace;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
 }
 
 /* Mobile Responsive */
 @media (max-width: 576px) {
     .spark-card {
-        border-width: 1px;
+        border-radius: 8px;
     }
 
-    .spark-card__info {
-        padding: 8px 6px 6px;
-        gap: 4px;
+    .spark-card__info-box {
+        padding: 8px 8px;
+        gap: 5px;
     }
 
     .spark-card__title {
-        font-size: 10px;
+        font-size: 11px;
+    }
+
+    .spark-card__token-id {
+        font-size: 9px;
+        padding: 1px 4px;
     }
 
     .spark-card__traits {
-        gap: 6px;
+        gap: 3px 4px;
+        max-height: 38px;
     }
 
-    .spark-card__trait {
-        font-size: 8px;
-        padding: 1px 4px;
+    .spark-card__trait-pill {
+        font-size: 8.5px;
+        padding: 1px 3px;
     }
 }

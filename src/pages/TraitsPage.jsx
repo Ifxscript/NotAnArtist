@@ -94,7 +94,7 @@ function TraitsPage({ onNavigateToCollection }) {
                                     {traits.map(trait => (
                                          <div key={trait.name} className="traits-page__trait-card-visual" style={{ width: '100%' }}>
                                              <div className="traits-page__trait-image-container" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', minHeight: '120px', background: 'rgba(255,255,255,0.02)', border: '1px solid rgba(255,255,255,0.05)', borderRadius: '8px', padding: '16px', position: 'relative' }}>
-                                                 <div className="traits-page__trait-badge" style={{ position: 'absolute', top: '10px', right: '10px', background: 'rgba(255, 84, 0, 0.15)', color: '#ff5400', padding: '2px 6px', borderRadius: '4px', fontSize: '11px', fontWeight: 'bold' }}>
+                                                 <div className="traits-page__trait-badge" style={{ position: 'absolute', top: '10px', right: '10px', background: 'rgba(255, 255, 255, 0.12)', color: '#ffffff', padding: '2px 6px', borderRadius: '4px', fontSize: '11px', fontWeight: 'bold' }}>
                                                      {trait.percentage}%
                                                  </div>
                                                  <div style={{ textAlign: 'center', marginTop: '10px' }}>
