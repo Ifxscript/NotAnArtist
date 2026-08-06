@@ -32,11 +32,27 @@ function SparkModal({ isOpen, onClose, data, allCats, currentIndex, onNavigate, 
         const imageUrl = `https://pub-1c9aac54d246404cb44afe546cc7a9d2.r2.dev/images-1350x1800/${data.inscriptionId}.jpg`;
         const fileName = `motor-nft-${data.inscriptionId}.jpg`;
 
+        if (isMobileDevice()) {
+            // Mobile iOS Safari / Chrome treats Blobs as generic documents; opening direct JPEG URL enables native Save Image / Save to Photos
+            const link = document.createElement('a');
+            link.href = imageUrl;
+            link.target = '_blank';
+            link.rel = 'noopener noreferrer';
+            link.download = fileName;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            setExportingImg(false);
+            return;
+        }
+
         try {
             const response = await fetch(imageUrl);
             if (!response.ok) throw new Error('Failed to fetch image');
-            const blob = await response.blob();
-            const blobUrl = window.URL.createObjectURL(blob);
+            const rawBlob = await response.blob();
+            // Explicitly force image/jpeg MIME type
+            const jpegBlob = new Blob([rawBlob], { type: 'image/jpeg' });
+            const blobUrl = window.URL.createObjectURL(jpegBlob);
 
             const link = document.createElement('a');
             link.href = blobUrl;
@@ -53,6 +69,7 @@ function SparkModal({ isOpen, onClose, data, allCats, currentIndex, onNavigate, 
             setExportingImg(false);
         }
     };
+
 
 
     const handleDownloadMp4 = async () => {
