@@ -92,7 +92,36 @@ function SparkModal({ isOpen, onClose, data, allCats, currentIndex, onNavigate, 
         const fileName = `motor-nft-${data.inscriptionId}.mp4`;
 
         try {
-            // Fetch with progress for both mobile and desktop
+            if (isMobileDevice()) {
+                // Mobile: simple fetch (no streaming getReader — breaks on iOS Safari)
+                setDownloadProgress(30);
+                const response = await fetch(videoUrl, { mode: 'cors' });
+                if (!response.ok) throw new Error('Failed to fetch video');
+                setDownloadProgress(60);
+                const blob = await response.blob();
+                setDownloadProgress(90);
+                const mp4Blob = new Blob([blob], { type: 'video/mp4' });
+                const file = new File([mp4Blob], fileName, { type: 'video/mp4' });
+
+                // Try Web Share API first (enables Save Video to Photos + Share to X)
+                if (navigator.canShare && navigator.canShare({ files: [file] })) {
+                    setDownloadProgress(100);
+                    await navigator.share({ files: [file] });
+                } else {
+                    // Fallback: blob download
+                    const blobUrl = window.URL.createObjectURL(mp4Blob);
+                    const link = document.createElement('a');
+                    link.href = blobUrl;
+                    link.download = fileName;
+                    document.body.appendChild(link);
+                    link.click();
+                    document.body.removeChild(link);
+                    setTimeout(() => window.URL.revokeObjectURL(blobUrl), 10000);
+                }
+                return;
+            }
+
+            // Desktop: stream with progress
             const response = await fetch(videoUrl);
             if (!response.ok) throw new Error('Failed to fetch video');
 
@@ -114,47 +143,25 @@ function SparkModal({ isOpen, onClose, data, allCats, currentIndex, onNavigate, 
             }
 
             const blob = new Blob(chunks, { type: 'video/mp4' });
+            const blobUrl = window.URL.createObjectURL(blob);
 
-            if (isMobileDevice()) {
-                // Create a proper File with .mp4 extension and video/mp4 MIME
-                const file = new File([blob], fileName, { type: 'video/mp4' });
-
-                if (navigator.canShare && navigator.canShare({ files: [file] })) {
-                    await navigator.share({ files: [file] });
-                    // Share sheet appeared — user can Save Video or Share to X
-                } else {
-                    // Fallback: blob download for older devices
-                    const blobUrl = window.URL.createObjectURL(blob);
-                    const link = document.createElement('a');
-                    link.href = blobUrl;
-                    link.download = fileName;
-                    document.body.appendChild(link);
-                    link.click();
-                    document.body.removeChild(link);
-                    setTimeout(() => window.URL.revokeObjectURL(blobUrl), 10000);
-                }
-            } else {
-                // Desktop: blob download
-                const blobUrl = window.URL.createObjectURL(blob);
-                const link = document.createElement('a');
-                link.href = blobUrl;
-                link.download = fileName;
-                document.body.appendChild(link);
-                link.click();
-                document.body.removeChild(link);
-                setTimeout(() => window.URL.revokeObjectURL(blobUrl), 10000);
-            }
+            const link = document.createElement('a');
+            link.href = blobUrl;
+            link.download = fileName;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+            setTimeout(() => window.URL.revokeObjectURL(blobUrl), 10000);
         } catch (err) {
-            // AbortError = user dismissed share sheet, not a real error
             if (err.name !== 'AbortError') {
                 console.error('Error downloading video:', err);
+                // Last resort: open video URL directly
                 window.open(videoUrl, '_blank');
             }
         } finally {
             setExportingMp4(false);
             setDownloadProgress(0);
         }
-
     };
 
 
