@@ -93,12 +93,10 @@ function SparkModal({ isOpen, onClose, data, allCats, currentIndex, onNavigate, 
 
         try {
             if (isMobileDevice()) {
-                // Show indeterminate progress for mobile
-                setDownloadProgress(10);
-                const shared = await mobileShareFile(videoUrl, fileName, 'video/mp4');
-                if (!shared) {
-                    window.open(videoUrl, '_blank');
-                }
+                // iOS can't reliably save videos via Web Share API.
+                // Opening the direct URL lets Safari's native video player handle it —
+                // user taps the share icon in the player → "Save Video" to Photos.
+                window.open(videoUrl, '_blank');
                 return;
             }
 
