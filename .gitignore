@@ -29,3 +29,4 @@ public/images-1350x1800/
 public/images-test-1350x1800/
 public/videos-v2/
 .vercel
+.wrangler/
