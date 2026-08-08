@@ -26,31 +26,45 @@ function SparkModal({ isOpen, onClose, data, allCats, currentIndex, onNavigate, 
         return typeof navigator !== 'undefined' && /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
     };
 
+    const mobileShareFile = async (url, fileName, mimeType) => {
+        try {
+            const response = await fetch(url);
+            if (!response.ok) throw new Error('Fetch failed');
+            const blob = await response.blob();
+            const file = new File([blob], fileName, { type: mimeType });
+
+            if (navigator.canShare && navigator.canShare({ files: [file] })) {
+                await navigator.share({ files: [file] });
+                return true;
+            }
+        } catch (err) {
+            // AbortError means user dismissed share sheet — not a real error
+            if (err.name === 'AbortError') return true;
+            console.warn('Share failed, falling back:', err);
+        }
+        return false;
+    };
+
     const handleDownloadImage = async () => {
         if (exportingImg) return;
         setExportingImg(true);
         const imageUrl = `https://pub-1c9aac54d246404cb44afe546cc7a9d2.r2.dev/images-1350x1800/${data.inscriptionId}.jpg`;
         const fileName = `motor-nft-${data.inscriptionId}.jpg`;
 
-        if (isMobileDevice()) {
-            // Mobile iOS Safari / Chrome treats Blobs as generic documents; opening direct JPEG URL enables native Save Image / Save to Photos
-            const link = document.createElement('a');
-            link.href = imageUrl;
-            link.target = '_blank';
-            link.rel = 'noopener noreferrer';
-            link.download = fileName;
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-            setExportingImg(false);
-            return;
-        }
-
         try {
+            if (isMobileDevice()) {
+                const shared = await mobileShareFile(imageUrl, fileName, 'image/jpeg');
+                if (!shared) {
+                    // Fallback: open image directly so user can long-press to save
+                    window.open(imageUrl, '_blank');
+                }
+                return;
+            }
+
+            // Desktop: fetch blob and trigger download
             const response = await fetch(imageUrl);
             if (!response.ok) throw new Error('Failed to fetch image');
             const rawBlob = await response.blob();
-            // Explicitly force image/jpeg MIME type
             const jpegBlob = new Blob([rawBlob], { type: 'image/jpeg' });
             const blobUrl = window.URL.createObjectURL(jpegBlob);
 
@@ -70,8 +84,6 @@ function SparkModal({ isOpen, onClose, data, allCats, currentIndex, onNavigate, 
         }
     };
 
-
-
     const handleDownloadMp4 = async () => {
         if (exportingMp4) return;
         setExportingMp4(true);
@@ -80,6 +92,17 @@ function SparkModal({ isOpen, onClose, data, allCats, currentIndex, onNavigate, 
         const fileName = `motor-nft-${data.inscriptionId}.mp4`;
 
         try {
+            if (isMobileDevice()) {
+                // Show indeterminate progress for mobile
+                setDownloadProgress(10);
+                const shared = await mobileShareFile(videoUrl, fileName, 'video/mp4');
+                if (!shared) {
+                    window.open(videoUrl, '_blank');
+                }
+                return;
+            }
+
+            // Desktop: stream with progress
             const response = await fetch(videoUrl);
             if (!response.ok) throw new Error('Failed to fetch video');
 
@@ -118,6 +141,7 @@ function SparkModal({ isOpen, onClose, data, allCats, currentIndex, onNavigate, 
             setExportingMp4(false);
             setDownloadProgress(0);
         }
+
     };
 
 
